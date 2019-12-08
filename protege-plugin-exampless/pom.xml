@@ -20,6 +20,13 @@
             <artifactId>protege-editor-owl</artifactId>
 			<version>5.0.0</version>
         </dependency>
+        
+          <dependency>
+        <groupId>org.json</groupId>
+        <artifactId>json</artifactId>
+        <version>20160810</version>
+        <scope>compile</scope>
+    </dependency>
 	</dependencies>
 
 	<build>
@@ -58,6 +65,19 @@
 							org.protege.editor.owl.*;version="5.0.0", <!-- equivalent to [5.0.0,infinity) -->
 							*
 						</Import-Package>
+						
+						<Import-Package>
+							org.json.json.*;version="20160810", <!-- equivalent to [5.0.0,infinity) -->
+							*
+						</Import-Package>
+					
+					
+						
+						
+						
+                      <Embed-Dependency>
+                       json;scope=compile;inline=true
+                    </Embed-Dependency>
 					</instructions>
 				</configuration>
             </plugin>
