@@ -1,2 +1,2 @@
-# ontoseer
-OntoSeer is a tool to help users build better quality ontologies
+This part contaims the source code for Ontoseer plugin.
+
