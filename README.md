@@ -6,7 +6,7 @@ The manual mentions the necessary pre-requsites for using OntoSeer.
 			    
 ## Prerequisites
 
-1. User should have Protege installed in the machine .Version  should be >5.
+1. User should have Protege installed in the machine .Version  should be >5.0.0.
 
  	If one is not having protege or protege5.0.0 or higher installed they can download latest version of protege from based on machine’s operating system:
 	https://protege.stanford.edu/products.php
