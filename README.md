@@ -119,7 +119,7 @@ For more information for using OntoSeer please go through **OntoSeer_Manual.pdf*
  ## 4.1 ODP Recommendation
  1. Click On Odp button.
  
- ![OntoSeer_jar_ODP](https://github.com/kracr/ontoseer/blob/master/Images/OntoSeer2.png)
+ ![OntoSeer ODP](https://github.com/kracr/ontoseer/blob/master/Images/OntoSeer2.png)
  
 2. Enter description of the ontology that one is trying to make ,through terminal.Alternatively domain
 name,name of class and properties one want to make or can additively provide with the competency
@@ -127,7 +127,7 @@ questions.One can provide additional comments also. But one have to make sure th
 answering at least one of the question as it is necessary to get recommendation. But the
 recommendation will get better if one provide answer to as many questions as one can.
 
- ![OntoSeer_jar_ODP_reco](https://github.com/kracr/ontoseer/blob/master/Images/OntoSeer5.png)
+ ![OntoSeer ODP reco](https://github.com/kracr/ontoseer/blob/master/Images/OntoSeer5.png)
  
 3. Get Recommendation. The recommendation is based on the data that we have scraped from 223
 ODPs that we collected from http://ontologydesignpatterns.org/wiki/Community:ListPatterns
