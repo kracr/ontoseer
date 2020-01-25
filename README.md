@@ -17,7 +17,7 @@ The manual mentions the necessary pre-requsites for using OntoSeer.
 
 ## Installation Guide
 
-1.One can downlaod the file from the  following link:
+1.One can downlaod Ontoseer.jar file from the  following link:
 
 https://github.com/kracr/ontoseer/releases
 
@@ -31,7 +31,7 @@ The jar file will get downloaded.
 
 To copy the source code and jar file clone the github repository using   :
 
-git clone https://github.com/kracr/ontoseer
+       git clone https://github.com/kracr/ontoseer
 
 
 3. Copy the jar file to the plugins folder of Protege.
@@ -42,9 +42,8 @@ a. Click on the plugins folder.
 
 5. Go to about Section of Protege and check whether the plugin has been correctly installed or not .It will be shown in the window.
 
-6 .
 
-Click on Windows. Click on Tabs .Click on Example Tab.This window will appear.
+6. Click on Windows. Click on Tabs .Click on Example Tab.This window will appear.
 
 Now Start Building your Ontology.
 
