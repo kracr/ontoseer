@@ -13,8 +13,8 @@ The manual mentions the necessary pre-requsites for using OntoSeer.
 
 2. JRE should be installed in user machine and version should be  >1.8
    To check for java version one can type java -version in terminal.The following will be the output. 
-   ![GitHub Logo](/images/logo.png)
-   Format: ![Alt Text](url)
+   ![java-version check](/home/pramit67/Desktop/Onto1.png)
+
 
 ## Installation Guide
 
