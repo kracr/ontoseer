@@ -41,7 +41,7 @@ be added to the ontology.
  	If one is not having protege or protege5.0.0 or higher installed they can download latest version of protege from https://protege.stanford.edu/products.php based on machine’s operating system:
 	
 
-2. JRE should be installed in user machine and version should be  >1.8
+2. JRE should be installed in user machine and version should be  >1.8.
    To check for java version one can type java -version in terminal.The following will be the output. 
    ![java-versioncheck](https://github.com/kracr/ontoseer/blob/master/Images/Onto1.png)
 
@@ -62,6 +62,8 @@ In this section we will discuss how one can download OntoSeer.
 1.One can downlaod Ontoseer.jar file from the  following link:
 	
 	https://github.com/kracr/ontoseer/releases
+	
+![OntoSeer jar](https://github.com/kracr/ontoseer/blob/master/Images/Onto2.png)	
 
 The link to download the code repository and instruction manual is :
 
@@ -69,18 +71,33 @@ The link to download the code repository and instruction manual is :
 
 2. Click on Assets->Ontoseer.jar
 
+![OntoSeer jar](https://github.com/kracr/ontoseer/blob/master/Images/Onto3.png)	
+
 The jar file will get downloaded.
 
 3. Copy the jar file to the plugins folder of Protege.
 
 a. Click on the plugins folder.
 
+![OntoSeer_jar_plugin](https://github.com/kracr/ontoseer/blob/master/Images/Onto4.png)	
+
+b.Copy OntoSeer.jar in the plugin folder.
+
+![OntoSeer_jar_plugin_folder](https://github.com/kracr/ontoseer/blob/master/Images/Onto6.png)
+
+
+
+
+
 4. Restart Protege.
 
 5. Go to about Section of Protege and check whether the plugin has been correctly installed or not .It will be shown in the window.
 
+![OntoSeer_jar_plugin_About](https://github.com/kracr/ontoseer/blob/master/Images/OntoSeer3.png)
 
 6. Click on Windows. Click on Tabs .Click on Example Tab.This window will appear.
+
+![OntoSeer_jar_plugin_Actual_Tab](https://github.com/kracr/ontoseer/blob/master/Images/OntoSeer4.png)
 
 Now Start Building your Ontology.
 
