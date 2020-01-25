@@ -55,6 +55,46 @@ In this section we will discuss how one can download OntoSeer.
 
 ## 3.1 Using Source Code
 
+This repository contains  code for OntoSeer (*versions 5.0.0 and higher*).  The Maven POM file in the top-level directory demonstrates all the dependencies to run the tool
+
+#### Prerequisites
+
+To build and run Ontoseer through code compilation , one must have the following items installed:
+
++ Apache's [Maven](http://maven.apache.org/index.html).
++ A tool for checking out a [Git](http://git-scm.com/) repository.
++ A Protege distribution (5.0.0 or higher).  The Protege 5.2.0 release is [available](http://protege.stanford.edu/products.php#desktop-protege) from the main Protege website. 
+
+#### Installation Steps:
+
+1. Get a copy of the example code:
+
+     git clone https://github.com/kracr/ontoseer
+    
+2. Change into the OntoSeer directory.
+
+3. Type mvn clean package.  On build completion, the "target" directory will contain a OntoSeer-${version}.jar file.
+
+4. Copy the JAR file from the target directory to the "plugins" subdirectory of your Protege distribution.
+ 
+ a. Click on the plugins folder.
+
+![OntoSeer_jar_plugin](https://github.com/kracr/ontoseer/blob/master/Images/Onto4.png)	
+
+b.Copy OntoSeer.jar in the plugin folder.
+
+![OntoSeer_jar_plugin_folder](https://github.com/kracr/ontoseer/blob/master/Images/Onto6.png)
+
+5. Restart Protege.
+
+6. Go to about Section of Protege and check whether the plugin has been correctly installed or not .It will be shown in the window.
+
+![OntoSeer_jar_plugin_About](https://github.com/kracr/ontoseer/blob/master/Images/OntoSeer3.png)
+
+7. Click on Windows. Click on Tabs .Click on Example Tab.This window will appear.
+
+![OntoSeer_jar_plugin_Actual_Tab](https://github.com/kracr/ontoseer/blob/master/Images/OntoSeer4.png)
+
 <a name="exe"></a>
 
 ## 3.2 Downloading .jar files
