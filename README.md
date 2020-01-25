@@ -36,14 +36,14 @@ be added to the ontology.
 
 ## 2.Prerequisites
 
-1. User should have Protege installed in the machine .Version  should be >5.0.0.
+1. User should have Protege installed in the machine. Version should be >5.0.0.
 
  	If one is not having protege or protege5.0.0 or higher installed they can download latest version of protege from https://protege.stanford.edu/products.php based on machine’s operating system:
 	
 
 2. JRE should be installed in user machine and version should be  >1.8
    To check for java version one can type java -version in terminal.The following will be the output. 
-   ![java-version check](/home/pramit67/Desktop/Onto1.png)
+   ![java-versioncheck](https://github.com/kracr/ontoseer/blob/master/Images/Onto1.png)
 
 <a name="InstallationGuide"></a>
 
@@ -51,30 +51,25 @@ be added to the ontology.
 
 In this section we will discuss how one can download OntoSeer.
 
-<a name="#code"></a>
+<a name="code"></a>
 
 ## 3.1 Using Source Code
 
-<a name="#exe"></a>
+<a name="exe"></a>
 
 ## 3.2 Downloading .jar files
 
 1.One can downlaod Ontoseer.jar file from the  following link:
-
-https://github.com/kracr/ontoseer/releases
+	
+	https://github.com/kracr/ontoseer/releases
 
 The link to download the code repository and instruction manual is :
 
-https://github.com/kracr/ontoseer
+	https://github.com/kracr/ontoseer
 
 2. Click on Assets->Ontoseer.jar
 
 The jar file will get downloaded.
-
-To copy the source code and jar file clone the github repository using   :
-
-       git clone https://github.com/kracr/ontoseer
-
 
 3. Copy the jar file to the plugins folder of Protege.
 
