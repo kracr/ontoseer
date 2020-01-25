@@ -5,22 +5,32 @@ This document provides documentation for the first version of OntoSeer.OntoSeer 
 # Table of Contents
 1. [ Introduction. ](#intro)
 
-2. [ About the Repository. ](#repo)
+2. [ Pre-Requisites. ](#prerequisites)
 
-3. [ TBox Details. ](#tbox)
+3. [ Installation Guide. ](#InstallationGuide)
 
-4. [ Usage. ](#usage)
+	3.1[Using Source Code](#code)
+	
+	3.2[Downloading .jar files](#exe)
 
-   4.1 [ Direct execution using executable jar (with default configurations). ](#exe)
+4. [ User Manual. ](#UserManual)
+
+   4.1 [ ODP Recommendation ](#ODP)
    
-   4.2 [ Using Source Code (with or without default configurations). ](#code)
+   4.2 [ Vocab and Alternate Name Recommendation. ](#Vocab)
+   
+   4.3 [Naming Convention Recommendation](#Naming)
+   
+   4.4 [Axiom Recommendation](#Axiom)
    
 5. [ Future Work. ](#future)
-<a name="intro"></a>
-## 1. Introduction
-OWl 2 is gaining popularity in a variety of domains because of its high level of expressivity. OWL 2 has several profiles such as OWL 2 EL, OWl 2 QL, OWL 2 RL, and OWL 2 DL that vary in terms of their expressivity and reasoning performance. There are several OWL 2 reasoners (Hermit, JFact, Openllet) and some SPARQL query engines (Stardog, GraphDB, Virtuoso) that are backed by OWL 2 Reasoners so as to help answer queries that involve reasoning. OWL2Bench is our first step towards a standard benchmark for all the OWL 2 profiles. Our benchmark is an extension of well known University Ontology Benchmark (UOBM). OWL2Bench includes TBox for each profile covering the set of constructs supported by that profile, generation of synthetic data scalable to arbitrary size and a separate set of SPARQL queries for each profile to be executed over generated data for performance evaluation of several reasoners and SPARQL query engines.
 
-The images below represent a subset of TBox and ABox. First image represents the TBox i.e classes and relationships that exist between them. Relationships written in red represent added OWL 2 constructs. Second image represents the ABox (generated instances) red dashed edges in the ABox represent the interlinks across Universities.
+<a name="intro"></a>
+
+## 1. Introduction
+Building an ontology is not only a time consuming process,but it is also confusing, especially for beginners and the inexperienced.Although ontology developers can take the help of domain experts in building an ontology, they are not easily available in several cases for a variety of reasons. Ontology developers have to grapple with several questions related to the choice of classes, properties and the axioms that should be included. Apart from this, there are aspects such as modularity and reusability that should be taken care of. From among the thousands of publicly available ontologies and vocabularies such as Linked Open Vocabularies (LOV), it is hard to know the terms (classes and properties) that can be reused in the development of an ontology. Similar problem exists in implementing the right set of ontology design patterns (ODPs)
+from among the several available. Generally, ontology developers make use of their experience in handling these issues, and the inexperienced ones have a hard time. In order to bridge this gap, we propose a tool named OntoSeer, that monitors the ontology development process and provides suggestions in real time to improve the quality of the ontology under development. It can provide suggestions on the naming conventions to follow, vocabulary to reuse, ODPs to implement, and axioms to
+be added to the ontology.
                             
 			    
 ## Prerequisites
