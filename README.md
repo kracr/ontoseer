@@ -83,7 +83,9 @@ https://cgi.csc.liv.ac.uk/~frank/teaching/comp08/protege_tutorial.pdf .
 
 For more information for using OntoSeer please go through **OntoSeer_Manual.pdf** file present in master branch of OntoSeer. 
 
-*All the other files necessary for using OntoSeer along with dataset are present in github page.*
+## Future Work
+
+As part of future work, we plan to engage in a dialogue with the ontology developer to resolve confusing issues such as having some term as a class vs.property vs. instance, and help user in creating a good subclass hierarchy. This confusion will be resolved by asking the ontology developer a series of questions such as does the term interact with other concepts, are the terms very specific or general, if a term is made into a class, what will be its instances? A good subclass hierarchy can be created by asking questions such as is the subclass a specialization of the superclass, are the classes rigid or anti-rigid etc.
 
 
 
