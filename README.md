@@ -9,19 +9,19 @@ This document provides documentation for the first version of OntoSeer.OntoSeer 
 
 3. [ Installation Guide. ](#InstallationGuide)
 
-	3.1[Using Source Code](#code)
+	3.1 [Using Source Code](#code)
 	
-	3.2[Downloading .jar files](#exe)
+	3.2 [Downloading .jar files](#exe)
 
 4. [ User Manual. ](#UserManual)
 
    4.1 [ ODP Recommendation ](#ODP)
    
-   4.2 [ Vocab and Alternate Name Recommendation. ](#Vocab)
+   4.2 [ Vocab and Alternate Name Recommendation ](#Vocab)
    
-   4.3 [Naming Convention Recommendation](#Naming)
+   4.3 [ Naming Convention Recommendation ](#Naming)
    
-   4.4 [Axiom Recommendation](#Axiom)
+   4.4 [ Axiom Recommendation ](#Axiom)
    
 5. [ Future Work. ](#future)
 
@@ -107,8 +107,66 @@ https://cgi.csc.liv.ac.uk/~frank/teaching/comp08/protege_tutorial.pdf .
 
 For more information for using OntoSeer please go through **OntoSeer_Manual.pdf** file present in master branch of OntoSeer. 
 
-<a name="future"></a>
 
+<a name="UserManual"></a>
+
+## 4.User Manual
+ 
+ This section discusses how OntoSeer can be used  along with Protege to get various recommendations.
+ 
+ <a name="ODP"></a>
+ 
+ ## 4.1 ODP Recommendation
+ 1. Click On Odp button.
+ 
+ ![OntoSeer_jar_ODP](https://github.com/kracr/ontoseer/blob/master/Images/OntoSeer2.png)
+ 
+2. Enter description of the ontology that one is trying to make ,through terminal.Alternatively domain
+name,name of class and properties one want to make or can additively provide with the competency
+questions.One can provide additional comments also. But one have to make sure that they are actually
+answering at least one of the question as it is necessary to get recommendation. But the
+recommendation will get better if one provide answer to as many questions as one can.
+
+ ![OntoSeer_jar_ODP_reco](https://github.com/kracr/ontoseer/blob/master/Images/OntoSeer5.png)
+ 
+3. Get Recommendation. The recommendation is based on the data that we have scraped from 223
+ODPs that we collected from http://ontologydesignpatterns.org/wiki/Community:ListPatterns
+
+ ![OntoSeer_jar_ODP_reco_show](https://github.com/kracr/ontoseer/blob/master/Images/OntoSeer6.png)
+ 
+  <a name="Vocab"></a>
+ 
+ ## 4.2 Vocab and Alternate Name Recommendation
+ 
+ 1. One should start buliding classes and properties in Protege .For example:-
+  ![OntoSeer_jar_Vocab](https://github.com/kracr/ontoseer/blob/master/Images/OntoSeer7.png)
+ 2. Click on VocabSuggestion button.
+  ![OntoSeer_jar_Vocab_reco](https://github.com/kracr/ontoseer/blob/master/Images/OntoSeer8.png)
+ 3. Get Recommendation.The recommendation will be based on the results retrieved after querying
+LOV https://lov.linkeddata.es/dataset/lov/suggest and bioportal
+https://bioportal.bioontology.org/recommender
+ ![OntoSeer_jar_Vocab_reco_show](https://github.com/kracr/ontoseer/blob/master/Images/OntoSeer9.png)
+ 
+  <a name="Naming"></a>
+  
+ ## 4.3 Naming Convention Recommendation 
+ 
+ 1. One should start buliding classes and properties in Protege .For example:-
+   ![OntoSeer_jar_Name](https://github.com/kracr/ontoseer/blob/master/Images/OntoSeer7.png)
+ 2. Click on the Refresh button.
+   ![OntoSeer_jar_Name_reco](https://github.com/kracr/ontoseer/blob/master/Images/OntoSeer10.png)
+ 3. Get Recommendations.
+ ![OntoSeer_jar_Name_reco_show](https://github.com/kracr/ontoseer/blob/master/Images/OntoSeer11.png)
+ <a name="Axiom"></a>
+ 
+ ## 4.4 Axiom Recommendation 
+1. Start building the ontologies .
+  ![OntoSeer_jar_Name](https://github.com/kracr/ontoseer/blob/master/Images/OntoSeer7.png)
+2. Click on Axiom Recommendation button .
+3. Get the recommendations. The recommendation will be shown on the basis of the Manchester Owl
+corpus that we have downloaded .
+
+<a name="future"></a>
 ## 5.Future Work
 
 As part of future work, we plan to engage in a dialogue with the ontology developer to resolve confusing issues such as having some term as a class vs.property vs. instance, and help user in creating a good subclass hierarchy. This confusion will be resolved by asking the ontology developer a series of questions such as does the term interact with other concepts, are the terms very specific or general, if a term is made into a class, what will be its instances? A good subclass hierarchy can be created by asking questions such as is the subclass a specialization of the superclass, are the classes rigid or anti-rigid etc.
