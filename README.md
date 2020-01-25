@@ -49,6 +49,16 @@ be added to the ontology.
 
 ## 3.Installation Guide
 
+In this section we will discuss how one can download OntoSeer.
+
+<a name="#code"></a>
+
+## 3.1 Using Source Code
+
+<a name="#exe"></a>
+
+## 3.2 Downloading .jar files
+
 1.One can downlaod Ontoseer.jar file from the  following link:
 
 https://github.com/kracr/ontoseer/releases
