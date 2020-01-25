@@ -52,11 +52,9 @@ For tutorial on ontology building one can refer to the Protege tutorial. This ca
 
 https://cgi.csc.liv.ac.uk/~frank/teaching/comp08/protege_tutorial.pdf .
 
-For more information for using OntoSeer please go through OntoSeer_Manual.pdf file present in master branch of OntoSeer. 
+For more information for using OntoSeer please go through **OntoSeer_Manual.pdf** file present in master branch of OntoSeer. 
 
-All the other files necessary for using OntoSeer along with dataset are present in github page.
+*All the other files necessary for using OntoSeer along with dataset are present in github page.*
 
-## P.S 
 
-OntoSeer has no license at present .Anyone can freely use OntoSeer.
 
