@@ -127,12 +127,12 @@ questions.One can provide additional comments also. But one have to make sure th
 answering at least one of the question as it is necessary to get recommendation. But the
 recommendation will get better if one provide answer to as many questions as one can.
 
- ![OntoSeer ODP reco](https://github.com/kracr/ontoseer/blob/master/Images/OntoSeer5.png)
+ ![OntoSeer ODP reco](https://github.com/kracr/ontoseer/blob/master/Images/Ontoseer5.png)
  
 3. Get Recommendation. The recommendation is based on the data that we have scraped from 223
 ODPs that we collected from http://ontologydesignpatterns.org/wiki/Community:ListPatterns
 
- ![OntoSeer_jar_ODP_reco_show](https://github.com/kracr/ontoseer/blob/master/Images/OntoSeer6.png)
+ ![OntoSeer_jar_ODP_reco_show](https://github.com/kracr/ontoseer/blob/master/Images/Ontoseer6.png)
  
   <a name="Vocab"></a>
  
