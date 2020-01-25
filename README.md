@@ -4,7 +4,7 @@ Please read Ontoseer_Manual pdf for help in using OntoSeer.
 The manual mentions the necessary pre-requsites for using OntoSeer.
                             
 			    
-			    Prerequisites:
+#Prerequisites
 
 1. User should have Protege installed in the machine .Version  should be >5.
 
@@ -15,7 +15,7 @@ The manual mentions the necessary pre-requsites for using OntoSeer.
 	
 	To check for java version one can type java -version in terminal.The following will be the output. 
 
-				Installation Guide :
+#Installation Guide
 
 1.One can downlaod the file from the  following link:
 
