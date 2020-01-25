@@ -27,13 +27,13 @@ This document provides documentation for the first version of OntoSeer.OntoSeer 
 
 <a name="intro"></a>
 
-## 1. Introduction
+## 1.Introduction
 Building an ontology is not only a time consuming process,but it is also confusing, especially for beginners and the inexperienced.Although ontology developers can take the help of domain experts in building an ontology, they are not easily available in several cases for a variety of reasons. Ontology developers have to grapple with several questions related to the choice of classes, properties and the axioms that should be included. Apart from this, there are aspects such as modularity and reusability that should be taken care of. From among the thousands of publicly available ontologies and vocabularies such as Linked Open Vocabularies (LOV), it is hard to know the terms (classes and properties) that can be reused in the development of an ontology. Similar problem exists in implementing the right set of ontology design patterns (ODPs)
 from among the several available. Generally, ontology developers make use of their experience in handling these issues, and the inexperienced ones have a hard time. In order to bridge this gap, we propose a tool named OntoSeer, that monitors the ontology development process and provides suggestions in real time to improve the quality of the ontology under development. It can provide suggestions on the naming conventions to follow, vocabulary to reuse, ODPs to implement, and axioms to
 be added to the ontology.
                             
 			    
-## Prerequisites
+## 2.Prerequisites
 
 1. User should have Protege installed in the machine .Version  should be >5.0.0.
 
@@ -45,7 +45,7 @@ be added to the ontology.
    ![java-version check](/home/pramit67/Desktop/Onto1.png)
 
 
-## Installation Guide
+## 3.Installation Guide
 
 1.One can downlaod Ontoseer.jar file from the  following link:
 
@@ -83,7 +83,7 @@ https://cgi.csc.liv.ac.uk/~frank/teaching/comp08/protege_tutorial.pdf .
 
 For more information for using OntoSeer please go through **OntoSeer_Manual.pdf** file present in master branch of OntoSeer. 
 
-## Future Work
+## 5.Future Work
 
 As part of future work, we plan to engage in a dialogue with the ontology developer to resolve confusing issues such as having some term as a class vs.property vs. instance, and help user in creating a good subclass hierarchy. This confusion will be resolved by asking the ontology developer a series of questions such as does the term interact with other concepts, are the terms very specific or general, if a term is made into a class, what will be its instances? A good subclass hierarchy can be created by asking questions such as is the subclass a specialization of the superclass, are the classes rigid or anti-rigid etc.
 
