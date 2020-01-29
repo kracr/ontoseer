@@ -99,7 +99,7 @@ b.Copy OntoSeer.jar in the plugin folder.
 
 ## 3.2 Downloading .jar files
 
-1.One can downlaod Ontoseer.jar file from the  following link:
+1.One can download Ontoseer.jar file from the  following link:
 	
 	https://github.com/kracr/ontoseer/releases
 	
