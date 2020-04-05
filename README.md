@@ -153,11 +153,18 @@ For more information for using OntoSeer please go through **OntoSeer_Manual.pdf*
 ## 4.User Manual
  
  This section discusses how OntoSeer can be used  along with Protege to get various recommendations.
+  1. Click On Example tab button.
+ This window will be shown.
  
- <a name="ODP"></a>
+ ![Plugin Window](https://github.com/kracr/ontoseer/blob/master/Images/Onto_up1.png)
+ 
+
  
  ## 4.1 ODP Recommendation
- 1. Click On Odp button.
+ 1. Click On Example tab button.
+ This window will be shown.
+ 
+
  
  ![OntoSeer ODP](https://github.com/kracr/ontoseer/blob/master/Images/Ontoseer2.png)
  
