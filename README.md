@@ -161,14 +161,14 @@ For more information for using OntoSeer please go through **OntoSeer_Manual.pdf*
 
  
  ## 4.1 ODP Recommendation
- 1. Click On Example tab button.
+ 1. Click On ODP recommendation  button.
  This window will be shown.
  
 
  
- ![OntoSeer ODP](https://github.com/kracr/ontoseer/blob/master/Images/Ontoseer2.png)
+ ![OntoSeer ODP](https://github.com/kracr/ontoseer/blob/master/Images/Onto_up_8.png)
  
-2. Enter description of the ontology that one is trying to make ,through terminal.Alternatively domain
+2. Enter description of the ontology that one is trying to make .Alternatively domain
 name,name of class and properties one want to make or can additively provide with the competency
 questions.One can provide additional comments also. But one have to make sure that they are actually
 answering at least one of the question as it is necessary to get recommendation. But the
@@ -179,7 +179,7 @@ recommendation will get better if one provide answer to as many questions as one
 3. Get Recommendation. The recommendation is based on the data that we have scraped from 223
 ODPs that we collected from http://ontologydesignpatterns.org/wiki/Community:ListPatterns
 
- ![OntoSeer_jar_ODP_reco_show](https://github.com/kracr/ontoseer/blob/master/Images/Ontoseer6.png)
+ ![OntoSeer_jar_ODP_reco_show](https://github.com/kracr/ontoseer/blob/master/Images/Onto_up_9.png)
  
   <a name="Vocab"></a>
  
@@ -200,17 +200,20 @@ https://bioportal.bioontology.org/recommender
  
  1. One should start buliding classes and properties in Protege .For example:-
    ![OntoSeer_jar_Name](https://github.com/kracr/ontoseer/blob/master/Images/Ontoseer7.png)
- 2. Click on the Refresh button.
-   ![OntoSeer_jar_Name_reco](https://github.com/kracr/ontoseer/blob/master/Images/Ontoseer10.png)
+ 2. Click on the Vocab Recommendation button.
+   ![OntoSeer_jar_Name_reco](https://github.com/kracr/ontoseer/blob/master/Images/Ontoup2.png)
  3. Get Recommendations.
- ![OntoSeer_jar_Name_reco_show](https://github.com/kracr/ontoseer/blob/master/Images/OntoSeer11.png)
+ ![OntoSeer_jar_Name_reco_show](https://github.com/kracr/ontoseer/blob/master/Images/Onto_up3.png)
  <a name="Axiom"></a>
  
  ## 4.4 Axiom Recommendation 
 1. Start building the ontologies .
   ![OntoSeer_jar_Name](https://github.com/kracr/ontoseer/blob/master/Images/Ontoseer7.png)
 2. Click on Axiom Recommendation button .
-3. Get the recommendations. The recommendation will be shown on the basis of the Manchester Owl
+![Axiom Recommendation](https://github.com/kracr/ontoseer/blob/master/Images/Onto_up_7.png)
+3. Get the recommendations. 
+
+The recommendation will be shown on the basis of the Manchester Owl
 corpus that we have downloaded .
 
 <a name="future"></a>
