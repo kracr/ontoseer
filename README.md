@@ -103,7 +103,7 @@ b.Copy OntoSeer.jar in the plugin folder.
 	
 	https://github.com/kracr/ontoseer/releases
 	
-![OntoSeer jar](https://github.com/kracr/ontoseer/blob/master/Images/Onto2.png)	
+![OntoSeer jar](https://github.com/kracr/ontoseer/blob/master/Images/Ontoseer_up.png)	
 
 The link to download the code repository and instruction manual is :
 
