@@ -187,12 +187,13 @@ ODPs that we collected from http://ontologydesignpatterns.org/wiki/Community:Lis
  
  1. One should start buliding classes and properties in Protege .For example:-
   ![OntoSeer_jar_Vocab](https://github.com/kracr/ontoseer/blob/master/Images/Ontoseer7.png)
- 2. Click on VocabSuggestion button.
+ 2. Click on VocabRecommendation button.
   ![OntoSeer_jar_Vocab_reco](https://github.com/kracr/ontoseer/blob/master/Images/Ontoup2.png)
  3. Get Recommendation.The recommendation will be based on the results retrieved after querying
 LOV https://lov.linkeddata.es/dataset/lov/suggest and bioportal
 https://bioportal.bioontology.org/recommender
  ![OntoSeer_jar_Vocab_reco_show](https://github.com/kracr/ontoseer/blob/master/Images/Onto_up3.png)
+ 4.Click on Want more recommendation button to get recommendation for more classes.
  
   <a name="Naming"></a>
   
@@ -200,10 +201,11 @@ https://bioportal.bioontology.org/recommender
  
  1. One should start buliding classes and properties in Protege .For example:-
    ![OntoSeer_jar_Name](https://github.com/kracr/ontoseer/blob/master/Images/Ontoseer7.png)
- 2. Click on the Vocab Recommendation button.
+ 2. Click on the NamingRecommendation button.
    ![OntoSeer_jar_Name_reco](https://github.com/kracr/ontoseer/blob/master/Images/Onto_up4.png)
  3. Get Recommendations.
  ![OntoSeer_jar_Name_reco_show](https://github.com/kracr/ontoseer/blob/master/Images/Onto_up_5.png)
+ 4.Click on Want more recommendation button to get recommendation for more classes.
  <a name="Axiom"></a>
  
  ## 4.4 Axiom Recommendation 
