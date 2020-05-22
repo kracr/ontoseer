@@ -93,7 +93,7 @@ b.Copy OntoSeer.jar in the plugin folder.
 
 7. Click on Windows. Click on Tabs .Click on Example Tab.This window will appear.
 
-![OntoSeer_jar_plugin_Actual_Tab](https://github.com/kracr/ontoseer/blob/master/Images/OntoSeer4.png)
+![OntoSeer_jar_plugin_Actual_Tab](https://github.com/kracr/ontoseer/blob/master/Images/Onto133.png)
 
 <a name="exe"></a>
 
@@ -137,7 +137,7 @@ b.Copy OntoSeer.jar in the plugin folder.
 
 6. Click on Windows. Click on Tabs .Click on Example Tab.This window will appear.
 
-![OntoSeer_jar_plugin_Actual_Tab](https://github.com/kracr/ontoseer/blob/master/Images/OntoSeer4.png)
+![OntoSeer_jar_plugin_Actual_Tab](https://github.com/kracr/ontoseer/blob/master/Images/Onto133.png)
 
 Now Start Building your Ontology.
 
@@ -179,45 +179,40 @@ recommendation will get better if one provide answer to as many questions as one
 3. Get Recommendation. The recommendation is based on the data that we have scraped from 223
 ODPs that we collected from http://ontologydesignpatterns.org/wiki/Community:ListPatterns
 
- ![OntoSeer_jar_ODP_reco_show](https://github.com/kracr/ontoseer/blob/master/Images/Onto_up_9.png)
+ ![OntoSeer_jar_ODP_reco_show](https://github.com/kracr/ontoseer/blob/master/Images/ODP211.png)
  
   <a name="Vocab"></a>
  
  ## 4.2 Vocab and Alternate Name Recommendation
  
  1. One should start buliding classes and properties in Protege .For example:-
-  ![OntoSeer_jar_Vocab](https://github.com/kracr/ontoseer/blob/master/Images/Ontoseer7.png)
+  ![OntoSeer_jar_Vocab](https://github.com/kracr/ontoseer/blob/master/Images/Class.png)
  2. Click on VocabRecommendation button.
-  ![OntoSeer_jar_Vocab_reco](https://github.com/kracr/ontoseer/blob/master/Images/Ontoup2.png)
- 3. Get Recommendation.The recommendation will be based on the results retrieved after querying
-LOV https://lov.linkeddata.es/dataset/lov/suggest and bioportal
-https://bioportal.bioontology.org/recommender
- ![OntoSeer_jar_Vocab_reco_show](https://github.com/kracr/ontoseer/blob/master/Images/Onto_up3.png)
- 4.Click on Want more recommendation button to get recommendation for more classes.
+ 3. Select the class or property for which you want the recommendations.Recommendations will be provided based on query results from LOV,Bioportal and our indexed files.
+ 4.Get the recommendations.
+ ![OntoSeer_jar_Vocab_reco_show](https://github.com/kracr/ontoseer/blob/master/Images/Vocab211.png)
+
  
   <a name="Naming"></a>
   
  ## 4.3 Naming Convention Recommendation 
  
  1. One should start buliding classes and properties in Protege .For example:-
-   ![OntoSeer_jar_Name](https://github.com/kracr/ontoseer/blob/master/Images/Ontoseer7.png)
+   ![OntoSeer_jar_Name](https://github.com/kracr/ontoseer/blob/master/Images/Class.png)
  2. Click on the NamingRecommendation button.
-   ![OntoSeer_jar_Name_reco](https://github.com/kracr/ontoseer/blob/master/Images/Onto_up4.png)
- 3. Get Recommendations.
- ![OntoSeer_jar_Name_reco_show](https://github.com/kracr/ontoseer/blob/master/Images/Onto_up_5.png)
- 4.Click on Want more recommendation button to get recommendation for more classes.
+ 3. Select the class or property for which you want the recommendations.
+ 4.Get the recommendations.
+ ![OntoSeer_jar_Name_reco_show](https://github.com/kracr/ontoseer/blob/master/Images/Nmaing53.png)
+
  <a name="Axiom"></a>
  
  ## 4.4 Axiom Recommendation 
 1. Start building the ontologies .
-  ![OntoSeer_jar_Name](https://github.com/kracr/ontoseer/blob/master/Images/Ontoseer7.png)
+  ![OntoSeer_jar_Name](https://github.com/kracr/ontoseer/blob/master/Images/Class.png)
 2. Click on Axiom Recommendation button .
-![Axiom Recommendation](https://github.com/kracr/ontoseer/blob/master/Images/Onto_up_7.png)
-3. Get the recommendations. 
-
-The recommendation will be shown on the basis of the Manchester Owl
-corpus that we have downloaded .
-
+3. Select the class or property for which you want the recommendations.
+ 4.Get the recommendations.
+![Axiom Recommendation](https://github.com/kracr/ontoseer/blob/master/Images/Axiom2111.png)
 <a name="future"></a>
 ## 5.Future Work
 
