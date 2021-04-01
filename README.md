@@ -91,7 +91,7 @@ b.Copy OntoSeer.jar in the plugin folder.
 
 ![OntoSeer_jar_plugin_About](https://github.com/kracr/ontoseer/blob/master/Images/OntoSeer3.png)
 
-7. Click on Windows. Click on Tabs .Click on Example Tab.This window will appear.
+7. Click on Windows. Click on Tabs .Click on OntoSeer Tab.This window will appear.
 
 ![OntoSeer_jar_plugin_Actual_Tab](https://github.com/kracr/ontoseer/blob/master/Images/Onto133.png)
 
