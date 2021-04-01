@@ -135,7 +135,7 @@ b.Copy OntoSeer.jar in the plugin folder.
 
 ![OntoSeer_jar_plugin_About](https://github.com/kracr/ontoseer/blob/master/Images/OntoSeer3.png)
 
-6. Click on Windows. Click on Tabs .Click on Example Tab.This window will appear.
+6. Click on Windows. Click on Tabs .Click on OntoSeer Tab.This window will appear.
 
 ![OntoSeer_jar_plugin_Actual_Tab](https://github.com/kracr/ontoseer/blob/master/Images/Onto133.png)
 
@@ -153,7 +153,7 @@ For more information for using OntoSeer please go through **OntoSeer_Manual.pdf*
 ## 4.User Manual
  
  This section discusses how OntoSeer can be used  along with Protege to get various recommendations.
-  1. Click On Example tab button.
+  1. Click On OntoSeer tab button.
  This window will be shown.
  
  ![Plugin Window](https://github.com/kracr/ontoseer/blob/master/Images/Onto133.png)
