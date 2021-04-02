@@ -23,6 +23,8 @@ This document provides documentation for the first version of OntoSeer.OntoSeer 
    
    4.4 [ Axiom Recommendation ](#Axiom)
    
+   4.5 [Class Hierarchy Validation](#class)
+   
 5. [ Future Work. ](#future)
 
 <a name="intro"></a>
@@ -93,7 +95,7 @@ b.Copy OntoSeer.jar in the plugin folder.
 
 7. Click on Windows. Click on Tabs .Click on OntoSeer Tab.This window will appear.
 
-![OntoSeer_jar_plugin_Actual_Tab](https://github.com/kracr/ontoseer/blob/master/Images/Onto133.png)
+![OntoSeer_jar_plugin_Actual_Tab](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/Opening%20shot.png)
 
 <a name="exe"></a>
 
@@ -137,7 +139,7 @@ b.Copy OntoSeer.jar in the plugin folder.
 
 6. Click on Windows. Click on Tabs .Click on OntoSeer Tab.This window will appear.
 
-![OntoSeer_jar_plugin_Actual_Tab](https://github.com/kracr/ontoseer/blob/master/Images/Onto133.png)
+![OntoSeer_jar_plugin_Actual_Tab](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/Opening%20shot.png)
 
 Now Start Building your Ontology.
 
@@ -161,17 +163,17 @@ For more information for using OntoSeer please go through **OntoSeer_Manual.pdf*
 
  
  ## 4.1 ODP Recommendation
- 1. Click On ODP recommendation  button.
+ 1. Click On ODP recommendation  button. Two classes must be present for getting ODP recommendation.
  This window will be shown.
  
 
  
- ![OntoSeer ODP](https://github.com/kracr/ontoseer/blob/master/Images/Onto_up_8.png)
+ ![OntoSeer ODP](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/ODP.png)
  
 2. Enter description of the ontology that one is trying to make .Alternatively domain
 name,name of class and properties one want to make or can additively provide with the competency
 questions.One can provide additional comments also. But one have to make sure that they are actually
-answering at least one of the question as it is necessary to get recommendation. But the
+making at least two classes to get recommendation. But the
 recommendation will get better if one provide answer to as many questions as one can.
 
  ![OntoSeer ODP reco](https://github.com/kracr/ontoseer/blob/master/Images/Ontoseer5.png)
@@ -179,18 +181,18 @@ recommendation will get better if one provide answer to as many questions as one
 3. Get Recommendation. The recommendation is based on the data that we have scraped from 223
 ODPs that we collected from http://ontologydesignpatterns.org/wiki/Community:ListPatterns
 
- ![OntoSeer_jar_ODP_reco_show](https://github.com/kracr/ontoseer/blob/master/Images/ODP211.png)
+ ![OntoSeer_jar_ODP_reco_show](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/ODP2.png)
  
   <a name="Vocab"></a>
  
  ## 4.2 Vocab and Alternate Name Recommendation
  
  1. One should start buliding classes and properties in Protege .For example:-
-  ![OntoSeer_jar_Vocab](https://github.com/kracr/ontoseer/blob/master/Images/Class.png)
+  ![OntoSeer_jar_Vocab](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/Vocab1.png)
  2. Click on VocabRecommendation button.
  3. Select the class or property for which you want the recommendations.Recommendations will be provided based on query results from LOV,Bioportal and our indexed files.
  4.Get the recommendations.
- ![OntoSeer_jar_Vocab_reco_show](https://github.com/kracr/ontoseer/blob/master/Images/Vocab211.png)
+ ![OntoSeer_jar_Vocab_reco_show](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/Vocab2.png)
 
  
   <a name="Naming"></a>
@@ -198,25 +200,40 @@ ODPs that we collected from http://ontologydesignpatterns.org/wiki/Community:Lis
  ## 4.3 Naming Convention Recommendation 
  
  1. One should start buliding classes and properties in Protege .For example:-
-   ![OntoSeer_jar_Name](https://github.com/kracr/ontoseer/blob/master/Images/Class.png)
+   ![OntoSeer_jar_Name](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/Naming1.png)
  2. Click on the NamingRecommendation button.
  3. Select the class or property for which you want the recommendations.
- 4.Get the recommendations.
- ![OntoSeer_jar_Name_reco_show](https://github.com/kracr/ontoseer/blob/master/Images/Nmaing53.png)
+ 4.Get the class recommendations.
+ ![OntoSeer_jar_Name_reco_show](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/Namin2.png)
+ 5.Get the class recommendations.
+ ![OntoSeer_jar_Name_reco_show](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/Property2.png)
 
  <a name="Axiom"></a>
  
  ## 4.4 Axiom Recommendation 
 1. Start building the ontologies .
-  ![OntoSeer_jar_Name](https://github.com/kracr/ontoseer/blob/master/Images/Class.png)
+  ![OntoSeer_jar_Name](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/Axiom.png)
 2. Click on Axiom Recommendation button .
 3. Select the class or property for which you want the recommendations.
  4.Get the recommendations.
-![Axiom Recommendation](https://github.com/kracr/ontoseer/blob/master/Images/Axiom2111.png)
+![Axiom Recommendation](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/Axiom2.png)
+
+
+<a name="class"></a>
+ ## 4.5 Class Hierarchy Validation
+ 
+ Class hierarch validation actually validates the correctness of a subclass hierarchy based on properties like rigidity, identitiy and unity of the classes.
+1. Click on Class Hierarchy Validation button .
+  ![OntoSeer_jar_Name](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/Classhierarchy.png)
+
+2. Answer the questions in (Y/N) format. Answer to all the questions are mandatory to velidate the hierarchy.
+3. Validate the Hierarchy
+![Class Hierarchy](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/ClassHierarchy2.png)
+
 <a name="future"></a>
 ## 5.Future Work
 
-As part of future work, we plan to engage in a dialogue with the ontology developer to resolve confusing issues such as having some term as a class vs.property vs. instance, and help user in creating a good subclass hierarchy. This confusion will be resolved by asking the ontology developer a series of questions such as does the term interact with other concepts, are the terms very specific or general, if a term is made into a class, what will be its instances? A good subclass hierarchy can be created by asking questions such as is the subclass a specialization of the superclass, are the classes rigid or anti-rigid etc.
+As part of future work, we plan to engage in a dialogue with the ontology developer to resolve confusing issues such as having some term as a class vs.property vs. instance. This confusion will be resolved by asking the ontology developer a series of questions such as does the term interact with other concepts, are the terms very specific or general, if a term is made into a class, what will be its instances? 
 
 
 
