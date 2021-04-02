@@ -205,22 +205,33 @@ ODPs that we collected from http://ontologydesignpatterns.org/wiki/Community:Lis
  2. Click on the NamingRecommendation button.
 
 ![OntoSeer_jar_Name](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/Naming1.png)
+
  3. Select the class or property for which you want the recommendations.
+ 
  4.Get the class recommendations.
  
  ![OntoSeer_jar_Name_reco_show](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/Namin2.png)
  
+ 
  5.Get the property recommendations.
+ 
  ![OntoSeer_jar_Name_reco_show](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/Property2.png)
 
  <a name="Axiom"></a>
  
  ## 4.4 Axiom Recommendation 
 1. Start building the ontologies .
-  ![OntoSeer_jar_Name](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/Axiom.png)
+
+  
 2. Click on Axiom Recommendation button .
+
+
+  ![OntoSeer_jar_Name](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/Axiom.png)
+  
 3. Select the class or property for which you want the recommendations.
- 4.Get the recommendations.
+
+4.Get the recommendations.
+
 ![Axiom Recommendation](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/Axiom2.png)
 
 
