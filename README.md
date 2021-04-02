@@ -200,12 +200,17 @@ ODPs that we collected from http://ontologydesignpatterns.org/wiki/Community:Lis
  ## 4.3 Naming Convention Recommendation 
  
  1. One should start buliding classes and properties in Protege .For example:-
-   ![OntoSeer_jar_Name](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/Naming1.png)
+ 
+   
  2. Click on the NamingRecommendation button.
+
+![OntoSeer_jar_Name](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/Naming1.png)
  3. Select the class or property for which you want the recommendations.
  4.Get the class recommendations.
+ 
  ![OntoSeer_jar_Name_reco_show](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/Namin2.png)
- 5.Get the class recommendations.
+ 
+ 5.Get the property recommendations.
  ![OntoSeer_jar_Name_reco_show](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/Property2.png)
 
  <a name="Axiom"></a>
