@@ -158,7 +158,7 @@ For more information for using OntoSeer please go through **OntoSeer_Manual.pdf*
   1. Click On OntoSeer tab button.
  This window will be shown.
  
- ![Plugin Window](https://github.com/kracr/ontoseer/blob/master/Images/Onto133.png)
+ ![Plugin Window](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/Opening%20shot.png)
  
 
  
