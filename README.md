@@ -183,18 +183,18 @@ recommendation will get better if one provide answer to as many questions as one
 3. Get Recommendation. The recommendation is based on the data that we have scraped from 223
 ODPs that we collected from http://ontologydesignpatterns.org/wiki/Community:ListPatterns
 
- ![OntoSeer_jar_ODP_reco_show](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/ODP.png)
+ ![OntoSeer_jar_ODP_reco_show](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/ODP11.png)
  
   <a name="Vocab"></a>
  
  ## 4.2 Vocab and Alternate Name Recommendation
  
  1. One should start buliding classes and properties in Protege .For example:-
-  ![OntoSeer_jar_Vocab](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/Vocab1.png)
+  ![OntoSeer_jar_Vocab](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/Vocab11.png)
  2. Click on VocabRecommendation button.
  3. Select the class or property for which you want the recommendations.Recommendations will be provided based on query results from LOV,Bioportal and our indexed files.
  4.Get the recommendations.
- ![OntoSeer_jar_Vocab_reco_show](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/Vocab2.png)
+ ![OntoSeer_jar_Vocab_reco_show](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/Vocab12.png)
 
  
   <a name="Naming"></a>
@@ -206,18 +206,18 @@ ODPs that we collected from http://ontologydesignpatterns.org/wiki/Community:Lis
    
  2. Click on the NamingRecommendation button.
 
-![OntoSeer_jar_Name](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/Naming1.png)
+![OntoSeer_jar_Name](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/ClassNami11.png)
 
  3. Select the class or property for which you want the recommendations.
  
  4.Get the class recommendations.
  
- ![OntoSeer_jar_Name_reco_show](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/Namin2.png)
+ ![OntoSeer_jar_Name_reco_show](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/ClassNami12.png)
  
  
  5.Get the property recommendations.
  
- ![OntoSeer_jar_Name_reco_show](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/Property2.png)
+ ![OntoSeer_jar_Name_reco_show](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/PropertyNami12.png)
 
  <a name="Axiom"></a>
  
@@ -228,13 +228,13 @@ ODPs that we collected from http://ontologydesignpatterns.org/wiki/Community:Lis
 2. Click on Axiom Recommendation button .
 
 
-  ![OntoSeer_jar_Name](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/Axiom.png)
+  ![OntoSeer_jar_Name](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/Axiom11.png)
   
 3. Select the class or property for which you want the recommendations.
 
 4.Get the recommendations.
 
-![Axiom Recommendation](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/Axiom2.png)
+![Axiom Recommendation](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/Axiom12.png)
 
 
 <a name="class"></a>
