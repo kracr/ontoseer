@@ -125,7 +125,7 @@ a. Click on the plugins folder.
 
 b.Copy OntoSeer.jar in the plugin folder.
 
-![OntoSeer_jar_plugin_folder](https://github.com/kracr/ontoseer/blob/master/Images/Onto6.png)
+![OntoSeer_jar_plugin_folder](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/OntoSeer_plugin.png)
 
 
 
@@ -135,7 +135,7 @@ b.Copy OntoSeer.jar in the plugin folder.
 
 5. Go to about Section of Protege and check whether the plugin has been correctly installed or not .It will be shown in the window.
 
-![OntoSeer_jar_plugin_About](https://github.com/kracr/ontoseer/blob/master/Images/OntoSeer3.png)
+![OntoSeer_jar_plugin_About](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/OntoSeer2.png)
 
 6. Click on Windows. Click on Tabs .Click on OntoSeer Tab.This window will appear.
 
