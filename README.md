@@ -114,7 +114,7 @@ The link to download the code repository and instruction manual is :
 
 2. Click on Assets->Ontoseer.jar
 
-![OntoSeer jar](https://github.com/kracr/ontoseer/blob/master/Images/Onto3.png)	
+![OntoSeer jar](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/Assets.png)	
 
 The jar file will get downloaded.
 
