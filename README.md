@@ -105,7 +105,7 @@ b.Copy OntoSeer.jar in the plugin folder.
 	
 	https://github.com/kracr/ontoseer/releases
 	
-![OntoSeer jar](https://github.com/kracr/ontoseer/blob/master/Images/Ontoseer_up.png)	
+![OntoSeer jar](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/OntoSEER67.png)	
 
 The link to download the code repository and instruction manual is :
 
@@ -181,7 +181,7 @@ recommendation will get better if one provide answer to as many questions as one
 3. Get Recommendation. The recommendation is based on the data that we have scraped from 223
 ODPs that we collected from http://ontologydesignpatterns.org/wiki/Community:ListPatterns
 
- ![OntoSeer_jar_ODP_reco_show](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/ODP2.png)
+ ![OntoSeer_jar_ODP_reco_show](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/ODP.png)
  
   <a name="Vocab"></a>
  
