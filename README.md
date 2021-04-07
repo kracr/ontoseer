@@ -26,7 +26,7 @@ This document provides documentation for the first version of OntoSeer.OntoSeer 
    4.5 [Class Hierarchy Validation](#class)
    
 5. [ Future Work. ](#future)
-6. Google Form(#google)
+6. [Google Form for User Study ](#google)
 
 <a name="intro"></a>
 
