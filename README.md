@@ -26,6 +26,7 @@ This document provides documentation for the first version of OntoSeer.OntoSeer 
    4.5 [Class Hierarchy Validation](#class)
    
 5. [ Future Work. ](#future)
+6. Google Form(#google)
 
 <a name="intro"></a>
 
@@ -252,5 +253,10 @@ ODPs that we collected from http://ontologydesignpatterns.org/wiki/Community:Lis
 
 As part of future work, we plan to engage in a dialogue with the ontology developer to resolve confusing issues such as having some term as a class vs.property vs. instance. This confusion will be resolved by asking the ontology developer a series of questions such as does the term interact with other concepts, are the terms very specific or general, if a term is made into a class, what will be its instances? 
 
+<a name="future"></a>
+## 6.Future Work
+
+Please find the link of Google form for user study here. Please give inputs so that we can make the tool better.
+https://docs.google.com/forms/d/1TlYaGaQYB2ewwAJbcIZDxXz2APyngvsvSbMRmizbf94/edit?usp=sharing
 
 
