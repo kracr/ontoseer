@@ -170,7 +170,7 @@ For more information for using OntoSeer please go through **OntoSeer_Manual.pdf*
  
 
  
- ![OntoSeer ODP](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/ODP.png)
+ ![OntoSeer ODP](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/ODP12.png)
  
 2. Enter description of the ontology that one is trying to make .Alternatively domain
 name,name of class and properties one want to make or can additively provide with the competency
