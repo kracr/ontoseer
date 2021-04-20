@@ -260,7 +260,7 @@ As part of future work, we plan to engage in a dialogue with the ontology develo
 In the process of building OntoSeer, we have been able to collect only a few owl corpora and index them. The end-user can add other corpora according to their suitability by downloading them; OntoSeer will index them.
 
 <a name="Demo"></a>
-## 7.Sustainability Plan
+## 7.Demo Video of OntoSeer
 A brief demo of OntoSeer can be found in the link:https://www.youtube.com/watch?v=meh1BBDlAQU .
 
 <a name="google"></a>
