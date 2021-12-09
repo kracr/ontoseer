@@ -1,0 +1,35 @@
+﻿* How experienced are you with ontology modelling?
+* How experienced are you with using Protege?
+* Do you know about LOV and ontology repositories such as BioPortal?
+   * If Yes, please specify how often do you reuse classes and properties from LOV and ontology repositories?
+    
+* Do you use Ontology Design Patterns (ODPs)?
+   * If Yes, please specify how often do you use ODPs?
+   
+        
+#This section should be answered only if competency questions have been provided to OntoSeer.
+        
+        
+*              How useful are the class and property recommendations?
+*              How useful are the ontology vocabulary recommendations?
+*              How useful are the ODP recommendations?
+*              How useful are the axiom recommendations?
+
+
+
+#This section should be answered only if competency questions are not provided to OntoSeer.
+        
+*              How useful are the Ontology vocabulary recommendations?
+*              How useful are the ODP recommendations?
+*              How useful are the axiom recommendations?
+
+
+#Other Questions
+    
+* How useful is the naming convention checker? 
+* How happy are you with the class hierarchy validation?
+* How was the installation process?
+* How was your experience of modelling an ontology without OntoSeer?
+* How was your experience of modelling an ontology with OntoSeer?
+* Does Ontoseer help in saving modelling time? 
+* Do you have any suggestions for improving the user experience?
