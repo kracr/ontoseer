@@ -284,14 +284,14 @@ For creating a new index for OntoSeer please follow the following steps.
 8. Now use OntoSeer.jar following the procedure mentioned in above steps.
 
 Alternatively,
-1.Clone the entire OntoSeer project from "https://github.com/kracr/ontoseer.git"
-2.Go to the folder where OntoSeer is dowloaded through command prompt.
-![OntoSeer Folder](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/ImageCommandLine1.png)
-3. Go to the OntoSeer/src/main/java/edu/stanford/bmir/protege/examples/view/ folder.
-![View Folder](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/Image%20commadprompt2.png)
-4. Run the index.sh file.
-![index.sh](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/Commandprompt3.png)
-5. On completion "Done Indexing" will be shown.
+	1.Clone the entire OntoSeer project from "https://github.com/kracr/ontoseer.git"
+	2.Go to the folder where OntoSeer is dowloaded through command prompt.
+	![OntoSeer Folder](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/ImageCommandLine1.png)
+	3. Go to the OntoSeer/src/main/java/edu/stanford/bmir/protege/examples/view/ folder.
+	![View Folder](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/Image%20commadprompt2.png)
+	4. Run the index.sh file.
+	![index.sh](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/Commandprompt3.png)
+	5. On completion "Done Indexing" will be shown.
 Use the generated OntoSeer.jar for recommendation.
 
 
