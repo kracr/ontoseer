@@ -262,8 +262,8 @@ In the process of building OntoSeer, we have been able to collect only a few owl
 
 <a name="Demo"></a>
 ## 7.Demo Video of OntoSeer
-	1.A brief demo of OntoSeer can be found in the link:https://youtu.be/LGXHGXmVanI .
-	2.A brief presentation of OntoSeer is available at: https://www.youtube.com/watch?v=8WrgaHixkww&t=0s
+1.A brief demo of OntoSeer can be found in the link:https://youtu.be/LGXHGXmVanI .
+2.A brief presentation of OntoSeer is available at: https://www.youtube.com/watch?v=8WrgaHixkww&t=0s
 
 <a name="google"></a>
 ## 8.Google Form for User Study 
