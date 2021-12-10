@@ -271,8 +271,8 @@ A breif presentation of OntoSeer is available at: https://www.youtube.com/watch?
 Please find the link of Google form for user study here. Please give inputs so that we can make the tool better.
 https://docs.google.com/forms/d/1TlYaGaQYB2ewwAJbcIZDxXz2APyngvsvSbMRmizbf94/edit?usp=sharing
 
-<a name= "#index"></a>
-##9.Index Creation
+<a name="index"></a>
+## 9.Index Creation
 For creating a new index for OntoSeer please follow the following steps.
 a. Clone the entire OntoSeer project from "https://github.com/kracr/ontoseer.git"
 b. Import the project as a Maven project in eclipse.
