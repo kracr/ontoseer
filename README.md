@@ -29,6 +29,7 @@ This document provides documentation for the first version of OntoSeer.OntoSeer 
 6. [Sustainibility](#sustain)
 7. [Brief Demo ](#Demo)
 8. [Google Form for User Study ](#google)
+9. [Index Creation](#index)
 
 <a name="intro"></a>
 
@@ -261,12 +262,40 @@ In the process of building OntoSeer, we have been able to collect only a few owl
 
 <a name="Demo"></a>
 ## 7.Demo Video of OntoSeer
-A brief demo of OntoSeer can be found in the link:https://www.youtube.com/watch?v=meh1BBDlAQU .
+A brief demo of OntoSeer can be found in the link:https://youtu.be/LGXHGXmVanI .
+A breif presentation of OntoSeer is available at: https://www.youtube.com/watch?v=8WrgaHixkww&t=0s
 
 <a name="google"></a>
 ## 8.Google Form for User Study 
 
 Please find the link of Google form for user study here. Please give inputs so that we can make the tool better.
 https://docs.google.com/forms/d/1TlYaGaQYB2ewwAJbcIZDxXz2APyngvsvSbMRmizbf94/edit?usp=sharing
+
+<a name= "#index"></a>
+##9.Index Creation
+For creating a new index for OntoSeer please follow the following steps.
+a. Clone the entire OntoSeer project from "https://github.com/kracr/ontoseer.git"
+b. Import the project as a Maven project in eclipse.
+c. Go to ![indices.java](https://github.com/kracr/ontoseer/blob/master/OntoSeer/src/main/java/edu/stanford/bmir/protege/examples/view/indices.java) file under "OntoSeer/src/main/java/edu/stanford/bmir/protege/examples/view/indices.java" folder.
+d. Run the file as a java application.
+e. The system will ask for the name of the folder which you want to index. Please provide it with it.
+f. It will take some time based on number and size of files. On completion it will print a message "Done indexing".
+g. After this click on Maven install for the entire project.
+h. Now use OntoSeer.jar following the procedure mentioned in above steps.
+
+Alternatively,
+a.Clone the entire OntoSeer project from "https://github.com/kracr/ontoseer.git"
+b.Go to the folder where OntoSeer is dowloaded through command prompt.
+![OntoSeer Folder](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/ImageCommandLine1.png)
+c. Go to the OntoSeer/src/main/java/edu/stanford/bmir/protege/examples/view/ folder.
+![View Folder](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/Image%20commadprompt2.png)
+d. Run the index.sh file.
+![index.sh](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/Commandprompt3.png)
+e. On completion "Done Indexing" will be shown.
+Use the generated OntoSeer.jar for recommendation.
+
+
+
+
 
 
