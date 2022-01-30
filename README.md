@@ -296,7 +296,7 @@ Alternatively,
 Use the generated OntoSeer.jar for recommendation.
 
 <a name="cite"></a>
-## 9.Citation
+## 10.Citation
 Please do not forget to cite any of the two below bibtex if you are using OntoSeer.
 
 @inproceedings{DBLP:conf/comad/BhattacharyyaM21,
@@ -320,6 +320,8 @@ Please do not forget to cite any of the two below bibtex if you are using OntoSe
   biburl    = {https://dblp.org/rec/conf/comad/BhattacharyyaM21.bib},
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
+
+or
 
 @mastersthesis{M.TechThesis,
   author       = {Pramit Bhattacharyya and
