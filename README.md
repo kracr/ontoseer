@@ -304,6 +304,17 @@ https://arxiv.org/abs/2202.02125
 
 If you are using OntoSeer for your project then please cite one of the following. 
 
+
+
+@misc{bhattacharyya2022ontoseer,
+      title={OntoSeer -- A Recommendation System to Improve the Quality of Ontologies}, 
+      author={Pramit Bhattacharyya and Raghava Mutharaju},
+      year={2022},
+      eprint={2202.02125},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI}
+}
+
 @inproceedings{DBLP:conf/comad/BhattacharyyaM21,
   author    = {Pramit Bhattacharyya and
                Raghava Mutharaju},
@@ -337,16 +348,7 @@ or
   year         = 2020,
 }
 
-or
 
-@misc{bhattacharyya2022ontoseer,
-      title={OntoSeer -- A Recommendation System to Improve the Quality of Ontologies}, 
-      author={Pramit Bhattacharyya and Raghava Mutharaju},
-      year={2022},
-      eprint={2202.02125},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI}
-}
 
 
 
