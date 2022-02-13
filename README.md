@@ -30,8 +30,8 @@ This document provides documentation for the first version of OntoSeer.OntoSeer 
 7. [Brief Demo ](#Demo)
 8. [Google Form for User Study ](#google)
 9. [Index Creation](#index)
-10. [Paper Link](#paper)
-11.[Citation](#cite)
+10. [Citation](#paper)
+
 
 <a name="intro"></a>
 
@@ -297,12 +297,11 @@ Alternatively,
 Use the generated OntoSeer.jar for recommendation.
 
 <a name="paper"></a>
-## 11.Paper
+## 11.Paper Link and Citation
 A detailed information of OntoSeer and its architecture is available at
 https://arxiv.org/abs/2202.02125
 
-<a name="cite"></a>
-## 11.Citation
+
 If you are using OntoSeer for your project then please cite one of the following. 
 
 @inproceedings{DBLP:conf/comad/BhattacharyyaM21,
@@ -348,6 +347,8 @@ or
       archivePrefix={arXiv},
       primaryClass={cs.AI}
 }
+
+
 
 
 
