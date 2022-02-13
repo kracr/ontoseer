@@ -30,7 +30,8 @@ This document provides documentation for the first version of OntoSeer.OntoSeer 
 7. [Brief Demo ](#Demo)
 8. [Google Form for User Study ](#google)
 9. [Index Creation](#index)
-10.[Citation](#cite)
+10. [Paper Link](#paper)
+11.[Citation](#cite)
 
 <a name="intro"></a>
 
@@ -295,9 +296,14 @@ Alternatively,
 	5. On completion "Done Indexing" will be shown.
 Use the generated OntoSeer.jar for recommendation.
 
+<a name="paper"></a>
+## 11.Paper
+A detailed information of OntoSeer and its architecture is available at
+https://arxiv.org/abs/2202.02125
+
 <a name="cite"></a>
-## 10.Citation
-Please do not forget to cite any of the two below bibtex if you are using OntoSeer.
+## 11.Citation
+If you are using OntoSeer for your project then please cite one of the following. 
 
 @inproceedings{DBLP:conf/comad/BhattacharyyaM21,
   author    = {Pramit Bhattacharyya and
@@ -330,6 +336,17 @@ or
   booktitle={M.Tech Thesis},
   school      = {Indraprastha Institute of Information Technology, Delhi},
   year         = 2020,
+}
+
+or
+
+@misc{bhattacharyya2022ontoseer,
+      title={OntoSeer -- A Recommendation System to Improve the Quality of Ontologies}, 
+      author={Pramit Bhattacharyya and Raghava Mutharaju},
+      year={2022},
+      eprint={2202.02125},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI}
 }
 
 
