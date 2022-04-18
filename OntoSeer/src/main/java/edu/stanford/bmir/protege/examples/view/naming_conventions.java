@@ -153,7 +153,7 @@ public class naming_conventions {
 		List<String>ls1=new ArrayList<String>();
 	
 		ls.addAll(s.recomproperties("has_under"));
-		ls1.addAll(s.recom("Person_under"));
+		ls1.addAll(s.recom("Person#!%$&_under"));
 		System.out.println(ls.size());
 		System.out.println(ls1.size());
 		/*
@@ -259,8 +259,9 @@ public class naming_conventions {
 	}
 	
 	public String remove_space(String classname) {
-        
+		classname=classname.replaceAll("\\p{Punct}",""); 
        char[] charArray = classname.toCharArray();
+       
         
        String stringWithoutSpaces = "";
         
@@ -274,8 +275,9 @@ public class naming_conventions {
        return stringWithoutSpaces;
 	}
 	public String remove_spaceproperties(String classname) {
-        
+		classname=classname.replaceAll("\\p{Punct}","");
 	       char[] charArray = classname.toCharArray();
+	       
 	        
 	       String stringWithoutSpaces = "";
 	        

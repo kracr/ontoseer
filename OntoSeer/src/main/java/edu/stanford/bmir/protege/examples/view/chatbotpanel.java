@@ -1,12 +1,10 @@
 package edu.stanford.bmir.protege.examples.view;
 
-import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.awt.Insets;
 import java.awt.event.ActionListener;
-import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -16,7 +14,6 @@ import javax.swing.JFileChooser;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
-import javax.swing.JPasswordField;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.JTextArea;
@@ -24,16 +21,15 @@ import javax.swing.JTextField;
 import javax.swing.ScrollPaneConstants;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
+
+
 public class chatbotpanel extends JFrame  {
 	JFileChooser fileChooser = new JFileChooser();
-    private JLabel labelEnterdescription = new JLabel("Do the instances of superclass cease to exist in the future (temporal dependency)? (Y/N)");
-    //private JLabel labeldescriptionanswer = new JLabel("Enter: ");
-    private JLabel labelEnterDomain = new JLabel("Are the super-class and subclass identical?(Y/N)");
-    private JLabel labelelements = new JLabel("Is the subclass part of the whole class?(Y/N)");
-    private JLabel labelEnterdescription1 = new JLabel("Do the instances of the sub class cease to exist in the future? (temporal dependency)? (Y/N)");
-    //private JLabel labeldescriptionanswer = new JLabel("Enter: ");
-    private JLabel labelEnterDomain1 = new JLabel("Are the instances of a subclass identical to the instances of the superclass? ");
-    private JLabel labelelements1 = new JLabel("Is the subclass part of the super class? (Y/N) ");
+    private JLabel labelEnterdescription = new JLabel("Do the properties of superclass cease to exist in the future (temporal dependency)? (Y/N)");        
+    private JLabel labelEnterdescription1 = new JLabel("Do the properties of the sub class cease to exist in the future? (temporal dependency)? (Y/N)");
+    private JLabel labelEnterDomain1 = new JLabel("Are the properties of super-class and subclass identical? (Y/N)");
+    private JLabel labelelements1 = new JLabel("Are the properties of subclass part of the properties whole class? (Y/N)");
+    
     
   //  private JLabel labelPassword = new JLabel("Enter password: ");
     private JTextField textDescription = new JTextField(20);
@@ -48,6 +44,7 @@ public class chatbotpanel extends JFrame  {
     private JTextArea textarea1= new JTextArea("");
     private JLabel comment=new JLabel("Please answer the following questions for each subclass and superclass in the ontology");
     private JLabel comment1=new JLabel("All the below inputs are mandatory");
+    private JLabel comment2=new JLabel("Hover over label to get more information");
     
     //private JPasswordField fieldPassword = new JPasswordField(20);
     private JButton buttonLogin = new JButton("Class Hierarchy Validation");
@@ -62,96 +59,88 @@ public class chatbotpanel extends JFrame  {
     public chatbotpanel() {
         super("Class Hierarchy Validation");
          
+        labelEnterdescription.setToolTipText("<html>For example,<br>Person will always be a person, but Student can cease to exist to be a Student after a time lapse.<br>Person is a superclass of student so Person class property will cease to exist in future<br>If the property of superclass cease to exist in future then type Y otherwise N<br></html>");
+        labelEnterdescription1.setToolTipText("<html>For example,<br>Person will always be a person, but Student can cease to exist to be a Student after a time lapse, as Student will have its class, subject, grades etc.<br>Subject is a subclass of student so Subject class property will not cease to exist in future<br>If the property of subclass cease to exist in future then type Y otherwise N<br></html>");
+        labelEnterDomain1.setToolTipText("<html>For example:<br> two one-hour duration time intervals are identical, but an hour interval on Wednesday is not identical to an hour interval on Friday.<br>If the properties is similar then type Y otherwise N</html>");
+        labelelements1.setToolTipText("<html>For example:<br>A lump of clay is part of \"amount of matter\", but \"amount of matter\" is not part of a lump of clay.<br>If the property of subclass is related or part of superclass then type Y otherwise N</html>");
+
         // create a new panel with GridBagLayout manager
         JPanel newPanel = new JPanel(new GridBagLayout());
 
         GridBagConstraints constraints = new GridBagConstraints();
-        constraints.anchor = GridBagConstraints.WEST;
-        constraints.insets = new Insets(25, 25, 25, 25);
+        
+        constraints.insets = new Insets(15, 15, 15, 15);
+
+        constraints.anchor = GridBagConstraints.EAST;
         constraints.gridx = 0;
         constraints.gridy = 0;     
         newPanel.add(comment, constraints); 
         comment.setFont(comment.getFont().deriveFont(Font.BOLD, comment.getFont().getSize()));
-        constraints.gridx = 0;
+        
+        constraints.gridx = 1;
         constraints.gridy = 1;     
         newPanel.add(comment1, constraints);
-        comment1.setFont(comment1.getFont().deriveFont(Font.BOLD, comment.getFont().getSize()));
-        // add components to the panel
-        constraints.gridx = 0;
+        comment1.setFont(comment1.getFont().deriveFont(comment.getFont().getSize()-1));
+
+        constraints.anchor = GridBagConstraints.WEST;
+        constraints.gridx = 1;
         constraints.gridy = 2;     
+        newPanel.add(comment2, constraints);
+        comment2.setFont(comment2.getFont().deriveFont(comment.getFont().getSize()-1));
+
+        constraints.gridx = 0;
+        constraints.gridy = 3;     
         newPanel.add(labelEnterdescription, constraints);
         constraints.gridx = 1;
         newPanel.add(textDescription, constraints);
+
         constraints.gridx = 0;
-        constraints.gridy = 3;     
+        constraints.gridy = 4;     
         newPanel.add(labelEnterdescription1, constraints);
         constraints.gridx = 1;
         newPanel.add(textDescription1, constraints);
 
         constraints.gridx = 0;
-        constraints.gridy = 4;     
-        newPanel.add( labelEnterDomain1, constraints);
- 
+        constraints.gridy = 5;     
+        newPanel.add( labelEnterDomain1, constraints); 
         constraints.gridx = 1;
         newPanel.add(textdomain1, constraints);
-;
-        constraints.gridx = 0;
-        constraints.gridy = 5;     
-        newPanel.add(labelelements1, constraints);
-       
 
-        constraints.gridx = 1;
-        newPanel.add(textclass1, constraints);
         constraints.gridx = 0;
         constraints.gridy = 6;     
+        newPanel.add(labelelements1, constraints);      
+        constraints.gridx = 1;
+        newPanel.add(textclass1, constraints);
 
-    
-
-        
 
         constraints.gridx = 0;
-        constraints.gridy = 8;     
+        constraints.gridy = 9;     
         newPanel.add(textarea, constraints);
-        //textarea.setEditable(false);
         textarea.setFont(textarea.getFont().deriveFont(Font.BOLD, textarea.getFont().getSize()));
         
         JScrollPane scroll = new JScrollPane(textarea);
         scroll.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
         
         constraints.gridx = 0;
-        constraints.gridy = 10;     
-        newPanel.add(text123, constraints);
-        
-        constraints.gridx = 0;
         constraints.gridy = 11;     
+        newPanel.add(text123, constraints);
+
+        constraints.gridx = 0;
+        constraints.gridy = 12;     
         newPanel.add(textarea1, constraints);
         textarea1.setEditable(false);
         textarea1.setFont(textarea1.getFont().deriveFont(textarea.getFont().getSize()));
+        
         constraints.gridx = 0;
-        constraints.gridy = 12;
+        constraints.gridy = 13;
         constraints.gridwidth = 2;
         constraints.anchor = GridBagConstraints.CENTER;
         newPanel.add(buttonLogin, constraints);
         buttonLogin.addActionListener(refreshAction);
-        /* 
-        constraints.gridx = 0;
-        constraints.gridy = 6;     
-        newPanel.add(labelPassword, constraints);
-         
-        constraints.gridx = 1;
-        newPanel.add(fieldPassword, constraints);
-        */
-         
-
-      
-         
+               
         // set border for the panel
-        newPanel.setBorder(BorderFactory.createTitledBorder(
-                BorderFactory.createEtchedBorder(), "Class Hierarchy Validation"));
+        newPanel.setBorder(BorderFactory.createTitledBorder(BorderFactory.createEtchedBorder(), "Class Hierarchy Validation"));
         
-      
-        
-         
         // add the panel to this frame
         add(newPanel);
         pack();
@@ -177,40 +166,40 @@ public class chatbotpanel extends JFrame  {
     	//System.out.println(s);
     	if(S1.equalsIgnoreCase("y")) {
     		if(S4.equalsIgnoreCase("y")||S4.equalsIgnoreCase("N")) {
-    			textarea1.append("Rigidity is correctly mainatained.\n");
+    			textarea1.append("Rigidity is correctly maintained.\n");
     		}
     		
     	}
     	else if(S1.equalsIgnoreCase("N")) {
     		if(S4.equalsIgnoreCase("N")) {
-    			textarea1.append("Rigidity is correctly mainatained.\n");
+    			textarea1.append("Rigidity is correctly maintained.\n");
     		}
     		else if(S4.equalsIgnoreCase("Y")) {
-    			textarea1.append("Rigidity is not correctly maintained. Subclass hierachy is not correct.\n");
+    			textarea1.append("Rigidity is not correctly maintained. Subclass hierarchy is not correct.\n");
     		}
     	}
    
     	if(S5.equalsIgnoreCase("y")) {
     		
-    			textarea1.append("Identity is correctly mainatained.\n");
+    			textarea1.append("Identity is correctly maintained.\n");
     		
     		
     	}
     	else if(S5.equalsIgnoreCase("N")) {
-    		    textarea1.append("Identity is not correctly maintained. Subclass hierachy is not correct.\n");
-    		
+    		    textarea1.append("Identity is not correctly maintained. Subclass hierarchy is not correct.\n");
+    	
     	}
     	
     	if(S6.equalsIgnoreCase("y")) {
     		
-    			textarea1.append("Unity is correctly mainatained.\n");
+    			textarea1.append("Unity is correctly maintained.\n");
     		
     		
     	}
     	else if(S6.equalsIgnoreCase("N")) {
     		
     		
-    			textarea1.append("Unity is not correctly maintained. Subclass hierachy is not correct.\n");
+    			textarea1.append("Unity is not correctly maintained. Subclass hierarchy is not correct.\n");
     		
     	}
     

@@ -128,7 +128,7 @@ public class namingconventionprop {
 	}
 	}
 	public String remove_spaceproperties(String classname) {
-        
+		classname=classname.replaceAll("\\p{Punct}",""); 
 	       char[] charArray = classname.toCharArray();
 	        
 	       String stringWithoutSpaces = "";
@@ -199,7 +199,7 @@ public class namingconventionprop {
 			List<String>ls1=new ArrayList<String>();
 		
 			
-			ls1.addAll(s.recomproperties("Person_under"));
+			ls1.addAll(s.recomproperties("Person?&@!_under"));
 			System.out.println(ls.size());
 			System.out.println(ls1.size());
 			/*

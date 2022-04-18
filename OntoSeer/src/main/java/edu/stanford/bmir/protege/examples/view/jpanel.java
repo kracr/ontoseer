@@ -5,7 +5,6 @@ import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.awt.Insets;
 import java.awt.event.ActionListener;
-import java.io.File;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
@@ -17,32 +16,21 @@ import javax.swing.JFileChooser;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
-import javax.swing.JPasswordField;
-import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
-import javax.swing.ScrollPaneConstants;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 import org.protege.editor.owl.model.OWLModelManager;
 import org.protege.editor.owl.model.event.EventType;
 import org.protege.editor.owl.model.event.OWLModelManagerListener;
 import org.semanticweb.owlapi.model.OWLClass;
-import org.semanticweb.owlapi.model.OWLClassExpression;
-import org.semanticweb.owlapi.model.OWLIndividual;
+
 public class jpanel extends JFrame  {
 	JFileChooser fileChooser = new JFileChooser();
-    private JLabel labelEnterdescription = new JLabel("Please enter the description of the ontology");
-    //private JLabel labeldescriptionanswer = new JLabel("Enter: ");
-    private JLabel labelEnterDomain = new JLabel("Please enter the domain of ontology");
-    private JLabel labelelements = new JLabel("Please enter some of the elements like classes and properties you want\n" + 
-    		"to make. ");
-    private JLabel labelcqs = new JLabel("Please enter the competency questions. ");
-    private JLabel labeladditional = new JLabel("Please enter any additional\n" + 
-    		"comments. ");
-    private JLabel finala = new JLabel("Final Input ");
-    private JLabel Final_Recommendation = new JLabel("Final ODP recommendation based on your input is ");
-    
+    private JLabel labelEnterdescription = new JLabel("Please enter the description of the ontology.");    
+    private JLabel labelEnterDomain = new JLabel("Please enter the domain of ontology.");    
+    private JLabel labelcqs = new JLabel("Please enter the competency questions.");
+        
   //  private JLabel labelPassword = new JLabel("Enter password: ");
     private JTextField textDescription = new JTextField(20);
     private JTextField textdomain = new JTextField(20);
@@ -52,13 +40,14 @@ public class jpanel extends JFrame  {
     private JTextField textfinal = new JTextField(20);
     private JTextArea textarea= new JTextArea("ODP Recommendation");
     
-    private JLabel comment=new JLabel("The class and properties will be considered for ODP recommendation. Without any class or property ODP recommendation will not be shown.");
-    private JLabel commentq=new JLabel("Along with that the following can also be provided for ODP recommendation but they are optional");
+    private JLabel comment=new JLabel("<html>The class and properties will be considered for ODP recommendation. Without any class or property ODP recommendation will not be shown.</html>");
+    private JLabel commentq=new JLabel("<html>Along with that the following can also <br> be provided for ODP recommendation but they are optional</html>");
+    private JLabel comment2=new JLabel("<html>Hover over label to get more information</html>");
     
     
     
     //private JPasswordField fieldPassword = new JPasswordField(20);
-    private JButton buttonLogin = new JButton("ODPRecommendation");
+    private JButton buttonLogin = new JButton("ODP Recommendation");
     private JButton close = new JButton("Close the panel");
     private ActionListener refreshAction = e ->ODP();
     private OWLModelManager modelManager;
@@ -132,76 +121,55 @@ public class jpanel extends JFrame  {
         super("ODP Recommendation");
         ct1=new ArrayList<>();
     	ct2=ct;
+
+        labelEnterdescription.setToolTipText("<html>Provide key value related to description of ontology<br>For example :-<br>If you want to know about the ontology of college with professor, teacher, students etc then type \"college\"<br>If you want to know about the ontology related to wine then type \"wine\"</html>");
+        labelEnterDomain.setToolTipText("<html>Provide key value related to domain of ontology<br>For example :-<br>If you want to know about the ontology of teacher but in the domain of college then type \"college\" in the domain and \"teacher\" in the description<br>If you want to know about the ontology related to color in the domain of wine ontology then type \"color\" in the domain and \"wine\" in the description</html>");
+        labelcqs.setToolTipText("<html>Provide key value related to competency questions<br>For example :-<br>If you want CQ as \"No of teachers in college\" then type \"Teacher in the CQ\", \"college\" in the domain and \"teacher\" in the description<br>If you want CQ as \"All Color of wine in Asia\" then type \"color\" in the CQ, \"color\" in the domain and \"wine\" in the description</html>");
          
         // create a new panel with GridBagLayout manager
         JPanel newPanel = new JPanel(new GridBagLayout());
-       /*
-        fileChooser.setCurrentDirectory(new File(System.getProperty("user.home")));
-    	int result = fileChooser.showOpenDialog(this);
-    	if (result == JFileChooser.APPROVE_OPTION) {
-    	    File selectedFile = fileChooser.getSelectedFile();
-    	    System.out.println("Selected file: " + selectedFile.getAbsolutePath());
-    	}
-    	*/
         GridBagConstraints constraints = new GridBagConstraints();
-        constraints.anchor = GridBagConstraints.WEST;
         constraints.insets = new Insets(20, 20, 30, 30);
+        
+        constraints.anchor = GridBagConstraints.WEST;
         constraints.gridx = 0;
         constraints.gridy = 0;     
         newPanel.add(comment, constraints); 
         comment.setFont(comment.getFont().deriveFont(Font.BOLD, comment.getFont().getSize()));
-        constraints.gridx = 0;
+        
+        constraints.gridx = 1;
         constraints.gridy = 1;     
         newPanel.add(commentq, constraints);
-        commentq.setFont(commentq.getFont().deriveFont(Font.BOLD, commentq.getFont().getSize()));
-         
-        // add components to the panel
-        constraints.gridx = 0;
+        commentq.setFont(commentq.getFont().deriveFont(commentq.getFont().getSize()-1));
+
+        constraints.gridx = 1;
         constraints.gridy = 2;     
+        newPanel.add(comment2, constraints);
+        comment2.setFont(comment2.getFont().deriveFont(comment2.getFont().getSize()-1));
+
+        constraints.gridx = 0;
+        constraints.gridy = 3;     
         newPanel.add(labelEnterdescription, constraints);
         constraints.gridx = 1;
         newPanel.add(textDescription, constraints);
+
         constraints.gridx = 0;
-        constraints.gridy = 3;     
+        constraints.gridy = 4;     
         newPanel.add( labelEnterDomain, constraints);
         constraints.gridx = 1;
         newPanel.add(textdomain, constraints);
   
         constraints.gridx = 0;
-        constraints.gridy = 4;     
+        constraints.gridy = 5;     
         newPanel.add(labelcqs, constraints);
         constraints.gridx = 1;
         newPanel.add(textcqs, constraints);
-        constraints.gridx = 0;
-        constraints.gridy = 5;     
-        //newPanel.add(labeladditional, constraints);
-        constraints.gridx = 1;
-        //newPanel.add(textadd, constraints);
-        constraints.gridx = 0;
-        constraints.gridy = 6;     
-
         
 
         constraints.gridx = 0;
         constraints.gridy = 8;     
         newPanel.add(textarea, constraints);
         textarea.setEditable(false);
-        /*
-        constraints.gridx = 0;
-        constraints.gridy = 8; 
-        JScrollPane scroll = new JScrollPane(textarea);
-        scroll.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_ALWAYS);
-        newPanel.add(scroll);
-        */
-        /* 
-        constraints.gridx = 0;
-        constraints.gridy = 6;     
-        newPanel.add(labelPassword, constraints);
-         
-        constraints.gridx = 1;
-        newPanel.add(fieldPassword, constraints);
-        */
-         
         constraints.gridx = 0;
         constraints.gridy = 12;
         constraints.gridwidth = 2;
@@ -213,8 +181,7 @@ public class jpanel extends JFrame  {
       
          
         // set border for the panel
-        newPanel.setBorder(BorderFactory.createTitledBorder(
-                BorderFactory.createEtchedBorder(), "ODP Recommendation panel"));
+        newPanel.setBorder(BorderFactory.createTitledBorder(BorderFactory.createEtchedBorder(), "ODP Recommendation panel"));
         
       
         
