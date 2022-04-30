@@ -257,7 +257,7 @@ public class Metrics1 extends JPanel implements ItemListener {
             
             naming_conventions s=new naming_conventions();
             ls.addAll(s.recom(c1.getSelectedItem().toString()));
-            String labelText ="<html>1. "+ls.get(0)+"<br>"+"<br>2. "+ls.get(1)+"</html>";
+            String labelText ="<html>1. "+ls.get(0)";
             l2.setText(labelText);
         }
         }
