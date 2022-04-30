@@ -205,8 +205,8 @@ public class naming_conventions {
 		
 		ls.add(y);
 		//System.out.println(y+"size"+y.length());
-		y1=y+"_";
-		ls.add(y1);
+		//y1=y+"_";
+		//ls.add(y1);
 		//System.out.println(ls.size());
 		
 		return ls;
@@ -247,8 +247,8 @@ public class naming_conventions {
 		
 		ls.add(y);
 		//System.out.println(y+"size"+y.length());
-		y1=y+"_";
-		ls.add(y1);
+		//y1=y+"_";
+		//ls.add(y1);
 		//System.out.println(ls.size());
 		
 		return ls;
