@@ -41,8 +41,8 @@ public class jpanel extends JFrame  {
     private JTextArea textarea= new JTextArea("ODP Recommendation");
     
     private JLabel comment=new JLabel("<html>The class and properties will be considered for ODP recommendation. Without any class or property ODP recommendation will not be shown.</html>");
-    private JLabel commentq=new JLabel("<html>Along with that the following can also <br> be provided for ODP recommendation but they are optional</html>");
-    private JLabel comment2=new JLabel("<html>Hover over label to get more information</html>");
+    private JLabel commentq=new JLabel("<html>Along with that the following can also be provided for ODP recommendation but they are optional.</html>");
+    private JLabel comment2=new JLabel("Hover over label to get more information.");
     
     
     
@@ -129,61 +129,50 @@ public class jpanel extends JFrame  {
         // create a new panel with GridBagLayout manager
         JPanel newPanel = new JPanel(new GridBagLayout());
         GridBagConstraints constraints = new GridBagConstraints();
-        constraints.insets = new Insets(20, 20, 30, 30);
+        Insets insets = new Insets(10,10,10,10);
+        constraints.insets = insets;
         
         constraints.anchor = GridBagConstraints.WEST;
-        constraints.gridx = 0;
-        constraints.gridy = 0;     
+        constraints = new GridBagConstraints(0, 0, 1, 2, 1, 1, GridBagConstraints.CENTER, GridBagConstraints.BOTH, insets, 0, 0);
         newPanel.add(comment, constraints); 
         comment.setFont(comment.getFont().deriveFont(Font.BOLD, comment.getFont().getSize()));
         
-        constraints.gridx = 1;
-        constraints.gridy = 1;     
+        constraints = new GridBagConstraints(0, 3, 1, 2, 0.5, 1, GridBagConstraints.CENTER, GridBagConstraints.BOTH, insets, 0, 0);
         newPanel.add(commentq, constraints);
         commentq.setFont(commentq.getFont().deriveFont(commentq.getFont().getSize()-1));
 
-        constraints.gridx = 1;
-        constraints.gridy = 2;     
+        constraints = new GridBagConstraints(0, 5, 1, 1, 0.5, 1, GridBagConstraints.CENTER, GridBagConstraints.BOTH, insets, 0, 0);
         newPanel.add(comment2, constraints);
         comment2.setFont(comment2.getFont().deriveFont(comment2.getFont().getSize()-1));
 
-        constraints.gridx = 0;
-        constraints.gridy = 3;     
+        constraints = new GridBagConstraints(0, 7, 1, 1, 0.5, 1, GridBagConstraints.CENTER, GridBagConstraints.BOTH, insets, 0, 0);    
         newPanel.add(labelEnterdescription, constraints);
-        constraints.gridx = 1;
+        constraints = new GridBagConstraints(1, 7, 1, 1, 0.5, 0.5, GridBagConstraints.CENTER, GridBagConstraints.BOTH, insets, 0, 0);
         newPanel.add(textDescription, constraints);
 
-        constraints.gridx = 0;
-        constraints.gridy = 4;     
+        constraints = new GridBagConstraints(0, 8, 1, 1, 0.5, 1, GridBagConstraints.CENTER, GridBagConstraints.BOTH, insets, 0, 0);
         newPanel.add( labelEnterDomain, constraints);
-        constraints.gridx = 1;
+        constraints = new GridBagConstraints(1, 8, 1, 1, 0.5, 0.5, GridBagConstraints.CENTER, GridBagConstraints.BOTH, insets, 0, 0);
         newPanel.add(textdomain, constraints);
   
-        constraints.gridx = 0;
-        constraints.gridy = 5;     
+        constraints = new GridBagConstraints(0, 9, 1, 1, 0.5, 1, GridBagConstraints.CENTER, GridBagConstraints.BOTH, insets, 0, 0);   
         newPanel.add(labelcqs, constraints);
-        constraints.gridx = 1;
+        constraints = new GridBagConstraints(1, 9, 1, 1, 0.5, 0.5, GridBagConstraints.CENTER, GridBagConstraints.BOTH, insets, 0, 0);
         newPanel.add(textcqs, constraints);
         
-
-        constraints.gridx = 0;
-        constraints.gridy = 8;     
+        constraints = new GridBagConstraints(0, 10, 1, 1, 4, 1, GridBagConstraints.CENTER, GridBagConstraints.BOTH, insets, 0, 0);    
         newPanel.add(textarea, constraints);
         textarea.setEditable(false);
-        constraints.gridx = 0;
-        constraints.gridy = 12;
-        constraints.gridwidth = 2;
+        textarea.setFont(textarea.getFont().deriveFont(textarea.getFont().getSize()));
+
         constraints.anchor = GridBagConstraints.CENTER;
+        constraints = new GridBagConstraints(0, 16, 1, 1, 1, 0.6, GridBagConstraints.CENTER, GridBagConstraints.CENTER, insets, 0, 0);
         newPanel.add(buttonLogin, constraints);
         buttonLogin.addActionListener(refreshAction);
         
-       
-      
-         
+
         // set border for the panel
         newPanel.setBorder(BorderFactory.createTitledBorder(BorderFactory.createEtchedBorder(), "ODP Recommendation panel"));
-        
-      
         
          
         // add the panel to this frame

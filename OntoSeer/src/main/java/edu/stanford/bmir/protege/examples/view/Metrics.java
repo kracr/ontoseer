@@ -120,14 +120,7 @@ public class Metrics extends JPanel implements ItemListener {
         MainPanel.add(refreshButton4, constraints);
         constraints.gridy = 5;
         MainPanel.add(refreshButton5, constraints);
-
-        //add buttons to panel
-        // add(refreshButton1);
-        // add(refreshButton);
-        // add(refreshButton2);
-        // add(refreshButton3);
-        // add(refreshButton4);
-        // add(refreshButton5);
+        
         add(MainPanel);
        
         textArea1.append("Please make at least 2 classes and 2 properties to get recommendations through OntoSeer.");

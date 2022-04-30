@@ -71,19 +71,18 @@ public class chatbotpanel extends JFrame  {
         
         constraints.insets = new Insets(15, 15, 15, 15);
 
-        constraints.anchor = GridBagConstraints.EAST;
+        constraints.anchor = GridBagConstraints.WEST;
         constraints.gridx = 0;
         constraints.gridy = 0;     
         newPanel.add(comment, constraints); 
         comment.setFont(comment.getFont().deriveFont(Font.BOLD, comment.getFont().getSize()));
         
-        constraints.gridx = 1;
+        constraints.gridx = 0;
         constraints.gridy = 1;     
         newPanel.add(comment1, constraints);
         comment1.setFont(comment1.getFont().deriveFont(comment.getFont().getSize()-1));
 
-        constraints.anchor = GridBagConstraints.WEST;
-        constraints.gridx = 1;
+        constraints.gridx = 0;
         constraints.gridy = 2;     
         newPanel.add(comment2, constraints);
         comment2.setFont(comment2.getFont().deriveFont(comment.getFont().getSize()-1));
