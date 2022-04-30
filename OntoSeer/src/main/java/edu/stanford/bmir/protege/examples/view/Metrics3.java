@@ -253,7 +253,7 @@ public class Metrics3 extends JPanel implements ItemListener {
             
             //textArea = new JTextArea(20,20);
             	
-            String labelText ="<html>1. "+ls1.get(0)+"<br>"+"<br>2. "+ls1.get(1)+"</html>";
+            String labelText ="<html>1. "+ls1.get(0);
             l2.setText(labelText);
             	//l7.setText(ls.get(1));
             }
