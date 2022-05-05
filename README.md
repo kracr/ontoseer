@@ -85,11 +85,15 @@ To build and run Ontoseer through code compilation , one must have the following
 
 4. Copy the JAR file from the target directory to the "plugins" subdirectory of your Protege distribution.
  
- a. Click on the plugins folder.
+ 1.1 Click on the plugins folder (for linux/windows).
 
-![OntoSeer_jar_plugin](https://github.com/kracr/ontoseer/blob/master/Images/Onto4.png)	
+![OntoSeer_jar_plugin](https://github.com/kracr/ontoseer/blob/master/Images/Onto4.png)
 
-b.Copy OntoSeer.jar in the plugin folder.
+ 1.2 Click on the plugins folder (for mac).
+ 
+ ![OntoSeer_jar_plugin](https://github.com/kracr/ontoseer/blob/master/Images/ontoseer_mac_folder.png)
+
+2 Copy OntoSeer.jar in the plugin folder.
 
 ![OntoSeer_jar_plugin_folder](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/OntoSeer_plugin.png)
 
