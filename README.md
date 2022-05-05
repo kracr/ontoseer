@@ -240,6 +240,7 @@ ODPs that we collected from http://ontologydesignpatterns.org/wiki/Community:Lis
   ![OntoSeer_jar_Name](https://github.com/kracr/ontoseer/blob/master/Images/class_heirarchy.png)
 
 2. Answer the questions in (Y/N) format. Answer to all the questions are mandatory to velidate the hierarchy.
+
 3. Validate the Hierarchy
 ![Class Hierarchy](https://github.com/kracr/ontoseer/blob/master/Images/class_heirarchy_name.png)
 
@@ -270,7 +271,7 @@ https://docs.google.com/forms/d/1TlYaGaQYB2ewwAJbcIZDxXz2APyngvsvSbMRmizbf94/edi
 For creating a new index for OntoSeer please follow the following steps.
 1. Clone the entire OntoSeer project from "https://github.com/kracr/ontoseer.git"
 2. Import the project as a Maven project in eclipse.
-3. Go to ![indices.java](https://github.com/kracr/ontoseer/blob/master/OntoSeer/src/main/java/edu/stanford/bmir/protege/examples/view/indices.java) file under "OntoSeer/src/main/java/edu/stanford/bmir/protege/examples/view/indices.java" folder.
+3. Go to [indices.java](https://github.com/kracr/ontoseer/blob/master/OntoSeer/src/main/java/edu/stanford/bmir/protege/examples/view/indices.java) file under "OntoSeer/src/main/java/edu/stanford/bmir/protege/examples/view/indices.java" folder.
 4. Run the file as a java application.
 5. The system will ask for the name of the folder which you want to index. Please provide it with it.
 6. It will take some time based on number and size of files. On completion it will print a message "Done indexing".
