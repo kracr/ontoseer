@@ -84,6 +84,7 @@ To build and run Ontoseer through code compilation , one must have the following
 3. Type mvn clean package.  On build completion, the "target" directory will contain a OntoSeer-${version}.jar file.
 
 4. Copy the JAR file from the target directory to the "plugins" folder.
+
 	4.1.1 Click on the "plugins" folder subdirectory of your Protege distribution (for linux/windows).
  	![OntoSeer_jar_plugin](https://github.com/kracr/ontoseer/blob/master/Images/Onto4.png)
 
@@ -91,7 +92,7 @@ To build and run Ontoseer through code compilation , one must have the following
  	![OntoSeer_jar_plugin](https://github.com/kracr/ontoseer/blob/master/Images/ontoseer_mac_folder.png)
 
  	4.2 Copy OntoSeer.jar in the plugin folder.
- 	![OntoSeer_jar_plugin_folder](https://github.com/kracr/ontoseer/blob/master/Images/OntoSeer_plugin.png)
+ 	![OntoSeer_jar_plugin_folder](https://github.com/kracr/ontoseer/blob/master/Images/plugin_folder.png)
 
 5. Restart Protege.
 
@@ -122,6 +123,7 @@ The link to download the code repository and instruction manual is :
 The jar file will get downloaded.
 
 3. Copy the jar file to the plugins folder of Protege.
+	
 	3.1.1 Click on the "plugins" folder subdirectory of your Protege distribution (for linux/windows).
  	![OntoSeer_jar_plugin](https://github.com/kracr/ontoseer/blob/master/Images/Onto4.png)
 
@@ -129,7 +131,7 @@ The jar file will get downloaded.
  	![OntoSeer_jar_plugin](https://github.com/kracr/ontoseer/blob/master/Images/ontoseer_mac_folder.png)
 
  	3.2 Copy OntoSeer.jar in the plugin folder.
- 	![OntoSeer_jar_plugin_folder](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/OntoSeer_plugin.png)
+ 	![OntoSeer_jar_plugin_folder](https://github.com/kracr/ontoseer/blob/master/Images/plugin_folder.png)
 
 4. Restart Protege.
 
@@ -203,12 +205,11 @@ ODPs that we collected from http://ontologydesignpatterns.org/wiki/Community:Lis
 
  3. Select the class or property for which you want the recommendations.
  
- 4.Get the class recommendations.
+ 4. Get the class recommendations.
  
  ![OntoSeer_jar_Name_reco_show](https://github.com/kracr/ontoseer/blob/master/Images/class_naming_name.png)
  
- 
- 5.Get the property recommendations.
+ 5. Get the property recommendations.
  
  ![OntoSeer_jar_Name_reco_show](https://github.com/kracr/ontoseer/blob/master/Images/property_naming_name.png)
 
@@ -225,7 +226,8 @@ ODPs that we collected from http://ontologydesignpatterns.org/wiki/Community:Lis
   
 3. Select the class or property for which you want the recommendations.
 
-4.Get the recommendations.
+
+4. Get the recommendations.
 
 ![Axiom Recommendation](https://github.com/kracr/ontoseer/blob/master/Images/axiom_name.png)
 
