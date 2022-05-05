@@ -83,29 +83,29 @@ To build and run Ontoseer through code compilation , one must have the following
 
 3. Type mvn clean package.  On build completion, the "target" directory will contain a OntoSeer-${version}.jar file.
 
-4. Copy the JAR file from the target directory to the "plugins" subdirectory of your Protege distribution.
+4. Copy the JAR file from the target directory to the "plugins" folder.
  
- 1.1 Click on the plugins folder (for linux/windows).
+ 4.1.1 Click on the "plugins" folder subdirectory of your Protege distribution (for linux/windows).
 
-![OntoSeer_jar_plugin](https://github.com/kracr/ontoseer/blob/master/Images/Onto4.png)
+ ![OntoSeer_jar_plugin](https://github.com/kracr/ontoseer/blob/master/Images/Onto4.png)
 
- 1.2 Click on the plugins folder (for mac).
+ 4.1.2 Click on the "plugins" folder after "Show Package Contents" option in right click option on Protege application (for mac).
  
  ![OntoSeer_jar_plugin](https://github.com/kracr/ontoseer/blob/master/Images/ontoseer_mac_folder.png)
 
-2 Copy OntoSeer.jar in the plugin folder.
+ 4.2 Copy OntoSeer.jar in the plugin folder.
 
-![OntoSeer_jar_plugin_folder](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/OntoSeer_plugin.png)
+ ![OntoSeer_jar_plugin_folder](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/OntoSeer_plugin.png)
 
 5. Restart Protege.
 
 6. Go to about Section of Protege and check whether the plugin has been correctly installed or not .It will be shown in the window.
 
-![OntoSeer_jar_plugin_About](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/OntoSeer2.png)
+![OntoSeer_jar_plugin_About](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/about_protedge.png)
 
 7. Click on Windows. Click on Tabs .Click on OntoSeer Tab.This window will appear.
 
-![OntoSeer_jar_plugin_Actual_Tab](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/Opening%20shot.png)
+![OntoSeer_jar_plugin_Actual_Tab](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/ontoseer_window_help.png)
 
 <a name="exe"></a>
 
@@ -115,7 +115,7 @@ To build and run Ontoseer through code compilation , one must have the following
 	
 	https://github.com/kracr/ontoseer/releases
 	
-![OntoSeer jar](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/OntoSEER67.png)	
+![OntoSeer jar](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/github_release.png)	
 
 The link to download the code repository and instruction manual is :
 
@@ -123,7 +123,7 @@ The link to download the code repository and instruction manual is :
 
 2. Click on Assets->Ontoseer.jar
 
-![OntoSeer jar](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/Assets.png)	
+![OntoSeer jar](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/github_assests.png)	
 
 The jar file will get downloaded.
 
