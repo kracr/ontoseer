@@ -97,7 +97,7 @@ public class Metrics extends JPanel implements ItemListener {
        refreshButton.setToolTipText("<html>Retrieve axioms from ontology corpus that have the closest match with entities like class and properties of the current ontology</html>");
        refreshButton1.setToolTipText("<html>ODP or Ontology design patterns helps in resuing design solution approved by communities.<br>ODP will be given by using description, competency question and domain of current ontology.<br></html>");
        refreshButton2.setToolTipText("<html>Suggest class name according to ontology conventions</html>");
-       refreshButton3.setToolTipText("<html>Get vocabulary recommedation from Linked Open VOcabularies (LOV)</html>");
+       refreshButton3.setToolTipText("<html>Get vocabulary recommedation from Linked Open Vocabularies (LOV)</html>");
        refreshButton4.setToolTipText("<html>Determining class hierarchy of the ontology using rigidity (R), identity (I) and unity (U) characteristics.</html>");
        refreshButton5.setToolTipText("<html>Suggest property name according to ontology conventions</html>");
  
