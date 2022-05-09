@@ -95,8 +95,8 @@ public class retrieval {
 			   for(int j=0;j<3;j++) {
 			
 				   double d=c.similarity(s[j], name);
-				  //Threshold is kept at 0.85 after multiple iterations 
-				   if(d>=0.95&&count<8) {
+				  //Threshold is kept at 0.85 after multiple iterations & only top 7 recommendations are considered
+				   if(d>=0.85&&count<8) {
 					   
 					   hash_Set.add(axioms.get(i));
 					   count++;
