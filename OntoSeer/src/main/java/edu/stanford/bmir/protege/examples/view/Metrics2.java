@@ -250,6 +250,7 @@ public class Metrics2 extends JPanel implements ItemListener {
             l1.setText(c1.getSelectedItem().toString() + " selected"); 
             String value= c1.getSelectedItem().toString();
             List<String>ls=new ArrayList<String>();
+		//local path of benchmark owl corpus
            String x="/home/pramit67/Downloads/owl2_rl_benchmark_corpus/";
             
             System.out.println(value);
@@ -257,8 +258,10 @@ public class Metrics2 extends JPanel implements ItemListener {
             //value=value.substring(0,value.length()-);
           //  String value= c1.getSelectedItem().toString();
             if(value.equalsIgnoreCase("--select--")) {
+		    // checking whether term is selected or not
             	l3.setText("Please select a class or property");
             }
+		//recommendations
             else {
             
             hash_Set=r.filtering(value);
