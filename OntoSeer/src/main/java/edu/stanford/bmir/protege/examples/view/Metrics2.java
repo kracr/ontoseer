@@ -124,6 +124,7 @@ public class Metrics2 extends JPanel implements ItemListener {
     public  void main(String args[]) {
     	Metrics1 m=new Metrics1(modelManager);
     }
+	//Axiom Recommendation Panel
     public void detect(List<String>s_run) {
     	try {
         f = new JFrame("Axiom Recommendation"); 
