@@ -1,3 +1,4 @@
+/*code for class hierarchy validation*/
 package edu.stanford.bmir.protege.examples.view;
 
 import java.awt.Font;
@@ -157,12 +158,14 @@ public class chatbotpanel extends JFrame  {
     	String S4=textDescription1.getText();
     	String S5=textdomain1.getText();
     	String S6=textclass1.getText();
+    	//All fields are mandatory
     	if(S1.equalsIgnoreCase("")||S4.equalsIgnoreCase("")||S5.equalsIgnoreCase("")||S6.equalsIgnoreCase("")) {
     		textarea1.append("All mandatory fields are not filled");
     	}
     	else {
     	s=S1+S2+S3;
-    	//System.out.println(s);
+    	//The cases for Y and N are ingnored. Y is yes and N is No
+    	/*Rigidity if superclass is Y then sub class can be Y||N. If superclass is N then subclass has to be N*/
     	if(S1.equalsIgnoreCase("y")) {
     		if(S4.equalsIgnoreCase("y")||S4.equalsIgnoreCase("N")) {
     			textarea1.append("Rigidity is correctly maintained.\n");
@@ -177,7 +180,7 @@ public class chatbotpanel extends JFrame  {
     			textarea1.append("Rigidity is not correctly maintained. Subclass hierarchy is not correct.\n");
     		}
     	}
-   
+    	/*If identity is Y then they are identical else not*/
     	if(S5.equalsIgnoreCase("y")) {
     		
     			textarea1.append("Identity is correctly maintained.\n");
@@ -195,6 +198,7 @@ public class chatbotpanel extends JFrame  {
     		
     		
     	}
+    	/*If Unity is Y then they are identical else not*/
     	else if(S6.equalsIgnoreCase("N")) {
     		
     		
@@ -203,10 +207,7 @@ public class chatbotpanel extends JFrame  {
     	}
     
     	}
-    	
-    	//ls.addAll(o.findsimilarity(s));
-    	//System.out.println("Ls is"+ls);
-    	//textarea.setText("Final ODP Output is: "+ls.toString());
+
     	buttonLogin.setEnabled(false);
     	
     	return ls;
@@ -235,7 +236,7 @@ public class chatbotpanel extends JFrame  {
         });
     }
     public static void main(String[] args) {
-        // set look and feel to the system look and feel
+     
     		chatbotpanel j=new chatbotpanel();
     		j.result();
     }
