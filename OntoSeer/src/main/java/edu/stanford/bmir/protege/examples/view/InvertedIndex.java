@@ -35,6 +35,7 @@ public class InvertedIndex {
 				pos++;
 				if (stopwords.contains(word))
 					continue;
+				//creating the inverted index tuple
 				List<Tuple> idx = index.get(word);
 				if (idx == null) {
 					idx = new LinkedList<Tuple>();
@@ -68,6 +69,7 @@ public class InvertedIndex {
 		try {
 			InvertedIndex idx = new InvertedIndex();
 			Scanner sc=new Scanner(System.in);
+			//File path of owl files
 			System.out.println("Enter file path to index");
 			String trial=sc.nextLine();
 			List<String>files=new ArrayList<>();
@@ -89,6 +91,7 @@ public class InvertedIndex {
 		
 			
 			List<String>words=new ArrayList<>();
+			// Query words
 			System.out.println("Please enter the words you want to search");
 			Scanner sc1=new Scanner(System.in);
 			String lrt=sc1.nextLine();
@@ -101,6 +104,7 @@ public class InvertedIndex {
 		}
 	}
 
+	//Tuple class of inverted index with filename and positions
 	private class Tuple {
 		private int fileno;
 		private int position;
