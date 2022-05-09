@@ -350,7 +350,7 @@ public class odpdescription {
 	IRI[19]="http://www.ontologydesignpatterns.org/cp/owl/persons.owl";
 	IRI[20]="http://www.ontologydesignpatterns.org/cp/owl/price.owl";
 	IRI[21]="http://openscience.adaptcentre.ie/ontologies/privacypolicy.owl";
-	IRI[22]="http://www.cs.kent.edu/~malzyoud/ODPs/Professsor.htm";
+	IRI[22]="http://www.cs.kent.edu/~malzyoud/ODPs/Professsor.html";
 	IRI[23]="https://raw.githubusercontent.com/cogan-shimizu-wsu/ProvenanceOWL/master/EntityWithProvenanceOntologyPattern.owl ";
 	IRI[24]="https://curate.nd.edu/downloads/9p29086355b";
 	IRI[25]="http://semantic.cs.put.poznan.pl/ontologies/reportingevent.owl";
@@ -495,7 +495,7 @@ public class odpdescription {
 		
 		ls3.addAll(e.findsimilarity(sts));
 		StringEqualityPercentCheckUsingJaroWinklerDistance c=new StringEqualityPercentCheckUsingJaroWinklerDistance();
-		for(int i=0;i<39;i++) {
+		for(int i=0;i<147;i++) {
 			double d=c.similarity(st, arr[i]);
 			ls.add(d);
 			ls1.add(arr1[i]);
@@ -504,9 +504,11 @@ public class odpdescription {
 		}
 		for(int i=0;i<ls.size();i++) {
 			ls4.add(ls.get(i)+ls3.get(i));
+		
 		}
+		System.out.println(ls4.size());
 		for(int j=0;j<ls4.size()-1;j++) {
-			for (int i=0;i<ls4.size()-j-1;i++) {
+			for (int i=0;i<ls4.size()-1;i++) {
     		
 				if(ls4.get(i)<ls4.get(i+1)) {
 					Collections.swap(ls4,i,i+1);
@@ -519,7 +521,7 @@ public class odpdescription {
     	for (int i=0;i<7;i++) {
     		
     		
-    		System.out.println("Rank "+(i+1)+" ODP is :"+ls.get(i)+" with scores: "+ls1.get(i)+"  IRI:"+ls5.get(i));
+    		System.out.println("Rank "+(i+1)+" ODP is :"+ls4.get(i)+" with scores: "+ls1.get(i)+"  IRI:"+ls5.get(i));
     		ls2.add(ls1.get(i));
     	
     }
@@ -544,10 +546,9 @@ public class odpdescription {
 		System.out.print("Enter description for ontology");
 		String st=sc.nextLine();
 		
-		String sts[]= {"Sports"," News"
-				};
+		String sts[]= {"Person","Professor"};
 		d.findsimilarity(st, sts);
-		d.findsimilarity1(st,sts);
+		//d.findsimilarity1(st,sts);
 		
 	}
   

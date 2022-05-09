@@ -270,8 +270,8 @@ public class vocabelements {
 					else {
 					double d=c.similarity((myList.get(i))[j],st );
 					
-				if(d>=0.65) {
-					count1++;
+				if(d>=0.75) {
+					count=count+1;
 				}
 					}
 			
@@ -279,7 +279,7 @@ public class vocabelements {
 		}
 				
 			
-			double e=(count+count1);
+			double e=(count);
 			//System.out.println(myList.get(i)+" "+e);
 			counts.add(e);
 			
@@ -290,7 +290,7 @@ public class vocabelements {
 
 		
 		for(int i=0;i<vocabnames.size();i++) {
-			if(counts.get(i)>0.5) {
+			if(counts.get(i)>=1) {
 				int l=i;
 				System.out.println(i);
 				ls2.add(" "+vocabnames.get(l));
@@ -308,7 +308,7 @@ public class vocabelements {
 		
 		for(int i=0;i<ls2.size();i++) {
 			System.out.println(ls2.get(i));
-			System.out.println(counts.get(i));
+			//System.out.println(counts.get(i));
 			
 		}
 		return ls2;

@@ -349,13 +349,13 @@ public class odpelements {
 			for(int j=0;j<myList.get(i).length;j++) {
 				for(int k=0;k<st.length;k++) {
 					if((myList.get(i))[j].equalsIgnoreCase(st[k])) {
-						count=count+25;
+						count=count+20;
 					}
 					else {
 					double d=c.similarity((myList.get(i))[j], st[k]);
 					
 				if(d>=0.85) {
-					count1++;
+					count=count+1;
 				}
 					}
 			
