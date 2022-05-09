@@ -30,11 +30,12 @@ public class vocabelements {
 			count=0;
 			count1=0;
 			for(int j=0;j<myList.get(i).length;j++) {
-					
+					//if the term is present in vocabulary
 					if((myList.get(i))[j].equalsIgnoreCase(st)) {
 						count=count+20;
 					}
 					else {
+					//if the term matches greater than threshold of 0.75
 					double d=c.similarity((myList.get(i))[j],st );
 					
 				if(d>=0.75) {
@@ -57,11 +58,12 @@ public class vocabelements {
 
 		
 		for(int i=0;i<vocabnames.size();i++) {
+			//only considering vocab with count greater than 1.0 for relevant recommendations
 			if(counts.get(i)>=1) {
 				int l=i;
-				//System.out.println(i);
+				
 				ls2.add(" "+vocabnames.get(l));
-				//ls3.add("Description: "+desc.get(l));
+				
 				ls4.add("IRI: "+uri[l]);
 			}
 			
@@ -75,19 +77,13 @@ public class vocabelements {
 		
 		for(int i=0;i<ls2.size();i++) {
 			System.out.println(ls2.get(i));
-			//System.out.println(counts.get(i));
+			
 			
 		}
 		return ls2;
     	}
 		
-    	/*public List<String> description(String st){
-    		for(int i=0;i<ls3.size();i++) {
-    			System.out.println(ls3.get(i));
-    		}
-    		return ls3;
-    		
-    	}*/
+   
     	public List<String> URI(String st){
     		for(int i=0;i<ls4.size();i++) {
     			System.out.println(ls4.get(i));
@@ -99,11 +95,11 @@ public class vocabelements {
    public static void main(String args[]) {
 		vocabelements d=new vocabelements();
 		Scanner sc=new Scanner(System.in);
-		//System.out.print("Enter description for ontology");
+	
 		
 		String st= "Fishery";
 		d.findsimilarity(st);
-		//d.description(st);
+		
 		d.URI(st);
 		
 		
