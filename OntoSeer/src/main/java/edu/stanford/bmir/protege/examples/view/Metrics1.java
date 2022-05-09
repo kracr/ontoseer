@@ -249,6 +249,7 @@ public class Metrics1 extends JPanel implements ItemListener {
   
             l1.setText(c1.getSelectedItem().toString() + " selected"); 
             String value= c1.getSelectedItem().toString();
+		//checking for term selection
             if(value.equalsIgnoreCase("--select--")) {
             	l2.setText("Please select or make a class");
             }
@@ -256,6 +257,7 @@ public class Metrics1 extends JPanel implements ItemListener {
             List<String>ls=new ArrayList<String>();
             
             naming_conventions s=new naming_conventions();
+	    //recommendations
             ls.addAll(s.recom(c1.getSelectedItem().toString()));
             String labelText ="<html>1. "+ls.get(0);
             l2.setText(labelText);
