@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 public class namingconventionprop {
+	/* converting to camel case*/
 	public  String convertToCamelCaseproperties(String sentence) {
 		String sentence1=sentence; 
 		// Extract all words
@@ -45,6 +46,7 @@ public class namingconventionprop {
 		String result = sb.toString().trim();
 		return result;
 	}
+	/*converting to inverse camel case*/
 	public String convertproperties(String classname) {
 		String words1[]=classname.split(" ");
 		StringBuilder sb = new StringBuilder();
@@ -86,6 +88,7 @@ public class namingconventionprop {
 		boolean found = matcher.find();
 		return found;
 	}
+	/*Removing all special characters*/
 	public List<String> recomproperties(String classname) {
 		List<String>ls=new ArrayList<String>();
 		 String EMPTY = "";
@@ -127,6 +130,7 @@ public class namingconventionprop {
 	
 	}
 	}
+	/*remove space and replace with underscore*/
 	public String remove_spaceproperties(String classname) {
 		classname=classname.replaceAll("\\p{Punct}",""); 
 	       char[] charArray = classname.toCharArray();
@@ -202,15 +206,7 @@ public class namingconventionprop {
 			ls1.addAll(s.recomproperties("Person?&@!_under"));
 			System.out.println(ls.size());
 			System.out.println(ls1.size());
-			/*
-			ls.addAll(s.recom("Person news"));
-			ls.addAll(s.recom("@#%"));
-			ls.addAll(s.recom("1234"));
-			ls.addAll(s.recom("1234_"));
-			ls.addAll(s.recom("1234_Person"));
-			ls.addAll(s.recom("1234 Person"));
-			ls.addAll(s.recom("Person_news"));
-			*/
+	
 		for(int i=0;i<ls.size();i++) {
 				
 				System.out.println(ls.get(i));
