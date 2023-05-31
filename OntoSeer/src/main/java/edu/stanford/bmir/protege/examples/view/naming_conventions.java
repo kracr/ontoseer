@@ -1,6 +1,5 @@
 package edu.stanford.bmir.protege.examples.view;
 import java.util.ArrayList;
-
 import java.util.Arrays;
 import java.util.List;
 import java.util.regex.Matcher;
@@ -9,7 +8,6 @@ import java.util.regex.Matcher;
 
 import java.util.regex.Pattern;
 public class naming_conventions {
-	/*converting to camel case*/
 	public  String convertToCamelCase(String sentence) {
 		String sentence1=sentence; 
 		// Extract all words
@@ -36,7 +34,7 @@ public class naming_conventions {
 		String result = sb.toString().trim();
 		return result;
 	}
-	/*convert to inverse camel case*/
+	
 	public  String convertToCamelCaseproperties(String sentence) {
 		String sentence1=sentence; 
 		// Extract all words
@@ -119,7 +117,6 @@ public class naming_conventions {
 		String s=n.convertToCamelCaseproperties(result);
 		return s;
 	}
-	/*checking whether string is alphabet*/
 	public  String isStringOnlyAlphabet(String str) 
 	{ 
 		String d=str;
@@ -177,7 +174,6 @@ public class naming_conventions {
 		System.out.println(ls1.get(i));
 	}
 	}
-	/*removing all special characters*/
 	public List<String> recom(String classname) {
 		List<String>ls=new ArrayList<String>();
 		 String EMPTY = "";
@@ -261,7 +257,7 @@ public class naming_conventions {
 	
 	}
 	}
-	/*removing space*/
+	
 	public String remove_space(String classname) {
 		classname=classname.replaceAll("\\p{Punct}",""); 
        char[] charArray = classname.toCharArray();

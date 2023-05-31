@@ -1,5 +1,3 @@
-/*file for axiom recommendation*/
-
 package edu.stanford.bmir.protege.examples.view;
 
 import java.io.*;
@@ -8,7 +6,7 @@ import java.nio.file.Files;
 
 import java.util.*;
 
-/*running over all the indexed tuples and matching each of the three term and storing most relevant terms in hashset*/
+
 public class retrieval {
 	
 		
@@ -18,17 +16,19 @@ public class retrieval {
 			
 			Set<String> hash_Set = new HashSet<String>(); 
 			Set<String> al = new HashSet<String>();
-		
+			//System.out.println(jw.similarity("My string", "My ntrisg"));
 			 try{
-				 
+				  // Open the file that is the first 
+				  // command line parameter
 				 File file=new File(folder);
 				 File [] files = file.listFiles();
-				 /*running over entire indexed tuples*/
 				 for (int i = 0; i < files.length; i++){
-				 
+				      //  if (files[i].isFile()){ //this line weeds out other directories/folders
+				           // System.out.println(files[i]);
+					 
 				           File fstream = new File(files[i].toString());
 				            Scanner in = null;
-			
+				  // Get the object of DataInputStream
 				  
 				        in = new Scanner(fstream);
 				        int linecount=0;
@@ -39,16 +39,27 @@ public class retrieval {
 				        {
 				            String line=in.nextLine();
 				            if(line.contains(a)){
-				            	
+				            	//System.out.println(files[i]);
 				            	al.add(files[i].toString());
 				            	hash_Set.add(line);
 				            	
 				                 
-				   
+				               
+				                //System.out.println(line);
 
 				        }
 				         }in.close();}
-		
+					  //boolean isFound = strLine.indexOf(a) !=-1? true: false;
+					 // boolean isFound1 = strLine.indexOf(b) !=-1? true: false;
+					 /* if(isFound && isFound1) {
+						  System.out.println (strLine);
+				  }
+					  else {
+						 // System.out.println("No recommendation");
+					  }*/
+				  
+				  //Close the input stream
+				 // in.close();
 				 
 				 Iterator<String> i1 = al.iterator(); 
 			        while (i1.hasNext()) 
@@ -63,7 +74,7 @@ public class retrieval {
 			            System.out.println(i.next());
 			            } 
 			        }
-			        }catch (Exception e){
+			        }catch (Exception e){//Catch exception if any
 				   e.printStackTrace();
 				  }
 			 
@@ -72,31 +83,31 @@ public class retrieval {
 			 
 			
 		}
-		/*similarity finding of terms with any of the three indexed terms of each axioms*/
+		
 		public List<String> match(String name)  {
-			
+			//System.out.println(filename+name);
 			AxiomTriples a=new AxiomTriples();
 			List<String>axioms=new ArrayList<String>();
 			axioms.addAll(a.axioms());
 			List<String> hash_Set = new ArrayList<String>();
 			List<Double>dd=new ArrayList<>();
 			int count=0;
-			//JaroWinkler similarity approach has been used
 			StringEqualityPercentCheckUsingJaroWinklerDistance c=new StringEqualityPercentCheckUsingJaroWinklerDistance();
 			try {
 			
-				  
+			//System.out.println(filename+name);
+	  
 			for(int i=0;i<axioms.size();i++) 
 			{  
-				
+				//System.out.println(lines);
 			   String s[]=axioms.get(i).split(" ");
 			
 			  
 			   for(int j=0;j<3;j++) {
-			
+				 //  System.out.println(s[i]);
 				   double d=c.similarity(s[j], name);
-				  //Threshold is kept at 0.85 after multiple iterations & only top 7 recommendations are considered
-				   if(d>=0.85&&count<8) {
+				   
+				   if(d>=0.95&&count<8) {
 					   
 					   hash_Set.add(axioms.get(i));
 					   count++;
@@ -126,7 +137,7 @@ public class retrieval {
 			s.addAll(match(s1));
 			for(int i=0;i<s.size();i++) {
 				String s2[]=s.get(i).split(" ");
-	
+			//	System.out.println(s2[0]+s2[4]);
 				if(s2[0].equalsIgnoreCase(s2[4])) {
 					s11.add(s.get(i));
 					

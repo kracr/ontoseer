@@ -64,7 +64,7 @@ public class Metrics3 extends JPanel implements ItemListener {
            Metrics m=new Metrics(modelManager);
         }
     };
-    //Property Naming recommendation Panel
+    
     public Metrics3(OWLModelManager modelManager) {
     	
     	this.modelManager = modelManager;
@@ -244,11 +244,9 @@ public class Metrics3 extends JPanel implements ItemListener {
         	namingconventionprop s=new namingconventionprop();
             String value= c1.getSelectedItem().toString();
             if(value.equalsIgnoreCase("--select--")) {
-            	//No term selected
             	l2.setText("Please select or make a  property");
             }
             else {
-            	//recommendation found
             ls1.addAll(s.recomproperties(c1.getSelectedItem().toString()));
             System.out.print(ls1.toString());
             System.out.print(c1.getSelectedItem().toString());

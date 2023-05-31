@@ -12,6 +12,9 @@ import javax.swing.text.*;
 import java.awt.Color;
 import java.awt.FlowLayout;
 import java.awt.Font;
+import java.awt.GridBagConstraints;
+import java.awt.GridBagLayout;
+import java.awt.Insets;
 
 
 import java.awt.event.*; 
@@ -31,22 +34,21 @@ import org.semanticweb.owlapi.model.OWLObjectProperty;
 public class Metrics extends JPanel implements ItemListener {
 	
 
-    private JButton refreshButton = new JButton("Axiom Recommendation");
-    private JButton refreshButton1 = new JButton("ODP Recommendation");
-    private JButton refreshButton2 = new JButton("Class Naming  Recommendation");
-    private JButton refreshButton3 = new JButton("Vocabulary Recommendation");
-    private JButton refreshButton4 = new JButton("Class Hierarchy Validation");
-    private JButton refreshButton5 = new JButton("Property Naming Recommendation");
+    private JButton refreshButton  = new JButton("<html>Axiom Recommendation          </html>");
+    private JButton refreshButton1 = new JButton("<html>ODP Recommendation            </html>");
+    private JButton refreshButton2 = new JButton("<html>Class Naming  Recommendation  </html>");
+    private JButton refreshButton3 = new JButton("<html>Vocabulary Recommendation     </html>");
+    private JButton refreshButton4 = new JButton("<html>Class Hierarchy Validation    </html>");
+    private JButton refreshButton5 = new JButton("<html>Property Naming Recommendation</html>");
 
-    private JLabel textComponent = new JLabel();
-    private JLabel textComponent1 = new JLabel();
-    private JLabel textComponent2 = new JLabel();
 
     public JTextPane textPane = new JTextPane();
     public JTextArea textArea = new JTextArea(20,20);
     public JTextArea textArea1 = new JTextArea(1,100);
     public JTextArea textArea2 = new JTextArea(20,20);
     JScrollPane scrollPane = new JScrollPane(); 
+
+    static JPanel MainPanel = new JPanel(new GridBagLayout());
    
     static JFrame f; 
     
@@ -57,8 +59,6 @@ public class Metrics extends JPanel implements ItemListener {
     static JComboBox c1, c2; 
     private OWLModelManager modelManager;
 
-    private int xts,yts,zts;
-   // private ActionListener refreshAction = e -> recalculate();
     private ActionListener refreshAction1 = e -> recalculate1();
     private ActionListener refreshAction2 = e -> recalculate2();
     private ActionListener refreshAction3 = e -> recalculate3();
@@ -70,38 +70,59 @@ public class Metrics extends JPanel implements ItemListener {
            Metrics m=new Metrics(modelManager);
         }
     };
-    //buttons and actionListener initiated
+    
     public Metrics(OWLModelManager modelManager) {
     	
     	this.modelManager = modelManager;
-       // recalculate();
         
         modelManager.addListener(modelListener);
         
-       refreshButton.addActionListener(refreshAction4);
-       // refreshButton1.addActionListener(refreshAction);
-        //refreshButton2.addActionListener(refreshAction);
-       refreshButton3.addActionListener(refreshAction1);
-       refreshButton2.addActionListener(refreshAction2);
-       refreshButton1.addActionListener(refreshAction3);
-       refreshButton4.addActionListener(refreshAction5);
+        //add action listener to buttons
+        refreshButton.addActionListener(refreshAction4);
+        refreshButton2.addActionListener(refreshAction2);
+        refreshButton3.addActionListener(refreshAction1);
+        refreshButton4.addActionListener(refreshAction5);
+        refreshButton1.addActionListener(refreshAction3);
         refreshButton5.addActionListener(refreshAction6);
- 
-        
-       // add(textArea1);
-        add(refreshButton1);
-       add(refreshButton);
-        add(refreshButton2);
-        add(refreshButton3);
-        add(refreshButton4);
-        add(refreshButton5);
-       
-        //textArea1.setEditable(true);
-     //   add(refreshButton1);
-      //  add(refreshButton2);
-      //  add(refreshButton3);
-        
 
+        refreshButton.setFont(refreshButton.getFont().deriveFont(Font.BOLD));
+        refreshButton1.setFont(refreshButton1.getFont().deriveFont(Font.BOLD));
+        refreshButton2.setFont(refreshButton2.getFont().deriveFont(Font.BOLD));
+        refreshButton3.setFont(refreshButton3.getFont().deriveFont(Font.BOLD));
+        refreshButton4.setFont(refreshButton4.getFont().deriveFont(Font.BOLD));
+        refreshButton5.setFont(refreshButton5.getFont().deriveFont(Font.BOLD));
+
+        
+       //add tooltips
+       refreshButton.setToolTipText("<html>Retrieve axioms from ontology corpus that have the closest match with entities like class and properties of the current ontology</html>");
+       refreshButton1.setToolTipText("<html>ODP or Ontology design patterns helps in resuing design solution approved by communities.<br>ODP will be given by using description, competency question and domain of current ontology.<br></html>");
+       refreshButton2.setToolTipText("<html>Suggest class name according to ontology conventions</html>");
+       refreshButton3.setToolTipText("<html>Get vocabulary recommedation from Linked Open VOcabularies (LOV)</html>");
+       refreshButton4.setToolTipText("<html>Determining class hierarchy of the ontology using rigidity (R), identity (I) and unity (U) characteristics.</html>");
+       refreshButton5.setToolTipText("<html>Suggest property name according to ontology conventions</html>");
+ 
+       GridBagConstraints constraints = new GridBagConstraints();        
+        constraints.insets = new Insets(5,5,5,5);
+        constraints.anchor = GridBagConstraints.CENTER;
+        constraints.fill = GridBagConstraints.HORIZONTAL;
+        constraints.ipady = 15;
+
+        constraints.gridx = 0;
+        constraints.gridy = 0;
+        MainPanel.add(refreshButton1, constraints);
+        constraints.gridy = 1;
+        MainPanel.add(refreshButton, constraints);
+        constraints.gridy = 2;
+        MainPanel.add(refreshButton2, constraints);
+        constraints.gridy = 3;
+        MainPanel.add(refreshButton3, constraints);
+        constraints.gridy = 4;
+        MainPanel.add(refreshButton4, constraints);
+        constraints.gridy = 5;
+        MainPanel.add(refreshButton5, constraints);
+        
+        add(MainPanel);
+       
         textArea1.append("Please make at least 2 classes and 2 properties to get recommendations through OntoSeer.");
         textArea1.setFont(textArea1.getFont().deriveFont(Font.BOLD, textArea1.getFont().getSize()));
         Font font = new Font("Serif",Font.PLAIN, 14);
@@ -137,8 +158,6 @@ public class Metrics extends JPanel implements ItemListener {
     }
     
     @SuppressWarnings({ "unchecked", "unlikely-arg-type" })
-    
-    // all the terms are collected from active ontology
 	private void recalculate1() {
     	try {
     	
@@ -181,7 +200,7 @@ public class Metrics extends JPanel implements ItemListener {
         
         Set<OWLObjectProperty>zt=modelManager.getActiveOntology().getObjectPropertiesInSignature();
         System.out.println(zt);
-     
+       // Vocabsuggesstionpanel v=new Vocabsuggesstionpanel();
         naming_panel p=new naming_panel();
         
         for(OWLClass c:xt) {
@@ -477,7 +496,7 @@ public class Metrics extends JPanel implements ItemListener {
     		e.printStackTrace();
     	}
     }
-    /*Vocabulary Recommendation Panel Code*/
+    
     public  void main(String args[]) {
     	Metrics m=new Metrics(modelManager);
     }
@@ -488,33 +507,16 @@ public class Metrics extends JPanel implements ItemListener {
         // create a object 
        Metrics  s = new  Metrics(modelManager);
   
-        // array of string contating cities 
         String s1[] = new String[s_run.size()];
         s_run.toArray(s1);
-       // String s2[] = { "male", "female", "others" }; 
-  
-        // create checkbox 
-        c1 = new JComboBox(s1); 
-       // c2 = new JComboBox(s2); 
-  
-        // set Kolakata and male as selected items 
-        // using setSelectedIndex 
+        c1 = new JComboBox(s1);  
         c1.setSelectedIndex(0); 
-      //  c2.setSelectedIndex(0); 
-  
-        // add ItemListener 
         c1.addItemListener(s); 
-   //     c2.addItemListener(s); 
-  
-        // set the checkbox as editable 
         c1.setEditable(true); 
   
         // create labels 
         l = new JLabel("Select Class or property"); 
-       // l1 = new JLabel(c1.getSelectedItem().toString()+" class selected"); 
         List<String>ls=new ArrayList<String>();
-       //S JsonReader j=new JsonReader();
-        //ls.addAll(j.vocab(c1.getSelectedItem().toString()));
         textArea = new JTextArea(20,20);
         l2=new JLabel(" Please select or make a class or a property          ");
         l3=new JLabel("            ");
@@ -545,10 +547,8 @@ public class Metrics extends JPanel implements ItemListener {
         );
   
         // set color of text 
-        l.setForeground(Color.BLACK); 
-       // l1.setForeground(Color.BLACK); 
+        l.setForeground(Color.BLACK);  
         l2.setForeground(Color.BLACK);
-
         l3.setForeground(Color.BLACK); 
         l4.setForeground(Color.BLACK); 
         l5.setForeground(Color.BLACK); 
@@ -569,38 +569,23 @@ public class Metrics extends JPanel implements ItemListener {
     
         p.add(l20);
         p.add(l); 
-        
-        
-       // p.add(l3);
-        //p.add(l4);
-        // add combobox to panel 
         p.add(c1); 
-       
         p.add(l6);
-       
         p.add(l2);
-       
-   
         p.add(l7);
-       
         p.add(l13);
         p.add(l8);
         p.add(l9);
         p.add(l14);
         p.add(l15);
         p.add(l16);
-    
         p.add(l17);
         p.add(l18);
         p.add(l19);
         p.add(l20);
-        
-        
         p.add(l4);
         p.add(l5);
   
-      //  p.add(l1); 
-
         l2.setFont(new Font("Serif", Font.PLAIN, 16));
         l.setFont(new Font("Serif", Font.PLAIN, 16));
         // set a layout for panel 
@@ -633,19 +618,17 @@ public class Metrics extends JPanel implements ItemListener {
             List<String>ls2=new ArrayList<String>();
            // String value= c1.getSelectedItem().toString();
             if(value.equalsIgnoreCase("--select--")) {
-            	//No term name is selected
             	l2.setText("Please select a class or property");
             }
             else {
-            // vocab recommendations stored
             ls.addAll(v.findsimilarity(value));
             ls1.addAll(v.URI(value));
             ls2.addAll(v.description(value));
-     
+
             if(ls.size()==0) {
             	l2.setText("No Recommendation Found");
-            	 l3.setText("");
-                 l4.setText("");	
+            	l3.setText("");
+                l4.setText("");	
             	
             }
             if(ls.size()==1) {
@@ -654,22 +637,19 @@ public class Metrics extends JPanel implements ItemListener {
                  	
             }
             else {
-            	String labelText ="<html>1. "+ls.get(0)+"<br>"+ls1.get(0)+"<br>"+"<br>2. "+ls.get(1)+"<br>"+ls1.get(1)+"<br>"+ls.get(2)+"<br>"+ls1.get(2)+"</html>";
+            	String labelText ="<html>1. "+ls.get(0)+"<br>"+ls1.get(0)+"<br>"+"<br>2. "+ls.get(1)+"<br>"+ls1.get(1)+"</html>";
                 l2.setText(labelText);
                 l3.setText(" ");
-                
             	
             }
           
  
             	
             System.out.println(value);
-           // s(value);
 
         } 
         }
   
-
     }
     catch(Exception E) {
     	E.printStackTrace();
@@ -738,7 +718,6 @@ public class Metrics extends JPanel implements ItemListener {
             	if(s.equalsIgnoreCase("owl:Thing")) {
             		//yt34.remove(s);
             	}
-            	//only taking the term name removing the IRIs for each term
             	else if(s.contains(":") && !s.contains("#")) {
             		int i=s.lastIndexOf('/');
             		String s11=s.substring(i+1,s.length()-1);
@@ -1021,8 +1000,7 @@ public class Metrics extends JPanel implements ItemListener {
     		e.printStackTrace();
     	}
     }
-    
-    
+        
     @SuppressWarnings("unchecked")
   	private void recalculate5() {
     	

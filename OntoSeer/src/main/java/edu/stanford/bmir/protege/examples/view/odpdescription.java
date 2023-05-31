@@ -1,5 +1,3 @@
-
-
 package edu.stanford.bmir.protege.examples.view;
 import java.io.*;
 import java.util.*;
@@ -8,16 +6,18 @@ import org.semanticweb.owlapi.model.OWLClass;
 
 
 public class odpdescription {
-	public String arr[]=new String[200];
-	public String arr1[]=new String[200];
-	public String IRI[]=new String[200];
+	List<String> arr;
+	List<String> arr1;
+	List<String> IRI;
 	List<String>ls5;
 	List<Double>ls;
-	odpdescription() {
+	public odpdescription() {
 
 	
 	
-	
+	IRI=new ArrayList<String>();
+	arr=new ArrayList<String>();
+	arr1=new ArrayList<String>();
 	
 	ls5=new ArrayList<String>();
 	ls=new ArrayList<Double>();
@@ -25,11 +25,86 @@ public class odpdescription {
 	
 }
 	
-	/*checking similarity of terms and description and generating score with weighted values*/
+    public List<String> readFileUri() {
+    	String fileName="/odpuri.txt";
+        try {
+        	int count=0;
+            
+            BufferedReader br = new BufferedReader(new InputStreamReader(
+                    this.getClass().getResourceAsStream( fileName), "UTF-8"));
+ 
+            String line = null;
+
+            while ((line = br.readLine()) != null) {
+            	count++;
+            	IRI.add(line);
+            	
+            	}
+            return IRI;
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+            return IRI;
+        } catch (IOException e) {
+            e.printStackTrace();
+            return IRI;
+        }
+    }
+    public List<String> readFiledescription() {
+    	String fileName="/odpdescription.txt";
+        try {
+        	int count=0;
+            
+            BufferedReader br = new BufferedReader(new InputStreamReader(
+                    this.getClass().getResourceAsStream( fileName), "UTF-8"));
+ 
+            String line = null;
+
+            while ((line = br.readLine()) != null) {
+            	count++;
+            	arr.add(line);
+            	
+            	}
+            return arr;
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+            return arr;
+        } catch (IOException e) {
+            e.printStackTrace();
+            return arr;
+        }
+    }
+    
+    public List<String> readFileNames() {
+    	String fileName="/odpnames.txt";
+        try {
+        	int count=0;
+            
+            BufferedReader br = new BufferedReader(new InputStreamReader(
+                    this.getClass().getResourceAsStream( fileName), "UTF-8"));
+ 
+            String line = null;
+
+            while ((line = br.readLine()) != null) {
+            	count++;
+            	arr1.add(line);
+            	
+            	}
+            return arr1;
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+            return arr1;
+        } catch (IOException e) {
+            e.printStackTrace();
+            return arr1;
+        }
+    }
+	
 	public List<String> findsimilarity(String st,String sts[]) {
 		odpelements e=new odpelements();
-		
-
+		odpdescription v=new odpdescription();
+		IRI=v.readFileUri();
+		arr=v.readFiledescription();
+		arr1=v.readFileNames();
 		List<String>ls1=new ArrayList<String>();
 		List<String>ls2=new ArrayList<String>();
 		List<Double>ls3=new ArrayList<Double>();
@@ -37,18 +112,13 @@ public class odpdescription {
 		
 		ls3.addAll(e.findsimilarity(sts));
 		StringEqualityPercentCheckUsingJaroWinklerDistance c=new StringEqualityPercentCheckUsingJaroWinklerDistance();
-		/*147 odps are indexed*/
 		for(int i=0;i<147;i++) {
-			double d=0.0;
-			
-			d=c.similarity(st, arr[i]); //calling the JaroWinkler similarity function
+			double d=c.similarity(st, arr.get(i));
 			ls.add(d);
-			ls1.add(arr1[i]);
-			ls5.add(IRI[i]);
+			ls1.add(arr1.get(i));
+			ls5.add(IRI.get(i));
 			
 		}
-		
-		/*addition of scores of terms matching, description matching */
 		for(int i=0;i<ls.size();i++) {
 			ls4.add(ls.get(i)+ls3.get(i));
 		
@@ -65,7 +135,6 @@ public class odpdescription {
     		}
     	}
 		}
-		/*considering only the TOP 7 recommendations*/
     	for (int i=0;i<7;i++) {
     		
     		
@@ -76,7 +145,6 @@ public class odpdescription {
 		return ls2;
 		
 	}
-	/*checking similarity of description*/
 	public List<String> findsimilarity1(String st,String sts[]){
 		odpdescription d=new odpdescription();
 		
@@ -97,7 +165,6 @@ public class odpdescription {
 		
 		String sts[]= {"Person","Professor"};
 		d.findsimilarity(st, sts);
-		//d.findsimilarity1(st,sts);
 		
 	}
   

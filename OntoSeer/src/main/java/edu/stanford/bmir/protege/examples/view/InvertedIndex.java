@@ -1,8 +1,12 @@
 package edu.stanford.bmir.protege.examples.view;
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -14,7 +18,8 @@ import java.util.Set;
 import java.util.*;
 
 public class InvertedIndex {
-	List<String> stopwords = Arrays.asList("https://","IRI","Class","Declaration");
+	
+	List<String> stopwords = Arrays.asList("https://","IRI","Class","Declaration","subclassof","subpropertiesof");
 
 	Map<String, List<Tuple>> index = new HashMap<String, List<Tuple>>();
 	List<String> files = new ArrayList<String>();
@@ -27,6 +32,7 @@ public class InvertedIndex {
 		}
 
 		int pos = 0;
+		
 		BufferedReader reader = new BufferedReader(new FileReader(file));
 		for (String line = reader.readLine(); line != null; line = reader
 				.readLine()) {
@@ -35,19 +41,88 @@ public class InvertedIndex {
 				pos++;
 				if (stopwords.contains(word))
 					continue;
-				//creating the inverted index tuple
 				List<Tuple> idx = index.get(word);
 				if (idx == null) {
 					idx = new LinkedList<Tuple>();
 					index.put(word, idx);
+					//System.out.println(word+"idx"+idx.toString());
 				}
 				idx.add(new Tuple(fileno, pos));
+				Tuple t=new Tuple(fileno,pos);
+				System.out.println("word "+word+"FileNo"+t.getfileno()+"Position"+t.getposition());
+			    try {
+			        String str = word+","+t.getfileno();
+			        int n=t.getfileno();
+			    
+		            	     BufferedWriter writer = new BufferedWriter(new FileWriter("/home/pramit79/index.txt", true));
+		            	     writer.append('\n');
+		 			         writer.append(str);
+		 			        
+		 			        writer.close();
+		            	}
+			        	
+			        
+			   
+			    
+			       catch (IOException e) {
+			        System.out.println("An error occurred.");
+			        e.printStackTrace();
+			      }
+				
+				
+				
+
 			}
+			 
 		}
-		System.out.println("indexed " + file.getPath() + " " + pos + " words");
+
+		
 	}
 //Searching the index
-	public void search(List<String> words) {
+	public List<String> search(String word) {
+		List<String> myList= new ArrayList<String>();
+		List<String> myList1= new ArrayList<String>();
+		List<String> indexretrieval= new ArrayList<String>();
+		String fileName="/index.txt";
+		StringEqualityPercentCheckUsingJaroWinklerDistance c=new StringEqualityPercentCheckUsingJaroWinklerDistance();
+	      try {
+	        	int count=0;
+	            
+	            BufferedReader br = new BufferedReader(new InputStreamReader(
+	                    this.getClass().getResourceAsStream(fileName), "UTF-8"));
+	 
+	            String line = null;
+
+	            while ((line = br.readLine()) != null) {
+	            	count++;
+	            	String arr[]=null;
+	            	arr = line.split(",");  
+	            	myList.add(arr[0]);
+	            	myList1.add(arr[1]);
+	            	if(myList.indexOf(word)!=-1) {
+	            		
+	            		indexretrieval.add(arr[1]);
+	            		
+	            	}
+	            	else {
+	            		double d=c.similarity(arr[0],word );
+	            		if(d>=0.75) {
+	            			indexretrieval.add(arr[1]);
+	            		}
+	            	}
+	            	
+	            	}
+	            System.out.println(indexretrieval.toString());
+	            return indexretrieval;
+	        } catch (UnsupportedEncodingException e) {
+	            e.printStackTrace();
+	            return indexretrieval;
+	        } catch (IOException e) {
+	            e.printStackTrace();
+	            return indexretrieval;
+	        }
+		
+	/*	
 		for (String _word : words) {
 			Set<String> answer = new HashSet<String>();
 			String word = _word.toLowerCase();
@@ -63,13 +138,13 @@ public class InvertedIndex {
 			}
 			System.out.println("");
 		}
+		*/
 	}
-
-	public static void main(String[] args) {
+	
+	public void index(String st) {
 		try {
 			InvertedIndex idx = new InvertedIndex();
 			Scanner sc=new Scanner(System.in);
-			//File path of owl files
 			System.out.println("Enter file path to index");
 			String trial=sc.nextLine();
 			List<String>files=new ArrayList<>();
@@ -78,25 +153,16 @@ public class InvertedIndex {
 			if (directoryListing != null) {
 			    for (File file : directoryListing) {
 			  
-			    	System.out.println(file.toString());
+			    	//System.out.println(file.toString());
 			    	idx.indexFile(file);
-			    	System.out.println("Done indexing");
+			  
+			    	//System.out.println("Done indexing");
 					
 			    }
 			}
 			
-			    
-
-			
 		
-			
-			List<String>words=new ArrayList<>();
-			// Query words
-			System.out.println("Please enter the words you want to search");
-			Scanner sc1=new Scanner(System.in);
-			String lrt=sc1.nextLine();
-			words.add(lrt);
-			idx.search(words);
+		//	idx.search(st);
 
 			
 		} catch (Exception e) {
@@ -104,14 +170,33 @@ public class InvertedIndex {
 		}
 	}
 
-	//Tuple class of inverted index with filename and positions
-	private class Tuple {
-		private int fileno;
-		private int position;
+	public static void main(String[] args) {
+		try {
+			InvertedIndex idx = new InvertedIndex();
+			
+			/*generate index over folder*/
+			idx.index("resource");
+			/*searching for terms in index*/
+			idx.search("resour");
+		}
+			catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	class Tuple {
+		 int fileno;
+		 int position;
 
 		public Tuple(int fileno, int position) {
 			this.fileno = fileno;
 			this.position = position;
+		}
+		public int getfileno() {
+			return this.fileno;
+		}
+		public int getposition() {
+			return this.position;
 		}
 	}
 
