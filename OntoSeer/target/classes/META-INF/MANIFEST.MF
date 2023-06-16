@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1652102971874
-Build-Jdk: 1.8.0_281
-Built-By: Sam
+Bnd-LastModified: 1686903435427
+Build-Jdk: 1.8.0_292
+Built-By: pramit67
 Bundle-Activator: org.protege.editor.owl.ProtegeOWL
 Bundle-Description: Example plug-ins for the Protege Desktop ontology ed
  itor, e.g., views, menu items, etc.
@@ -12,11 +12,11 @@ Bundle-Vendor: The Protege Development Team
 Bundle-Version: 2.0.0.SNAPSHOT
 Created-By: Apache Maven Bundle Plugin
 Embed-Dependency: json;scope=compile;inline=true
-Export-Package: edu.stanford.bmir.protege.examples.menu;uses:="org.prote
- ge.editor.owl.ui.action";version="2.0.0",edu.stanford.bmir.protege.exam
- ples.tab;uses:="org.protege.editor.owl.ui";version="2.0.0",edu.stanford
- .bmir.protege.examples.view;uses:="javax.swing,org.protege.editor.owl.m
- odel,org.protege.editor.owl.ui.view";version="2.0.0"
+Export-Package: edu.stanford.bmir.protege.examples.tab;uses:="org.proteg
+ e.editor.owl.ui";version="2.0.0",edu.stanford.bmir.protege.examples.vie
+ w;uses:="javax.swing,org.protege.editor.owl.model,org.protege.editor.ow
+ l.ui.view";version="2.0.0",edu.stanford.bmir.protege.examples.menu;uses
+ :="org.protege.editor.owl.ui.action";version="2.0.0"
 Import-Package: javax.swing,javax.swing.border,org.protege.editor.owl;ve
  rsion="[5.0,6)",org.protege.editor.owl.model;version="[5.0,6)",org.prot
  ege.editor.owl.model.event;version="[5.0,6)",org.protege.editor.owl.mod

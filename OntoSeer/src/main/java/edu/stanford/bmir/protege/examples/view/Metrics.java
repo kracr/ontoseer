@@ -5,7 +5,12 @@ import javax.net.ssl.HttpsURLConnection;
 import javax.net.ssl.SSLContext;
 import javax.net.ssl.TrustManager;
 import javax.net.ssl.X509TrustManager;
-import java.io.OutputStream; 
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
+import java.io.UnsupportedEncodingException;
+import java.net.URL;
 
 import javax.swing.text.*;
 
@@ -59,7 +64,14 @@ public class Metrics extends JPanel implements ItemListener {
     static JComboBox c1, c2; 
     private OWLModelManager modelManager;
 
-    private ActionListener refreshAction1 = e -> recalculate1();
+    private ActionListener refreshAction1 = e -> {
+		try {
+			recalculate1();
+		} catch (UnsupportedEncodingException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+	};
     private ActionListener refreshAction2 = e -> recalculate2();
     private ActionListener refreshAction3 = e -> recalculate3();
     private ActionListener refreshAction4 = e -> recalculate4();
@@ -158,7 +170,18 @@ public class Metrics extends JPanel implements ItemListener {
     }
     
     @SuppressWarnings({ "unchecked", "unlikely-arg-type" })
-	private void recalculate1() {
+	private void recalculate1() throws UnsupportedEncodingException {
+    	String fileName="/index.txt";
+    	String fileName1="/axiom.txt";
+     
+        URL u = Metrics.class.getResource(fileName);
+        URL u1 = Metrics.class.getResource(fileName1);
+        if (u == null && u1==null) {
+                System.out.println("No index file");
+        }
+        else {
+        
+    	
     	try {
     	
         int count = modelManager.getActiveOntology().getClassesInSignature().size();
@@ -322,12 +345,21 @@ public class Metrics extends JPanel implements ItemListener {
     	}catch(Exception e) {
         	e.printStackTrace();
         }
-
+        }
         
     }
     
     @SuppressWarnings("unchecked")
   	private void recalculate2() {
+       	String fileName="/index.txt";
+    	String fileName1="/axiom.txt";
+     
+        URL u = Metrics.class.getResource(fileName);
+        URL u1 = Metrics.class.getResource(fileName1);
+        if (u == null && u1==null) {
+                System.out.println("No index file");
+        }
+        else {
     	
     	try {
         	
@@ -495,6 +527,7 @@ public class Metrics extends JPanel implements ItemListener {
     	catch(Exception e) {
     		e.printStackTrace();
     	}
+        }
     }
     
     public  void main(String args[]) {
@@ -654,11 +687,21 @@ public class Metrics extends JPanel implements ItemListener {
     catch(Exception E) {
     	E.printStackTrace();
     }
-    }	
+    }
+    
     
 
     @SuppressWarnings("unchecked")
   	private void recalculate3() {
+       	String fileName="/index.txt";
+    	String fileName1="/axiom.txt";
+     
+        URL u = Metrics.class.getResource(fileName);
+        URL u1 = Metrics.class.getResource(fileName1);
+        if (u == null && u1==null) {
+                System.out.println("No index file");
+        }
+        else {
     	try {
         	
             int count = modelManager.getActiveOntology().getClassesInSignature().size();
@@ -826,12 +869,22 @@ public class Metrics extends JPanel implements ItemListener {
     	catch(Exception e) {
     		e.printStackTrace();
     	}
+        }
 		
     	
     }
     
     @SuppressWarnings("unchecked")
   	private void recalculate4() {
+       	String fileName="/index.txt";
+    	String fileName1="/axiom.txt";
+     
+        URL u = Metrics.class.getResource(fileName);
+        URL u1 = Metrics.class.getResource(fileName1);
+        if (u == null && u1==null) {
+                System.out.println("No index file");
+        }
+        else {
     	
     	try {
 
@@ -999,10 +1052,20 @@ public class Metrics extends JPanel implements ItemListener {
     	catch(Exception e) {
     		e.printStackTrace();
     	}
+    	}
     }
         
     @SuppressWarnings("unchecked")
   	private void recalculate5() {
+       	String fileName="/index.txt";
+    	String fileName1="/axiom.txt";
+     
+        URL u = Metrics.class.getResource(fileName);
+        URL u1 = Metrics.class.getResource(fileName1);
+        if (u == null && u1==null) {
+                System.out.println("No index file");
+        }
+        else {
     	
     	try {
     		chatbotpanel j=new chatbotpanel();
@@ -1013,9 +1076,19 @@ public class Metrics extends JPanel implements ItemListener {
     		
     	}
     	}
+    }
     
     @SuppressWarnings("unchecked")
   	private void recalculate6() {
+       	String fileName="/index.txt";
+    	String fileName1="/axiom.txt";
+     
+        URL u = Metrics.class.getResource(fileName);
+        URL u1 = Metrics.class.getResource(fileName1);
+        if (u == null && u1==null) {
+                System.out.println("No index file");
+        }
+        else {
     	
     	try {
         	
@@ -1185,6 +1258,7 @@ public class Metrics extends JPanel implements ItemListener {
     	catch(Exception e) {
     		e.printStackTrace();
     	}
+    }
     }
         	
 
