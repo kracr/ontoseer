@@ -1,0 +1,2474 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://purl.obolibrary.org/obo/49cbd881-2b40-4dce-bcd9-d8008d983a28_ysfunction.obo"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://purl.obolibrary.org/obo/49cbd881-2b40-4dce-bcd9-d8008d983a28_ysfunction.obo">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBI-proxy.owl#birnlex_11013"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12500"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12501"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12502"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12504"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12505"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12506"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12507"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12508"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12509"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12510"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12511"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12512"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12513"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12514"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12515"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12516"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12517"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12518"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12519"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12520"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12521"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12522"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12523"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12524"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12525"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12526"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12527"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12528"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12529"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12530"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12531"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12532"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12533"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12534"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12535"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12536"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12537"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12538"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12539"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12540"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12541"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12542"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12543"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12544"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12545"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12546"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12547"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12548"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12550"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12551"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12552"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12553"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12554"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12555"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12556"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12557"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12558"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12559"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12560"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12561"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12562"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12563"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12564"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12565"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12566"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12567"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12568"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12569"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12570"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12571"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12572"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12573"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12574"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12575"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12576"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12577"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12578"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12579"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12580"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12581"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12582"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12583"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12584"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12585"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12586"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12587"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12588"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12589"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12590"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12591"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12592"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12593"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12594"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12595"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12596"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12597"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12598"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12599"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12600"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12601"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12602"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12603"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12604"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12605"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12606"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12607"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12608"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12609"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12610"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12611"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12612"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12613"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12614"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12615"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12616"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12617"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12618"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12619"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12620"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12621"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12622"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12623"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12624"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12625"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12626"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12627"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12628"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12629"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12630"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12631"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12632"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12633"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12634"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12635"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12636"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12637"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12638"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12639"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12640"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12641"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12642"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12643"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12644"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12645"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12646"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12647"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12648"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12649"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12650"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12651"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12652"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12653"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12654"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12655"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12656"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12657"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12658"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12659"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12660"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12661"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12662"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12663"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12664"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12665"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12666"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12667"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12668"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12669"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12670"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12671"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12672"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12673"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12674"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12675"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12676"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12677"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12678"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12679"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12680"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12681"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12682"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12683"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12684"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12685"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12686"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12687"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12688"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12689"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12690"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12691"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12692"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12693"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12694"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12695"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12696"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12697"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12698"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12699"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12700"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12701"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12702"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12703"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12704"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12705"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12706"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12707"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12708"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12709"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12710"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12711"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12712"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12713"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12714"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12715"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12716"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12717"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12718"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12719"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12720"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12721"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12722"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12723"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12724"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12725"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12726"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12727"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12728"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12729"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12730"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12731"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12732"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12733"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12734"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12735"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12736"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12737"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12738"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12739"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12740"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12741"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12742"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12743"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12744"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12745"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12746"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12747"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12748"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12749"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12750"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12751"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12752"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12753"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12754"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12755"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12756"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12757"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12758"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12759"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12760"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12761"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12762"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12763"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12764"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12765"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12766"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12767"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12768"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12769"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12770"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12771"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12772"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12773"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12774"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12775"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12776"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12777"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12778"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12779"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12780"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12781"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12783"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12784"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12785"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12786"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12787"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12788"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12789"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12790"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12791"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12792"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12793"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12794"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12795"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12796"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12797"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12798"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12799"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12800"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12801"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12802"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12803"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12804"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12805"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12806"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12807"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12808"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12809"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12810"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12811"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12812"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12813"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12814"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12815"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12816"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12817"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12818"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12819"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12820"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12821"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12822"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12823"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12824"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12825"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12826"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12827"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12828"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12829"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12830"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12831"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_2086"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_2092"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_2098"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_2104"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_nlx_143898"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_nlx_dys_090801"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_nlx_dys_100201"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_nlx_dys_100301"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_nlx_dys_100302"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_nlx_dys_100303"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_nlx_dys_100304"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_nlx_dys_100316"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_nlx_dys_20090301"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_nlx_dys_20090302"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_nlx_dys_20090303"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_nlx_dys_20090501"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_nlx_dys_20090502"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_nlx_dys_20090601"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_nlx_dys_20090602"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_nlx_dys_2011001"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_nlx_dys_2011002"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/skos#_ConceptScheme"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12500"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_2086"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12501"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12768"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12502"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_2086"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12504"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12500"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12505"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12500"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12506"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12500"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12507"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12796"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12508"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12507"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12509"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12508"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12510"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12508"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12511"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12510"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12512"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12510"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12513"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12508"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12514"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12508"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12515"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12514"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12516"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12515"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12517"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12515"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12518"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12514"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12519"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12508"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12520"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12508"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12521"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12520"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12522"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12521"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12523"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12520"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12524"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12796"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12525"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12796"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12526"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12507"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12527"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12526"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12528"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12526"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12529"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12526"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12530"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12529"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12531"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12529"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12532"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12529"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12533"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12526"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12534"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12533"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12535"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12533"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12536"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12533"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12537"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12533"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12538"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12526"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12539"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12538"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12540"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12538"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12541"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12538"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12542"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12526"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12543"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12542"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12544"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12542"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12545"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12542"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12546"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12526"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12547"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12546"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12548"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12546"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12550"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12546"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12551"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12507"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12552"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12507"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12553"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12507"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12554"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12553"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12555"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12554"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12556"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12553"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12557"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12556"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12558"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12556"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12559"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12556"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12560"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12556"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12561"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12579"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12562"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12546"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12563"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12553"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12564"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12507"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12565"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_2086"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12566"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12565"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12567"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12565"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12568"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12565"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12569"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12568"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12570"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12569"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12571"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12569"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12572"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12569"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12573"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_2086"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12574"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12573"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12575"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12574"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12576"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12579"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12577"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12573"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12578"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12822"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12579"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12796"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12580"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12579"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12581"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12579"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12582"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12579"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12583"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12579"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12584"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12583"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12585"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12583"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12586"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12579"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12587"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12579"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12588"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12578"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12589"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12579"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12590"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12578"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12591"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12590"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12592"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12590"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12593"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12590"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12594"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12593"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12595"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12593"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12596"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12593"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12597"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12590"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12598"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12597"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12599"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12597"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12600"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12525"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12601"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12600"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12602"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12600"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12603"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12610"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12604"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12602"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12605"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12604"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12606"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12604"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12607"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12605"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12608"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12605"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12609"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12602"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12610"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12602"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12611"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12602"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12612"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12600"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12613"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12600"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12614"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12613"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12615"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12613"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12616"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12600"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12617"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12600"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12618"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12600"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12619"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12600"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12620"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12619"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12621"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12619"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12622"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12618"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12623"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12622"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12624"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12618"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12625"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12618"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12626"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12618"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12627"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12618"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12628"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12600"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12629"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12600"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12630"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12629"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12631"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12630"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12632"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12631"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12633"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12631"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12634"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12600"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12635"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12600"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12636"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12635"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12637"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12635"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12638"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12796"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12639"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12638"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12640"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12796"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12641"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12796"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12642"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12525"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12643"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_2086"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12644"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12643"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12645"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12643"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12646"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12643"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12647"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12639"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12648"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12647"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12649"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12648"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12650"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12648"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12651"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12639"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12652"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12638"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12653"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12638"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12654"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12638"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12655"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12638"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12656"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12655"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12657"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12638"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12658"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12638"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12659"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12638"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12660"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12638"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12661"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12638"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12662"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12638"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12663"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12638"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12664"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12638"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12665"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12796"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12666"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12665"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12667"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12665"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12668"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12665"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12669"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12796"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12670"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12669"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12671"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12669"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12672"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12671"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12673"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12671"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12674"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12671"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12675"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12671"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12676"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12671"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12677"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12671"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12678"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12677"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12679"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12677"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12680"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12677"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12681"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12796"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12682"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12681"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12683"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12681"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12684"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12681"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12685"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12681"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12686"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_2086"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12687"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12686"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12688"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12687"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12689"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12687"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12690"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12686"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12691"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12686"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12692"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12686"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12693"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12686"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12694"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12686"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12695"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12686"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12696"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_2086"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12697"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12696"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12698"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12669"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12699"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12698"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12700"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12699"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12701"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12700"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12702"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12699"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12703"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12699"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12704"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12699"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12705"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12796"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12706"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12705"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12707"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12699"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12708"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12699"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12709"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12698"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12710"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12698"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12711"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12698"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12712"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12698"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12713"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12698"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12714"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12713"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12715"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12713"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12716"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12698"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12717"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12698"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12718"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12796"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12719"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12718"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12720"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12719"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12721"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12719"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12722"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12719"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12723"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12722"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12724"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12722"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12725"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12722"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12726"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12718"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12727"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12726"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12728"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12726"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12729"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12726"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12730"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12726"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12731"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12726"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12732"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12726"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12733"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12726"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12734"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12718"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12735"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12734"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12736"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12734"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12737"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12718"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12738"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12737"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12739"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12737"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12740"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12739"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12741"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12739"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12742"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12737"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12743"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12737"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12744"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12737"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12745"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12718"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12746"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12718"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12747"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12718"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12748"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12718"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12749"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12718"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12750"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12718"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12751"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12750"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12752"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12669"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12753"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12752"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12754"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12753"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12755"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12754"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12756"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12752"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12757"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12756"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12758"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12756"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12759"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12756"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12760"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12756"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12761"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12669"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12762"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12761"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12763"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12761"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12764"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_2104"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12765"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_2104"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12766"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_2104"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12767"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_2104"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12768"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12669"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12769"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12768"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12770"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12768"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12771"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12669"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12772"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12669"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12773"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12669"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12774"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12669"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12775"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12669"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12776"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12669"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12777"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12776"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12778"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12669"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12779"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBI-proxy.owl#birnlex_11013"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12780"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12796"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12781"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12780"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12783"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12780"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12784"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12783"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12785"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12784"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12786"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12785"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12787"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12785"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12788"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12785"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12789"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12785"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12790"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12785"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12791"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12784"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12792"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12791"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12793"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12791"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12794"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12791"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12795"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12780"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12796"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBI-proxy.owl#birnlex_11013"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12797"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBI-proxy.owl#birnlex_11013"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12798"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12797"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12799"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12798"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12800"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12799"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12801"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12799"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12802"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12799"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12803"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12799"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12804"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12799"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12805"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12799"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12806"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12799"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12807"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12799"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12808"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12807"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12809"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12799"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12810"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12799"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12811"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12799"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12812"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12811"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12813"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12812"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12814"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12811"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12815"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12812"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12816"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12811"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12817"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12816"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12818"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12816"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12819"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12799"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12820"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12799"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12821"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12822"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12822"/>
+        <Class IRI="http://purl.obolibrary.org/obo/skos#_ConceptScheme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12823"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12821"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12824"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12821"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12825"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12821"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12826"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12822"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12827"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12799"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12828"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12829"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12829"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12827"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12830"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12827"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12831"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_2086"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_2086"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12796"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_2092"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12696"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_2098"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_2086"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_2104"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12761"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_nlx_143898"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12667"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_nlx_dys_090801"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_2086"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_nlx_dys_100201"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_2086"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_nlx_dys_100301"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12669"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_nlx_dys_100302"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_nlx_dys_100301"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_nlx_dys_100303"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_nlx_dys_100301"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_nlx_dys_100304"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_nlx_dys_100301"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_nlx_dys_100316"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12796"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_nlx_dys_20090301"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBI-proxy.owl#birnlex_11013"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_nlx_dys_20090302"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_nlx_dys_20090301"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_nlx_dys_20090303"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_nlx_dys_20090302"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_nlx_dys_20090501"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12796"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_nlx_dys_20090502"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_nlx_dys_20090501"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_nlx_dys_20090601"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_nlx_dys_20090501"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_nlx_dys_20090602"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBI-proxy.owl#birnlex_11013"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_nlx_dys_2011001"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12568"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_nlx_dys_2011002"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NIF_Dysfunction#_birnlex_12568"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.8) http://owlapi.sourceforge.net -->
+

@@ -1,0 +1,2299 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://cbo.biocomplexity.indiana.edu/svn/cbo/trunk/CBO_1_0">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Declaration>
+        <Class IRI=".owl#AcceptanceFunction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#AdhesionEnergy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#AdhesionMolecule"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#AdhesiveProperty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#Advection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#Age"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#Anisotropy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#ApicalPart"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#Apoptosis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#AreaEnergy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#AsymmetricCellDivisionOrientedCleavagePlane"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#AsymmetricCellDivisionRandomCleavagePlane"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#AutophagicDeath"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#BarrierCrossing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#BasalPart"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#BasementLaminaChange"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#BasementLaminaCreation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#BasementLaminaDeletion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#BasementLaminaProcess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#BasementMembrane"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#BioEntityType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#BodyShape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#BoltzmannFactor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#Boundary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#BrushBorder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#CBO_Object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#CBO_Process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#CHASTEcenter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#Cell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#CellAdhesion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#CellAdvection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#CellBasementLaminaContact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#CellBasementMembraneAdhesion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#CellBorder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#CellCellAdhesion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#CellCellContact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#CellCellProcess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#CellContact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#CellDeath"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#CellDifferentiation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#CellDisplacement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#CellDivision"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#CellEnvironmentProcess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#CellExport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#CellFusion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#CellGrowth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#CellImport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#CellInterstitialMatrixAdhesion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#CellInterstitialMatrixContact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#CellMembrane"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#CellMembraneLocalStructure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#CellMembranePart"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#CellMotility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#CellMovement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#CellNonCellAdhesion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#CellNonCellContact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#CellOrientationChange"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#CellPart"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#CellProcess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#CellRegion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#CellRelatedTransport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#CellRotation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#CellShapeChange"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#CellState"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#CellVolumeChange"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#CellWall"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#CellularChemicalProcess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#CellularElectricalProcess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#CellularKineticProcess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#CellularMechanicalProcess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#CellularPropertyProcess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#CenterModelPlatform"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#CenterOfMass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#CenterOfVolume"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#Charge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#ChemicalAffinity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#ChemicalDensity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#ChemicalLocalization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#ChemicalPattern"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#ChemicalPatternGradient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#ChemicalProperty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#Chemotaxis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#Compucell3D"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#ComputationalPlatform"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#ComputationalPlatformQualities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#ContactSurfaceArea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#ContinousPlatform"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#ContinuousEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#ContinuousExtent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#Contraction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#CorpuscularEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#Creation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#Cytoplasm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#Deletion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#DiffuseEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#Diffusion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#Dimension1d"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#Dimension2d"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#Dimension3d"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#Dimensionality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#DiscreteExtent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#Divisible"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#Dorsal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#ElectricalProperty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#ElectromechanicalField"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#Energy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#EnergyFunction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#EnergyQuality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#ExistentialCellProcesses"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#Expansion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#ExtentGeometrical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#ExtraCellularFluid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#ExtraCellularMatrix"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#ExtracellularMatrixProcess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#Field"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#FieldProcess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#FieldQuality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#Fill"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#Filopodium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#FirstOrderRate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#Fission"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#FundamentalPhysicalProcess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#GapJunction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#GenerationalAge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#GeometricalCellProcess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#GeometricalEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#GeometricalProperty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#GradientTexture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#Hamlitonian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#Haptotaxis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#HarmonicEnergy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#InterentityExport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#InterentityImport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#InterentityTransport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#InterstitialMatrix"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#InterstitialMatrixChange"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#InterstitialMatrixCreation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#InterstitialMatrixDeletion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#InterstitialMatrixProcess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#IntraentityTransport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#IonChannel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#IsApoptotic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#IsDebris"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#IsGrowing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#IsHypoxic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#IsNecrotic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#IsQuiescent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#Isotropy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#KineticProperty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#LJ_6_12Energy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#LateralPart"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#LinearEnergy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#Location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#Mass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#MechanicalProperty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#MedialPart"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#Meiosis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#MembraneReceptor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#MinimizationAcceptanceFunction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#Mitosis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#MolecularField"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#MolecularTargeting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#Molecule"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#MoleculeBarrierCrossing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#MoleculeChange"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#MoleculeCreation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#MoleculeDeletion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#MoleculeDiffusion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#MoleculeMoleculeAdhesion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#MoleculeProcess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#Movement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#MovementField"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#Necrosis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#Nucleus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#OpenAlea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#OpenSourcePlatform"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#OrganismalRegion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#Orientation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#Other"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#OtherPublicationReference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#PatternTexture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#PhenotypicChange"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#PhysicalEntityType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#PhysicalObjectQuality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#PoissonRatio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#PressureMechanical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#Protrusion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#Pseudopodium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#Pump"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#Random"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#RateFunction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#Rotation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#SecondOrderRate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#Shape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#ShapeChange"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#SpacialExclusive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#StatisticalProperty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#StiffnessMechanical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#StructuralProcess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#SurfaceArea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#SymmetricCellDivisionOrientedCleavagePlane"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#SymmetricCellDivisionRandomCleavagePlane"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#System"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#SystemBoundary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#SystemExtent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#SystemExtentX"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#SystemExtentY"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#SystemExtentZ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#SystemPeriodic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#SystemPeriodicX"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#SystemPeriodicY"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#SystemPeriodicZ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#SystemPixelDistanceScale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#SystemQualities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#SystemWall"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#SystemWallX"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#SystemWallY"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#SystemWallZ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#TemperatureField"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#TemporalAge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#TemporalEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#TemporalInstant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#TemporalInterval"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#TensionMechanical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#Texture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#TightJunction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#Translation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#Transport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#UniformTexture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#VTK_FileName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#VTK_FileRoot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#VTK_FileTimeStep"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#VTK_InitialCondition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#VTK_Quality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#Ventral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#Volume"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#VolumeChange"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#VolumeEnergy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#YieldingThreshold"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#YoungsModulus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI=".owl#ZerothOrderRate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_agent_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_derived_into"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_derives_from"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_has_agent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_has_improper_part"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_has_integral_part"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_has_part"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_has_participant"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_has_proper_part"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_improper_part_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_integral_part_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_is_a"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_located_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_location_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_part_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_participates_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_preceded_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_precedes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_proper_part_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_transformation_of"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI=".owl#hasExtentValueSet1D"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI=".owl#hasExtentValueSet2D"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI=".owl#hasExtentValueSet3D"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI=".owl#hasFloatValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI=".owl#hasFloatValueTarget"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI=".owl#hasIntValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI=".owl#hasIntValueTarget"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI=".owl#hasLocationValueSet1D"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI=".owl#hasLocationValueSet2D"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI=".owl#hasLocationValueSet3D"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI=".owl#hasLocationValueSetND"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI=".owl#hasParameterValueSetND"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI=".owl#hasPointsValueSetND"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI=".owl#hasUnit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI=".owl#hasVTKfieldID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI=".owl#hasVTKtypeID"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI=".owl#AcceptanceFunction"/>
+        <Class IRI=".owl#EnergyFunction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#AdhesionEnergy"/>
+        <Class IRI=".owl#EnergyQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#AdhesionMolecule"/>
+        <Class IRI=".owl#CellMembranePart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#AdhesiveProperty"/>
+        <Class IRI=".owl#MechanicalProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#Advection"/>
+        <Class IRI=".owl#Movement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#Age"/>
+        <Class IRI=".owl#PhysicalObjectQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#Anisotropy"/>
+        <Class IRI=".owl#BodyShape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#ApicalPart"/>
+        <Class IRI=".owl#CellRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#Apoptosis"/>
+        <Class IRI=".owl#CellDeath"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#AreaEnergy"/>
+        <Class IRI=".owl#EnergyQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#AsymmetricCellDivisionOrientedCleavagePlane"/>
+        <Class IRI=".owl#Mitosis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#AsymmetricCellDivisionRandomCleavagePlane"/>
+        <Class IRI=".owl#Mitosis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#AutophagicDeath"/>
+        <Class IRI=".owl#CellDeath"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#BarrierCrossing"/>
+        <Class IRI=".owl#FundamentalPhysicalProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#BasalPart"/>
+        <Class IRI=".owl#CellRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#BasementLaminaChange"/>
+        <Class IRI=".owl#BasementLaminaProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#BasementLaminaCreation"/>
+        <Class IRI=".owl#BasementLaminaProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#BasementLaminaDeletion"/>
+        <Class IRI=".owl#BasementLaminaProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#BasementLaminaProcess"/>
+        <Class IRI=".owl#ExtracellularMatrixProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#BasementMembrane"/>
+        <Class IRI=".owl#ExtraCellularMatrix"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#BioEntityType"/>
+        <Class IRI=".owl#CBO_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#BodyShape"/>
+        <Class IRI=".owl#Shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#BoltzmannFactor"/>
+        <Class IRI=".owl#AcceptanceFunction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#Boundary"/>
+        <Class IRI=".owl#GeometricalEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#BrushBorder"/>
+        <Class IRI=".owl#CellMembraneLocalStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#CHASTEcenter"/>
+        <Class IRI=".owl#ComputationalPlatform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#Cell"/>
+        <Class IRI=".owl#BioEntityType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#CellAdhesion"/>
+        <Class IRI=".owl#CellEnvironmentProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#CellAdvection"/>
+        <Class IRI=".owl#CellMovement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#CellBasementLaminaContact"/>
+        <Class IRI=".owl#CellNonCellContact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#CellBasementMembraneAdhesion"/>
+        <Class IRI=".owl#CellNonCellAdhesion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#CellBorder"/>
+        <Class IRI=".owl#CellPart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#CellCellAdhesion"/>
+        <Class IRI=".owl#CellAdhesion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#CellCellContact"/>
+        <Class IRI=".owl#CellContact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#CellCellProcess"/>
+        <Class IRI=".owl#CellProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#CellContact"/>
+        <Class IRI=".owl#CellEnvironmentProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#CellDeath"/>
+        <Class IRI=".owl#ExistentialCellProcesses"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#CellDifferentiation"/>
+        <Class IRI=".owl#ExistentialCellProcesses"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#CellDisplacement"/>
+        <Class IRI=".owl#CellMovement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#CellDivision"/>
+        <Class IRI=".owl#ExistentialCellProcesses"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#CellEnvironmentProcess"/>
+        <Class IRI=".owl#CellProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#CellExport"/>
+        <Class IRI=".owl#CellRelatedTransport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#CellFusion"/>
+        <Class IRI=".owl#ExistentialCellProcesses"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#CellGrowth"/>
+        <Class IRI=".owl#ExistentialCellProcesses"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#CellImport"/>
+        <Class IRI=".owl#CellRelatedTransport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#CellInterstitialMatrixAdhesion"/>
+        <Class IRI=".owl#CellNonCellAdhesion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#CellInterstitialMatrixContact"/>
+        <Class IRI=".owl#CellNonCellContact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#CellMembrane"/>
+        <Class IRI=".owl#CellBorder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#CellMembraneLocalStructure"/>
+        <Class IRI=".owl#CBO_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#CellMembranePart"/>
+        <Class IRI=".owl#CellPart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#CellMotility"/>
+        <Class IRI=".owl#CellMovement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#CellMovement"/>
+        <Class IRI=".owl#GeometricalCellProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#CellNonCellAdhesion"/>
+        <Class IRI=".owl#CellAdhesion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#CellNonCellContact"/>
+        <Class IRI=".owl#CellContact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#CellOrientationChange"/>
+        <Class IRI=".owl#GeometricalCellProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#CellPart"/>
+        <Class IRI=".owl#CBO_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#CellProcess"/>
+        <Class IRI=".owl#CBO_Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#CellRegion"/>
+        <Class IRI=".owl#GeometricalEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#CellRelatedTransport"/>
+        <Class IRI=".owl#CellEnvironmentProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#CellRotation"/>
+        <Class IRI=".owl#CellMovement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#CellShapeChange"/>
+        <Class IRI=".owl#GeometricalCellProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#CellState"/>
+        <Class IRI=".owl#CBO_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#CellVolumeChange"/>
+        <Class IRI=".owl#GeometricalCellProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#CellWall"/>
+        <Class IRI=".owl#CellBorder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#CellularChemicalProcess"/>
+        <Class IRI=".owl#CellEnvironmentProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#CellularElectricalProcess"/>
+        <Class IRI=".owl#CellEnvironmentProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#CellularKineticProcess"/>
+        <Class IRI=".owl#CellularPropertyProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#CellularMechanicalProcess"/>
+        <Class IRI=".owl#CellularPropertyProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#CellularPropertyProcess"/>
+        <Class IRI=".owl#CellProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#CenterModelPlatform"/>
+        <Class IRI=".owl#ComputationalPlatformQualities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#CenterOfMass"/>
+        <Class IRI=".owl#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#CenterOfVolume"/>
+        <Class IRI=".owl#Location"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#Charge"/>
+        <Class IRI=".owl#ElectricalProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#ChemicalAffinity"/>
+        <Class IRI=".owl#ChemicalProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#ChemicalDensity"/>
+        <Class IRI=".owl#ChemicalProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#ChemicalLocalization"/>
+        <Class IRI=".owl#ChemicalProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#ChemicalPattern"/>
+        <Class IRI=".owl#ChemicalProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#ChemicalPatternGradient"/>
+        <Class IRI=".owl#ChemicalPattern"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#ChemicalProperty"/>
+        <Class IRI=".owl#PhysicalObjectQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#Chemotaxis"/>
+        <Class IRI=".owl#CellMovement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#Compucell3D"/>
+        <Class IRI=".owl#ComputationalPlatform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#ComputationalPlatform"/>
+        <Class IRI=".owl#SystemQualities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#ComputationalPlatformQualities"/>
+        <Class IRI=".owl#SystemQualities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#ContactSurfaceArea"/>
+        <Class IRI=".owl#GeometricalProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#ContinousPlatform"/>
+        <Class IRI=".owl#ComputationalPlatformQualities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#ContinuousEntity"/>
+        <Class IRI=".owl#PhysicalEntityType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#ContinuousExtent"/>
+        <Class IRI=".owl#ExtentGeometrical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#Contraction"/>
+        <Class IRI=".owl#VolumeChange"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#CorpuscularEntity"/>
+        <Class IRI=".owl#PhysicalEntityType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#Creation"/>
+        <Class IRI=".owl#FundamentalPhysicalProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#Cytoplasm"/>
+        <Class IRI=".owl#CellPart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#Deletion"/>
+        <Class IRI=".owl#FundamentalPhysicalProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#DiffuseEntity"/>
+        <Class IRI=".owl#PhysicalEntityType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#Diffusion"/>
+        <Class IRI=".owl#Movement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#Dimension1d"/>
+        <Class IRI=".owl#Dimensionality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#Dimension2d"/>
+        <Class IRI=".owl#Dimensionality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#Dimension3d"/>
+        <Class IRI=".owl#Dimensionality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#Dimensionality"/>
+        <Class IRI=".owl#GeometricalProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#DiscreteExtent"/>
+        <Class IRI=".owl#ExtentGeometrical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#Divisible"/>
+        <Class IRI=".owl#PhysicalObjectQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#Dorsal"/>
+        <Class IRI=".owl#OrganismalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#ElectricalProperty"/>
+        <Class IRI=".owl#PhysicalObjectQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#ElectromechanicalField"/>
+        <Class IRI=".owl#Field"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#Energy"/>
+        <Class IRI=".owl#PhysicalObjectQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#EnergyFunction"/>
+        <Class IRI=".owl#CBO_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#EnergyQuality"/>
+        <Class IRI=".owl#CBO_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#ExistentialCellProcesses"/>
+        <Class IRI=".owl#CellProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#Expansion"/>
+        <Class IRI=".owl#VolumeChange"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#ExtentGeometrical"/>
+        <Class IRI=".owl#GeometricalProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#ExtraCellularFluid"/>
+        <Class IRI=".owl#BioEntityType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#ExtraCellularMatrix"/>
+        <Class IRI=".owl#BioEntityType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#ExtracellularMatrixProcess"/>
+        <Class IRI=".owl#CBO_Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#Field"/>
+        <Class IRI=".owl#CBO_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#FieldProcess"/>
+        <Class IRI=".owl#CBO_Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#FieldQuality"/>
+        <Class IRI=".owl#CBO_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#Fill"/>
+        <Class IRI=".owl#PhysicalObjectQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#Filopodium"/>
+        <Class IRI=".owl#CellMembraneLocalStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#FirstOrderRate"/>
+        <Class IRI=".owl#RateFunction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#Fission"/>
+        <Class IRI=".owl#CellDivision"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#FundamentalPhysicalProcess"/>
+        <Class IRI=".owl#CBO_Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#GapJunction"/>
+        <Class IRI=".owl#CellMembranePart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#GenerationalAge"/>
+        <Class IRI=".owl#Age"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#GeometricalCellProcess"/>
+        <Class IRI=".owl#CellularPropertyProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#GeometricalEntity"/>
+        <Class IRI=".owl#CBO_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#GeometricalProperty"/>
+        <Class IRI=".owl#PhysicalObjectQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#GradientTexture"/>
+        <Class IRI=".owl#Texture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#Hamlitonian"/>
+        <Class IRI=".owl#EnergyQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#Haptotaxis"/>
+        <Class IRI=".owl#CellMovement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#HarmonicEnergy"/>
+        <Class IRI=".owl#EnergyFunction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#InterentityExport"/>
+        <Class IRI=".owl#InterentityTransport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#InterentityImport"/>
+        <Class IRI=".owl#InterentityTransport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#InterentityTransport"/>
+        <Class IRI=".owl#Transport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#InterstitialMatrix"/>
+        <Class IRI=".owl#ExtraCellularMatrix"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#InterstitialMatrixChange"/>
+        <Class IRI=".owl#InterstitialMatrixProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#InterstitialMatrixCreation"/>
+        <Class IRI=".owl#InterstitialMatrixProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#InterstitialMatrixDeletion"/>
+        <Class IRI=".owl#InterstitialMatrixProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#InterstitialMatrixProcess"/>
+        <Class IRI=".owl#ExtracellularMatrixProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#IntraentityTransport"/>
+        <Class IRI=".owl#Transport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#IonChannel"/>
+        <Class IRI=".owl#CellMembranePart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#IsApoptotic"/>
+        <Class IRI=".owl#CellState"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#IsDebris"/>
+        <Class IRI=".owl#CellState"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#IsGrowing"/>
+        <Class IRI=".owl#CellState"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#IsHypoxic"/>
+        <Class IRI=".owl#CellState"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#IsNecrotic"/>
+        <Class IRI=".owl#CellState"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#IsQuiescent"/>
+        <Class IRI=".owl#CellState"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#Isotropy"/>
+        <Class IRI=".owl#BodyShape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#KineticProperty"/>
+        <Class IRI=".owl#PhysicalObjectQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#LJ_6_12Energy"/>
+        <Class IRI=".owl#EnergyFunction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#LateralPart"/>
+        <Class IRI=".owl#CellRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#LinearEnergy"/>
+        <Class IRI=".owl#EnergyFunction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#Location"/>
+        <Class IRI=".owl#GeometricalProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#Mass"/>
+        <Class IRI=".owl#PhysicalObjectQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#MechanicalProperty"/>
+        <Class IRI=".owl#PhysicalObjectQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#MedialPart"/>
+        <Class IRI=".owl#CellRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#Meiosis"/>
+        <Class IRI=".owl#CellDivision"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#MembraneReceptor"/>
+        <Class IRI=".owl#CellMembranePart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#MinimizationAcceptanceFunction"/>
+        <Class IRI=".owl#AcceptanceFunction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#Mitosis"/>
+        <Class IRI=".owl#CellDivision"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#MolecularField"/>
+        <Class IRI=".owl#Field"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#MolecularTargeting"/>
+        <Class IRI=".owl#IntraentityTransport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#Molecule"/>
+        <Class IRI=".owl#BioEntityType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#MoleculeBarrierCrossing"/>
+        <Class IRI=".owl#MoleculeProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#MoleculeChange"/>
+        <Class IRI=".owl#MoleculeProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#MoleculeCreation"/>
+        <Class IRI=".owl#MoleculeProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#MoleculeDeletion"/>
+        <Class IRI=".owl#MoleculeProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#MoleculeDiffusion"/>
+        <Class IRI=".owl#MoleculeProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#MoleculeMoleculeAdhesion"/>
+        <Class IRI=".owl#MoleculeProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#MoleculeProcess"/>
+        <Class IRI=".owl#CBO_Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#Movement"/>
+        <Class IRI=".owl#FundamentalPhysicalProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#MovementField"/>
+        <Class IRI=".owl#PhysicalObjectQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#Necrosis"/>
+        <Class IRI=".owl#CellDeath"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#Nucleus"/>
+        <Class IRI=".owl#CellPart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#OpenAlea"/>
+        <Class IRI=".owl#ComputationalPlatform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#OpenSourcePlatform"/>
+        <Class IRI=".owl#ComputationalPlatformQualities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#OrganismalRegion"/>
+        <Class IRI=".owl#GeometricalEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#Orientation"/>
+        <Class IRI=".owl#GeometricalProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#Other"/>
+        <Class IRI=".owl#ComputationalPlatform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#OtherPublicationReference"/>
+        <Class IRI=".owl#ComputationalPlatformQualities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#PatternTexture"/>
+        <Class IRI=".owl#Texture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#PhenotypicChange"/>
+        <Class IRI=".owl#FundamentalPhysicalProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#PhysicalEntityType"/>
+        <Class IRI=".owl#CBO_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#PhysicalObjectQuality"/>
+        <Class IRI=".owl#CBO_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#PoissonRatio"/>
+        <Class IRI=".owl#MechanicalProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#PressureMechanical"/>
+        <Class IRI=".owl#MechanicalProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#Protrusion"/>
+        <Class IRI=".owl#Shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#Pseudopodium"/>
+        <Class IRI=".owl#CellMembraneLocalStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#Pump"/>
+        <Class IRI=".owl#CellMembranePart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#Random"/>
+        <Class IRI=".owl#StatisticalProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#RateFunction"/>
+        <Class IRI=".owl#CBO_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#Rotation"/>
+        <Class IRI=".owl#Movement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#SecondOrderRate"/>
+        <Class IRI=".owl#RateFunction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#Shape"/>
+        <Class IRI=".owl#GeometricalProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#ShapeChange"/>
+        <Class IRI=".owl#FundamentalPhysicalProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#SpacialExclusive"/>
+        <Class IRI=".owl#PhysicalObjectQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#StatisticalProperty"/>
+        <Class IRI=".owl#PhysicalObjectQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#StiffnessMechanical"/>
+        <Class IRI=".owl#MechanicalProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#StructuralProcess"/>
+        <Class IRI=".owl#CBO_Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#SurfaceArea"/>
+        <Class IRI=".owl#GeometricalProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#SymmetricCellDivisionOrientedCleavagePlane"/>
+        <Class IRI=".owl#Mitosis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#SymmetricCellDivisionRandomCleavagePlane"/>
+        <Class IRI=".owl#Mitosis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#System"/>
+        <Class IRI=".owl#CBO_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#SystemBoundary"/>
+        <Class IRI=".owl#SystemQualities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#SystemExtent"/>
+        <Class IRI=".owl#SystemQualities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#SystemExtentX"/>
+        <Class IRI=".owl#SystemExtent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#SystemExtentY"/>
+        <Class IRI=".owl#SystemExtent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#SystemExtentZ"/>
+        <Class IRI=".owl#SystemExtent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#SystemPeriodic"/>
+        <Class IRI=".owl#SystemBoundary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#SystemPeriodicX"/>
+        <Class IRI=".owl#SystemPeriodic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#SystemPeriodicY"/>
+        <Class IRI=".owl#SystemPeriodic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#SystemPeriodicZ"/>
+        <Class IRI=".owl#SystemPeriodic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#SystemPixelDistanceScale"/>
+        <Class IRI=".owl#SystemQualities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#SystemQualities"/>
+        <Class IRI=".owl#CBO_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#SystemWall"/>
+        <Class IRI=".owl#SystemBoundary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#SystemWallX"/>
+        <Class IRI=".owl#SystemWall"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#SystemWallY"/>
+        <Class IRI=".owl#SystemWall"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#SystemWallZ"/>
+        <Class IRI=".owl#SystemWall"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#TemperatureField"/>
+        <Class IRI=".owl#Field"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#TemporalAge"/>
+        <Class IRI=".owl#Age"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#TemporalEntity"/>
+        <Class IRI=".owl#CBO_Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#TemporalInstant"/>
+        <Class IRI=".owl#TemporalEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#TemporalInterval"/>
+        <Class IRI=".owl#TemporalEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#TensionMechanical"/>
+        <Class IRI=".owl#MechanicalProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#Texture"/>
+        <Class IRI=".owl#GeometricalProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#TightJunction"/>
+        <Class IRI=".owl#CellMembranePart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#Translation"/>
+        <Class IRI=".owl#Movement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#Transport"/>
+        <Class IRI=".owl#CBO_Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#UniformTexture"/>
+        <Class IRI=".owl#Texture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#VTK_FileName"/>
+        <Class IRI=".owl#VTK_Quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#VTK_FileRoot"/>
+        <Class IRI=".owl#VTK_Quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#VTK_FileTimeStep"/>
+        <Class IRI=".owl#VTK_Quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#VTK_InitialCondition"/>
+        <Class IRI=".owl#VTK_Quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#VTK_Quality"/>
+        <Class IRI=".owl#SystemQualities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#Ventral"/>
+        <Class IRI=".owl#OrganismalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#Volume"/>
+        <Class IRI=".owl#GeometricalProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#VolumeChange"/>
+        <Class IRI=".owl#FundamentalPhysicalProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#VolumeEnergy"/>
+        <Class IRI=".owl#EnergyQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#YieldingThreshold"/>
+        <Class IRI=".owl#MechanicalProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#YoungsModulus"/>
+        <Class IRI=".owl#MechanicalProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI=".owl#ZerothOrderRate"/>
+        <Class IRI=".owl#RateFunction"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI=".owl#AcceptanceFunction"/>
+        <Class IRI=".owl#HarmonicEnergy"/>
+        <Class IRI=".owl#LJ_6_12Energy"/>
+        <Class IRI=".owl#LinearEnergy"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#AdhesionEnergy"/>
+        <Class IRI=".owl#AreaEnergy"/>
+        <Class IRI=".owl#Hamlitonian"/>
+        <Class IRI=".owl#VolumeEnergy"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#AdhesionMolecule"/>
+        <Class IRI=".owl#GapJunction"/>
+        <Class IRI=".owl#IonChannel"/>
+        <Class IRI=".owl#MembraneReceptor"/>
+        <Class IRI=".owl#Pump"/>
+        <Class IRI=".owl#TightJunction"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#AdhesiveProperty"/>
+        <Class IRI=".owl#PoissonRatio"/>
+        <Class IRI=".owl#PressureMechanical"/>
+        <Class IRI=".owl#StiffnessMechanical"/>
+        <Class IRI=".owl#TensionMechanical"/>
+        <Class IRI=".owl#YieldingThreshold"/>
+        <Class IRI=".owl#YoungsModulus"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#Advection"/>
+        <Class IRI=".owl#Diffusion"/>
+        <Class IRI=".owl#Rotation"/>
+        <Class IRI=".owl#Translation"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#Age"/>
+        <Class IRI=".owl#ChemicalProperty"/>
+        <Class IRI=".owl#Divisible"/>
+        <Class IRI=".owl#ElectricalProperty"/>
+        <Class IRI=".owl#Energy"/>
+        <Class IRI=".owl#Fill"/>
+        <Class IRI=".owl#GeometricalProperty"/>
+        <Class IRI=".owl#KineticProperty"/>
+        <Class IRI=".owl#Mass"/>
+        <Class IRI=".owl#MechanicalProperty"/>
+        <Class IRI=".owl#MovementField"/>
+        <Class IRI=".owl#SpacialExclusive"/>
+        <Class IRI=".owl#StatisticalProperty"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#Anisotropy"/>
+        <Class IRI=".owl#Isotropy"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#ApicalPart"/>
+        <Class IRI=".owl#BasalPart"/>
+        <Class IRI=".owl#LateralPart"/>
+        <Class IRI=".owl#MedialPart"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#Apoptosis"/>
+        <Class IRI=".owl#AutophagicDeath"/>
+        <Class IRI=".owl#Necrosis"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#AsymmetricCellDivisionOrientedCleavagePlane"/>
+        <Class IRI=".owl#AsymmetricCellDivisionRandomCleavagePlane"/>
+        <Class IRI=".owl#SymmetricCellDivisionOrientedCleavagePlane"/>
+        <Class IRI=".owl#SymmetricCellDivisionRandomCleavagePlane"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#BarrierCrossing"/>
+        <Class IRI=".owl#Creation"/>
+        <Class IRI=".owl#Deletion"/>
+        <Class IRI=".owl#Movement"/>
+        <Class IRI=".owl#PhenotypicChange"/>
+        <Class IRI=".owl#ShapeChange"/>
+        <Class IRI=".owl#VolumeChange"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#BasementLaminaChange"/>
+        <Class IRI=".owl#BasementLaminaCreation"/>
+        <Class IRI=".owl#BasementLaminaDeletion"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#BasementLaminaProcess"/>
+        <Class IRI=".owl#InterstitialMatrixProcess"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#BasementMembrane"/>
+        <Class IRI=".owl#InterstitialMatrix"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#BoltzmannFactor"/>
+        <Class IRI=".owl#MinimizationAcceptanceFunction"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#Boundary"/>
+        <Class IRI=".owl#CellRegion"/>
+        <Class IRI=".owl#OrganismalRegion"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#BrushBorder"/>
+        <Class IRI=".owl#Filopodium"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#BrushBorder"/>
+        <Class IRI=".owl#Pseudopodium"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#CBO_Object"/>
+        <Class IRI=".owl#CBO_Process"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#CHASTEcenter"/>
+        <Class IRI=".owl#Compucell3D"/>
+        <Class IRI=".owl#OpenAlea"/>
+        <Class IRI=".owl#Other"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#Cell"/>
+        <Class IRI=".owl#ExtraCellularFluid"/>
+        <Class IRI=".owl#ExtraCellularMatrix"/>
+        <Class IRI=".owl#Molecule"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#CellAdhesion"/>
+        <Class IRI=".owl#CellContact"/>
+        <Class IRI=".owl#CellRelatedTransport"/>
+        <Class IRI=".owl#CellularChemicalProcess"/>
+        <Class IRI=".owl#CellularElectricalProcess"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#CellAdvection"/>
+        <Class IRI=".owl#CellDisplacement"/>
+        <Class IRI=".owl#CellMotility"/>
+        <Class IRI=".owl#CellRotation"/>
+        <Class IRI=".owl#Chemotaxis"/>
+        <Class IRI=".owl#Haptotaxis"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#CellBasementLaminaContact"/>
+        <Class IRI=".owl#CellInterstitialMatrixContact"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#CellBasementMembraneAdhesion"/>
+        <Class IRI=".owl#CellInterstitialMatrixAdhesion"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#CellBorder"/>
+        <Class IRI=".owl#CellMembranePart"/>
+        <Class IRI=".owl#Cytoplasm"/>
+        <Class IRI=".owl#Nucleus"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#CellCellAdhesion"/>
+        <Class IRI=".owl#CellNonCellAdhesion"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#CellCellContact"/>
+        <Class IRI=".owl#CellNonCellContact"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#CellCellProcess"/>
+        <Class IRI=".owl#CellEnvironmentProcess"/>
+        <Class IRI=".owl#CellularPropertyProcess"/>
+        <Class IRI=".owl#ExistentialCellProcesses"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#CellDeath"/>
+        <Class IRI=".owl#CellDifferentiation"/>
+        <Class IRI=".owl#CellDivision"/>
+        <Class IRI=".owl#CellFusion"/>
+        <Class IRI=".owl#CellGrowth"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#CellExport"/>
+        <Class IRI=".owl#CellImport"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#CellMembrane"/>
+        <Class IRI=".owl#CellWall"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#CellMovement"/>
+        <Class IRI=".owl#CellOrientationChange"/>
+        <Class IRI=".owl#CellShapeChange"/>
+        <Class IRI=".owl#CellVolumeChange"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#CellularKineticProcess"/>
+        <Class IRI=".owl#CellularMechanicalProcess"/>
+        <Class IRI=".owl#GeometricalCellProcess"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#CenterModelPlatform"/>
+        <Class IRI=".owl#ContinousPlatform"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#CenterOfMass"/>
+        <Class IRI=".owl#CenterOfVolume"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#ChemicalAffinity"/>
+        <Class IRI=".owl#ChemicalDensity"/>
+        <Class IRI=".owl#ChemicalLocalization"/>
+        <Class IRI=".owl#ChemicalPattern"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#ComputationalPlatform"/>
+        <Class IRI=".owl#SystemBoundary"/>
+        <Class IRI=".owl#SystemExtent"/>
+        <Class IRI=".owl#SystemPixelDistanceScale"/>
+        <Class IRI=".owl#VTK_Quality"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#ContactSurfaceArea"/>
+        <Class IRI=".owl#Dimensionality"/>
+        <Class IRI=".owl#ExtentGeometrical"/>
+        <Class IRI=".owl#Location"/>
+        <Class IRI=".owl#Orientation"/>
+        <Class IRI=".owl#Shape"/>
+        <Class IRI=".owl#SurfaceArea"/>
+        <Class IRI=".owl#Texture"/>
+        <Class IRI=".owl#Volume"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#ContinuousEntity"/>
+        <Class IRI=".owl#CorpuscularEntity"/>
+        <Class IRI=".owl#DiffuseEntity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#ContinuousExtent"/>
+        <Class IRI=".owl#DiscreteExtent"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#Contraction"/>
+        <Class IRI=".owl#Expansion"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#Dimension1d"/>
+        <Class IRI=".owl#Dimension2d"/>
+        <Class IRI=".owl#Dimension3d"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#Dorsal"/>
+        <Class IRI=".owl#Ventral"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#ElectromechanicalField"/>
+        <Class IRI=".owl#MolecularField"/>
+        <Class IRI=".owl#TemperatureField"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#Filopodium"/>
+        <Class IRI=".owl#Pseudopodium"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#FirstOrderRate"/>
+        <Class IRI=".owl#SecondOrderRate"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#FirstOrderRate"/>
+        <Class IRI=".owl#ZerothOrderRate"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#Fission"/>
+        <Class IRI=".owl#Meiosis"/>
+        <Class IRI=".owl#Mitosis"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#GenerationalAge"/>
+        <Class IRI=".owl#TemporalAge"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#GradientTexture"/>
+        <Class IRI=".owl#PatternTexture"/>
+        <Class IRI=".owl#UniformTexture"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#InterentityExport"/>
+        <Class IRI=".owl#InterentityImport"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#InterentityTransport"/>
+        <Class IRI=".owl#IntraentityTransport"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#InterstitialMatrixChange"/>
+        <Class IRI=".owl#InterstitialMatrixCreation"/>
+        <Class IRI=".owl#InterstitialMatrixDeletion"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#IsApoptotic"/>
+        <Class IRI=".owl#IsDebris"/>
+        <Class IRI=".owl#IsGrowing"/>
+        <Class IRI=".owl#IsHypoxic"/>
+        <Class IRI=".owl#IsNecrotic"/>
+        <Class IRI=".owl#IsQuiescent"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#MoleculeBarrierCrossing"/>
+        <Class IRI=".owl#MoleculeChange"/>
+        <Class IRI=".owl#MoleculeCreation"/>
+        <Class IRI=".owl#MoleculeDeletion"/>
+        <Class IRI=".owl#MoleculeDiffusion"/>
+        <Class IRI=".owl#MoleculeMoleculeAdhesion"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#SystemExtentX"/>
+        <Class IRI=".owl#SystemExtentY"/>
+        <Class IRI=".owl#SystemExtentZ"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#SystemPeriodic"/>
+        <Class IRI=".owl#SystemWall"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#SystemPeriodicX"/>
+        <Class IRI=".owl#SystemPeriodicY"/>
+        <Class IRI=".owl#SystemPeriodicZ"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#SystemWallX"/>
+        <Class IRI=".owl#SystemWallY"/>
+        <Class IRI=".owl#SystemWallZ"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#TemporalInstant"/>
+        <Class IRI=".owl#TemporalInterval"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI=".owl#VTK_FileName"/>
+        <Class IRI=".owl#VTK_FileRoot"/>
+        <Class IRI=".owl#VTK_FileTimeStep"/>
+        <Class IRI=".owl#VTK_InitialCondition"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_agent_in"/>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_participates_in"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_has_agent"/>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_has_participant"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_has_improper_part"/>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_has_part"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_has_integral_part"/>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_has_part"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_has_proper_part"/>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_has_part"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_improper_part_of"/>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_part_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_integral_part_of"/>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_part_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_proper_part_of"/>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_part_of"/>
+    </SubObjectPropertyOf>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_derived_into"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_derives_from"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_has_improper_part"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_has_integral_part"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_has_part"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_has_proper_part"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_integral_part_of"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_is_a"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_located_in"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_location_of"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_part_of"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_preceded_by"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_precedes"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_proper_part_of"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_transformation_of"/>
+    </TransitiveObjectProperty>
+    <ReflexiveObjectProperty>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_has_improper_part"/>
+    </ReflexiveObjectProperty>
+    <ReflexiveObjectProperty>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_has_integral_part"/>
+    </ReflexiveObjectProperty>
+    <ReflexiveObjectProperty>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_has_part"/>
+    </ReflexiveObjectProperty>
+    <ReflexiveObjectProperty>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_improper_part_of"/>
+    </ReflexiveObjectProperty>
+    <ReflexiveObjectProperty>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_integral_part_of"/>
+    </ReflexiveObjectProperty>
+    <ReflexiveObjectProperty>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_is_a"/>
+    </ReflexiveObjectProperty>
+    <ReflexiveObjectProperty>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_located_in"/>
+    </ReflexiveObjectProperty>
+    <ReflexiveObjectProperty>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_location_of"/>
+    </ReflexiveObjectProperty>
+    <ReflexiveObjectProperty>
+        <ObjectProperty IRI="http://purl.org/obo/owlapi/relationship#OBO_REL_part_of"/>
+    </ReflexiveObjectProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI=".owl#hasExtentValueSet1D"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI=".owl#hasExtentValueSet2D"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI=".owl#hasExtentValueSet3D"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI=".owl#hasFloatValue"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI=".owl#hasFloatValueTarget"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI=".owl#hasIntValue"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI=".owl#hasIntValueTarget"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI=".owl#hasLocationValueSet1D"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI=".owl#hasLocationValueSet2D"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI=".owl#hasLocationValueSet3D"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI=".owl#hasLocationValueSetND"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI=".owl#hasParameterValueSetND"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI=".owl#hasPointsValueSetND"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI=".owl#hasUnit"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI=".owl#hasVTKfieldID"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI=".owl#hasVTKtypeID"/>
+    </FunctionalDataProperty>
+    <DataPropertyRange>
+        <DataProperty IRI=".owl#hasVTKtypeID"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.8) http://owlapi.sourceforge.net -->
+

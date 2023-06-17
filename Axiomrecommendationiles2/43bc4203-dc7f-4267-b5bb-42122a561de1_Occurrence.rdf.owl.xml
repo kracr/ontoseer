@@ -1,0 +1,911 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://rs.tdwg.org/ontology/voc/TaxonOccurrence"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://rs.tdwg.org/ontology/voc/TaxonOccurrence">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Declaration>
+        <Class IRI="http://rs.tdwg.org/ontology/Base#BaseThing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://rs.tdwg.org/ontology/Base#DefinedTerm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://rs.tdwg.org/ontology/voc/Collection#Collection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://rs.tdwg.org/ontology/voc/Person#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://rs.tdwg.org/ontology/voc/Procedure#Procedure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://rs.tdwg.org/ontology/voc/TaxonConcept#TaxonConcept"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://rs.tdwg.org/ontology/voc/TaxonName#NomenclaturalTypeTypeTerm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://rs.tdwg.org/ontology/voc/TaxonName#TaxonName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BasisOfRecordTerm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Identification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TaxonOccurrence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Interaction#TaxonOccurrenceInteraction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://rs.tdwg.org/ontology/voc/Team#Team"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#basisOfRecord"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#collectorTeam"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#derivedFrom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#expert"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasInteraction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#higherTaxon"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hostCollection"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#identifiedTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#method"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#occurrence"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#procedure"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#taxon"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#typeForName"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#typeStatus"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#basisOfRecordString"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#catalogNumber"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#collector"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#collectorsBatchNumber"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#collectorsFieldNumber"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#confidence"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#continent"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#coordinateUncertaintyInMeters"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#country"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#county"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#date"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#dayOfYear"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#decimalLatitude"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#decimalLongitude"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#disposition"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#earliestDateCollected"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#expertName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#fieldNotes"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#footprintSpatialFit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#geodeticDatum"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#georeferenceProtocol"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#georeferenceRemarks"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#georeferenceSources"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#georeferenceVerificationStatus"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#higherGeography"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hostCollectionString"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#identifiedToString"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#individualCount"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#institutionCode"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#island"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#islandGroup"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#latestDateCollected"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#lifeStage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#locality"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#location"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#maximumDepthInMeters"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#maximumElevationInMeters"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#methodDescriptor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#minimumDepthInMeters"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#minimumElevationInMeters"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#pointRadiusSpatialFit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#procedureDescriptor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#sex"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#stateProvince"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#taxonName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#typeStatusString"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#validDistributionFlag"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#valueConfidence"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#verbatimCollectingDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#verbatimCoordinateSystem"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#verbatimCoordinates"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#verbatimDepth"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#verbatimDet"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#verbatimElevation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#verbatimLabelText"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#verbatimLatitude"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#verbatimLongitude"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#waterBody"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#wktFootprint"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#BasisOfRecordTerm"/>
+        <Class IRI="http://rs.tdwg.org/ontology/Base#DefinedTerm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Identification"/>
+        <Class IRI="http://rs.tdwg.org/ontology/Base#BaseThing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TaxonOccurrence"/>
+        <Class IRI="http://rs.tdwg.org/ontology/Base#BaseThing"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#BasisOfRecordTerm"/>
+        <NamedIndividual IRI="#Digital"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BasisOfRecordTerm"/>
+        <NamedIndividual IRI="#Fossil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BasisOfRecordTerm"/>
+        <NamedIndividual IRI="#Illustration"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BasisOfRecordTerm"/>
+        <NamedIndividual IRI="#Living"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BasisOfRecordTerm"/>
+        <NamedIndividual IRI="#MovingImage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BasisOfRecordTerm"/>
+        <NamedIndividual IRI="#Preserved"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BasisOfRecordTerm"/>
+        <NamedIndividual IRI="#StillImage"/>
+    </ClassAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#basisOfRecord"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#collectorTeam"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#derivedFrom"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#expert"/>
+        <Class IRI="#Identification"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasInteraction"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#higherTaxon"/>
+        <Class IRI="#Identification"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hostCollection"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#identifiedTo"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#method"/>
+        <Class IRI="#Identification"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#occurrence"/>
+        <Class IRI="#Identification"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#procedure"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#taxon"/>
+        <Class IRI="#Identification"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#typeForName"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#typeStatus"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#basisOfRecord"/>
+        <Class IRI="#BasisOfRecordTerm"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#collectorTeam"/>
+        <Class IRI="http://rs.tdwg.org/ontology/voc/Team#Team"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#derivedFrom"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#expert"/>
+        <Class IRI="http://rs.tdwg.org/ontology/voc/Person#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasInteraction"/>
+        <Class IRI="Interaction#TaxonOccurrenceInteraction"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#higherTaxon"/>
+        <Class IRI="http://rs.tdwg.org/ontology/voc/TaxonConcept#TaxonConcept"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hostCollection"/>
+        <Class IRI="http://rs.tdwg.org/ontology/voc/Collection#Collection"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#identifiedTo"/>
+        <Class IRI="#Identification"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#method"/>
+        <Class IRI="http://rs.tdwg.org/ontology/voc/Procedure#Procedure"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#occurrence"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#procedure"/>
+        <Class IRI="http://rs.tdwg.org/ontology/voc/Procedure#Procedure"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#taxon"/>
+        <Class IRI="http://rs.tdwg.org/ontology/voc/TaxonConcept#TaxonConcept"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#typeForName"/>
+        <Class IRI="http://rs.tdwg.org/ontology/voc/TaxonName#TaxonName"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#typeStatus"/>
+        <Class IRI="http://rs.tdwg.org/ontology/voc/TaxonName#NomenclaturalTypeTypeTerm"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#basisOfRecordString"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#catalogNumber"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#collector"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#collectorsBatchNumber"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#collectorsFieldNumber"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#confidence"/>
+        <Class IRI="#Identification"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#continent"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#coordinateUncertaintyInMeters"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#country"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#county"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#date"/>
+        <Class IRI="#Identification"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#dayOfYear"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#decimalLatitude"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#decimalLongitude"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#disposition"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#earliestDateCollected"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#expertName"/>
+        <Class IRI="#Identification"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#fieldNotes"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#footprintSpatialFit"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#geodeticDatum"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#georeferenceProtocol"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#georeferenceRemarks"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#georeferenceSources"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#georeferenceVerificationStatus"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#higherGeography"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hostCollectionString"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#identifiedToString"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#individualCount"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#institutionCode"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#island"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#islandGroup"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#latestDateCollected"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#lifeStage"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#locality"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#location"/>
+        <Class IRI="#Identification"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#maximumDepthInMeters"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#maximumElevationInMeters"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#methodDescriptor"/>
+        <Class IRI="#Identification"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#minimumDepthInMeters"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#minimumElevationInMeters"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#pointRadiusSpatialFit"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#procedureDescriptor"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#sex"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#stateProvince"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#taxonName"/>
+        <Class IRI="#Identification"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#typeStatusString"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#validDistributionFlag"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#value"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#valueConfidence"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#verbatimCollectingDate"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#verbatimCoordinateSystem"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#verbatimCoordinates"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#verbatimDepth"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#verbatimDet"/>
+        <Class IRI="#Identification"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#verbatimElevation"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#verbatimLabelText"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#verbatimLatitude"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#verbatimLongitude"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#waterBody"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#wktFootprint"/>
+        <Class IRI="#TaxonOccurrence"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#basisOfRecordString"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#catalogNumber"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#collector"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#collectorsBatchNumber"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#collectorsFieldNumber"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#confidence"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#continent"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#coordinateUncertaintyInMeters"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#country"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#county"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#date"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#dayOfYear"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#decimalLatitude"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#decimalLongitude"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#disposition"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#earliestDateCollected"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#expertName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#fieldNotes"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#footprintSpatialFit"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#geodeticDatum"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#georeferenceProtocol"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#georeferenceRemarks"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#georeferenceSources"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#georeferenceVerificationStatus"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#higherGeography"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hostCollectionString"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#identifiedToString"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#individualCount"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#institutionCode"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#island"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#islandGroup"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#latestDateCollected"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#lifeStage"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#locality"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#location"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#maximumDepthInMeters"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#maximumElevationInMeters"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#methodDescriptor"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#minimumDepthInMeters"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#minimumElevationInMeters"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#pointRadiusSpatialFit"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#procedureDescriptor"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#sex"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#stateProvince"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#taxonName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#typeStatusString"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#validDistributionFlag"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#value"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#valueConfidence"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#verbatimCollectingDate"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#verbatimCoordinateSystem"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#verbatimCoordinates"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#verbatimDepth"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#verbatimDet"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#verbatimElevation"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#verbatimLabelText"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#verbatimLatitude"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#verbatimLongitude"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#waterBody"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#wktFootprint"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.8) http://owlapi.sourceforge.net -->
+

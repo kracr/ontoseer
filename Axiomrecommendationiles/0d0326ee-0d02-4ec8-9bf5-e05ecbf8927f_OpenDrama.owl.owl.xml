@@ -1,0 +1,2339 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="file:/media/owl/Seagate%20Expansion%20Drive/mowlcorp_rep/mowlcorp_2014.10.07_orig/files/0d0326ee-0d02-4ec8-9bf5-e05ecbf8927f_OpenDrama.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="file:/media/owl/Seagate%20Expansion%20Drive/mowlcorp_rep/mowlcorp_2014.10.07_orig/files/0d0326ee-0d02-4ec8-9bf5-e05ecbf8927f_OpenDrama.owl">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Declaration>
+        <Class IRI="urn:OpenDramaFileFormatCS#NeXTSun"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaFileFormatCS#WindowsMedia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaFileFormatCS#mpeg"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaFileFormatCS#NeXTSun:au"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaFileFormatCS#NeXTSun:snd"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaFileFormatCS#WindowsMedia:WindowsMediaAudio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaFileFormatCS#WindowsMedia:Advanced%20Streaming%20Format"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaFileFormatCS#mpeg:mp3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Blues"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Classical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Electronic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Jazz"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Metal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Pop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Blues:Chicago%20Blues"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Blues:Country%20Blues"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Blues:Electric%20Blues"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Blues:Female%20Vocal%20Blues"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Classical:Opera"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Classical:Symphony"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Classical:Avant%20Classical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Classical:Chamber%20Music"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Classical:Solo%20Instrumetal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Electronic:Ambient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Electronic:Downbeat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Electronic:House"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Electronic:Jungle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Electronic:Techno"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Electronic:Trance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Electronic:Trip-hop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Electronic:Acid%20Jazz"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Electronic:Drum%20and%20Bass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Electronic:Dub%20Techno"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Electronic:Intelligent%20Dance%20Music"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Jazz:Cool"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Jazz:Fusion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Jazz:Be%20Bop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Jazz:Big%20Band/Swing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Jazz:Free%20Jazz"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Jazz:Hard%20Bop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Jazz:Latin%20Jazz/World%20Fusion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Jazz:New%20Orleans/Classic%20Jazz"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Jazz:Soul%20Jazz/Groove"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Metal:Grindcore"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Metal:Thrash"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Metal:Black%20Metal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Metal:Death%20Metal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Metal:Doom%20Metal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Metal:Funk%20Metal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Metal:Nu%20Metal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Metal:Speed%20Metal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Pop:TeenPop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Pop:Vocalists"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Pop:Easy%20Listening"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Pop:EuroPop/DancePop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rap/Hip_Hop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rap/Hip_Hop:Abstract"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rap/Hip_Hop:Bass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rap/Hip_Hop:Gangsta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rap/Hip_Hop:Independent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rap/Hip_Hop:Southern"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rap/Hip_Hop:Turntablist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rap/Hip_Hop:Old%20School"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rap/Hip_Hop:Pop%20Rap"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rock:Punk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rock:Ska"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rock:Soft-Rock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rock:Alternative/Indie-Rock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rock:Art-Rock/Experimental"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rock:British%20Invasion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rock:Folk/Country%20Rock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rock:Foreign%20Language%20Rock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rock:Hard%20Rock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rock:New%20Wave"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rock:Pop/Rock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rock:Psychedelic/Garage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rock:R&amp;B/Soul"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rock:Rock%20&amp;%20Roll/Roots"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rock:Surf%20Rock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:African"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:Asian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:Celtic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:Latin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:African:Afro%20Beat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:African:Afro%20Pop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:African:Traditional%20African"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:Asian:Qawwalli"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:Asian:Bombay%20Pop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:Asian:Indian%20Classical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:Eastern%20European"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:Indigenous%20Music"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:Latin:Calypso"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:Latin:Chorinho"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:Latin:Cumbia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:Latin:Guaracha"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:Latin:MPB"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:Latin:Merengue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:Latin:Salsa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:Latin:Samba"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:Latin:Son"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:Latin:Tropicalia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:Latin:Bossa%20Nova"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:Western%20European"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Electrophones"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones:Accordion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones:Aeolian_Harp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones:Backing_vocals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones:Bandoneon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones:Barrel_Organ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones:Bayan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones:Bull-Roarer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones:Concertina"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones:Electric_Chord_Organ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones:Harmonica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones:Harmonium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones:Indian_Harmonium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones:Khaen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones:Leaf_Instrument"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones:Orchestrion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones:Organ_Reed_Pipes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones:Pedal_Concertina"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones:Pedal_Reed_Organ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones:Reed_Organ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones:Sheng"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones:Sho"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones:Vocals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones:Vox_Humana"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones:Jew&apos;s_Harp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Brass_Instruments"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Edge_Instruments"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Reed_Pipes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Brass_Instruments:Animal_Horn_Shofar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Brass_Instruments:Bugle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Brass_Instruments:Conch_shell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Brass_Instruments:Cornet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Brass_Instruments:Didjeridu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Brass_Instruments:Euphonium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Brass_Instruments:French_Horn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Brass_Instruments:Trombone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Brass_Instruments:Trumpet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Brass_Instruments:Tuba"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Edge_Instruments:Flute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Edge_Instruments:Jug"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Edge_Instruments:Organ_Flue_Pipes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Edge_Instruments:Panpipes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Edge_Instruments:Piccolo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Edge_Instruments:Recorder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Edge_Instruments:Whistle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Reed_Pipes:Bagpipe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Reed_Pipes:Bassoon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Reed_Pipes:Clarinet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Reed_Pipes:Oboe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Reed_Pipes:Saxophone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Bowed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Plucked"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Struck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Bowed:Cello"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Bowed:Contrabass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Bowed:Double_Bass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Bowed:Viola"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Bowed:Violin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Plucked:Banjo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Plucked:Cavaco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Plucked:Cavaquinho"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Plucked:Charango"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Plucked:Guitar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Plucked:Harp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Plucked:Harpsichord"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Plucked:Laud"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Plucked:Mandolin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Plucked:Placked_Dulcimer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Plucked:Tambura"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Plucked:Ukulele"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Struck:Berimbau"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Struck:Hammered_Dulcimer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Struck:Piano"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Electrophones:Electronic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Electrophones:Electric/Acoustic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Electrophones:Electric/Acoustic:Electric_Bass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Electrophones:Electric/Acoustic:Electric_Guitar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Electrophones:Electric/Acoustic:Electric_Piano"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Electrophones:Electric/Acoustic:Rhodes_Piano"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Electrophones:Electric/Acoustic:Turntable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Electrophones:Electronic:Electric_Organ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Electrophones:Electronic:Hammond_Organ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Electrophones:Electronic:MIDI_Instruments"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Electrophones:Electronic:Ondes_Martenot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Electrophones:Electronic:Sampler"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Electrophones:Electronic:Sequencer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Electrophones:Electronic:Synthesizer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Electrophones:Electronic:Theremin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Amadinda"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Anklung"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Balafon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Bells"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Blocks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Cabasa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Caixixi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Cajon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Castanets"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Celesta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Chimes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Clapsticks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Claves"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Cowbell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Cymbals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Drum-chime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Egg_Shakes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Glass_Harmonica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Glockenspiel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Gong-chime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Gongs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Guiro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Hi_Hat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Jingles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Kalimba"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Lamellaphone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Maracas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Marimba"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Mbira"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Music_Box"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Prayer_Bowls"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Rain_Sticks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Rattles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Reco_reco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Shekere"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Sistrum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Slit_Drum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Temple_Blocks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Triangle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Tubular_bells"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Vibraphone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Washboard"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Woodblocks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Arabian_Tabla"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Ashiko"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Bass_Drum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Bodhran"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Bongo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Conga"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Cuica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Daf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Darabuka"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Dhol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Djembe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Drums"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Friction_Drum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Kanjira"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Kazoo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Lambeg"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Ocean_Drum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Pandeiro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Rebolo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Repinique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Repique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Roto_Toms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Snare_Drum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Steel_Drums"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Surdo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Tabla"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Taiko"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Talking_drum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Tamborin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Tambourine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Timbal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Timbales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Timpani"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Tonbak"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Zabumba"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#Management_Staff"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#authors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#Management_Staff:Company_Manager"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#Management_Staff:Executive_Director"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#Management_Staff:Public_Relations_Director"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#authors:Librettist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#authors:composer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:Direction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:Interpreters"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:costumes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:make-up"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:Direction:Production_Assistant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:Direction:Production_Manager"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:Direction:Production_Supervisor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:Direction:Stage_Director"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:Direction:Stage_Manager"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:Interpreters:conductor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:Interpreters:extras"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:Interpreters:orchestra"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:Interpreters:singers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:Interpreters:orchestra:brass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:Interpreters:orchestra:keyboard"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:Interpreters:orchestra:percussion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:Interpreters:orchestra:strings"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:Interpreters:orchestra:woodwinds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:Interpreters:singers:chorus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:Interpreters:singers:main_roles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:Interpreters:singers:secondary_roles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:costumes:costume_designer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:costumes:craft_artisans"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:costumes:cutters"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:costumes:dyer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:costumes:first_hands"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:costumes:wardrobe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:costumes:assistant%20costume%20director"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:costumes:cutters:assistant_cutters"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:costumes:cutters:cutters"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:costumes:cutters:senior_cutters"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:costumes:wardrobe:wardrobe_assistant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:costumes:wardrobe:wardrobe_head"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:make-up:hairstylist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:make-up:makeup_artists"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:make-up:senior_hairstylist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff:Property_Foreman"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff:assistant_carpenter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff:assistant_electrician"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff:assistant_master_properties"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff:choreography"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff:lighting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff:master_carpenter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff:master_electrician"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff:master_properties"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff:master_sound_engineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff:set_designer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff:sound_designer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff:stage_hands"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff:technical_assistant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff:technical_coordinator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff:video_shooting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff:lighting:assistant_lighting_designer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff:lighting:lighting_assistant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff:lighting:lighting_designer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff:lighting:lighting%20director"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff:technical%20director"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaFileFormatCS#NeXTSun:au"/>
+        <Class IRI="urn:OpenDramaFileFormatCS#NeXTSun"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaFileFormatCS#NeXTSun:snd"/>
+        <Class IRI="urn:OpenDramaFileFormatCS#NeXTSun"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaFileFormatCS#WindowsMedia:WindowsMediaAudio"/>
+        <Class IRI="urn:OpenDramaFileFormatCS#WindowsMedia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaFileFormatCS#WindowsMedia:Advanced%20Streaming%20Format"/>
+        <Class IRI="urn:OpenDramaFileFormatCS#WindowsMedia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaFileFormatCS#mpeg:mp3"/>
+        <Class IRI="urn:OpenDramaFileFormatCS#mpeg"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Blues:Chicago%20Blues"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Blues"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Blues:Country%20Blues"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Blues"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Blues:Electric%20Blues"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Blues"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Blues:Female%20Vocal%20Blues"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Blues"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Classical:Opera"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Classical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Classical:Symphony"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Classical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Classical:Avant%20Classical"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Classical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Classical:Chamber%20Music"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Classical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Classical:Solo%20Instrumetal"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Classical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Electronic:Ambient"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Electronic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Electronic:Downbeat"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Electronic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Electronic:House"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Electronic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Electronic:Jungle"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Electronic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Electronic:Techno"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Electronic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Electronic:Trance"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Electronic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Electronic:Trip-hop"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Electronic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Electronic:Acid%20Jazz"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Electronic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Electronic:Drum%20and%20Bass"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Electronic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Electronic:Dub%20Techno"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Electronic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Electronic:Intelligent%20Dance%20Music"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Electronic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Jazz:Cool"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Jazz"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Jazz:Fusion"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Jazz"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Jazz:Be%20Bop"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Jazz"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Jazz:Big%20Band/Swing"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Jazz"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Jazz:Free%20Jazz"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Jazz"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Jazz:Hard%20Bop"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Jazz"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Jazz:Latin%20Jazz/World%20Fusion"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Jazz"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Jazz:New%20Orleans/Classic%20Jazz"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Jazz"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Jazz:Soul%20Jazz/Groove"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Jazz"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Metal:Grindcore"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Metal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Metal:Thrash"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Metal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Metal:Black%20Metal"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Metal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Metal:Death%20Metal"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Metal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Metal:Doom%20Metal"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Metal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Metal:Funk%20Metal"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Metal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Metal:Nu%20Metal"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Metal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Metal:Speed%20Metal"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Metal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Pop:TeenPop"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Pop"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Pop:Vocalists"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Pop"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Pop:Easy%20Listening"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Pop"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Pop:EuroPop/DancePop"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Pop"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rap/Hip_Hop:Abstract"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rap/Hip_Hop"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rap/Hip_Hop:Bass"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rap/Hip_Hop"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rap/Hip_Hop:Gangsta"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rap/Hip_Hop"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rap/Hip_Hop:Independent"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rap/Hip_Hop"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rap/Hip_Hop:Southern"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rap/Hip_Hop"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rap/Hip_Hop:Turntablist"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rap/Hip_Hop"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rap/Hip_Hop:Old%20School"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rap/Hip_Hop"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rap/Hip_Hop:Pop%20Rap"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rap/Hip_Hop"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rock:Punk"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rock"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rock:Ska"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rock"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rock:Soft-Rock"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rock"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rock:Alternative/Indie-Rock"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rock"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rock:Art-Rock/Experimental"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rock"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rock:British%20Invasion"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rock"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rock:Folk/Country%20Rock"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rock"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rock:Foreign%20Language%20Rock"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rock"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rock:Hard%20Rock"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rock"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rock:New%20Wave"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rock"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rock:Pop/Rock"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rock"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rock:Psychedelic/Garage"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rock"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rock:R&amp;B/Soul"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rock"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rock:Rock%20&amp;%20Roll/Roots"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rock"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rock:Surf%20Rock"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#Rock"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:African"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:Asian"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:Celtic"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:Latin"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:African:Afro%20Beat"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:African"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:African:Afro%20Pop"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:African"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:African:Traditional%20African"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:African"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:Asian:Qawwalli"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:Asian"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:Asian:Bombay%20Pop"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:Asian"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:Asian:Indian%20Classical"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:Asian"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:Eastern%20European"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:Indigenous%20Music"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:Latin:Calypso"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:Latin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:Latin:Chorinho"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:Latin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:Latin:Cumbia"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:Latin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:Latin:Guaracha"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:Latin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:Latin:MPB"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:Latin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:Latin:Merengue"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:Latin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:Latin:Salsa"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:Latin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:Latin:Samba"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:Latin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:Latin:Son"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:Latin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:Latin:Tropicalia"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:Latin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:Latin:Bossa%20Nova"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:Latin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World:Western%20European"/>
+        <Class IRI="urn:OpenDramaGeneralStyleCS#World"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones:Accordion"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones:Aeolian_Harp"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones:Backing_vocals"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones:Bandoneon"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones:Barrel_Organ"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones:Bayan"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones:Bull-Roarer"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones:Concertina"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones:Electric_Chord_Organ"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones:Harmonica"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones:Harmonium"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones:Indian_Harmonium"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones:Khaen"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones:Leaf_Instrument"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones:Orchestrion"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones:Organ_Reed_Pipes"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones:Pedal_Concertina"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones:Pedal_Reed_Organ"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones:Reed_Organ"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones:Sheng"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones:Sho"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones:Vocals"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones:Vox_Humana"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones:Jew&apos;s_Harp"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Free_Aerophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Brass_Instruments"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Edge_Instruments"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Reed_Pipes"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Brass_Instruments:Animal_Horn_Shofar"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Brass_Instruments"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Brass_Instruments:Bugle"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Brass_Instruments"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Brass_Instruments:Conch_shell"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Brass_Instruments"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Brass_Instruments:Cornet"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Brass_Instruments"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Brass_Instruments:Didjeridu"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Brass_Instruments"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Brass_Instruments:Euphonium"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Brass_Instruments"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Brass_Instruments:French_Horn"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Brass_Instruments"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Brass_Instruments:Trombone"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Brass_Instruments"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Brass_Instruments:Trumpet"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Brass_Instruments"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Brass_Instruments:Tuba"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Brass_Instruments"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Edge_Instruments:Flute"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Edge_Instruments"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Edge_Instruments:Jug"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Edge_Instruments"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Edge_Instruments:Organ_Flue_Pipes"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Edge_Instruments"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Edge_Instruments:Panpipes"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Edge_Instruments"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Edge_Instruments:Piccolo"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Edge_Instruments"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Edge_Instruments:Recorder"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Edge_Instruments"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Edge_Instruments:Whistle"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Edge_Instruments"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Reed_Pipes:Bagpipe"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Reed_Pipes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Reed_Pipes:Bassoon"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Reed_Pipes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Reed_Pipes:Clarinet"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Reed_Pipes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Reed_Pipes:Oboe"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Reed_Pipes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Reed_Pipes:Saxophone"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Aerophones:Wind_Instruments_Proper:Reed_Pipes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Bowed"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Plucked"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Struck"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Bowed:Cello"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Bowed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Bowed:Contrabass"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Bowed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Bowed:Double_Bass"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Bowed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Bowed:Viola"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Bowed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Bowed:Violin"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Bowed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Plucked:Banjo"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Plucked"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Plucked:Cavaco"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Plucked"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Plucked:Cavaquinho"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Plucked"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Plucked:Charango"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Plucked"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Plucked:Guitar"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Plucked"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Plucked:Harp"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Plucked"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Plucked:Harpsichord"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Plucked"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Plucked:Laud"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Plucked"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Plucked:Mandolin"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Plucked"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Plucked:Placked_Dulcimer"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Plucked"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Plucked:Tambura"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Plucked"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Plucked:Ukulele"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Plucked"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Struck:Berimbau"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Struck"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Struck:Hammered_Dulcimer"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Struck"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Struck:Piano"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Chordophones:Struck"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Electrophones:Electronic"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Electrophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Electrophones:Electric/Acoustic"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Electrophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Electrophones:Electric/Acoustic:Electric_Bass"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Electrophones:Electric/Acoustic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Electrophones:Electric/Acoustic:Electric_Guitar"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Electrophones:Electric/Acoustic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Electrophones:Electric/Acoustic:Electric_Piano"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Electrophones:Electric/Acoustic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Electrophones:Electric/Acoustic:Rhodes_Piano"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Electrophones:Electric/Acoustic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Electrophones:Electric/Acoustic:Turntable"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Electrophones:Electric/Acoustic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Electrophones:Electronic:Electric_Organ"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Electrophones:Electronic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Electrophones:Electronic:Hammond_Organ"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Electrophones:Electronic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Electrophones:Electronic:MIDI_Instruments"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Electrophones:Electronic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Electrophones:Electronic:Ondes_Martenot"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Electrophones:Electronic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Electrophones:Electronic:Sampler"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Electrophones:Electronic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Electrophones:Electronic:Sequencer"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Electrophones:Electronic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Electrophones:Electronic:Synthesizer"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Electrophones:Electronic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Electrophones:Electronic:Theremin"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Electrophones:Electronic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Amadinda"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Anklung"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Balafon"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Bells"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Blocks"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Cabasa"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Caixixi"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Cajon"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Castanets"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Celesta"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Chimes"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Clapsticks"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Claves"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Cowbell"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Cymbals"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Drum-chime"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Egg_Shakes"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Glass_Harmonica"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Glockenspiel"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Gong-chime"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Gongs"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Guiro"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Hi_Hat"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Jingles"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Kalimba"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Lamellaphone"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Maracas"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Marimba"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Mbira"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Music_Box"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Prayer_Bowls"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Rain_Sticks"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Rattles"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Reco_reco"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Shekere"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Sistrum"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Slit_Drum"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Temple_Blocks"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Triangle"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Tubular_bells"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Vibraphone"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Washboard"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones:Woodblocks"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Idiophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Arabian_Tabla"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Ashiko"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Bass_Drum"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Bodhran"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Bongo"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Conga"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Cuica"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Daf"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Darabuka"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Dhol"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Djembe"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Drums"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Friction_Drum"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Kanjira"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Kazoo"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Lambeg"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Ocean_Drum"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Pandeiro"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Rebolo"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Repinique"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Repique"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Roto_Toms"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Snare_Drum"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Steel_Drums"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Surdo"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Tabla"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Taiko"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Talking_drum"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Tamborin"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Tambourine"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Timbal"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Timbales"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Timpani"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Tonbak"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones:Zabumba"/>
+        <Class IRI="urn:OpenDramaInstrumentCS#Membranophones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#Management_Staff:Company_Manager"/>
+        <Class IRI="urn:OpenDramaRoleCS#Management_Staff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#Management_Staff:Executive_Director"/>
+        <Class IRI="urn:OpenDramaRoleCS#Management_Staff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#Management_Staff:Public_Relations_Director"/>
+        <Class IRI="urn:OpenDramaRoleCS#Management_Staff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#authors:Librettist"/>
+        <Class IRI="urn:OpenDramaRoleCS#authors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#authors:composer"/>
+        <Class IRI="urn:OpenDramaRoleCS#authors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:Direction"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:Interpreters"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:costumes"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:make-up"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:Direction:Production_Assistant"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:Direction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:Direction:Production_Manager"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:Direction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:Direction:Production_Supervisor"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:Direction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:Direction:Stage_Director"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:Direction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:Direction:Stage_Manager"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:Direction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:Interpreters:conductor"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:Interpreters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:Interpreters:extras"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:Interpreters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:Interpreters:orchestra"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:Interpreters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:Interpreters:singers"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:Interpreters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:Interpreters:orchestra:brass"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:Interpreters:orchestra"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:Interpreters:orchestra:keyboard"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:Interpreters:orchestra"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:Interpreters:orchestra:percussion"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:Interpreters:orchestra"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:Interpreters:orchestra:strings"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:Interpreters:orchestra"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:Interpreters:orchestra:woodwinds"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:Interpreters:orchestra"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:Interpreters:singers:chorus"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:Interpreters:singers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:Interpreters:singers:main_roles"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:Interpreters:singers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:Interpreters:singers:secondary_roles"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:Interpreters:singers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:costumes:costume_designer"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:costumes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:costumes:craft_artisans"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:costumes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:costumes:cutters"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:costumes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:costumes:dyer"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:costumes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:costumes:first_hands"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:costumes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:costumes:wardrobe"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:costumes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:costumes:assistant%20costume%20director"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:costumes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:costumes:cutters:assistant_cutters"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:costumes:cutters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:costumes:cutters:cutters"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:costumes:cutters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:costumes:cutters:senior_cutters"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:costumes:cutters"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:costumes:wardrobe:wardrobe_assistant"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:costumes:wardrobe"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:costumes:wardrobe:wardrobe_head"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:costumes:wardrobe"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:make-up:hairstylist"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:make-up"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:make-up:makeup_artists"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:make-up"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:make-up:senior_hairstylist"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:make-up"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff:Property_Foreman"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff:assistant_carpenter"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff:assistant_electrician"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff:assistant_master_properties"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff:choreography"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff:lighting"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff:master_carpenter"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff:master_electrician"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff:master_properties"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff:master_sound_engineering"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff:set_designer"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff:sound_designer"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff:stage_hands"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff:technical_assistant"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff:technical_coordinator"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff:video_shooting"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff:lighting:assistant_lighting_designer"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff:lighting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff:lighting:lighting_assistant"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff:lighting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff:lighting:lighting_designer"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff:lighting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff:lighting:lighting%20director"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff:lighting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff:technical%20director"/>
+        <Class IRI="urn:OpenDramaRoleCS#production_staff:technical%20staff"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.8) http://owlapi.sourceforge.net -->
+

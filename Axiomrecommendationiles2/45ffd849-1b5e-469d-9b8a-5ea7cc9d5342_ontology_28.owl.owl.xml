@@ -1,0 +1,854 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://lsdis.cs.uga.edu/proj/semdis/testbed/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://lsdis.cs.uga.edu/proj/semdis/testbed/">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Declaration>
+        <Class IRI="#Academic_Organization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Agent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ballistic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Biological"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Business"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Charitable_Organization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chemical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Church"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Communication"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Corporate_Organization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Energy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Event"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Executive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Explosive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Facility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Financial_Organization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Identifier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Industry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IntellienceCommunity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Language"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Legislator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#List"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Monument"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mosque"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nuclear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Organization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Place_of_Worship"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Political_Organization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Religion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Religious"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Religious_Organization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Slogan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StateAdministrator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#State_Agent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#State_Event"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#State_Organization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stock_Ticker"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Symbol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Terror_Agent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Terror_Event"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Terror_Organization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Terrorist_Training_Camp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vessel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WatchList"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Weapon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#city"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#country"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#place"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#region"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#state"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#thing"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#agent_operates_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#associated_with"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#based_at"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#capital_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#claims_responsibility_for"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#competes_with"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#conducted_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#coordinated"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#country_listed_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#directly_involved_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#educated_at"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#faculty_at"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#family_with"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#friends_with"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#funded_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_industry_focus"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_place_of_worship"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_training_camp"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#leader_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#located_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#member_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#national_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#org_affiliated_with_org"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#org_facilitated_by_org"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#org_facilitated_by_person"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#org_has_id"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#org_operates_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#originated_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#owned_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#participated_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#person_affiliated_with_org"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#person_facilitated_by_org"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#person_listed_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#primarily_lives_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#received_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#represents"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#responsible_for"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#spoken_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#spoken_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#suborganization_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#thing_listed_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#used_in_attack"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#victim_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#worships_at"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Academic_Organization"/>
+        <Class IRI="#Organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Agent"/>
+        <Class IRI="#person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ballistic"/>
+        <Class IRI="#Weapon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Biological"/>
+        <Class IRI="#Weapon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Business"/>
+        <Class IRI="#Symbol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Charitable_Organization"/>
+        <Class IRI="#Organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chemical"/>
+        <Class IRI="#Weapon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Church"/>
+        <Class IRI="#Place_of_Worship"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Communication"/>
+        <Class IRI="#thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Corporate_Organization"/>
+        <Class IRI="#Organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Energy"/>
+        <Class IRI="#Weapon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Event"/>
+        <Class IRI="#thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Executive"/>
+        <Class IRI="#person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Explosive"/>
+        <Class IRI="#Weapon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Facility"/>
+        <Class IRI="#thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Financial_Organization"/>
+        <Class IRI="#Organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Identifier"/>
+        <Class IRI="#thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Industry"/>
+        <Class IRI="#thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IntellienceCommunity"/>
+        <Class IRI="#State_Agent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Language"/>
+        <Class IRI="#thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Legislator"/>
+        <Class IRI="#State_Agent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#List"/>
+        <Class IRI="#thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Monument"/>
+        <Class IRI="#thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mosque"/>
+        <Class IRI="#Place_of_Worship"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nuclear"/>
+        <Class IRI="#Weapon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Organization"/>
+        <Class IRI="#thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Place_of_Worship"/>
+        <Class IRI="#thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Political_Organization"/>
+        <Class IRI="#Organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Religion"/>
+        <Class IRI="#thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Religious"/>
+        <Class IRI="#Symbol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Religious_Organization"/>
+        <Class IRI="#Organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Slogan"/>
+        <Class IRI="#Identifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StateAdministrator"/>
+        <Class IRI="#State_Agent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#State_Agent"/>
+        <Class IRI="#Agent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#State_Event"/>
+        <Class IRI="#Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#State_Organization"/>
+        <Class IRI="#Organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stock_Ticker"/>
+        <Class IRI="#Business"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Symbol"/>
+        <Class IRI="#Identifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Terror_Agent"/>
+        <Class IRI="#Agent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Terror_Event"/>
+        <Class IRI="#Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Terror_Organization"/>
+        <Class IRI="#Organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Terrorist_Training_Camp"/>
+        <Class IRI="#Facility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vessel"/>
+        <Class IRI="#thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WatchList"/>
+        <Class IRI="#List"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Weapon"/>
+        <Class IRI="#thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#city"/>
+        <Class IRI="#place"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#country"/>
+        <Class IRI="#place"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#region"/>
+        <Class IRI="#place"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#state"/>
+        <Class IRI="#place"/>
+    </SubClassOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#agent_operates_in"/>
+        <Class IRI="#Agent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#associated_with"/>
+        <Class IRI="#person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#based_at"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#capital_of"/>
+        <Class IRI="#city"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#claims_responsibility_for"/>
+        <Class IRI="#Terror_Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#competes_with"/>
+        <Class IRI="#Corporate_Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#conducted_in"/>
+        <Class IRI="#Communication"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#coordinated"/>
+        <Class IRI="#person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#country_listed_in"/>
+        <Class IRI="#country"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#directly_involved_in"/>
+        <Class IRI="#person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#educated_at"/>
+        <Class IRI="#person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#faculty_at"/>
+        <Class IRI="#person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#family_with"/>
+        <Class IRI="#person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#friends_with"/>
+        <Class IRI="#person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#funded_by"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_industry_focus"/>
+        <Class IRI="#Corporate_Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_place_of_worship"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_training_camp"/>
+        <Class IRI="#Terror_Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#leader_of"/>
+        <Class IRI="#person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#located_in"/>
+        <Class IRI="#place"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#member_of"/>
+        <Class IRI="#person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#national_of"/>
+        <Class IRI="#person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#org_affiliated_with_org"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#org_facilitated_by_org"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#org_facilitated_by_person"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#org_has_id"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#org_operates_in"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#originated_by"/>
+        <Class IRI="#Communication"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#owned_by"/>
+        <Class IRI="#Vessel"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#participated_by"/>
+        <Class IRI="#Communication"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#person_affiliated_with_org"/>
+        <Class IRI="#person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#person_facilitated_by_org"/>
+        <Class IRI="#person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#person_listed_in"/>
+        <Class IRI="#person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#primarily_lives_in"/>
+        <Class IRI="#person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#received_by"/>
+        <Class IRI="#Communication"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#represents"/>
+        <Class IRI="#Legislator"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#responsible_for"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#spoken_by"/>
+        <Class IRI="#Language"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#spoken_in"/>
+        <Class IRI="#Language"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#suborganization_of"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#thing_listed_in"/>
+        <Class IRI="#thing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#used_in_attack"/>
+        <Class IRI="#Weapon"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#victim_of"/>
+        <Class IRI="#person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#worships_at"/>
+        <Class IRI="#person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#agent_operates_in"/>
+        <Class IRI="#place"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#associated_with"/>
+        <Class IRI="#person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#based_at"/>
+        <Class IRI="#place"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#capital_of"/>
+        <Class IRI="#country"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#claims_responsibility_for"/>
+        <Class IRI="#Terror_Event"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#competes_with"/>
+        <Class IRI="#Corporate_Organization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#conducted_in"/>
+        <Class IRI="#Language"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#coordinated"/>
+        <Class IRI="#Event"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#country_listed_in"/>
+        <Class IRI="#List"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#directly_involved_in"/>
+        <Class IRI="#Event"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#educated_at"/>
+        <Class IRI="#Academic_Organization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#faculty_at"/>
+        <Class IRI="#Academic_Organization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#family_with"/>
+        <Class IRI="#person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#friends_with"/>
+        <Class IRI="#person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#funded_by"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_industry_focus"/>
+        <Class IRI="#Industry"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_place_of_worship"/>
+        <Class IRI="#Place_of_Worship"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_training_camp"/>
+        <Class IRI="#Terrorist_Training_Camp"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#leader_of"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#located_in"/>
+        <Class IRI="#place"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#member_of"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#national_of"/>
+        <Class IRI="#country"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#org_affiliated_with_org"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#org_facilitated_by_org"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#org_facilitated_by_person"/>
+        <Class IRI="#person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#org_has_id"/>
+        <Class IRI="#Identifier"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#org_operates_in"/>
+        <Class IRI="#place"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#originated_by"/>
+        <Class IRI="#person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#owned_by"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#participated_by"/>
+        <Class IRI="#person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#person_affiliated_with_org"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#person_facilitated_by_org"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#person_listed_in"/>
+        <Class IRI="#List"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#primarily_lives_in"/>
+        <Class IRI="#place"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#received_by"/>
+        <Class IRI="#person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#represents"/>
+        <Class IRI="#place"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#responsible_for"/>
+        <Class IRI="#Event"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#spoken_by"/>
+        <Class IRI="#person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#spoken_in"/>
+        <Class IRI="#place"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#suborganization_of"/>
+        <Class IRI="#Organization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#thing_listed_in"/>
+        <Class IRI="#List"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#used_in_attack"/>
+        <Class IRI="#Terror_Event"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#victim_of"/>
+        <Class IRI="#Terror_Event"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#worships_at"/>
+        <Class IRI="#Place_of_Worship"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.8) http://owlapi.sourceforge.net -->
+

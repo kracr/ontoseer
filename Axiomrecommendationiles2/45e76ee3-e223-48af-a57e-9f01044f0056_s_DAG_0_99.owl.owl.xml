@@ -1,0 +1,7116 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://ontolearn.org/plants_DAG_0_99/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://ontolearn.org/plants_DAG_0_99/">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Declaration>
+        <Class IRI="#acacia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#achillea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#aconite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#african_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#african_violet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#agapanthus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#agave"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ailanthus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#air_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#alder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#alfalfa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#allamanda"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#alliaceous_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#aloe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#alstroemeria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#althea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#alyssum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#amaranth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#amaryllis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#american_basswood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#american_evergreen_tree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#american_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#american_tree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#anemone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#angelica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#angiosperm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#angiospermous_tree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#annual"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#anthurium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#apex"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#apple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#apple_tree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#apricot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#aquatic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#aquatic_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#arborvitae"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#arnica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#aromatic_herb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#aromatic_shrub"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#arrowroot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#artemisia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#artemisia_absinthium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#artemisia_tridentata"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#artichoke"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#arum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ash"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#asparagus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#aspen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#aster"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#astilbe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#australian_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#avocado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#azalea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bamboo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#banana"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#banksia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#barberry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#barley"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#basil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bean"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#beech"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#beet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#beetroot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#begonia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bell_pepper"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#belladonna"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bellwort"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#berry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#biennial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bilberry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bindweed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#birch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bitterroot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bittersweet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#black-eyed_pea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#blackberry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#blackthorn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bladderwort"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bloodroot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#blueberry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bonsai"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#borage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bougainvillea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bourtree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#box"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bracken"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bramble"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bramble_bush"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#branch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#brand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#breadfruit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#broadleaf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#broccoli"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#brome"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#broom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#buckthorn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#buckwheat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bud"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#buddleia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bulb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bulbous_flowering_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bulbous_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#burdock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bush"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#buttercup"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#butterfly_bush"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#butterwort"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cabbage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cacao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cactus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#caladium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#calamus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#calendula"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#camass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#camellia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#canna"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cannabis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cantaloupe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#capsicum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#capsule"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#caraway"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cardamom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cardoon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#carnation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#carnivorous_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#carrot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cascara_buckthorn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cashew"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cassava"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#casuarina"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#catmint"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cattail"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cauliflower"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cedar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#celery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#centaury"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cereal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cereal_grain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cereal_grass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#chamomile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#chaparral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#chard"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cherry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#chickpea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#chickweed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#chicory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#china"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#chive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cholla"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#chrysanthemum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cinnamon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#citrus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#clematis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#climber"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cloudberry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#clover"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#coconut"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#coffee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#coleus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#collard"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#columbine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#comfrey"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#composite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#composite_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#coneflower"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#conifer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cordgrass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#coreopsis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#coriander"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#coriander_seed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#corn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cosmos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cotinus_obovatus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cotoneaster"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cotton"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cottonwood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cowberry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cowpea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cowslip"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#crab_apple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#crabgrass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cranberry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cranesbill"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cress"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#crocus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#crop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#croton"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#crowberry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#crucifer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cruciferous_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cruciferous_vegetable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cryptocoryne"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cucumber"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cultivar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cumin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#currant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#custard_apple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cut"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cutting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cycad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cyclamen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cypress"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#daffodil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dahlia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#daisy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dandelion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#daphne"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#day_lily"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#deciduous_subshrub"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#deciduous_tree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#deep-rooted_coarse-textured_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#delicious"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#delphinium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#derivative"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#desert_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#diatom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dicot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dicotyledon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dill"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dodder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dog_grass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dogbane"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dogwood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#domesticated_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#downy_brome"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dracaena"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#drupe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#duckweed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eating_apple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eelgrass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eggplant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#elder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#elder_tree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#elm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#end"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#epiphyte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#erica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#erythroxylon_coca"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eucalyptus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eurasian_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#evergreen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#evergreen_herbaceous_perennial_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#evergreen_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#evergreen_shrub"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#evergreen_tree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#everlasting_flower"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#family_poaceae"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fan_palm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fennel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fenugreek"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fern"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fern_ally"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fescue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fiber_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fig"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fig_marigold"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fig_tree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fir"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fireweed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#flax"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fleawort"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#flora"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#florist_s_chrysanthemum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#flower"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#flower_bud"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#flowering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#flowering_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#flowering_raspberry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#flowering_shrub"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#folk_remedy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#forest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#forsythia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#foxglove"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fragrant_aromatic_herb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#frangipani"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fraxinus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#frogbit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fruit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fruit_tree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fuchsia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#galax"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#garden_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gardenia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#garlic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gazania"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gentian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#genus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#geranium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ginger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ginkgo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ginseng"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gladiolus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#glasswort"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#globe_artichoke"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gloxinia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#goldenrod"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#goldenseal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gooseberry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#goosefoot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gorse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gourd"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#grain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gramineous_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#grape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#grass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#grass-like_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#grass_family"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#greasewood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#green"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#grevillea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#groundnut"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#guar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#guava"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gum_tree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gymnosperm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gymnospermous_tree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hackberry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hardwood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hardy_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hawthorn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hazel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hazelnut"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#head"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#heath"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#heather"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#helianthemum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hellebore"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hemlock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#henbane"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#herb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#herbaceous_perennial_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#herbaceous_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#herbage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hibiscus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hickory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#holly"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#honeysuckle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#honeysuckle_family"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hornwort"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#horseradish"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#horsetail"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#houseplant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hoya"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#huckleberry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hyacinth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hydrangea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hydrilla"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ice_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#indicator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#indigo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#inflorescence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#invasive_grass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#iridaceous_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#iris"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ivy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#jasmine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#jimsonweed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#joint"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#jonquil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#juicy_fruit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#juneberry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#kale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#kenaf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#knapweed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#kudzu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lantana"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#large-flowered_garden_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#larkspur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#laurel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lavender"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#leadwort"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#leaf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#leaf_bud"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#leek"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#legume"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#leguminous_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lemon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lemongrass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lentil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lettuce"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#liana"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#licorice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lilac"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#liliaceous_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lily"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lily_of_the_valley"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lobelia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#locoweed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lotus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#love_grass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#low-growing_palm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#low-growing_pine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lupine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#macadamia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#madder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#madderwort"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#magnolia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#maguey"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mallow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mandarin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mandrake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mango"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mangrove"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#manzanita"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#maple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#maranta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#marigold"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#marijuana"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#marrow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#marsh_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#matchweed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#matured_ovary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#medic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#medicine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mediterranean_evergreen_tree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#melon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mescal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mesquite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#milkweed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#millet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mint"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mistflower"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#monarda"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#monkshood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#monocot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#monocotyledonous_flowering_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#monstera"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#moraceous_tree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#morning_glory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mulberry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mullein"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#muskmelon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mustard"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#myrtle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#narcissus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nasturtium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#native"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nectarine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#needle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nettle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nightshade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#node"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#north_american_perennial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#north_american_tree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nut"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nut_tree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#oak"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#oat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#oilseed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#okra"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#oleander"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#olive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#olive_tree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#onion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#orange"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#orchid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#oregano"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#organ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#origanum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ornamental"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ornamental_flowering_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ornamental_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ostrich_fern"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ovary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#oxalis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#oxygenating_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pachysandra"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#palm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#palmetto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#panic_grass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pansy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#papaya"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#papyrus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#parasite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#parsley"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#parsnip"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#passionflower"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pea_family"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pea_tree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#peach"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#peanut"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pear-shaped_fruit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pecan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pennyroyal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#peony"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#peperomia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pepper"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#peppermint"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perennial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perennial_composite_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perennial_grass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perennial_herb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perennial_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#periwinkle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#petunia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#philodendron"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#phlox"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pickerelweed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pigweed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pineapple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pinon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#plane_tree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#plant_life"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#plantain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#plumbago"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pod"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#poinsettia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#poisonous_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pokeweed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#polyanthus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pomegranate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pondweed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#poplar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#poppy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#potato"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pothos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#prickly_shrub"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#primrose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#privet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#protea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pteridophyte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pumpkin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pyracantha"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#quince"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rabbitweed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#radish"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#radish_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ragwort"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ramp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#raspberry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rattan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#receptacle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#redbud"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#reed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#refinery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#residing_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#resilient_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#retem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rhizomatous_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rhizome"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rhododendron"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rhubarb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#robust_flowering_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rockrose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#root"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#root_vegetable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rosemary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rush"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rye"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#safflower"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sagebrush"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sago"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#saguaro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sainfoin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#salal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#salt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#saltbush"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#saltwort"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sauce"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#saxifrage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#section"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sedge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sedum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#seed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#seedless_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#seedling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#seedpod"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#semiaquatic_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#senna"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sesame"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#shellflower"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#shoot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#showy_perennial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#showy_succulent_ground-hugging_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#shrub"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#shrubby_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#shrubby_tree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#silver_wattle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sinningia_speciosa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sisal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#slab"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#smoke_tree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#snapdragon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#snowberry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#soapwort"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#solanaceae"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sometimes_grown"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sorghum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#soursop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#south_african_flowering_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sown"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#soy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#spearmint"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#spermatophyte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#spice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#spiked_vine-like_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#spinach"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#spineless_globe-shaped_cactus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#spiny_eurasian_shrub"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sporangium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#spurge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#squash"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#stage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#stalk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#stem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#stock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#stone_fruit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#stonecrop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#strawberry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#strawflower"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#strong-smelling_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#style"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#subshrub"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#succulent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#succulent_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sugar_beet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sugarcane"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sumac"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#summer_squash"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sundew"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sunflower"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sweet_melon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#swiss_chard"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#switch_grass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sword"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tamarisk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tangerine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#taro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#teak"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#teff"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tender"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#thistle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#thistlelike_eurasian_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#thorn_apple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#thrift"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#thyme"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ti"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tincture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tobacco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tomato"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tree_bearing_edible_nut"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#trillium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#true_laurel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#true_pepper"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tulip"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tumbleweed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#turmeric"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#turnip"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#turnip_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#underbrush"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#unrelated_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#valerian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#vanilla"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#vascular_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#vegetable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#verbena"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#versatile_fruit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#vetch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#vine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#viola"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#violet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#wallflower"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#walnut"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#water_chestnut"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#water_lily"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#water_shamrock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#water_shield"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#watercress"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#watermelon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#wattle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#weed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#wheat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#wheatgrass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#white_hellebore"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#wild_hyacinth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#wildflower"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#willow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#willowherb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#wintergreen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#wisteria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#woad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#wood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#wood_anemone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#woody_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#world_aromatic_shrub"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#world_herb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#wormwood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#yam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#yarrow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#yew"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#yucca"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#zinnia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#zucchini"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#acacia"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#acacia"/>
+        <Class IRI="#shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#acacia"/>
+        <Class IRI="#wood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#achillea"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#achillea"/>
+        <Class IRI="#perennial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#aconite"/>
+        <Class IRI="#herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#aconite"/>
+        <Class IRI="#herbaceous_perennial_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#aconite"/>
+        <Class IRI="#perennial_herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#aconite"/>
+        <Class IRI="#poisonous_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#african_plant"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#african_violet"/>
+        <Class IRI="#african_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#agapanthus"/>
+        <Class IRI="#bulb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#agapanthus"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#agapanthus"/>
+        <Class IRI="#perennial_herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#agave"/>
+        <Class IRI="#american_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#agave"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ailanthus"/>
+        <Class IRI="#china"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ailanthus"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ailanthus"/>
+        <Class IRI="#wood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#air_plant"/>
+        <Class IRI="#epiphyte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#alder"/>
+        <Class IRI="#deciduous_tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#alder"/>
+        <Class IRI="#wood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#alfalfa"/>
+        <Class IRI="#flowering_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#alfalfa"/>
+        <Class IRI="#legume"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#alfalfa"/>
+        <Class IRI="#leguminous_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#alfalfa"/>
+        <Class IRI="#sometimes_grown"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#allamanda"/>
+        <Class IRI="#evergreen"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#allamanda"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#allamanda"/>
+        <Class IRI="#native"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#allamanda"/>
+        <Class IRI="#perennial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#alliaceous_plant"/>
+        <Class IRI="#bulbous_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#aloe"/>
+        <Class IRI="#african_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#aloe"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#aloe"/>
+        <Class IRI="#succulent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#aloe"/>
+        <Class IRI="#succulent_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#alstroemeria"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#alstroemeria"/>
+        <Class IRI="#lily"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#alstroemeria"/>
+        <Class IRI="#perennial_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#althea"/>
+        <Class IRI="#flower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#alyssum"/>
+        <Class IRI="#annual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#alyssum"/>
+        <Class IRI="#flowering_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#alyssum"/>
+        <Class IRI="#garden_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#alyssum"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#amaranth"/>
+        <Class IRI="#annual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#amaranth"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#amaranth"/>
+        <Class IRI="#hardy_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#amaranth"/>
+        <Class IRI="#seed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#amaryllis"/>
+        <Class IRI="#belladonna"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#amaryllis"/>
+        <Class IRI="#bulb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#amaryllis"/>
+        <Class IRI="#bulbous_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#american_basswood"/>
+        <Class IRI="#deciduous_tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#american_basswood"/>
+        <Class IRI="#hardwood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#american_evergreen_tree"/>
+        <Class IRI="#evergreen_tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#american_plant"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#american_tree"/>
+        <Class IRI="#tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#anemone"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#angelica"/>
+        <Class IRI="#aromatic_herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#angelica"/>
+        <Class IRI="#biennial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#angelica"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#angelica"/>
+        <Class IRI="#perennial_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#angelica"/>
+        <Class IRI="#stem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#angiosperm"/>
+        <Class IRI="#flowering_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#angiosperm"/>
+        <Class IRI="#vascular_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#angiospermous_tree"/>
+        <Class IRI="#tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#annual"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#anthurium"/>
+        <Class IRI="#american_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#anthurium"/>
+        <Class IRI="#flower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#anthurium"/>
+        <Class IRI="#flowering_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#anthurium"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#apex"/>
+        <Class IRI="#end"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#apple"/>
+        <Class IRI="#fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#apple"/>
+        <Class IRI="#wood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#apple_tree"/>
+        <Class IRI="#cultivar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#apple_tree"/>
+        <Class IRI="#tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#apricot"/>
+        <Class IRI="#fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#apricot"/>
+        <Class IRI="#stone_fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#aquatic"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#aquatic_plant"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#arborvitae"/>
+        <Class IRI="#evergreen"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#arborvitae"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#arborvitae"/>
+        <Class IRI="#shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#arnica"/>
+        <Class IRI="#herbaceous_perennial_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#arnica"/>
+        <Class IRI="#perennial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#arnica"/>
+        <Class IRI="#perennial_herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#aromatic_herb"/>
+        <Class IRI="#herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#aromatic_shrub"/>
+        <Class IRI="#shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#arrowroot"/>
+        <Class IRI="#canna"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#arrowroot"/>
+        <Class IRI="#perennial_herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#artemisia"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#artemisia_absinthium"/>
+        <Class IRI="#aromatic_herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#artemisia_absinthium"/>
+        <Class IRI="#herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#artemisia_tridentata"/>
+        <Class IRI="#aromatic_shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#artichoke"/>
+        <Class IRI="#flower_bud"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#artichoke"/>
+        <Class IRI="#thistle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#arum"/>
+        <Class IRI="#flower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#arum"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#arum"/>
+        <Class IRI="#sago"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ash"/>
+        <Class IRI="#fraxinus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#asparagus"/>
+        <Class IRI="#crop"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#asparagus"/>
+        <Class IRI="#perennial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#asparagus"/>
+        <Class IRI="#shoot"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#asparagus"/>
+        <Class IRI="#vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#aspen"/>
+        <Class IRI="#hardwood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#aster"/>
+        <Class IRI="#flowering_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#aster"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#astilbe"/>
+        <Class IRI="#flower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#astilbe"/>
+        <Class IRI="#ornamental_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#astilbe"/>
+        <Class IRI="#perennial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#australian_plant"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#avocado"/>
+        <Class IRI="#evergreen_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#avocado"/>
+        <Class IRI="#fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#azalea"/>
+        <Class IRI="#flower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bamboo"/>
+        <Class IRI="#grass_family"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bamboo"/>
+        <Class IRI="#wood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#banana"/>
+        <Class IRI="#berry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#banana"/>
+        <Class IRI="#herbaceous_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#banksia"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#banksia"/>
+        <Class IRI="#protea"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#banksia"/>
+        <Class IRI="#shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#barberry"/>
+        <Class IRI="#bush"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#barberry"/>
+        <Class IRI="#flowering_shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#barberry"/>
+        <Class IRI="#herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#barberry"/>
+        <Class IRI="#tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#barley"/>
+        <Class IRI="#cereal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#barley"/>
+        <Class IRI="#cereal_grain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#barley"/>
+        <Class IRI="#grass_family"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#barley"/>
+        <Class IRI="#peanut"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#basil"/>
+        <Class IRI="#leaf"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#basil"/>
+        <Class IRI="#perennial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bean"/>
+        <Class IRI="#leguminous_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bean"/>
+        <Class IRI="#seed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#beech"/>
+        <Class IRI="#deciduous_tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#beech"/>
+        <Class IRI="#wood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#beet"/>
+        <Class IRI="#root_vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#beetroot"/>
+        <Class IRI="#beet"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#beetroot"/>
+        <Class IRI="#vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#begonia"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bell_pepper"/>
+        <Class IRI="#pepper"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#belladonna"/>
+        <Class IRI="#biennial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#belladonna"/>
+        <Class IRI="#herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#belladonna"/>
+        <Class IRI="#perennial_herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#belladonna"/>
+        <Class IRI="#poisonous_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#belladonna"/>
+        <Class IRI="#solanaceae"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bellwort"/>
+        <Class IRI="#lily"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bellwort"/>
+        <Class IRI="#perennial_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bellwort"/>
+        <Class IRI="#wildflower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#berry"/>
+        <Class IRI="#drupe"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#berry"/>
+        <Class IRI="#nut"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#biennial"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bilberry"/>
+        <Class IRI="#berry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bilberry"/>
+        <Class IRI="#blueberry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bilberry"/>
+        <Class IRI="#perennial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bilberry"/>
+        <Class IRI="#shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bindweed"/>
+        <Class IRI="#hardy_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bindweed"/>
+        <Class IRI="#vine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#birch"/>
+        <Class IRI="#tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#birch"/>
+        <Class IRI="#wood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bitterroot"/>
+        <Class IRI="#showy_succulent_ground-hugging_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bittersweet"/>
+        <Class IRI="#shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bittersweet"/>
+        <Class IRI="#vine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#black-eyed_pea"/>
+        <Class IRI="#bean"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#blackberry"/>
+        <Class IRI="#bramble"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#blackberry"/>
+        <Class IRI="#fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#blackthorn"/>
+        <Class IRI="#deciduous_tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#blackthorn"/>
+        <Class IRI="#shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bladderwort"/>
+        <Class IRI="#carnivorous_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bloodroot"/>
+        <Class IRI="#american_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bloodroot"/>
+        <Class IRI="#folk_remedy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bloodroot"/>
+        <Class IRI="#herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bloodroot"/>
+        <Class IRI="#perennial_herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bloodroot"/>
+        <Class IRI="#wildflower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#blueberry"/>
+        <Class IRI="#berry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#blueberry"/>
+        <Class IRI="#flowering_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#blueberry"/>
+        <Class IRI="#shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bonsai"/>
+        <Class IRI="#tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#borage"/>
+        <Class IRI="#annual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#borage"/>
+        <Class IRI="#hardy_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#borage"/>
+        <Class IRI="#herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bougainvillea"/>
+        <Class IRI="#perennial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bougainvillea"/>
+        <Class IRI="#shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bourtree"/>
+        <Class IRI="#elder_tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bourtree"/>
+        <Class IRI="#shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#box"/>
+        <Class IRI="#evergreen_shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#box"/>
+        <Class IRI="#receptacle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#box"/>
+        <Class IRI="#tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bracken"/>
+        <Class IRI="#fern"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bramble"/>
+        <Class IRI="#spiked_vine-like_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bramble_bush"/>
+        <Class IRI="#prickly_shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#branch"/>
+        <Class IRI="#shoot"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#brand"/>
+        <Class IRI="#cutting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#brand"/>
+        <Class IRI="#wood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#breadfruit"/>
+        <Class IRI="#evergreen_tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#breadfruit"/>
+        <Class IRI="#fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#broadleaf"/>
+        <Class IRI="#perennial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#broadleaf"/>
+        <Class IRI="#tobacco"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#broccoli"/>
+        <Class IRI="#cruciferous_vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#brome"/>
+        <Class IRI="#grass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#broom"/>
+        <Class IRI="#heather"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#broom"/>
+        <Class IRI="#shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#buckthorn"/>
+        <Class IRI="#shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#buckwheat"/>
+        <Class IRI="#broadleaf"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#buckwheat"/>
+        <Class IRI="#crop"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bud"/>
+        <Class IRI="#flower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bud"/>
+        <Class IRI="#stage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#buddleia"/>
+        <Class IRI="#shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#buddleia"/>
+        <Class IRI="#tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bulb"/>
+        <Class IRI="#leaf_bud"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bulb"/>
+        <Class IRI="#stem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bulbous_flowering_plant"/>
+        <Class IRI="#flowering_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bulbous_plant"/>
+        <Class IRI="#ornamental_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#burdock"/>
+        <Class IRI="#biennial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#burdock"/>
+        <Class IRI="#herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#burdock"/>
+        <Class IRI="#root"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#burdock"/>
+        <Class IRI="#thistle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bush"/>
+        <Class IRI="#shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#buttercup"/>
+        <Class IRI="#flower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#buttercup"/>
+        <Class IRI="#herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#buttercup"/>
+        <Class IRI="#pumpkin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#buttercup"/>
+        <Class IRI="#squash"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#butterfly_bush"/>
+        <Class IRI="#buddleia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#butterfly_bush"/>
+        <Class IRI="#ornamental"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#butterfly_bush"/>
+        <Class IRI="#shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#butterwort"/>
+        <Class IRI="#carnivorous_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cabbage"/>
+        <Class IRI="#cruciferous_vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cabbage"/>
+        <Class IRI="#cultivar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cabbage"/>
+        <Class IRI="#leaf"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cacao"/>
+        <Class IRI="#bean"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cacao"/>
+        <Class IRI="#evergreen_tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cacao"/>
+        <Class IRI="#tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cactus"/>
+        <Class IRI="#succulent_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#caladium"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#caladium"/>
+        <Class IRI="#houseplant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#calamus"/>
+        <Class IRI="#aquatic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#calamus"/>
+        <Class IRI="#aquatic_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#calamus"/>
+        <Class IRI="#perennial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#calamus"/>
+        <Class IRI="#perennial_herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#calendula"/>
+        <Class IRI="#bittersweet"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#calendula"/>
+        <Class IRI="#flower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#calendula"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#calendula"/>
+        <Class IRI="#herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#calendula"/>
+        <Class IRI="#ornamental_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#calendula"/>
+        <Class IRI="#perennial_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#camass"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#camellia"/>
+        <Class IRI="#flower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#camellia"/>
+        <Class IRI="#shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#canna"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cannabis"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cantaloupe"/>
+        <Class IRI="#melon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cantaloupe"/>
+        <Class IRI="#muskmelon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#capsicum"/>
+        <Class IRI="#american_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#capsicum"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#capsule"/>
+        <Class IRI="#fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#capsule"/>
+        <Class IRI="#sporangium"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#caraway"/>
+        <Class IRI="#annual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#caraway"/>
+        <Class IRI="#biennial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#caraway"/>
+        <Class IRI="#eurasian_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#caraway"/>
+        <Class IRI="#herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#caraway"/>
+        <Class IRI="#leaf"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cardamom"/>
+        <Class IRI="#perennial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cardamom"/>
+        <Class IRI="#pod"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cardamom"/>
+        <Class IRI="#spice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cardoon"/>
+        <Class IRI="#globe_artichoke"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cardoon"/>
+        <Class IRI="#vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#carnation"/>
+        <Class IRI="#eurasian_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#carnation"/>
+        <Class IRI="#tincture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#carnivorous_plant"/>
+        <Class IRI="#unrelated_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#carrot"/>
+        <Class IRI="#perennial_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#carrot"/>
+        <Class IRI="#root"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#carrot"/>
+        <Class IRI="#vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cascara_buckthorn"/>
+        <Class IRI="#shrubby_tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cashew"/>
+        <Class IRI="#american_evergreen_tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cashew"/>
+        <Class IRI="#fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cashew"/>
+        <Class IRI="#nut"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cashew"/>
+        <Class IRI="#versatile_fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cassava"/>
+        <Class IRI="#grain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cassava"/>
+        <Class IRI="#perennial_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cassava"/>
+        <Class IRI="#root"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#casuarina"/>
+        <Class IRI="#salt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#casuarina"/>
+        <Class IRI="#tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#catmint"/>
+        <Class IRI="#herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cattail"/>
+        <Class IRI="#grass_family"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cattail"/>
+        <Class IRI="#perennial_herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cattail"/>
+        <Class IRI="#stem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cauliflower"/>
+        <Class IRI="#cruciferous_vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cauliflower"/>
+        <Class IRI="#flower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cedar"/>
+        <Class IRI="#wood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#celery"/>
+        <Class IRI="#hardy_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#celery"/>
+        <Class IRI="#herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#celery"/>
+        <Class IRI="#stalk"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#celery"/>
+        <Class IRI="#vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#centaury"/>
+        <Class IRI="#annual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#centaury"/>
+        <Class IRI="#herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#centaury"/>
+        <Class IRI="#perennial_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cereal"/>
+        <Class IRI="#grain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cereal_grain"/>
+        <Class IRI="#seed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cereal_grass"/>
+        <Class IRI="#grass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chamomile"/>
+        <Class IRI="#eurasian_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chamomile"/>
+        <Class IRI="#flower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chamomile"/>
+        <Class IRI="#flowering_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chamomile"/>
+        <Class IRI="#herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chamomile"/>
+        <Class IRI="#tea"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chaparral"/>
+        <Class IRI="#herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chaparral"/>
+        <Class IRI="#shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chard"/>
+        <Class IRI="#artichoke"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chard"/>
+        <Class IRI="#kale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chard"/>
+        <Class IRI="#swiss_chard"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cherry"/>
+        <Class IRI="#fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cherry"/>
+        <Class IRI="#wood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chickpea"/>
+        <Class IRI="#annual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chickpea"/>
+        <Class IRI="#leguminous_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chickpea"/>
+        <Class IRI="#seed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chickweed"/>
+        <Class IRI="#herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chickweed"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chickweed"/>
+        <Class IRI="#weed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chicory"/>
+        <Class IRI="#coffee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chicory"/>
+        <Class IRI="#flowering_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chicory"/>
+        <Class IRI="#perennial_herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chicory"/>
+        <Class IRI="#perennial_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chicory"/>
+        <Class IRI="#root"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chicory"/>
+        <Class IRI="#weed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#china"/>
+        <Class IRI="#root"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chive"/>
+        <Class IRI="#leaf"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chive"/>
+        <Class IRI="#perennial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cholla"/>
+        <Class IRI="#tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chrysanthemum"/>
+        <Class IRI="#flower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chrysanthemum"/>
+        <Class IRI="#flowering_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chrysanthemum"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chrysanthemum"/>
+        <Class IRI="#perennial_herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cinnamon"/>
+        <Class IRI="#spice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cinnamon"/>
+        <Class IRI="#tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#citrus"/>
+        <Class IRI="#fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#citrus"/>
+        <Class IRI="#shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#clematis"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#clematis"/>
+        <Class IRI="#ornamental"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#climber"/>
+        <Class IRI="#vine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cloudberry"/>
+        <Class IRI="#fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cloudberry"/>
+        <Class IRI="#raspberry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#clover"/>
+        <Class IRI="#flower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#clover"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#coconut"/>
+        <Class IRI="#nut"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#coffee"/>
+        <Class IRI="#seed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#coffee"/>
+        <Class IRI="#tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cole"/>
+        <Class IRI="#cabbage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#coleus"/>
+        <Class IRI="#houseplant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#collard"/>
+        <Class IRI="#kale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#columbine"/>
+        <Class IRI="#wildflower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#comfrey"/>
+        <Class IRI="#herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#comfrey"/>
+        <Class IRI="#herbaceous_perennial_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#comfrey"/>
+        <Class IRI="#perennial_herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#comfrey"/>
+        <Class IRI="#perennial_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#composite"/>
+        <Class IRI="#flower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#composite_plant"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#coneflower"/>
+        <Class IRI="#north_american_perennial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#coneflower"/>
+        <Class IRI="#perennial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#coneflower"/>
+        <Class IRI="#perennial_herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#coneflower"/>
+        <Class IRI="#wildflower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#conifer"/>
+        <Class IRI="#gymnospermous_tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cordgrass"/>
+        <Class IRI="#perennial_grass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#coreopsis"/>
+        <Class IRI="#perennial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#coriander"/>
+        <Class IRI="#annual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#coriander"/>
+        <Class IRI="#coriander_seed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#coriander"/>
+        <Class IRI="#world_herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#coriander_seed"/>
+        <Class IRI="#spice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#corn"/>
+        <Class IRI="#ear"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cosmos"/>
+        <Class IRI="#flower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cosmos"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cotinus_obovatus"/>
+        <Class IRI="#shrubby_tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cotoneaster"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cotoneaster"/>
+        <Class IRI="#shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cotton"/>
+        <Class IRI="#indicator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cotton"/>
+        <Class IRI="#shrubby_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cottonwood"/>
+        <Class IRI="#american_basswood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cottonwood"/>
+        <Class IRI="#deciduous_tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cottonwood"/>
+        <Class IRI="#north_american_tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cottonwood"/>
+        <Class IRI="#poplar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cowberry"/>
+        <Class IRI="#berry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cowberry"/>
+        <Class IRI="#evergreen_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cowberry"/>
+        <Class IRI="#evergreen_shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cowberry"/>
+        <Class IRI="#shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cowpea"/>
+        <Class IRI="#black-eyed_pea"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cowpea"/>
+        <Class IRI="#legume"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cowpea"/>
+        <Class IRI="#vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cowslip"/>
+        <Class IRI="#herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cowslip"/>
+        <Class IRI="#herbaceous_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cowslip"/>
+        <Class IRI="#perennial_herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cowslip"/>
+        <Class IRI="#perennial_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#crab_apple"/>
+        <Class IRI="#apple_tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#crab_apple"/>
+        <Class IRI="#deciduous_tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#crab_apple"/>
+        <Class IRI="#wood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#crabgrass"/>
+        <Class IRI="#composite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#crabgrass"/>
+        <Class IRI="#grass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#crabgrass"/>
+        <Class IRI="#resilient_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#crabgrass"/>
+        <Class IRI="#weed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cranberry"/>
+        <Class IRI="#berry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cranberry"/>
+        <Class IRI="#evergreen_shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cranesbill"/>
+        <Class IRI="#bush"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cranesbill"/>
+        <Class IRI="#flowering_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cranesbill"/>
+        <Class IRI="#geranium"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cranesbill"/>
+        <Class IRI="#herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cranesbill"/>
+        <Class IRI="#perennial_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cress"/>
+        <Class IRI="#annual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cress"/>
+        <Class IRI="#herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#crocus"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#crop"/>
+        <Class IRI="#head"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#crop"/>
+        <Class IRI="#stock"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#croton"/>
+        <Class IRI="#evergreen_shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#croton"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#crowberry"/>
+        <Class IRI="#evergreen_shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#crowberry"/>
+        <Class IRI="#fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#crowberry"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#crowberry"/>
+        <Class IRI="#heather"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#crucifer"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cruciferous_plant"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cruciferous_vegetable"/>
+        <Class IRI="#vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cryptocoryne"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cucumber"/>
+        <Class IRI="#fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cucumber"/>
+        <Class IRI="#tender"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cucumber"/>
+        <Class IRI="#vine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cultivar"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cumin"/>
+        <Class IRI="#flowering_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cumin"/>
+        <Class IRI="#spice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#currant"/>
+        <Class IRI="#fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#currant"/>
+        <Class IRI="#grape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#currant"/>
+        <Class IRI="#tomato"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#custard_apple"/>
+        <Class IRI="#american_tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#custard_apple"/>
+        <Class IRI="#fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cut"/>
+        <Class IRI="#slab"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cut"/>
+        <Class IRI="#style"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cutting"/>
+        <Class IRI="#leaf"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cycad"/>
+        <Class IRI="#gymnosperm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cyclamen"/>
+        <Class IRI="#flower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cyclamen"/>
+        <Class IRI="#flowering_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cyclamen"/>
+        <Class IRI="#perennial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cypress"/>
+        <Class IRI="#wood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#daffodil"/>
+        <Class IRI="#bulbous_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dahlia"/>
+        <Class IRI="#flower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dahlia"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#daisy"/>
+        <Class IRI="#composite_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#daisy"/>
+        <Class IRI="#flowering_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dandelion"/>
+        <Class IRI="#biennial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dandelion"/>
+        <Class IRI="#flower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dandelion"/>
+        <Class IRI="#kale"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dandelion"/>
+        <Class IRI="#perennial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#daphne"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#day_lily"/>
+        <Class IRI="#perennial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#day_lily"/>
+        <Class IRI="#perennial_herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#deciduous_subshrub"/>
+        <Class IRI="#subshrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#deciduous_tree"/>
+        <Class IRI="#tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#deep-rooted_coarse-textured_plant"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#delicious"/>
+        <Class IRI="#eating_apple"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#delphinium"/>
+        <Class IRI="#perennial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#derivative"/>
+        <Class IRI="#stem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#desert_plant"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#diatom"/>
+        <Class IRI="#aquatic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dicot"/>
+        <Class IRI="#dicotyledon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dicotyledon"/>
+        <Class IRI="#angiosperm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dill"/>
+        <Class IRI="#annual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dill"/>
+        <Class IRI="#cucumber"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dill"/>
+        <Class IRI="#herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dill"/>
+        <Class IRI="#perennial_herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dock"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dodder"/>
+        <Class IRI="#annual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dodder"/>
+        <Class IRI="#parasite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dodder"/>
+        <Class IRI="#weed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dog_grass"/>
+        <Class IRI="#invasive_grass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dogbane"/>
+        <Class IRI="#milkweed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dogbane"/>
+        <Class IRI="#perennial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dogbane"/>
+        <Class IRI="#perennial_herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dogbane"/>
+        <Class IRI="#shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dogwood"/>
+        <Class IRI="#shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dogwood"/>
+        <Class IRI="#wood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#domesticated_plant"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#downy_brome"/>
+        <Class IRI="#annual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#downy_brome"/>
+        <Class IRI="#grass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#downy_brome"/>
+        <Class IRI="#weed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dracaena"/>
+        <Class IRI="#agave"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dracaena"/>
+        <Class IRI="#evergreen_shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dracaena"/>
+        <Class IRI="#monocot"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dracaena"/>
+        <Class IRI="#root"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#drupe"/>
+        <Class IRI="#stone_fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#duckweed"/>
+        <Class IRI="#aquatic_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ear"/>
+        <Class IRI="#cereal_grain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eating_apple"/>
+        <Class IRI="#apple"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eelgrass"/>
+        <Class IRI="#flowering_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eelgrass"/>
+        <Class IRI="#marsh_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eelgrass"/>
+        <Class IRI="#perennial_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eggplant"/>
+        <Class IRI="#native"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eggplant"/>
+        <Class IRI="#solanaceae"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eggplant"/>
+        <Class IRI="#versatile_fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#elder"/>
+        <Class IRI="#shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#elder_tree"/>
+        <Class IRI="#tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#elm"/>
+        <Class IRI="#wood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#end"/>
+        <Class IRI="#section"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#epiphyte"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#erica"/>
+        <Class IRI="#heather"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#erythroxylon_coca"/>
+        <Class IRI="#bush"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eucalyptus"/>
+        <Class IRI="#cut"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eucalyptus"/>
+        <Class IRI="#deciduous_tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eucalyptus"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eucalyptus"/>
+        <Class IRI="#wood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eurasian_plant"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#evergreen"/>
+        <Class IRI="#leaf"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#evergreen"/>
+        <Class IRI="#tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#evergreen_herbaceous_perennial_plant"/>
+        <Class IRI="#herbaceous_perennial_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#evergreen_plant"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#evergreen_shrub"/>
+        <Class IRI="#shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#evergreen_tree"/>
+        <Class IRI="#tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#everlasting_flower"/>
+        <Class IRI="#flower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#everlasting_flower"/>
+        <Class IRI="#herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#family_poaceae"/>
+        <Class IRI="#grass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fan_palm"/>
+        <Class IRI="#palm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fennel"/>
+        <Class IRI="#aromatic_herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fennel"/>
+        <Class IRI="#bulb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fennel"/>
+        <Class IRI="#leaf"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fennel"/>
+        <Class IRI="#perennial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fennel"/>
+        <Class IRI="#perennial_herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fenugreek"/>
+        <Class IRI="#annual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fenugreek"/>
+        <Class IRI="#herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fenugreek"/>
+        <Class IRI="#tender"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fern"/>
+        <Class IRI="#seedless_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fern_ally"/>
+        <Class IRI="#pteridophyte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fescue"/>
+        <Class IRI="#grass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fiber_plant"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fig"/>
+        <Class IRI="#fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fig"/>
+        <Class IRI="#tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fig_marigold"/>
+        <Class IRI="#succulent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fig_tree"/>
+        <Class IRI="#moraceous_tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fir"/>
+        <Class IRI="#conifer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fir"/>
+        <Class IRI="#evergreen_tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fireweed"/>
+        <Class IRI="#flower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fireweed"/>
+        <Class IRI="#north_american_perennial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fireweed"/>
+        <Class IRI="#perennial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#flax"/>
+        <Class IRI="#oilseed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fleawort"/>
+        <Class IRI="#herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fleawort"/>
+        <Class IRI="#plantain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fleawort"/>
+        <Class IRI="#unrelated_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#flora"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#florist_s_chrysanthemum"/>
+        <Class IRI="#chrysanthemum"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#flower"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#flower_bud"/>
+        <Class IRI="#bud"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#flower_bud"/>
+        <Class IRI="#shoot"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#flowering"/>
+        <Class IRI="#stage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#flowering_plant"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#flowering_raspberry"/>
+        <Class IRI="#flower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#flowering_raspberry"/>
+        <Class IRI="#flowering_shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#flowering_shrub"/>
+        <Class IRI="#shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#folk_remedy"/>
+        <Class IRI="#medicine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#forest"/>
+        <Class IRI="#tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#forsythia"/>
+        <Class IRI="#bush"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#forsythia"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#foxglove"/>
+        <Class IRI="#biennial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fragrant_aromatic_herb"/>
+        <Class IRI="#aromatic_herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#frangipani"/>
+        <Class IRI="#american_tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#frangipani"/>
+        <Class IRI="#tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fraxinus"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fraxinus"/>
+        <Class IRI="#leaf"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#frogbit"/>
+        <Class IRI="#aquatic_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#frogbit"/>
+        <Class IRI="#flowering_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fruit"/>
+        <Class IRI="#matured_ovary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fruit_tree"/>
+        <Class IRI="#box"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fruit_tree"/>
+        <Class IRI="#tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fuchsia"/>
+        <Class IRI="#flower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fuchsia"/>
+        <Class IRI="#garden_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fuchsia"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fuchsia"/>
+        <Class IRI="#houseplant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fuchsia"/>
+        <Class IRI="#shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#galax"/>
+        <Class IRI="#evergreen_herbaceous_perennial_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#garden_plant"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gardenia"/>
+        <Class IRI="#evergreen"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gardenia"/>
+        <Class IRI="#evergreen_shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gardenia"/>
+        <Class IRI="#flower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gardenia"/>
+        <Class IRI="#flowering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gardenia"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#garlic"/>
+        <Class IRI="#herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#garlic"/>
+        <Class IRI="#vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gazania"/>
+        <Class IRI="#flower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gazania"/>
+        <Class IRI="#flowering_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gazania"/>
+        <Class IRI="#perennial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gazania"/>
+        <Class IRI="#perennial_herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gentian"/>
+        <Class IRI="#herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gentian"/>
+        <Class IRI="#perennial_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gentian"/>
+        <Class IRI="#root"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#genus"/>
+        <Class IRI="#orchid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#geranium"/>
+        <Class IRI="#flowering_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#geranium"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ginger"/>
+        <Class IRI="#herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ginger"/>
+        <Class IRI="#perennial_herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ginger"/>
+        <Class IRI="#perennial_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ginger"/>
+        <Class IRI="#rhizome"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ginger"/>
+        <Class IRI="#root"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ginkgo"/>
+        <Class IRI="#china"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ginkgo"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ginkgo"/>
+        <Class IRI="#gymnosperm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ginseng"/>
+        <Class IRI="#herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ginseng"/>
+        <Class IRI="#root"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gladiolus"/>
+        <Class IRI="#flowering_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gladiolus"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gladiolus"/>
+        <Class IRI="#sword"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#glasswort"/>
+        <Class IRI="#succulent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#globe_artichoke"/>
+        <Class IRI="#artichoke"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#globe_artichoke"/>
+        <Class IRI="#perennial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#globe_artichoke"/>
+        <Class IRI="#vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gloxinia"/>
+        <Class IRI="#flowering_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gloxinia"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gloxinia"/>
+        <Class IRI="#houseplant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gloxinia"/>
+        <Class IRI="#sinningia_speciosa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#goldenrod"/>
+        <Class IRI="#flower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#goldenrod"/>
+        <Class IRI="#flowering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#goldenrod"/>
+        <Class IRI="#herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#goldenseal"/>
+        <Class IRI="#herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#goldenseal"/>
+        <Class IRI="#perennial_herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#goldenseal"/>
+        <Class IRI="#perennial_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gooseberry"/>
+        <Class IRI="#fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gooseberry"/>
+        <Class IRI="#spiny_eurasian_shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#goosefoot"/>
+        <Class IRI="#flowering_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#goosefoot"/>
+        <Class IRI="#herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#goosefoot"/>
+        <Class IRI="#weed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gorse"/>
+        <Class IRI="#evergreen_shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gorse"/>
+        <Class IRI="#legume"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gorse"/>
+        <Class IRI="#perennial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gorse"/>
+        <Class IRI="#shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gourd"/>
+        <Class IRI="#fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gourd"/>
+        <Class IRI="#vine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#grain"/>
+        <Class IRI="#cereal_grass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gramineous_plant"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#grape"/>
+        <Class IRI="#juicy_fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#grass"/>
+        <Class IRI="#herbage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#grass-like_plant"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#grass_family"/>
+        <Class IRI="#grass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#greasewood"/>
+        <Class IRI="#chaparral"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#greasewood"/>
+        <Class IRI="#herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#green"/>
+        <Class IRI="#marijuana"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#grevillea"/>
+        <Class IRI="#australian_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#grevillea"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#grevillea"/>
+        <Class IRI="#shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#grevillea"/>
+        <Class IRI="#wood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#groundnut"/>
+        <Class IRI="#oilseed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#groundnut"/>
+        <Class IRI="#pod"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#groundnut"/>
+        <Class IRI="#vine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#guar"/>
+        <Class IRI="#legume"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#guar"/>
+        <Class IRI="#leguminous_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#guava"/>
+        <Class IRI="#fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#guava"/>
+        <Class IRI="#pink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#guava"/>
+        <Class IRI="#shrubby_tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#guava"/>
+        <Class IRI="#versatile_fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gum_tree"/>
+        <Class IRI="#eucalyptus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gymnosperm"/>
+        <Class IRI="#seed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gymnosperm"/>
+        <Class IRI="#tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gymnospermous_tree"/>
+        <Class IRI="#tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hackberry"/>
+        <Class IRI="#shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hackberry"/>
+        <Class IRI="#wood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hardwood"/>
+        <Class IRI="#wood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hardy_plant"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hawthorn"/>
+        <Class IRI="#shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hawthorn"/>
+        <Class IRI="#tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hazel"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hazel"/>
+        <Class IRI="#nut"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hazel"/>
+        <Class IRI="#shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hazelnut"/>
+        <Class IRI="#nut"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hazelnut"/>
+        <Class IRI="#shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#head"/>
+        <Class IRI="#inflorescence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#heath"/>
+        <Class IRI="#evergreen_shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#heather"/>
+        <Class IRI="#evergreen_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#heather"/>
+        <Class IRI="#ornamental_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#helianthemum"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hellebore"/>
+        <Class IRI="#perennial_herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hellebore"/>
+        <Class IRI="#poisonous_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hemlock"/>
+        <Class IRI="#evergreen_tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hemlock"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hemlock"/>
+        <Class IRI="#poisonous_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#henbane"/>
+        <Class IRI="#annual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#henbane"/>
+        <Class IRI="#poisonous_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#henbane"/>
+        <Class IRI="#weed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#herb"/>
+        <Class IRI="#marijuana"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#herb"/>
+        <Class IRI="#vascular_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#herbaceous_perennial_plant"/>
+        <Class IRI="#perennial_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#herbaceous_plant"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#herbage"/>
+        <Class IRI="#herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hibiscus"/>
+        <Class IRI="#flower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hickory"/>
+        <Class IRI="#hardwood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#holly"/>
+        <Class IRI="#shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#holly"/>
+        <Class IRI="#wood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#honeysuckle"/>
+        <Class IRI="#columbine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#honeysuckle"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#honeysuckle"/>
+        <Class IRI="#shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#honeysuckle"/>
+        <Class IRI="#shrubby_tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#honeysuckle_family"/>
+        <Class IRI="#shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hornwort"/>
+        <Class IRI="#aquatic_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hornwort"/>
+        <Class IRI="#oxygenating_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#horseradish"/>
+        <Class IRI="#herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#horseradish"/>
+        <Class IRI="#perennial_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#horseradish"/>
+        <Class IRI="#root"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#horseradish"/>
+        <Class IRI="#root_vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#horsetail"/>
+        <Class IRI="#herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#horsetail"/>
+        <Class IRI="#perennial_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#houseplant"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hoya"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#huckleberry"/>
+        <Class IRI="#fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#huckleberry"/>
+        <Class IRI="#shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hyacinth"/>
+        <Class IRI="#bulbous_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hyacinth"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hydrangea"/>
+        <Class IRI="#shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hydrilla"/>
+        <Class IRI="#aquatic_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ice_plant"/>
+        <Class IRI="#succulent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#indicator"/>
+        <Class IRI="#needle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#indigo"/>
+        <Class IRI="#deciduous_subshrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#inflorescence"/>
+        <Class IRI="#flower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#inflorescence"/>
+        <Class IRI="#flowering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#invasive_grass"/>
+        <Class IRI="#grass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#iridaceous_plant"/>
+        <Class IRI="#bulbous_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#iris"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ivy"/>
+        <Class IRI="#vine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#jasmine"/>
+        <Class IRI="#flowering_shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#jasmine"/>
+        <Class IRI="#unrelated_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#jimsonweed"/>
+        <Class IRI="#poisonous_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#joint"/>
+        <Class IRI="#cut"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#joint"/>
+        <Class IRI="#marijuana"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#jonquil"/>
+        <Class IRI="#daffodil"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#juicy_fruit"/>
+        <Class IRI="#brand"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#juneberry"/>
+        <Class IRI="#north_american_tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kale"/>
+        <Class IRI="#cole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kenaf"/>
+        <Class IRI="#fiber_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#knapweed"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kudzu"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lantana"/>
+        <Class IRI="#flowering_shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lantana"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#large-flowered_garden_plant"/>
+        <Class IRI="#garden_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#larkspur"/>
+        <Class IRI="#robust_flowering_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#laurel"/>
+        <Class IRI="#evergreen_shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lavender"/>
+        <Class IRI="#world_aromatic_shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#leadwort"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#leaf"/>
+        <Class IRI="#organ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#leaf_bud"/>
+        <Class IRI="#bud"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#leek"/>
+        <Class IRI="#vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#legume"/>
+        <Class IRI="#fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#legume"/>
+        <Class IRI="#seedpod"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#leguminous_plant"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lemon"/>
+        <Class IRI="#evergreen_tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lemongrass"/>
+        <Class IRI="#grass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lentil"/>
+        <Class IRI="#seed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lettuce"/>
+        <Class IRI="#leaf"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#liana"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#licorice"/>
+        <Class IRI="#deep-rooted_coarse-textured_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lilac"/>
+        <Class IRI="#shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#liliaceous_plant"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lily"/>
+        <Class IRI="#flower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lily"/>
+        <Class IRI="#liliaceous_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lily_of_the_valley"/>
+        <Class IRI="#flowering_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lime"/>
+        <Class IRI="#deciduous_tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ling"/>
+        <Class IRI="#water_chestnut"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lobelia"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#locoweed"/>
+        <Class IRI="#leguminous_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lotus"/>
+        <Class IRI="#annual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lotus"/>
+        <Class IRI="#aquatic_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#love_grass"/>
+        <Class IRI="#grass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#low-growing_palm"/>
+        <Class IRI="#palm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#low-growing_pine"/>
+        <Class IRI="#pine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lupine"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#macadamia"/>
+        <Class IRI="#evergreen_tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#macadamia"/>
+        <Class IRI="#fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#madder"/>
+        <Class IRI="#herbaceous_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#madder"/>
+        <Class IRI="#root"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#madderwort"/>
+        <Class IRI="#tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#magnolia"/>
+        <Class IRI="#cultivar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#magnolia"/>
+        <Class IRI="#flower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#magnolia"/>
+        <Class IRI="#shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#magnolia"/>
+        <Class IRI="#tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#maguey"/>
+        <Class IRI="#agave"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mallow"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mandarin"/>
+        <Class IRI="#shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mandrake"/>
+        <Class IRI="#root"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mango"/>
+        <Class IRI="#bell_pepper"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mango"/>
+        <Class IRI="#melon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mango"/>
+        <Class IRI="#muskmelon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mango"/>
+        <Class IRI="#tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mangrove"/>
+        <Class IRI="#evergreen_tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#manzanita"/>
+        <Class IRI="#evergreen_shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#manzanita"/>
+        <Class IRI="#evergreen_tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#maple"/>
+        <Class IRI="#wood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#maranta"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#maranta"/>
+        <Class IRI="#herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#marigold"/>
+        <Class IRI="#american_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#marijuana"/>
+        <Class IRI="#strong-smelling_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#marrow"/>
+        <Class IRI="#vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#marsh_plant"/>
+        <Class IRI="#semiaquatic_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#matchweed"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#matured_ovary"/>
+        <Class IRI="#ovary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#medic"/>
+        <Class IRI="#world_herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#medicine"/>
+        <Class IRI="#branch"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mediterranean_evergreen_tree"/>
+        <Class IRI="#evergreen_tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#melon"/>
+        <Class IRI="#fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mescal"/>
+        <Class IRI="#spineless_globe-shaped_cactus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mesquite"/>
+        <Class IRI="#deciduous_tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mesquite"/>
+        <Class IRI="#wood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#milkweed"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#millet"/>
+        <Class IRI="#seed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mint"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mint"/>
+        <Class IRI="#leaf"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mistflower"/>
+        <Class IRI="#rhizomatous_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#monarda"/>
+        <Class IRI="#aromatic_herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#monarda"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#monkshood"/>
+        <Class IRI="#leaf"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#monkshood"/>
+        <Class IRI="#perennial_herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#monkshood"/>
+        <Class IRI="#poisonous_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#monocot"/>
+        <Class IRI="#monocotyledonous_flowering_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#monocotyledonous_flowering_plant"/>
+        <Class IRI="#flowering_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#monstera"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#moraceous_tree"/>
+        <Class IRI="#tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#morning_glory"/>
+        <Class IRI="#flower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#morning_glory"/>
+        <Class IRI="#vine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mulberry"/>
+        <Class IRI="#fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mulberry"/>
+        <Class IRI="#tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mullein"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#muskmelon"/>
+        <Class IRI="#cultivar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#muskmelon"/>
+        <Class IRI="#melon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mustard"/>
+        <Class IRI="#cruciferous_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mustard"/>
+        <Class IRI="#green"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#myrtle"/>
+        <Class IRI="#evergreen_shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#narcissus"/>
+        <Class IRI="#bulbous_flowering_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#narcissus"/>
+        <Class IRI="#bulbous_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#narcissus"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nasturtium"/>
+        <Class IRI="#american_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nasturtium"/>
+        <Class IRI="#flower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nasturtium"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#native"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nectarine"/>
+        <Class IRI="#cultivar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#needle"/>
+        <Class IRI="#leaf"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nettle"/>
+        <Class IRI="#herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nightshade"/>
+        <Class IRI="#belladonna"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nightshade"/>
+        <Class IRI="#shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#node"/>
+        <Class IRI="#joint"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#north_american_perennial"/>
+        <Class IRI="#perennial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#north_american_tree"/>
+        <Class IRI="#american_tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nut"/>
+        <Class IRI="#drupe"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nut"/>
+        <Class IRI="#seed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nut_tree"/>
+        <Class IRI="#tree_bearing_edible_nut"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#oak"/>
+        <Class IRI="#deciduous_tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#oak"/>
+        <Class IRI="#wood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#oat"/>
+        <Class IRI="#seed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#oilseed"/>
+        <Class IRI="#seed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#okra"/>
+        <Class IRI="#flowering_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#okra"/>
+        <Class IRI="#pod"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#oleander"/>
+        <Class IRI="#ornamental"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#olive"/>
+        <Class IRI="#evergreen_tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#olive"/>
+        <Class IRI="#fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#olive"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#olive"/>
+        <Class IRI="#wood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#olive_tree"/>
+        <Class IRI="#evergreen_tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#onion"/>
+        <Class IRI="#bulb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#onion"/>
+        <Class IRI="#bulbous_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#orange"/>
+        <Class IRI="#evergreen_tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#orange"/>
+        <Class IRI="#fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#orchid"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#oregano"/>
+        <Class IRI="#herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#oregano"/>
+        <Class IRI="#leaf"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#organ"/>
+        <Class IRI="#cactus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#origanum"/>
+        <Class IRI="#fragrant_aromatic_herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ornamental"/>
+        <Class IRI="#ornamental_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ornamental_flowering_plant"/>
+        <Class IRI="#flowering_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ornamental_plant"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ostrich_fern"/>
+        <Class IRI="#fern"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ovary"/>
+        <Class IRI="#style"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#oxalis"/>
+        <Class IRI="#ornamental_flowering_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#oxygenating_plant"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pachysandra"/>
+        <Class IRI="#evergreen_shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pachysandra"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#palm"/>
+        <Class IRI="#evergreen_tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#palmetto"/>
+        <Class IRI="#low-growing_palm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#panic_grass"/>
+        <Class IRI="#grass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pansy"/>
+        <Class IRI="#large-flowered_garden_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#papaya"/>
+        <Class IRI="#american_evergreen_tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#papaya"/>
+        <Class IRI="#fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#papyrus"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#parasite"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#parsley"/>
+        <Class IRI="#annual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#parsley"/>
+        <Class IRI="#aromatic_herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#parsley"/>
+        <Class IRI="#leaf"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#parsnip"/>
+        <Class IRI="#root"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#passionflower"/>
+        <Class IRI="#flower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pea"/>
+        <Class IRI="#leguminous_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pea"/>
+        <Class IRI="#seed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pea_family"/>
+        <Class IRI="#tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pea_tree"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#peach"/>
+        <Class IRI="#tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#peanut"/>
+        <Class IRI="#legume"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#peanut"/>
+        <Class IRI="#pod"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pear"/>
+        <Class IRI="#wood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pear-shaped_fruit"/>
+        <Class IRI="#berry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pecan"/>
+        <Class IRI="#deciduous_tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pecan"/>
+        <Class IRI="#wood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pennyroyal"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#peony"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#peperomia"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pepper"/>
+        <Class IRI="#climber"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pepper"/>
+        <Class IRI="#spice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#peppermint"/>
+        <Class IRI="#gum_tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#peppermint"/>
+        <Class IRI="#herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perennial"/>
+        <Class IRI="#perennial_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perennial"/>
+        <Class IRI="#pigweed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perennial"/>
+        <Class IRI="#thistle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perennial_composite_plant"/>
+        <Class IRI="#composite_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perennial_grass"/>
+        <Class IRI="#monocot"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perennial_herb"/>
+        <Class IRI="#residing_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perennial_plant"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#periwinkle"/>
+        <Class IRI="#evergreen_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#petunia"/>
+        <Class IRI="#annual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#petunia"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#petunia"/>
+        <Class IRI="#herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#philodendron"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#phlox"/>
+        <Class IRI="#flowering_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pickerelweed"/>
+        <Class IRI="#american_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pigweed"/>
+        <Class IRI="#amaranth"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pigweed"/>
+        <Class IRI="#weed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pine"/>
+        <Class IRI="#wood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pineapple"/>
+        <Class IRI="#american_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pineapple"/>
+        <Class IRI="#fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pink"/>
+        <Class IRI="#flower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pinon"/>
+        <Class IRI="#low-growing_pine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#plane_tree"/>
+        <Class IRI="#tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#plant_life"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#plantain"/>
+        <Class IRI="#herbaceous_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#plumbago"/>
+        <Class IRI="#leadwort"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pod"/>
+        <Class IRI="#seedpod"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#poinsettia"/>
+        <Class IRI="#american_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#poisonous_plant"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pokeweed"/>
+        <Class IRI="#perennial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#polyanthus"/>
+        <Class IRI="#bulbous_flowering_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pomegranate"/>
+        <Class IRI="#fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pomegranate"/>
+        <Class IRI="#shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pondweed"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#poplar"/>
+        <Class IRI="#deciduous_tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#poppy"/>
+        <Class IRI="#annual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#potato"/>
+        <Class IRI="#native"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pothos"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pothos"/>
+        <Class IRI="#liana"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#prickly_shrub"/>
+        <Class IRI="#shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#primrose"/>
+        <Class IRI="#flower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#privet"/>
+        <Class IRI="#shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#protea"/>
+        <Class IRI="#south_african_flowering_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pteridophyte"/>
+        <Class IRI="#vascular_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pumpkin"/>
+        <Class IRI="#domesticated_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pyracantha"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#quince"/>
+        <Class IRI="#deciduous_tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#quince"/>
+        <Class IRI="#pear-shaped_fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rabbitweed"/>
+        <Class IRI="#subshrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#radish"/>
+        <Class IRI="#cruciferous_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#radish"/>
+        <Class IRI="#eurasian_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#radish_plant"/>
+        <Class IRI="#cruciferous_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ragwort"/>
+        <Class IRI="#flowering_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ramp"/>
+        <Class IRI="#north_american_perennial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rape"/>
+        <Class IRI="#eurasian_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#raspberry"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rattan"/>
+        <Class IRI="#palm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rattan"/>
+        <Class IRI="#stem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#receptacle"/>
+        <Class IRI="#apex"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#redbud"/>
+        <Class IRI="#shrubby_tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#reed"/>
+        <Class IRI="#grass-like_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#refinery"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#residing_plant"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#resilient_plant"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#retem"/>
+        <Class IRI="#shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rhizomatous_plant"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rhizome"/>
+        <Class IRI="#root"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rhizome"/>
+        <Class IRI="#shoot"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rhododendron"/>
+        <Class IRI="#flowering_shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rhododendron"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rhubarb"/>
+        <Class IRI="#rhizome"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rice"/>
+        <Class IRI="#annual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rice"/>
+        <Class IRI="#seed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#robust_flowering_plant"/>
+        <Class IRI="#flowering_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rockrose"/>
+        <Class IRI="#shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#root"/>
+        <Class IRI="#node"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#root_vegetable"/>
+        <Class IRI="#root"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#root_vegetable"/>
+        <Class IRI="#vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rose"/>
+        <Class IRI="#flower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rose"/>
+        <Class IRI="#flowering_shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rosemary"/>
+        <Class IRI="#shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rue"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rue"/>
+        <Class IRI="#leaf"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rush"/>
+        <Class IRI="#aquatic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rush"/>
+        <Class IRI="#marsh_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rush"/>
+        <Class IRI="#stem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rye"/>
+        <Class IRI="#seed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#safflower"/>
+        <Class IRI="#thistlelike_eurasian_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sage"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sagebrush"/>
+        <Class IRI="#artemisia_tridentata"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sago"/>
+        <Class IRI="#palm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#saguaro"/>
+        <Class IRI="#cactus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sainfoin"/>
+        <Class IRI="#perennial_herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#salal"/>
+        <Class IRI="#evergreen_shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#salt"/>
+        <Class IRI="#spice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#saltbush"/>
+        <Class IRI="#shrubby_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#saltwort"/>
+        <Class IRI="#shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sauce"/>
+        <Class IRI="#vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#saxifrage"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#section"/>
+        <Class IRI="#cutting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sedge"/>
+        <Class IRI="#grass-like_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sedum"/>
+        <Class IRI="#flowering_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sedum"/>
+        <Class IRI="#succulent_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#seed"/>
+        <Class IRI="#fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#seed"/>
+        <Class IRI="#grain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#seedless_plant"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#seedling"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#seedpod"/>
+        <Class IRI="#capsule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#semiaquatic_plant"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#senna"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#senna"/>
+        <Class IRI="#leaf"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sesame"/>
+        <Class IRI="#flowering_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sesame"/>
+        <Class IRI="#seed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#shellflower"/>
+        <Class IRI="#showy_perennial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#shoot"/>
+        <Class IRI="#stem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#showy_perennial"/>
+        <Class IRI="#perennial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#showy_succulent_ground-hugging_plant"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#shrub"/>
+        <Class IRI="#woody_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#shrubby_plant"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#shrubby_tree"/>
+        <Class IRI="#evergreen"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#silver_wattle"/>
+        <Class IRI="#shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#silver_wattle"/>
+        <Class IRI="#tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sinningia_speciosa"/>
+        <Class IRI="#forest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sisal"/>
+        <Class IRI="#agave"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sisal"/>
+        <Class IRI="#american_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sisal"/>
+        <Class IRI="#derivative"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#slab"/>
+        <Class IRI="#box"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#smoke_tree"/>
+        <Class IRI="#cotinus_obovatus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#smoke_tree"/>
+        <Class IRI="#shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#snapdragon"/>
+        <Class IRI="#annual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#snapdragon"/>
+        <Class IRI="#garden_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#snowberry"/>
+        <Class IRI="#fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#snowberry"/>
+        <Class IRI="#honeysuckle_family"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#soapwort"/>
+        <Class IRI="#flower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#soapwort"/>
+        <Class IRI="#perennial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#soapwort"/>
+        <Class IRI="#perennial_herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#solanaceae"/>
+        <Class IRI="#crop"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sometimes_grown"/>
+        <Class IRI="#cashew"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sorghum"/>
+        <Class IRI="#annual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sorghum"/>
+        <Class IRI="#cereal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sorghum"/>
+        <Class IRI="#cereal_grain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sorghum"/>
+        <Class IRI="#crop"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sorghum"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sorghum"/>
+        <Class IRI="#grass_family"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#soursop"/>
+        <Class IRI="#fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#soursop"/>
+        <Class IRI="#native"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#south_african_flowering_plant"/>
+        <Class IRI="#flowering_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sown"/>
+        <Class IRI="#seed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#soy"/>
+        <Class IRI="#sauce"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#spearmint"/>
+        <Class IRI="#aromatic_herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#spearmint"/>
+        <Class IRI="#mint"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#spearmint"/>
+        <Class IRI="#perennial_herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#spermatophyte"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#spice"/>
+        <Class IRI="#cannabis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#spice"/>
+        <Class IRI="#seed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#spiked_vine-like_plant"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#spinach"/>
+        <Class IRI="#leaf"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#spinach"/>
+        <Class IRI="#sauce"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#spinach"/>
+        <Class IRI="#vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#spineless_globe-shaped_cactus"/>
+        <Class IRI="#cactus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#spiny_eurasian_shrub"/>
+        <Class IRI="#shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sporangium"/>
+        <Class IRI="#organ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#spurge"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#squash"/>
+        <Class IRI="#fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#squash"/>
+        <Class IRI="#vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#stage"/>
+        <Class IRI="#section"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#stalk"/>
+        <Class IRI="#stem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#stem"/>
+        <Class IRI="#organ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#stock"/>
+        <Class IRI="#ornamental_flowering_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#stone_fruit"/>
+        <Class IRI="#delicious"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#stone_fruit"/>
+        <Class IRI="#fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#stonecrop"/>
+        <Class IRI="#perennial_herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#stonecrop"/>
+        <Class IRI="#succulent_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#strawberry"/>
+        <Class IRI="#delicious"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#strawberry"/>
+        <Class IRI="#fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#strawberry"/>
+        <Class IRI="#perennial_herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#strawflower"/>
+        <Class IRI="#everlasting_flower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#strong-smelling_plant"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#style"/>
+        <Class IRI="#stalk"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#subshrub"/>
+        <Class IRI="#perennial_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#subshrub"/>
+        <Class IRI="#shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#succulent"/>
+        <Class IRI="#perennial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#succulent"/>
+        <Class IRI="#succulent_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#succulent_plant"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sugar_beet"/>
+        <Class IRI="#annual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sugar_beet"/>
+        <Class IRI="#beet"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sugar_beet"/>
+        <Class IRI="#crop"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sugarcane"/>
+        <Class IRI="#grass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sugarcane"/>
+        <Class IRI="#perennial_grass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sumac"/>
+        <Class IRI="#bush"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sumac"/>
+        <Class IRI="#drupe"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sumac"/>
+        <Class IRI="#sorghum"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#summer_squash"/>
+        <Class IRI="#fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#summer_squash"/>
+        <Class IRI="#tender"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sundew"/>
+        <Class IRI="#carnivorous_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sundew"/>
+        <Class IRI="#herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sunflower"/>
+        <Class IRI="#annual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sweet_melon"/>
+        <Class IRI="#cantaloupe"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#swiss_chard"/>
+        <Class IRI="#beet"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#swiss_chard"/>
+        <Class IRI="#biennial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#swiss_chard"/>
+        <Class IRI="#celery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#swiss_chard"/>
+        <Class IRI="#ornamental_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#swiss_chard"/>
+        <Class IRI="#vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#switch_grass"/>
+        <Class IRI="#panic_grass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#switch_grass"/>
+        <Class IRI="#perennial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#switch_grass"/>
+        <Class IRI="#perennial_grass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sword"/>
+        <Class IRI="#cutting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tamarisk"/>
+        <Class IRI="#section"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tamarisk"/>
+        <Class IRI="#shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tangerine"/>
+        <Class IRI="#mandarin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tangerine"/>
+        <Class IRI="#orange"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#taro"/>
+        <Class IRI="#herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#taro"/>
+        <Class IRI="#perennial_herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#taro"/>
+        <Class IRI="#root"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#taro"/>
+        <Class IRI="#root_vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#taro"/>
+        <Class IRI="#vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tea"/>
+        <Class IRI="#evergreen_shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tea"/>
+        <Class IRI="#leaf"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tea"/>
+        <Class IRI="#marijuana"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#teak"/>
+        <Class IRI="#hardwood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#teff"/>
+        <Class IRI="#cereal_grain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#teff"/>
+        <Class IRI="#grain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#teff"/>
+        <Class IRI="#love_grass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tender"/>
+        <Class IRI="#cabbage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#thistle"/>
+        <Class IRI="#perennial_composite_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#thistlelike_eurasian_plant"/>
+        <Class IRI="#eurasian_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#thorn_apple"/>
+        <Class IRI="#herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#thorn_apple"/>
+        <Class IRI="#poisonous_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#thorn_apple"/>
+        <Class IRI="#weed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#thrift"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#thyme"/>
+        <Class IRI="#aromatic_herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#thyme"/>
+        <Class IRI="#mint"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#thyme"/>
+        <Class IRI="#perennial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ti"/>
+        <Class IRI="#shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tincture"/>
+        <Class IRI="#derivative"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tobacco"/>
+        <Class IRI="#leaf"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tobacco"/>
+        <Class IRI="#weed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tomato"/>
+        <Class IRI="#fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tomato"/>
+        <Class IRI="#ovary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tree"/>
+        <Class IRI="#woody_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tree_bearing_edible_nut"/>
+        <Class IRI="#nut"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#trillium"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#trillium"/>
+        <Class IRI="#liliaceous_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#true_laurel"/>
+        <Class IRI="#mediterranean_evergreen_tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#true_pepper"/>
+        <Class IRI="#berry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tulip"/>
+        <Class IRI="#flower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tulip"/>
+        <Class IRI="#flowering_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tumbleweed"/>
+        <Class IRI="#herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tumbleweed"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tumbleweed"/>
+        <Class IRI="#weed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#turmeric"/>
+        <Class IRI="#herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#turmeric"/>
+        <Class IRI="#perennial_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#turmeric"/>
+        <Class IRI="#rhizome"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#turmeric"/>
+        <Class IRI="#root"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#turmeric"/>
+        <Class IRI="#spice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#turnip"/>
+        <Class IRI="#root"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#turnip"/>
+        <Class IRI="#vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#turnip_plant"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#underbrush"/>
+        <Class IRI="#tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#unrelated_plant"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#valerian"/>
+        <Class IRI="#flowering"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#valerian"/>
+        <Class IRI="#flowering_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#valerian"/>
+        <Class IRI="#perennial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#valerian"/>
+        <Class IRI="#root"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vanilla"/>
+        <Class IRI="#bean"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vanilla"/>
+        <Class IRI="#spice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vascular_plant"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vegetable"/>
+        <Class IRI="#herbaceous_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#verbena"/>
+        <Class IRI="#perennial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#versatile_fruit"/>
+        <Class IRI="#delicious"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vetch"/>
+        <Class IRI="#leguminous_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vetch"/>
+        <Class IRI="#sown"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vine"/>
+        <Class IRI="#plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#viola"/>
+        <Class IRI="#flower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#viola"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#violet"/>
+        <Class IRI="#potato"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#wallflower"/>
+        <Class IRI="#perennial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#walnut"/>
+        <Class IRI="#nut"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#water_chestnut"/>
+        <Class IRI="#annual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#water_chestnut"/>
+        <Class IRI="#aquatic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#water_chestnut"/>
+        <Class IRI="#aquatic_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#water_chestnut"/>
+        <Class IRI="#bulb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#water_lily"/>
+        <Class IRI="#aquatic_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#water_shamrock"/>
+        <Class IRI="#perennial_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#water_shield"/>
+        <Class IRI="#perennial_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#watercress"/>
+        <Class IRI="#aquatic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#watercress"/>
+        <Class IRI="#cress"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#watercress"/>
+        <Class IRI="#cruciferous_vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#watercress"/>
+        <Class IRI="#herbaceous_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#watercress"/>
+        <Class IRI="#parsley"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#watercress"/>
+        <Class IRI="#perennial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#watercress"/>
+        <Class IRI="#perennial_herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#watermelon"/>
+        <Class IRI="#tender"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#watermelon"/>
+        <Class IRI="#tomato"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#wattle"/>
+        <Class IRI="#australian_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#weed"/>
+        <Class IRI="#flower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#weed"/>
+        <Class IRI="#marijuana"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#weed"/>
+        <Class IRI="#underbrush"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#wheat"/>
+        <Class IRI="#annual"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#wheat"/>
+        <Class IRI="#cereal_grain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#wheatgrass"/>
+        <Class IRI="#family_poaceae"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#white_hellebore"/>
+        <Class IRI="#herbaceous_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#white_hellebore"/>
+        <Class IRI="#perennial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#white_hellebore"/>
+        <Class IRI="#rhizome"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#wild_hyacinth"/>
+        <Class IRI="#flower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#wild_hyacinth"/>
+        <Class IRI="#perennial_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#wildflower"/>
+        <Class IRI="#flower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#wildflower"/>
+        <Class IRI="#flowering_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#willow"/>
+        <Class IRI="#deciduous_tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#willowherb"/>
+        <Class IRI="#wildflower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#wintergreen"/>
+        <Class IRI="#aromatic_shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#wintergreen"/>
+        <Class IRI="#berry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#wintergreen"/>
+        <Class IRI="#evergreen_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#wintergreen"/>
+        <Class IRI="#perennial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#wintergreen"/>
+        <Class IRI="#perennial_herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#wisteria"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#wisteria"/>
+        <Class IRI="#pea_family"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#woad"/>
+        <Class IRI="#flowering_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#woad"/>
+        <Class IRI="#herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#woad"/>
+        <Class IRI="#native"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#wood"/>
+        <Class IRI="#tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#wood_anemone"/>
+        <Class IRI="#anemone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#wood_anemone"/>
+        <Class IRI="#flower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#wood_anemone"/>
+        <Class IRI="#herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#woody_plant"/>
+        <Class IRI="#vascular_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#world_aromatic_shrub"/>
+        <Class IRI="#aromatic_shrub"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#world_herb"/>
+        <Class IRI="#herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#wormwood"/>
+        <Class IRI="#artemisia_absinthium"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#yam"/>
+        <Class IRI="#potato"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#yam"/>
+        <Class IRI="#root_vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#yam"/>
+        <Class IRI="#vine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#yarrow"/>
+        <Class IRI="#flower"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#yarrow"/>
+        <Class IRI="#perennial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#yarrow"/>
+        <Class IRI="#perennial_herb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#yew"/>
+        <Class IRI="#evergreen_tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#yew"/>
+        <Class IRI="#wood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#yucca"/>
+        <Class IRI="#agave"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#yucca"/>
+        <Class IRI="#cassava"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#yucca"/>
+        <Class IRI="#desert_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#yucca"/>
+        <Class IRI="#evergreen_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#yucca"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#yucca"/>
+        <Class IRI="#vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#zinnia"/>
+        <Class IRI="#flowering_plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#zinnia"/>
+        <Class IRI="#genus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#zucchini"/>
+        <Class IRI="#squash"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#zucchini"/>
+        <Class IRI="#summer_squash"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.8) http://owlapi.sourceforge.net -->
+

@@ -1,0 +1,28 @@
+This document describes a vocabulary for annotating descriptions of vocabularies with examples and usage notes
+FOAF is a project devoted to linking people and information using the Web
+This document describes a vocabulary for annotating descriptions of vocabularies with examples and usage notes
+The Comic Book Ontology is a metadata vocabulary for describing comic books and comic book collections.
+Ontology of geometric primitives representing the shape and location of topographic features.
+This vocabulary provides a stable namespace IRI for JSON schema keywords, as well as simple axioms, defined against schema.org's meta-model
+This vocabulary provides a stable namespace IRI for JSON schema keywords, as well as simple axioms, defined against schema.org's meta-model
+SKOS Core is a model and an RDF vocabulary for expressing the basic structure and content of concept schemes such as thesauri, classification schemes, subject heading lists, taxonomies, 'folksonomies', other types of controlled vocabulary, and also concept schemes embedded in glossaries and terminologies
+Person focuses on describing a natural person, ie a physical person and not an organization.
+The Academic Institution Internal Structure Ontology (AIISO) provides classes and properties to describe the internal organizational structure of an academic institution
+The Sport Ontology is a simple lightweight ontology for publishing data about competitive sports events.
+This document specifies a vocabulary for asserting the existence of official endorsements or certifications of agents, such as people and organizations.
+The Data Knowledge Vocabulary allows for a comprehensive description of data assets and enterprise data management
+An ontology describing the 50K Gazetteer.
+
+The livestock farming and smart irrigation use cases used as basis to create SAREF4AGRI in the present document are concerned with the integration of multiple data sources for the purpose of providing decision support services located on the local \"Farm Management System\" of the farmers or provided by a service over the network.
+An ontology for describing vehicles and their emissions
+The ontology of the taxonomy \"European Skills, Competences, qualifications and Occupations.
+An Ontology to represents the AutomationML Standard with focus on CAEX - IEC 62424.
+The Vehicle Sales Ontology is a Web vocabulary for describings cars, boats, bikes, and other vehicles for e-commerce.
+This ontology is generated from the manually created specifications in the DBpedia Mappings Wiki
+
+Here you can find a pointer to the main concepts and ontologies in the Linked Earth specification.	
+A Multilingual and Multicultural Ontology Representing Family Relationships	
+The Occupancy Profile ontology has been developed to represent and define occupancy profiles in building spaces.
+The ontology of agent relationships (AgRelOn) defines relations of persons to other persons and to organisations, since agents (persons, organisations) and their interconnections are important in the cultural heritage domain.
+Beverage Ontology is a Web vocabulary for describing beverages, mainly alcoholic.
+Here you can find a pointer to the main concepts and ontologies in the Linked Earth specification.

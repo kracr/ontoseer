@@ -1,0 +1,2099 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#"
+     xml:base="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:http___protege="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Publisher -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Publisher"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#affiliation -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#affiliation"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#atEvent -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#atEvent"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#author -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#author"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#authorOfOntology -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#authorOfOntology"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#bibliographies -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#bibliographies"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#book -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#book"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#carriedOutBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#carriedOutBy"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#carriesOut -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#carriesOut"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#conference -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#conference"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#containsArticle -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#containsArticle"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#cooperatesWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#cooperatesWith"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#describesProject -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#describesProject"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#developedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#developedBy"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#develops -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#develops"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#editor -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#editor"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#employs -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#employs"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#events -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#events"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#financedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#financedBy"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#finances -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#finances"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#hasParts -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#hasParts"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#head -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#head"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#headOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#headOf"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#headOfGroup -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#headOfGroup"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#internationalFundingAgencies -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#internationalFundingAgencies"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#isAbout -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#isAbout"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#journal -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#journal"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#journals -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#journals"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#member -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#member"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#memberOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#memberOf"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#memberOfPC -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#memberOfPC"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#nationalFundingAgencies -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#nationalFundingAgencies"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#onlineVersion -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#onlineVersion"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#onlineVersionOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#onlineVersionOf"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#orgCommittee -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#orgCommittee"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#organization -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#organization"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#organizerOrChairOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#organizerOrChairOf"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#participant -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#participant"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#product -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#product"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#productPublication -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#productPublication"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#productedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#productedBy"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#products -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#products"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#programCommittee -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#programCommittee"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#projectInfo -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#projectInfo"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#projects -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#projects"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#publication -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#publication"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#publishes -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#publishes"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#relatedTopics -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#relatedTopics"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#researchGroups -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#researchGroups"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#researchInterest -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#researchInterest"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#researchers -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#researchers"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#secretaryOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#secretaryOf"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#student -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#student"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#studiesAt -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#studiesAt"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#subTopics -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#subTopics"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#supervises -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#supervises"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#supervisor -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#supervisor"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#technicalReport -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#technicalReport"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#worksAtProject -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#worksAtProject"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#workshop -->
+
+    <owl:ObjectProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#workshop"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#abstract -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#abstract"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#address -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#address"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#applicationAreas -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#applicationAreas"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#approaches -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#approaches"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#date -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#date"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#dateOfLastModification -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#dateOfLastModification"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#description -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#description"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#email -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#email"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#eventTitle -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#eventTitle"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#fax -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#fax"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#firstName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#firstName"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#firstPage -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#firstPage"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#keyword -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#keyword"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#lastName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#lastName"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#lastPage -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#lastPage"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#location -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#location"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#mailingLists -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#mailingLists"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#middleInitial -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#middleInitial"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#name"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#number -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#number"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#phone -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#phone"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#photo -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#photo"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#proceedingsTitle -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#proceedingsTitle"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#productFAQ -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#productFAQ"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#productMailingList -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#productMailingList"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#productName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#productName"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#series -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#series"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#title -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#title"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#type -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#type"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#volume -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#volume"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#webpages -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#webpages"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#year -->
+
+    <owl:DatatypeProperty rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#year"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Abduction -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Abduction">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#KAThroughMachineLearning"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#AcademicStaff -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#AcademicStaff">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Employee"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#editor"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Publication"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#organizerOrChairOf"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Event"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#memberOfPC"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Event"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#supervises"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#PhDStudent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#publication"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Publication"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Activity -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Activity">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#AdministrativeStaff -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#AdministrativeStaff">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Employee"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#AnomalyDetection -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#AnomalyDetection">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Validation_And_Verification"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#AnomalyRepairAndKnowledgeRevision -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#AnomalyRepairAndKnowledgeRevision">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Validation_And_Verification"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Article -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Article">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Publication"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#ArticleInBook -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#ArticleInBook">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Article"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#firstPage"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#lastPage"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#book"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Book"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#AutomatedCodeGenerationFromSpecification -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#AutomatedCodeGenerationFromSpecification">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#SpecificationLanguages"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#AutomatedPSMGeneration -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#AutomatedPSMGeneration">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#PSMs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Book -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Book">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Publication"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#editor"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Person"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#containsArticle"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#ArticleInBook"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Publisher"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Organization"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#CaseBaseReasoning -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#CaseBaseReasoning">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#KAThroughMachineLearning"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#ComputerSupport -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#ComputerSupport">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Conference -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Conference">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Event"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#number"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#series"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#ConferencePaper -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#ConferencePaper">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Article"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#conference"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Conference"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#firstPage"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#lastPage"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#proceedingsTitle"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#CooperativeKnowledgeAcquisition -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#CooperativeKnowledgeAcquisition">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#KAThroughMachineLearning"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#DataMining -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#DataMining">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#KAThroughMachineLearning"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Department -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Department">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Organization"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#hasParts"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Institute"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#DevelopmentProject -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#DevelopmentProject">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Project"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Editor -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Editor">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#ComputerSupport"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#ElicitationTool -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#ElicitationTool">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#ComputerSupport"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Employee -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Employee">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Person"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#headOfGroup"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#ResearchGroup"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#affiliation"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Organization"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#worksAtProject"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Project"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#headOf"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Project"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Enterprise -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Enterprise">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Organization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#EvaluationOfKA -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#EvaluationOfKA">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#ResearchTopic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Event -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Event">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Object"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#publication"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Publication"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#programCommittee"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Person"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#atEvent"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Event"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#location"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#date"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#eventTitle"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#orgCommittee"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Person"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#hasParts"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Event"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#ExecutableSpecificationLanguages -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#ExecutableSpecificationLanguages">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#SpecificationLanguages"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Formalisms -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Formalisms">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Validation_And_Verification"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Guideline -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Guideline">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#KAMethodology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#ImplementationEnvironment -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#ImplementationEnvironment">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#ComputerSupport"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Institute -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Institute">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Organization"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#hasParts"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#ResearchGroup"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#InternetTool -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#InternetTool">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#ComputerSupport"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Journal -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Journal">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Publication"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#number"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#containsArticle"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#JournalArticle"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#editor"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Person"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Publisher"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Organization"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#volume"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#JournalArticle -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#JournalArticle">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Article"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#firstPage"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#journal"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Journal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#lastPage"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#KAMethodologies -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#KAMethodologies">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#ResearchTopic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#KAMethodology -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#KAMethodology">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#KAThroughMachineLearning -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#KAThroughMachineLearning">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#ResearchTopic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#KnowledgeBasedRefinement -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#KnowledgeBasedRefinement">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#KAThroughMachineLearning"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#KnowledgeDiscoveryInDatasets -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#KnowledgeDiscoveryInDatasets">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#KAThroughMachineLearning"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#KnowledgeElicitation -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#KnowledgeElicitation">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#ResearchTopic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#KnowledgeManagement -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#KnowledgeManagement">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#ResearchTopic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#LearningApprenticeSystems -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#LearningApprenticeSystems">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#KAThroughMachineLearning"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Lecturer -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Lecturer">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#AcademicStaff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Meeting -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Meeting">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Event"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#date"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#title"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#participant"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Person"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Methodologies -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Methodologies">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Ontologies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Methodology -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Methodology">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Validation_And_Verification"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#ModelingLanguage -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#ModelingLanguage">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#KAMethodology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#NLParser -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#NLParser">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#ComputerSupport"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Object -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Object">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#keyword"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#OnlinePublication -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#OnlinePublication">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Publication"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#onlineVersionOf"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Publication"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#type"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Ontologies -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Ontologies">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Reuse"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Ontology -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Ontology">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#KAMethodology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#OntologyLibrary -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#OntologyLibrary">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#ComputerSupport"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Organization -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Organization">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Object"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#employs"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Person"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#location"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#finances"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Project"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#carriesOut"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Project"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#publishes"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Publication"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#develops"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Product"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#name"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#technicalReport"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#TechnicalReport"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#PSM -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#PSM">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#KAMethodology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#PSMLibrary -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#PSMLibrary">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#ComputerSupport"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#PSMevaluation -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#PSMevaluation">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#PSMs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#PSMlibraries -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#PSMlibraries">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#PSMs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#PSMnotations -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#PSMnotations">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#PSMs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#PSMs -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#PSMs">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Reuse"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#PaperLibrary -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#PaperLibrary">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#KAMethodology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Person -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Person">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Object"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#firstName"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#middleInitial"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#email"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#phone"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#name"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#address"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#fax"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#photo"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#lastName"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#PhDStudent -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#PhDStudent">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Researcher"/>
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Student"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#supervisor"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#AcademicStaff"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Product -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Product">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Object"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#developedBy"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Organization"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#productName"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#productPublication"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Publication"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#productedBy"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Project"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#productMailingList"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#productFAQ"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Project -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Project">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Object"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#head"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Employee"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#isAbout"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#ResearchTopic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#product"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Product"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#financedBy"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Organization"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#member"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Employee"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#carriedOutBy"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Organization"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#projectInfo"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Publication"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#title"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Publication -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Publication">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Object"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#year"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#abstract"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#author"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Person"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#describesProject"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Project"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#title"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#onlineVersion"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#OnlinePublication"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#ReinforcementLearning -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#ReinforcementLearning">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#KAThroughMachineLearning"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#ResearchGroup -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#ResearchGroup">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Organization"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#member"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Researcher"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#head"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Employee"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#ResearchProject -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#ResearchProject">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Project"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#ResearchTopic -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#ResearchTopic">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Object"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#description"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#projects"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Project"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#researchers"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Researcher"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#approaches"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#authorOfOntology"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Researcher"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#name"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#nationalFundingAgencies"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Organization"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#webpages"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#applicationAreas"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#internationalFundingAgencies"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Organization"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#subTopics"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#ResearchTopic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#relatedTopics"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#ResearchTopic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#dateOfLastModification"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#products"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Product"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#bibliographies"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Publication"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#mailingLists"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#events"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Event"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#researchGroups"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#ResearchGroup"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#journals"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Journal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Researcher -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Researcher">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#AcademicStaff"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#researchInterest"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#ResearchTopic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#memberOf"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#ResearchGroup"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#cooperatesWith"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Researcher"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Reuse -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Reuse">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#ResearchTopic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Secretary -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Secretary">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#AdministrativeStaff"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#secretaryOf"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#ResearchGroup"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#SoftwareApplications -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#SoftwareApplications">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Ontologies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#SoftwareProject -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#SoftwareProject">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#DevelopmentProject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#SoftwareReuse -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#SoftwareReuse">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Reuse"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#SpecialIssueEvent -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#SpecialIssueEvent">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#SpecialIssuePublication -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#SpecialIssuePublication">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Journal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#SpecificationLanguage -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#SpecificationLanguage">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#KAMethodology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#SpecificationLanguages -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#SpecificationLanguages">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#ResearchTopic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#SpecificationMethodology -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#SpecificationMethodology">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#SpecificationLanguages"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#SpecificationOfControlKnowledge -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#SpecificationOfControlKnowledge">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#SpecificationLanguages"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Student -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Student">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Person"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#studiesAt"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#University"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#SupportToolsForFormalMethods -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#SupportToolsForFormalMethods">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#SpecificationLanguages"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Sysiphus_III_Experiment -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Sysiphus_III_Experiment">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#PSMs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#TechnicalReport -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#TechnicalReport">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Article"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#number"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#organization"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Organization"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#series"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#TechnicalStaff -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#TechnicalStaff">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#AdministrativeStaff"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#TheoreticalFoundations -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#TheoreticalFoundations">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Ontologies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#TransformationTool -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#TransformationTool">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#ComputerSupport"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#University -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#University">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Organization"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#hasParts"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Department"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#student"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Student"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#V_And_V_Of_MAS -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#V_And_V_Of_MAS">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Validation_And_Verification"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Validation_And_Verification -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Validation_And_Verification">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#ResearchTopic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Validator -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Validator">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#ComputerSupport"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Verifier -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Verifier">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#ComputerSupport"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#WebMediatedPSMSelection -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#WebMediatedPSMSelection">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#PSMs"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Workshop -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Workshop">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Event"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#number"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#series"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#WorkshopPaper -->
+
+    <owl:Class rdf:about="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#WorkshopPaper">
+        <rdfs:subClassOf rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Article"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#lastPage"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#proceedingsTitle"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#workshop"/>
+                <owl:allValuesFrom rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#Workshop"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.cs.ox.ac.uk/isg/ontologies/UID/00115.owl#firstPage"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->
+

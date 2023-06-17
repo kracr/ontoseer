@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1687002167143
+Build-Jdk: 16.0.1
+Built-By: rohan
+Bundle-Activator: org.protege.editor.owl.ProtegeOWL
+Bundle-Description: Example plug-ins for the Protege Desktop ontology ed
+ itor, e.g., views, menu items, etc.
+Bundle-ManifestVersion: 2
+Bundle-Name: OntoSeer
+Bundle-SymbolicName: protege.plugin.examples;singleton:=true
+Bundle-Vendor: The Protege Development Team
+Bundle-Version: 2.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Embed-Dependency: json;scope=compile;inline=true
+Export-Package: edu.stanford.bmir.protege.examples.menu;uses:="org.prote
+ ge.editor.owl.ui.action";version="2.0.0",edu.stanford.bmir.protege.exam
+ ples.tab;uses:="org.protege.editor.owl.ui";version="2.0.0",edu.stanford
+ .bmir.protege.examples.view;uses:="javax.swing,org.protege.editor.owl.m
+ odel,org.protege.editor.owl.ui.view";version="2.0.0"
+Import-Package: javax.swing,javax.swing.border,org.protege.editor.owl;ve
+ rsion="[5.0,6)",org.protege.editor.owl.model;version="[5.0,6)",org.prot
+ ege.editor.owl.model.event;version="[5.0,6)",org.protege.editor.owl.mod
+ el.selection;version="[5.0,6)",org.protege.editor.owl.ui;version="[5.0,
+ 6)",org.protege.editor.owl.ui.action;version="[5.0,6)",org.protege.edit
+ or.owl.ui.view;version="[5.0,6)",org.semanticweb.owlapi.model;version="
+ [4.2,5)",org.slf4j;version="[1.7,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.0.0.201509101326

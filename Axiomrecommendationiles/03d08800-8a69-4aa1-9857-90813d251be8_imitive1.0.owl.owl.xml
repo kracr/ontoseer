@@ -1,0 +1,861 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://ontology.dumontierlab.com/element-primitive-1.0.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://ontology.dumontierlab.com/element-primitive-1.0.owl">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Declaration>
+        <Class IRI="#Actinium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aluminium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Americium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Antimony"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Argon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Arsenic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Astatine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Barium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Berkelium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Beryllium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bismuth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bohrium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boron"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bromine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cadmium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Caesium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Calcium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Californium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Carbon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cerium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chlorine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chromium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cobalt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Copper"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Curium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Darmstadtium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dubnium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dysprosium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Einsteinium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Element"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Erbium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Europium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fermium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fluorine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Francium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gadolinium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gallium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Germanium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gold"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hafnium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hassium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Helium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Holmium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hydrogen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Indium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Iodine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Iridium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Iron"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Krypton"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lanthanum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lawrencium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lead"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lithium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lutetium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Magnesium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Manganese"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Meitnerium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mendelevium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mercury"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Molybdenum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Neodymium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Neon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Neptunium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nickel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Niobium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nitrogen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nobelium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Osmium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oxygen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Palladium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Phosphorus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Platinum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plutonium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Polonium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Potassium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Praseodymium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Promethium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Protactinium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Radium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Radon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rhenium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rhodium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Roentgenium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rubidium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ruthenium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rutherfordium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Samarium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Scandium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Seaborgium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Selenium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Silicon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Silver"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sodium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Strontium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sulfur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tantalum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Technetium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tellurium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Terbium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Thallium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Thorium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Thulium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Titanium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tungsten"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ununbium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ununhexium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ununnilium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ununoctium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ununpentium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ununquadium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ununseptium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ununtrium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Unununium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Uranium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vanadium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Xenon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ytterbium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Yttrium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zinc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zirconium"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Actinium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aluminium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Americium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Antimony"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Argon"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Arsenic"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Astatine"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Barium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Berkelium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Beryllium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bismuth"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bohrium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boron"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bromine"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cadmium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Caesium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Calcium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Californium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Carbon"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cerium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chlorine"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chromium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cobalt"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Copper"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Curium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Darmstadtium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dubnium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dysprosium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Einsteinium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Erbium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Europium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fermium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fluorine"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Francium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gadolinium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gallium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Germanium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gold"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hafnium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hassium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Helium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Holmium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hydrogen"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Indium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iodine"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iridium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iron"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Krypton"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lanthanum"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lawrencium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lead"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lithium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lutetium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Magnesium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Manganese"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Meitnerium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mendelevium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mercury"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Molybdenum"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Neodymium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Neon"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Neptunium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nickel"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Niobium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nitrogen"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nobelium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Osmium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oxygen"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Palladium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Phosphorus"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Platinum"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plutonium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Polonium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Potassium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Praseodymium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Promethium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Protactinium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Radium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Radon"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rhenium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rhodium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Roentgenium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rubidium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ruthenium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rutherfordium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Samarium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Scandium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seaborgium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Selenium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Silicon"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Silver"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sodium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Strontium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sulfur"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tantalum"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Technetium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tellurium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Terbium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Thallium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Thorium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Thulium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tin"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Titanium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tungsten"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ununbium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ununhexium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ununnilium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ununoctium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ununpentium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ununquadium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ununseptium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ununtrium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Unununium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Uranium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vanadium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Xenon"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ytterbium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yttrium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zinc"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zirconium"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.8) http://owlapi.sourceforge.net -->
+

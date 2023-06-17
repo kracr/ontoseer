@@ -1,0 +1,2245 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-GO-CC-Bridge.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-GO-CC-Bridge.owl">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_151681"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_330"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_467"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_subcell_090901"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_subcell_091021"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_subcell_100206"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_subcell_100207"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_subcell_100208"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_subcell_100312"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_subcell_100315"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_subcell_1005001"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_subcell_1005002"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_subcell_1005003"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_subcell_20090101"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_subcell_20090102"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_subcell_20090103"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_subcell_20090104"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_subcell_20090105"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_subcell_20090203"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_subcell_20090204"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_subcell_20090209"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_subcell_20090210"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_subcell_20090511"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_subcell_20090513"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_subcell_20090601"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_subcell_20090701"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_subcell_20090702"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_subcell_20090703"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao-1046371754"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao-1067215520"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao-1123256993"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao-1337158144"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao-1348591767"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao-1488888179"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao-1686050947"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao-17780464455"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao-1863852493"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao-188049490"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao-250931889"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao-3012335077"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao-593830697"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao-699412220"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao-867568886"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao101633890"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1028571114"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1036339110"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1038025871"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1039242387"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1044911821"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1045389829"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1049471211"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1071221672"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1078172392"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1079900774"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1081228141"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao109906988"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao110773650"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1111202255"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1124888485"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao113580911"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1140587416"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1145756102"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1153182838"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1177708494"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1186327184"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1186642361"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1191319089"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1196688972"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao11978067"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao120573470"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1210952635"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1211023249"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1217793903"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1243595998"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao124393998"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1279474730"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao128470897"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1289741256"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1316272517"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1340260079"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1354781919"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1362520468"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1371347282"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1376748732"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1379604862"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao138219748"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1382918459"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao138430598"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1395777368"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1397492660"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1429207766"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1455996588"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1456184038"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1470121605"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1470140754"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1499850686"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1531915298"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1539965131"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1546288504"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1549842807"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1570660411"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1571698684"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1588493326"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1594955670"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1596955044"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1596975044"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1612527463"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1615953555"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1617136075"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1630537580"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1634374950"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1635329413"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1642494436"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1642908940"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1663586795"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1683772610"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1684283879"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1687101204"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1702920020"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1720343330"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao172297168"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1730664005"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1749953771"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1770195789"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1784069613"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1799103720"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1804523077"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao180601769"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao181458425"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1820400233"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao18239917"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1841764412"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1842028314"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao18461326"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1846835077"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1860313010"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1872343973"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao187426937"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1881364067"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1884931180"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1890444066"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1911631652"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1925368674"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1933817066"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1938587839"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1950673097"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1969557946"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao2007137787"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao2031592629"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao2034472720"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao2038461087"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao203987954"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao2045955158"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao2048514053"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao2114874506"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao2127666702"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao2128156969"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao220861693"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao221389602"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao2409833926"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao250772229"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao256000789"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao273773228"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao280355188"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao28175134"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao295057932"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao3089754107"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao333328131"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao340271629"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao388182739"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao401910342"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao4040591221"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao413722576"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao414196390"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao445019788"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao445485807"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao451912436"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao4749542545"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao478230652"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao4933778419"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao494258938"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao499555322"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao505137457"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao506721981"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao561419532"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao5764355747"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao581845896"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao585356902"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao601362597"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao624292949"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao627227260"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao628508602"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao632188024"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao6433132645"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao6587439252"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao661522542"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao666410040"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao671419673"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao694815499"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao700839054"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao707332678"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao710427438"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao725931194"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao730872736"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao772007592"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao787716553"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao819927218"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao830981606"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao8444068431"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao8663416959"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao879919129"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao884265541"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao885490876"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao901230115"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao9117790637"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao914572699"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao924713546"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao936144858"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao937871668"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao9456487"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao95019936"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao952483289"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao952643730"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao967812059"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao978443756"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0000262"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0000785"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0000791"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0000792"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0001651"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0001652"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0001740"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0003674"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005575"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005605"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005634"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005637"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005640"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005643"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005652"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005654"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005730"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005739"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005741"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005743"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005759"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005764"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005766"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005767"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005768"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005769"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005770"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005771"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005776"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005777"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005783"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005790"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005791"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005794"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005795"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005798"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005801"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005802"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005814"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005829"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005840"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005844"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005874"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005882"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005883"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005884"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005886"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005902"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005905"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005911"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005921"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005922"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005929"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005932"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0008021"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0008150"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0010008"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0012506"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0014069"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0015030"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0016020"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0016234"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0016604"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0030061"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0030118"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0030120"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0030133"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0030139"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0030143"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0030175"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0030424"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0030425"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0030673"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0030867"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0030868"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0031012"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0031045"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0031090"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0031410"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0031594"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0031965"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0031966"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0031982"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0033267"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0033268"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0033270"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0035061"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0042587"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0042599"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0043005"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0043025"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0043194"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0043195"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0043197"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0043198"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0043203"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0043209"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0043218"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0043219"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0043226"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0043227"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0043228"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0043679"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044224"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044280"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044292"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044293"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044294"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044295"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044296"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044299"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044300"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044301"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044302"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044303"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044304"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044305"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044307"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044308"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044309"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044326"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044327"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044352"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044421"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044428"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044429"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044430"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044431"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044440"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044452"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044455"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044456"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044464"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044754"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0045202"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0045334"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0048786"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0048787"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0048788"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0070971"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097002"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097407"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097408"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097409"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097412"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097413"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097414"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097415"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097416"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097417"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097418"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097419"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097420"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097422"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097423"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097424"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097425"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097426"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097427"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097433"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097440"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097441"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097442"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097443"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097444"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097445"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097447"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097448"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097449"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097450"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097451"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097453"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097454"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097455"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097456"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097457"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097462"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097463"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097464"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097465"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097470"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097471"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1901588"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1901589"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1990005"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1990006"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1990007"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1990008"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1990011"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1990012"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1990013"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1990015"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1990016"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1990017"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1990018"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1990020"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1990021"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1990024"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1990025"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1990026"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1990027"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1990030"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1990031"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1990032"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1990033"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1990037"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1990038"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1990039"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1990040"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Function"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#Process"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_151681"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1990012"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_330"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1990032"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_467"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097464"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_subcell_090901"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0015030"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_subcell_091021"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097471"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_subcell_100206"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1990025"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_subcell_100207"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1990027"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_subcell_100208"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1990024"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_subcell_100312"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097457"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_subcell_100315"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005575"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_subcell_1005001"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097442"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_subcell_1005002"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1990026"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_subcell_1005003"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097463"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_subcell_20090101"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097407"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_subcell_20090102"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097419"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_subcell_20090103"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097420"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_subcell_20090104"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097412"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_subcell_20090105"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097416"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_subcell_20090203"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044301"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_subcell_20090204"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0043209"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_subcell_20090209"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044300"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_subcell_20090210"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044299"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_subcell_20090511"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1990021"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_subcell_20090513"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0031012"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_subcell_20090601"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044302"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_subcell_20090701"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005769"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_subcell_20090702"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005770"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_subcell_20090703"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097409"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao-1046371754"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0030175"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao-1067215520"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0043219"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao-1123256993"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0043218"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao-1337158144"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005575"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao-1348591767"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1990033"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao-1488888179"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0048788"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao-1686050947"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044455"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao-17780464455"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005921"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao-1863852493"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097426"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao-188049490"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0033268"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao-250931889"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0043005"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao-3012335077"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005911"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao-593830697"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0043209"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao-699412220"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097425"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao-867568886"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0043005"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao101633890"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005829"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1028571114"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097443"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1036339110"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005783"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1038025871"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005844"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1039242387"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005802"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1044911821"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0043025"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1045389829"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0031966"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1049471211"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0035061"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1071221672"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0008021"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1078172392"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0043198"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1079900774"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097441"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1081228141"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0042587"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao109906988"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1990031"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao110773650"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1901588"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1111202255"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0048788"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1124888485"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0031594"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao113580911"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044452"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1140587416"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005766"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1145756102"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044309"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1153182838"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0012506"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1177708494"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0030120"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1186327184"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0000262"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1186642361"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0043218"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1191319089"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044224"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1196688972"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0014069"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao11978067"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005932"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao120573470"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0016234"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1210952635"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097424"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1211023249"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0030425"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1217793903"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0001652"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1243595998"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0045334"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao124393998"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0070971"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1279474730"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0043209"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao128470897"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1990040"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1289741256"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005741"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1316272517"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005883"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1340260079"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044296"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1354781919"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0043219"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1362520468"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0030139"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1371347282"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005743"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1376748732"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1990015"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1379604862"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0042599"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao138219748"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005798"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1382918459"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0030143"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao138430598"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097417"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1395777368"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005911"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1397492660"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005605"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1429207766"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005840"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1455996588"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005652"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1456184038"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0043228"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1470121605"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0048788"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1470140754"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044303"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1499850686"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044428"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1531915298"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1990006"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1539965131"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0043226"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1546288504"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044431"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1549842807"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005767"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1570660411"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097422"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1571698684"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0001740"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1588493326"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005884"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1594955670"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044294"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1596955044"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0030868"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1596975044"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044304"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1612527463"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005637"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1615953555"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0000785"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1617136075"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005640"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1630537580"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097449"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1634374950"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1990039"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1635329413"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044430"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1642494436"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1990020"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1642908940"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044326"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1663586795"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005886"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1683772610"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044440"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1684283879"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044305"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1687101204"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0031965"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1702920020"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005634"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1720343330"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005768"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao172297168"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097447"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1730664005"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1990013"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1749953771"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1990018"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1770195789"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0030424"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1784069613"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044456"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1799103720"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0043197"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1804523077"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005759"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao180601769"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0031410"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao181458425"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097451"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1820400233"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005730"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao18239917"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044308"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1841764412"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0001651"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1842028314"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097425"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao18461326"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097002"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1846835077"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005874"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1860313010"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005739"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1872343973"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097427"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao187426937"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0043195"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1881364067"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005791"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1884931180"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097470"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1890444066"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097454"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1911631652"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0048786"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1925368674"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044352"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1933817066"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097423"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1938587839"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044280"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1950673097"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1990021"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao1969557946"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005905"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao2007137787"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0043679"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao2031592629"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1990008"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao2034472720"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0043198"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao2038461087"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0048787"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao203987954"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044295"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao2045955158"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005771"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao2048514053"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097465"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao2114874506"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1990007"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao2127666702"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097453"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao2128156969"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097448"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao220861693"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005643"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao221389602"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0031982"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao2409833926"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097418"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao250772229"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0030673"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao256000789"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0043194"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao273773228"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097440"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao280355188"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0033267"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao28175134"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044292"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao295057932"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044293"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao3089754107"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0030867"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao333328131"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0030061"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao340271629"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044464"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao388182739"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097450"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao401910342"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1990017"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao4040591221"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097415"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao413722576"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1990030"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao414196390"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0043227"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao445019788"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005922"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao445485807"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0000791"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao451912436"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005794"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao4749542545"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097414"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao478230652"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1990005"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao4933778419"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097413"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao494258938"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097445"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao499555322"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005777"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao505137457"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0016604"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao506721981"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1990011"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao561419532"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005795"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao5764355747"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1990038"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao581845896"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0000792"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao585356902"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005764"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao601362597"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097462"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao624292949"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044431"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao627227260"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0043203"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao628508602"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044464"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao632188024"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005801"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao6433132645"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0016020"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao6587439252"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1990037"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao661522542"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005654"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao666410040"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044429"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao671419673"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005902"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao694815499"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097422"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao700839054"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005921"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao707332678"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1901589"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao710427438"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005790"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao725931194"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097444"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao730872736"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097433"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao772007592"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0031045"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao787716553"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005929"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao819927218"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005798"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao830981606"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0031090"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao8444068431"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044754"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao8663416959"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005776"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao879919129"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0030118"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao884265541"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044307"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao885490876"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0030133"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao901230115"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_1990016"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao9117790637"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044421"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao914572699"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0045202"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao924713546"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097456"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao936144858"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0033270"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao937871668"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097455"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao9456487"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005802"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao95019936"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005814"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao952483289"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005882"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao952643730"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0044327"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao967812059"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0097408"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao978443756"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0010008"/>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao-1337158144"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0003674"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Function"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0005575"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#Process"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.8) http://owlapi.sourceforge.net -->
+

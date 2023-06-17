@@ -1,0 +1,857 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.loria.fr/~coulet/ontology/sopharm/version1.2/pharmacogeneticsontology.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.loria.fr/~coulet/ontology/sopharm/version1.2/pharmacogeneticsontology.owl">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Declaration>
+        <Class IRI="#EKG"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ER_visit_rate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FEV1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FVC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GFP_tagging"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GI_bleeding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kcat_measure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ki_measure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Km_measure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PCR"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PET_scanning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QT_interval"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RFLP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RT_PCR"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#T50"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TaqMan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vmax_measure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#_24_hour_BP_monitoring"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#_2D_gel_electrophoresis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#airways_responsiveness_testing_with_methacholine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#angioedema"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#antibody_based_arrays"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#asthma_hospitalization_rate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#atrial_fibrillation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bleeding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#blood_counts_of_pathogens"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#blood_pressure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bone_mineral_density"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cancer_treatment_related_side_effects"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cell_counts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cellular_uptake_measure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cholestasis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#clearance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#clinical_measures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#coagulation_profile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cognitive_measures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cytosols"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#daily_BP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#detect_interacting_proteins"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#electrophoresis_mobility_assay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#electrophysiology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#enzymatic_activity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#enzyme_kinetics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eosinophilia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#erythromycin_breath_test"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#event_free_survival"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#event_rates_for_myocardial_infarction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#exercise_response"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#expression_analysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fainting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#genotyping_methods"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hamilton_depression_scale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hepatotoxicity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#heterologous_expression"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#homocysteine_levels"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hot_flash_occurrences"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hypotension"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#immunoprecipitation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#insect_cell_expression"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#kidney_microsomes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#laboratory_measures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lipid_profile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lipid_profile_Research"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#liver_microsomes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#luciferase_reporter_utilization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lymphocyte_functional_measure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mammalian_cell_expression"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mass_spectrometry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#metabolic_measures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#microsomes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#molecular_and_cellular_phenotyping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#myalgia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#neurotoxicity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#occurrence_of_neoplasm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#oligonucleotide_arrays"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#organism_phenotyping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#outcomes_measures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#permeability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pharmacokinetics_measures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#phenotyping_methods"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#physical_measures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#plasma_drug_concentrations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#promoter_function_assessment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#protein_arrays"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#protein_complex"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#protein_content_or_level"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#protein_degradation_in_rabbit_reticulocyte_lysate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#protein_half_life"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#proteomics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pulmonary_fibrosis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pulmonary_function_tests"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pulmonary_measures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pulse_chase_analysis_in_cultured_cell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#quality_of_life"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#receptor_kinetics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#relapse_rate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#renin_angiotensin_system_measure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#respiratory_depression"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#response_rate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#second_cancers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#seizure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#serum_proteomics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#side_effects_adverse_events"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#single_channel_or_transport_measures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#spotted_microarrays"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sudden_death"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#supershift_assay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#survival"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#syncope"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#thrombocytopenia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#thrombosis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tissue_arrays"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tissue_or_organ_phenotyping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#transcript_sizing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#transcription_factor_detection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#variation_assessement_in_populations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#variation_discovery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#vasculitis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#western_blot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#xenopus_expression"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#yeast_expression"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#EKG"/>
+        <Class IRI="#clinical_measures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ER_visit_rate"/>
+        <Class IRI="#outcomes_measures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FEV1"/>
+        <Class IRI="#pulmonary_function_tests"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FVC"/>
+        <Class IRI="#pulmonary_function_tests"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GFP_tagging"/>
+        <Class IRI="#promoter_function_assessment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GI_bleeding"/>
+        <Class IRI="#bleeding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kcat_measure"/>
+        <Class IRI="#enzyme_kinetics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ki_measure"/>
+        <Class IRI="#enzyme_kinetics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Km_measure"/>
+        <Class IRI="#enzyme_kinetics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PCR"/>
+        <Class IRI="#variation_assessement_in_populations"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PET_scanning"/>
+        <Class IRI="#clinical_measures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QT_interval"/>
+        <Class IRI="#EKG"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RFLP"/>
+        <Class IRI="#variation_discovery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RT_PCR"/>
+        <Class IRI="#expression_analysis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#T50"/>
+        <Class IRI="#Km_measure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TaqMan"/>
+        <Class IRI="#variation_assessement_in_populations"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vmax_measure"/>
+        <Class IRI="#enzyme_kinetics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#_24_hour_BP_monitoring"/>
+        <Class IRI="#blood_pressure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#_2D_gel_electrophoresis"/>
+        <Class IRI="#molecular_and_cellular_phenotyping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#airways_responsiveness_testing_with_methacholine"/>
+        <Class IRI="#pulmonary_function_tests"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#angioedema"/>
+        <Class IRI="#side_effects_adverse_events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#antibody_based_arrays"/>
+        <Class IRI="#protein_arrays"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#asthma_hospitalization_rate"/>
+        <Class IRI="#outcomes_measures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#atrial_fibrillation"/>
+        <Class IRI="#outcomes_measures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bleeding"/>
+        <Class IRI="#side_effects_adverse_events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#blood_counts_of_pathogens"/>
+        <Class IRI="#laboratory_measures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#blood_pressure"/>
+        <Class IRI="#physical_measures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bone_mineral_density"/>
+        <Class IRI="#clinical_measures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cancer_treatment_related_side_effects"/>
+        <Class IRI="#side_effects_adverse_events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cell_counts"/>
+        <Class IRI="#laboratory_measures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cellular_uptake_measure"/>
+        <Class IRI="#single_channel_or_transport_measures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cholestasis"/>
+        <Class IRI="#side_effects_adverse_events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#clearance"/>
+        <Class IRI="#pharmacokinetics_measures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#clinical_measures"/>
+        <Class IRI="#phenotyping_methods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#coagulation_profile"/>
+        <Class IRI="#laboratory_measures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cognitive_measures"/>
+        <Class IRI="#clinical_measures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cytosols"/>
+        <Class IRI="#tissue_or_organ_phenotyping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#daily_BP"/>
+        <Class IRI="#blood_pressure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#detect_interacting_proteins"/>
+        <Class IRI="#protein_complex"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#electrophoresis_mobility_assay"/>
+        <Class IRI="#transcription_factor_detection"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#electrophysiology"/>
+        <Class IRI="#molecular_and_cellular_phenotyping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#enzymatic_activity"/>
+        <Class IRI="#molecular_and_cellular_phenotyping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#enzyme_kinetics"/>
+        <Class IRI="#molecular_and_cellular_phenotyping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eosinophilia"/>
+        <Class IRI="#side_effects_adverse_events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#erythromycin_breath_test"/>
+        <Class IRI="#metabolic_measures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#event_free_survival"/>
+        <Class IRI="#outcomes_measures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#event_rates_for_myocardial_infarction"/>
+        <Class IRI="#outcomes_measures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#exercise_response"/>
+        <Class IRI="#physical_measures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#expression_analysis"/>
+        <Class IRI="#molecular_and_cellular_phenotyping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fainting"/>
+        <Class IRI="#side_effects_adverse_events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hamilton_depression_scale"/>
+        <Class IRI="#cognitive_measures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hepatotoxicity"/>
+        <Class IRI="#side_effects_adverse_events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#heterologous_expression"/>
+        <Class IRI="#molecular_and_cellular_phenotyping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#homocysteine_levels"/>
+        <Class IRI="#laboratory_measures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hot_flash_occurrences"/>
+        <Class IRI="#side_effects_adverse_events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hypotension"/>
+        <Class IRI="#side_effects_adverse_events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#immunoprecipitation"/>
+        <Class IRI="#detect_interacting_proteins"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#insect_cell_expression"/>
+        <Class IRI="#heterologous_expression"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kidney_microsomes"/>
+        <Class IRI="#microsomes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#laboratory_measures"/>
+        <Class IRI="#clinical_measures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lipid_profile"/>
+        <Class IRI="#laboratory_measures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lipid_profile_Research"/>
+        <Class IRI="#laboratory_measures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#liver_microsomes"/>
+        <Class IRI="#microsomes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#luciferase_reporter_utilization"/>
+        <Class IRI="#promoter_function_assessment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lymphocyte_functional_measure"/>
+        <Class IRI="#tissue_or_organ_phenotyping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mammalian_cell_expression"/>
+        <Class IRI="#heterologous_expression"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mass_spectrometry"/>
+        <Class IRI="#molecular_and_cellular_phenotyping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#metabolic_measures"/>
+        <Class IRI="#clinical_measures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#microsomes"/>
+        <Class IRI="#tissue_or_organ_phenotyping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#molecular_and_cellular_phenotyping"/>
+        <Class IRI="#phenotyping_methods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#myalgia"/>
+        <Class IRI="#side_effects_adverse_events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#neurotoxicity"/>
+        <Class IRI="#side_effects_adverse_events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#occurrence_of_neoplasm"/>
+        <Class IRI="#outcomes_measures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#oligonucleotide_arrays"/>
+        <Class IRI="#expression_analysis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#organism_phenotyping"/>
+        <Class IRI="#phenotyping_methods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#outcomes_measures"/>
+        <Class IRI="#phenotyping_methods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#permeability"/>
+        <Class IRI="#molecular_and_cellular_phenotyping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pharmacokinetics_measures"/>
+        <Class IRI="#phenotyping_methods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#physical_measures"/>
+        <Class IRI="#clinical_measures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#plasma_drug_concentrations"/>
+        <Class IRI="#pharmacokinetics_measures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#promoter_function_assessment"/>
+        <Class IRI="#molecular_and_cellular_phenotyping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#protein_arrays"/>
+        <Class IRI="#molecular_and_cellular_phenotyping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#protein_complex"/>
+        <Class IRI="#molecular_and_cellular_phenotyping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#protein_content_or_level"/>
+        <Class IRI="#molecular_and_cellular_phenotyping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#protein_degradation_in_rabbit_reticulocyte_lysate"/>
+        <Class IRI="#protein_half_life"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#protein_half_life"/>
+        <Class IRI="#molecular_and_cellular_phenotyping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#proteomics"/>
+        <Class IRI="#detect_interacting_proteins"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pulmonary_fibrosis"/>
+        <Class IRI="#side_effects_adverse_events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pulmonary_function_tests"/>
+        <Class IRI="#pulmonary_measures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pulmonary_measures"/>
+        <Class IRI="#clinical_measures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pulse_chase_analysis_in_cultured_cell"/>
+        <Class IRI="#protein_half_life"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#quality_of_life"/>
+        <Class IRI="#outcomes_measures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#receptor_kinetics"/>
+        <Class IRI="#molecular_and_cellular_phenotyping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#relapse_rate"/>
+        <Class IRI="#outcomes_measures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#renin_angiotensin_system_measure"/>
+        <Class IRI="#laboratory_measures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#respiratory_depression"/>
+        <Class IRI="#side_effects_adverse_events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#response_rate"/>
+        <Class IRI="#outcomes_measures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#second_cancers"/>
+        <Class IRI="#outcomes_measures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#seizure"/>
+        <Class IRI="#side_effects_adverse_events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#serum_proteomics"/>
+        <Class IRI="#laboratory_measures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#side_effects_adverse_events"/>
+        <Class IRI="#phenotyping_methods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#single_channel_or_transport_measures"/>
+        <Class IRI="#molecular_and_cellular_phenotyping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#spotted_microarrays"/>
+        <Class IRI="#expression_analysis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sudden_death"/>
+        <Class IRI="#outcomes_measures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#supershift_assay"/>
+        <Class IRI="#transcription_factor_detection"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#survival"/>
+        <Class IRI="#outcomes_measures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#syncope"/>
+        <Class IRI="#side_effects_adverse_events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#thrombocytopenia"/>
+        <Class IRI="#side_effects_adverse_events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#thrombosis"/>
+        <Class IRI="#side_effects_adverse_events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tissue_arrays"/>
+        <Class IRI="#tissue_or_organ_phenotyping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tissue_or_organ_phenotyping"/>
+        <Class IRI="#phenotyping_methods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#transcript_sizing"/>
+        <Class IRI="#expression_analysis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#transcription_factor_detection"/>
+        <Class IRI="#promoter_function_assessment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#variation_assessement_in_populations"/>
+        <Class IRI="#genotyping_methods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#variation_discovery"/>
+        <Class IRI="#genotyping_methods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vasculitis"/>
+        <Class IRI="#side_effects_adverse_events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#western_blot"/>
+        <Class IRI="#molecular_and_cellular_phenotyping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#xenopus_expression"/>
+        <Class IRI="#heterologous_expression"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#yeast_expression"/>
+        <Class IRI="#heterologous_expression"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.8) http://owlapi.sourceforge.net -->
+

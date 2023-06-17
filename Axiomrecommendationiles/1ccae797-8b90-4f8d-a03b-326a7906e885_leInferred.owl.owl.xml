@@ -1,0 +1,2521 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Inferred.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Inferred.owl">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_100"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_101"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_102"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_103"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_105"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_106"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_107"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_108"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_109"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_110"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_111"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_112"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_113"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_114"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_115"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_116"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_117"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_118"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_119"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_120"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_121"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_122"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_123"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_124"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_125"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_126"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_128"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_129"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_130"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_132"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_133"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_134"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_135"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_136"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_137"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_138"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_139"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_140"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_141"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_143"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_144"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_145"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_147"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_148"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_149"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_150"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_151"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_152"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_153"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_154"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_155"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_159"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_160"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_161"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_162"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_163"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_164"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_165"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_166"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_167"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_168"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_17"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_170"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_171"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_172"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_18"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_19"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_20"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_21"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_22"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_26"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_27"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_28"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_29"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_30"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_31"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_32"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_33"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_34"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_35"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_36"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_37"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_38"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_39"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_40"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_41"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_42"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_43"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_44"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_45"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_46"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_47"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_48"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_49"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_50"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_51"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_52"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_53"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_54"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_55"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_56"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_57"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_58"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_59"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_60"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_62"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_63"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_64"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_65"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_66"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_67"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_68"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_69"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_70"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_71"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_72"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_73"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_74"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_75"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_76"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_77"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_78"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_79"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_80"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_81"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_82"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_83"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_84"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_85"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_86"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_87"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_88"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_89"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_90"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_91"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_92"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_93"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_94"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_95"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_96"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_97"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_98"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_99"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_144252"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_090807"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_090901"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_091001"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_091002"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_091003"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_091004"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_091005"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_091201"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_0912012"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_091202"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_091203"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_091204"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_091205"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_091206"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_091207"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_091208"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_091209"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_091210"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_091211"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_091212"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_091213"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_091214"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_091215"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_091216"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_091217"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_091218"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_100201"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_100202"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_100203"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_100204"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_100205"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_100206"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_100207"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_100208"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_100209"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_100210"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_100211"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_100212"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_100301"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_100302"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_100310"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_100311"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1005001"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1005002"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1005003"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1005004"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1005005"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1005006"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006001"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006002"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006003"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006004"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006006"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006008"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006009"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006010"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006011"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006012"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006013"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006014"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006015"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006016"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006017"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006018"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006019"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006020"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006021"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006022"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006023"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006024"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006025"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006026"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006027"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006028"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006029"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006030"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006031"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006032"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006033"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006034"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1008001"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1008002"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1008003"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1008004"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1008005"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1008006"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1008007"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1008008"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_100811"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_100812"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_101206"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_101207"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_101209"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_101233"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1105001"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20081201"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20081202"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20081203"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20081204"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20081205"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20081206"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20081207"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20090201"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20090202"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20090203"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_200903010"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20090302"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20090304"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20090305"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20090306"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20090307"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20090308"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20090309"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20090310"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20090312"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20090313"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20090401"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20090402"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20090403"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20090501"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20090502"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20090503"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20090727"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao-1220620412"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao-1865064409"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao-243744138"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao-32901633"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao-408886955"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao-423426544"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1004082033"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1011026882"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1103104164"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1123695773"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1149261773"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1213292244"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1224657022"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1233810115"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1236796660"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1239389"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1245187339"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1299495391"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1309473597"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao131261273"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1353298471"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1366775348"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1394521419"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1415726815"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1458938856"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1492258085"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1540081501"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1541570510"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1543450574"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1582628662"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1615912903"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao164665273"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1714094301"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1741889714"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1813327414"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1847837612"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao185843373"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1866881837"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1895605722"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1952867392"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao197110912"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao2046464388"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao2078084673"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao2128417084"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao226523927"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao265591209"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao313023570"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao3593465546"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao374942934"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao383526650"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao399295448"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao408819766"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao429277527"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao436474611"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao441624014"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao467424240"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao471801888"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao515196263"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao519252327"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao621772985"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao6261208102"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao630986029"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao647178911"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao658938043"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao666951243"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao676858164"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao709770772"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao770302354"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao783352775"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao786552500"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao792373294"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao816233655"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao82362520"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao830368389"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao840814183"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao844118448"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao862606388"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao938060309"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao971374186"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003112"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003113"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_101215"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_subcell_101278"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#birnlex_2537"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_100"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003112"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_101"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_102"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_103"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_101215"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_105"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_103"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_106"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_103"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_107"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_103"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_108"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_109"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_110"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_111"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_112"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_113"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003113"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_114"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_115"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_116"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_117"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_118"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_119"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_120"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003112"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_121"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_122"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_123"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003113"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_124"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_125"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_126"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_128"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_129"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_130"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003113"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_132"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003113"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_133"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003113"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_134"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_135"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_136"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_137"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao938060309"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_138"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao938060309"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_139"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_140"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_141"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003112"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_143"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003113"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_144"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_145"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003112"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_147"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_148"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_149"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003112"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_150"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_151"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao862606388"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_152"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao862606388"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_153"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003112"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_154"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_155"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_159"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao862606388"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_160"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_161"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_162"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_163"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_164"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_165"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao-1865064409"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_166"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1952867392"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_167"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1952867392"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_168"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1895605722"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_17"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003112"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_170"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao185843373"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_171"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao197110912"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_172"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_18"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_17"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_19"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_17"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_20"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_17"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_21"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_17"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_22"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_17"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_26"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1103104164"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_27"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_28"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1103104164"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_29"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1103104164"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_30"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1103104164"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_31"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_32"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_31"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_33"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_31"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_34"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_31"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_35"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_31"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_36"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003113"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_37"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_36"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_38"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_36"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_39"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_36"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_40"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_41"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20081203"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_42"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_41"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_43"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_41"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_44"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_41"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_45"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_46"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_47"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_48"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_49"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_48"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_50"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_48"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_51"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_48"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_52"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_53"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_54"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_55"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_56"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_57"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003113"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_58"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_59"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_60"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_62"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao2046464388"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_63"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao2046464388"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_64"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao2046464388"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_65"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao2046464388"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_66"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_67"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_68"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_69"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_70"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20081201"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_71"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20081201"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_72"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_73"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_74"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao862606388"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_75"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_76"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_77"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_78"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_79"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_80"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_81"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_82"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_83"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003113"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_84"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_85"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_84"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_86"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_84"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_87"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_84"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_88"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_84"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_89"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_84"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_90"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_84"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_91"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_84"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_92"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_84"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_93"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_84"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_94"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_95"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_96"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_97"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_98"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_99"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_144252"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_090807"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_090901"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1394521419"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_091001"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_091002"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_091003"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_091004"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_091005"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_091201"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_0912012"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_091202"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_091203"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_091204"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_091205"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_091206"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_091207"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_091208"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_091209"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_091210"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_091211"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_091212"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_091213"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_091214"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_091215"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_091216"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_091217"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_091218"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_100201"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_100202"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_100203"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_100204"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_100205"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003113"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_100206"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003113"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_100207"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003113"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_100208"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003113"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_100209"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_100210"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_100211"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_100212"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_100301"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_100302"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_100310"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003112"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_100311"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003112"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_100311"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_101215"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1005001"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20081203"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1005002"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1005003"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_46"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1005003"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003113"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1005004"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003113"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1005005"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003113"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1005006"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003113"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006001"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003113"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006002"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003113"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006003"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003113"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006004"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003113"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006006"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003112"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006008"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003113"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006009"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003113"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006010"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003113"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006011"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003113"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006012"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003113"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006013"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003113"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006014"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003113"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006015"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003113"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006016"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003113"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006017"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003113"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006018"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003113"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006019"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003113"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006020"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003113"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006021"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_100205"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006022"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_100207"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006023"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003113"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006024"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003112"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006025"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003112"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006026"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003112"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006027"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003112"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006028"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003112"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006029"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006030"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006031"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006032"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006033"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_100205"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1006034"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_100207"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1008001"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003112"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1008001"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_101215"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1008002"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003112"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1008002"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_101215"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1008003"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003112"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1008003"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_101215"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1008004"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003112"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1008004"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_101215"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1008005"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1008006"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003112"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1008006"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_101215"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1008007"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1008008"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003112"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1008008"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_101215"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_100811"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_141"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_100812"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_141"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_101206"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_101215"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_101207"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_101215"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_101209"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_101215"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_101233"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003112"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_1105001"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20081201"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20081202"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20081203"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003112"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20081204"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao131261273"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20081205"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20081204"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20081206"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20081207"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao313023570"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20090201"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20090202"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003112"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20090203"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_200903010"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003113"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20090302"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20090304"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003112"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20090305"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003112"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20090306"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_141"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20090307"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20090306"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20090308"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20090306"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20090309"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nifext_141"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20090310"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao862606388"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20090310"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003112"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20090312"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20090313"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20090401"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003113"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20090402"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20090403"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20090501"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20090502"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20090501"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20090503"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20090501"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#nlx_cell_20090727"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003113"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao-1220620412"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao374942934"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao-1865064409"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1394521419"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao-243744138"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1895605722"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao-32901633"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1952867392"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao-408886955"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao265591209"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao-423426544"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao3593465546"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1004082033"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1895605722"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1011026882"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao658938043"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1103104164"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao226523927"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1123695773"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao2128417084"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1149261773"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao3593465546"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1213292244"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao467424240"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1224657022"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1813327414"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1233810115"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1236796660"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao164665273"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1239389"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1394521419"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1245187339"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao185843373"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1299495391"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao6261208102"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1309473597"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao374942934"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao131261273"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao862606388"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1353298471"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao844118448"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1366775348"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1394521419"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1895605722"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1415726815"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003113"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1224657022"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1458938856"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao226523927"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1492258085"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao265591209"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1540081501"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1543450574"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1541570510"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao3593465546"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1543450574"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao197110912"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1582628662"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao630986029"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1615912903"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao621772985"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao164665273"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1714094301"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao3593465546"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1741889714"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao82362520"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1813327414"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1847837612"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao441624014"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao185843373"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1813327414"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1866881837"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003113"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1895605722"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao313023570"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1952867392"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao844118448"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao197110912"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1813327414"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao2046464388"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao2078084673"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1394521419"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao2128417084"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao862606388"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao226523927"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1233810115"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao265591209"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1895605722"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao313023570"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1224657022"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao3593465546"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1895605722"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao374942934"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1394521419"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao383526650"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao131261273"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao383526650"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003112"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao399295448"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao-1865064409"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao408819766"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao313023570"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao429277527"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao630986029"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao436474611"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao441624014"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1813327414"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao467424240"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao313023570"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao471801888"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003112"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao515196263"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1952867392"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao519252327"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1813327414"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao621772985"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao3593465546"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao6261208102"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1394521419"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao630986029"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao2046464388"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao647178911"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1149261773"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao658938043"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao82362520"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao666951243"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003113"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao676858164"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao519252327"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao709770772"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao2046464388"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao770302354"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao164665273"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao783352775"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1847837612"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao786552500"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao840814183"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao792373294"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao408819766"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao816233655"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao2128417084"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao82362520"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao519252327"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao830368389"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao131261273"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao840814183"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao2128417084"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao844118448"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1895605722"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao862606388"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao938060309"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1224657022"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao971374186"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1149261773"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003112"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_1003113"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_cell_101215"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Cell.owl#sao1417703748"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Neuron-Circuit-Role-Bridge.owl#nlx_subcell_101278"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#birnlex_2537"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.8) http://owlapi.sourceforge.net -->
+

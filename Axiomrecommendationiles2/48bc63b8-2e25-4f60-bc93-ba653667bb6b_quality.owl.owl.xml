@@ -1,0 +1,4786 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.loria.fr/~coulet/ontology/pato/version1.33/quality.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.loria.fr/~coulet/ontology/pato/version1.33/quality.owl">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Declaration>
+        <Class IRI="#F"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#F_minus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Saccharomyces_cerevisiae_mating_type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Schizosaccharomyces_pombe_mating_type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#T_shaped"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Y_shaped"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#a_mating_type__yeast_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#abnormal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#abolished"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#absent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#absorption_quality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#acceleration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#acidic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#actinomorphic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#action_potential"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#acute_angle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#adhesivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#adolescent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#advanced"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#aerobic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#aerobic__for_occurrence_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#age"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#albedo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#alive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#alkaline"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#allopolyploidy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#alpha_mating_type__yeast_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#alternation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#amorphous"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#amplitude"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#amylose_composition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#anaerobic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#anaerobic__for_occurrence_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#aneuploid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#angle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#angular_acceleration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#angular_velocity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#anterioralized"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#anteverted"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#anucleate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#aplastic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#apoptotic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#area"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#area_density"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#arrested"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#arrhythmic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#asymmetrical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#asynchronous"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#attachment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#autopolyploid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#auxotroph"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#aversion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bacterial_mating_type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#balance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#balanced"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bang_sensitive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#behavioral_quality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#behavioral_quality_of_occurent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bilateral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bilateral_symmetry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#binucleate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#biological_sex"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#biomaterial_purity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#black"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#blue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#blurry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bouts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#branched"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bright_blue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bright_brown"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bright_cyan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bright_green"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bright_grey"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bright_magenta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bright_orange"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bright_pink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bright_purple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bright_red"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bright_yellow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#broken"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#brood_quality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#brood_size"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#brood_viability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#brown"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#buoyancy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#calcified"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cartilaginous"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#catalytic_activity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cellular_adhesivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cellular_motility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cellular_potency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cellular_quality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cellular_spatiotemporal_quality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#chromatic_property"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#chronological_age"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ciliatedness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cleft"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#closed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#closure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#closure_incomplete"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cloudy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#coiled"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cold"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#collapsed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#color"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#color_brightness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#color_hue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#color_pattern"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#color_saturation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#colored"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#colorless"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#compatibility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#compatible"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#complex"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#complexity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#composition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#compound_acidity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#concentrated"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#concentration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#condensed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#consistency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#conspicuous"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#consumption"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#continuous"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#convex"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#convex_angle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#coordinated"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#coordination"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#count"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#crowded"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#curled"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#curved"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#curved_caudal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#curved_dorsal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#curved_rostral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#curved_ventral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cyan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#damage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#damaged"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dappled"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dark"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dark_blue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dark_brown"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dark_cyan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dark_green"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dark_grey"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dark_magenta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dark_orange"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dark_phase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dark_pink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dark_purple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dark_red"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dark_red_brown"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dark_yellow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dead"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#decayed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#decreased"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#decreased_consumption"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#decreased_duration_of_temperature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#decreased_number"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#decreased_rate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#decreased_temperature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#decreased_threshold"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#decreased_variation_of_temperature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#deep"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#degenerate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#delaminated"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#delayed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#delayed_phase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dense"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#density"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dentate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#detached"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#deviation_from_normal_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#diameter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#diastatic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#diffuse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#diluted"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#diploid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#direction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#disassembled"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#discolored"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#discontinuous"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#discriminate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#discrimination"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#disomy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#disorganized"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#disoriented"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#displaced"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#disrupted"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#distal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#distance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dorsal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dorsalized"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#down"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#duplicated"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#duration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#duration_of_temperature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dwarf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dysplastic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ectopic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#edematous"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#efficiency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#elastic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#elasticity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#electric_potential"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#electromagnetic__EM__radiation_quality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#elliptic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#elongated"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#endopolyploid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#energy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#enlarged"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#epinastic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#erect"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#erose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#euploid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#exserted"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fasciated"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fast"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fast_speed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fecundity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#female"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#female_fertile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#female_fertility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#female_sterile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fertile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fertility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#filamentous"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#flat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#flavor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#flavourful"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#flavourless"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#flexibility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#flexible"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fluorescence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#flux"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#focus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#focused"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#force"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fractured"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fragile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#frequency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#frequent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#full_spectrum_EM_radiation_quality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#functional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#functionality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fused"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#glabrous"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#glistening"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#globular"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#glutinous"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#green"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#grey"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#growth_quality_of_occurrent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#growth_rate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#growth_timing_quality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#h_minus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#h_plus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hairy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#haplodiploid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#haploid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hard"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hardness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#heart_shaped"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#heavy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#height"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hermaphrodite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#herniated"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#heterochronic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#heterochronic_growth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#heterophilic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hexaploid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#high_frequency_recombinant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#high_position"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#high_threshold"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#homophilic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hyperactive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hyperplastic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hyperresponsive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hypertrophic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hypertrophic_growth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hypoactive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hypoplastic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hyporesponsive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hypotrophic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hypotrophic_growth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#immature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#immobile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#impaired"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#impermeable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#impulse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#incidence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#incompatible"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#inconspicuous"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#increased"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#increased_consumption"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#increased_duration_of_temperature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#increased_number"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#increased_rate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#increased_temperature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#increased_threshold"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#increased_variation_of_temperature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#indifference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#indiscriminate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#inelastic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#inflexible"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#infrequent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#insensitive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#inserted"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#insoluble"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#insomnia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#insusceptible"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#intensity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#internal_angle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#interrupted"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#intrasonic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#invariant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#invariant_temperature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#inverted"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#irregular"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#irregular_duration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#juvenile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#large_mass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#large_size"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#large_volume"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#larval"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#latency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lateral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lateralized"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#left"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#length"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lethal__sensu_genetics_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lethargic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#life_span"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#light"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#light_blue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#light_brown"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#light_cyan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#light_green"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#light_grey"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#light_magenta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#light_orange"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#light_phase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#light_pink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#light_purple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#light_red"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#light_red_brown"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#light_weight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#light_yellow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#linear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#linear_density"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lobate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#localised"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#long_distance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#long_length"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#loud"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#low_position"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#low_threshold"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#luminosity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#magenta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#male"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#male_fertile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#male_fertility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#male_sterile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#malformed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#maroon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mass_density"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#maternal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#maturity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#medial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#medium_acidity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#membrane_potential"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mild"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mild_increased_temperature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mislocalised"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#misrouted"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mixed_sex"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mobile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mobility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#moderate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#moderate_increased_temperature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#momentum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#monadic_quality_of_continuant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#monadic_quality_of_occurrent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mono_colored"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mononuclear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#monoploid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#monosomy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#monstrous"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#morbidity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#morphology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mosaic_trisomy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#motley"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mucoid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#multi_colored"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#multipotent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#narcolepsy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#narrow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#necrotic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#neotonic_growth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#non_functional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#non_glutinous"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nonporous"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#normal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#notched"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nucleate_quality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#numerical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nutritional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#oblate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#oblong"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#obstructed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#obtuse_angle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#occurrence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#odor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#odorless"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#odorous"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#old"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#oligopotent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#opacity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#opaque"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#open"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#optical_quality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#orange"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#organized"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#orientation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#oriented"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ossified"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#overdeveloped"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pale_blue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pale_brown"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pale_cyan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pale_green"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pale_grey"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pale_magenta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pale_orange"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pale_pink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pale_purple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pale_red"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pale_yellow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#paleopolyploid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#paralysed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#parental_type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#partial_trisomy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#passive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#paternal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pattern"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pedicellate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pentaploid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perforated"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#period"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#permeability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#permeable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#persistence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#phase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#phosphorescence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#physical_quality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pilosity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pinnate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#placement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pleomorphic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ploidy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pluripotent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pointed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#polyploid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#porosity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#porous"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#position"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#posterioralized"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#power"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#preference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#premature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#prepubescent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#prepupal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#presence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#present"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pressure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#prolonged_period"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#prominent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#proportionality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#prostrate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#prototroph"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#proximal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pubescent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pubescent_hair"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pulvinate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#punctate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#punctiform"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pupal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#purple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#qualitative"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#quality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#quality_of_a_gas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#quality_of_a_liquid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#quality_of_a_solid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#quality_of_continuant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#quality_of_occurrent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#quantitative"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#quiet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#radial_symmetry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#radiation_emitting_quality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#radiation_reflective_quality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#raised"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#recent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#recurrent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#red"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#red_brown"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#reflectivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#reflex_angle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#refractile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#refractivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#regular"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#regular_duration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#relational_quality_of_continuant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#relational_quality_of_occurrent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#relational_structural_quality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#relative_color"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#relative_quantity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#repetitive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#reproductive_quality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#resistance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#resistant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#response"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#responsive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#retracted"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rhizoidal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rhythm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rhythmic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#right"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#right_angle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rod_shaped"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rosy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rough"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#round"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rugose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#self_renewal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#senescent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sensitive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sensitivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sensitivity_of_occurrent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sensitivity_of_occurrent_to_oxygen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sensitivity_to_oxygen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#separated"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#serrate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sessile__sensus_botany_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sessile__sensus_zoology_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#severe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#severe_increased_temperature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#shape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sharp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#short_distance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#short_height"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#short_length"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#shortened_period"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#shrunken"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#simple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#size"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sleep_pattern"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sloped"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#slow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#slow_speed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#small_mass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#small_size"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#small_volume"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#smooth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#soft"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#solubility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#soluble"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sonic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sound"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sound_amplitude"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sound_frequency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sound_speed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sound_wavelength"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#spatial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#speed_velocity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#spherical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#spindle_shaped"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#spiny"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#spiral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#spongy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sporadic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#square"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sterile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#straight_angle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#strain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#strength"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#striated"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#structure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#structured"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#superficial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#supernumerary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#surface_tension"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#susceptibility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#susceptible"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#symmetrical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#symmetry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#synchronous"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tall_height"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tapered"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#temperature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#temporal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#temporally_extended"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tetraploid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#texture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#thick"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#thickness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#thin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#threshold"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#time"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tolerant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tonicity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#totipotent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#translucent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#transparent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#triploid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#trisomy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#truncated"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ultrasonic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#umbonate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#unbalanced"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#unbranched"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#uncoiled"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#uncoordinated"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#uncrowded"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#undamaged"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#underdeveloped"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#undulate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#unfused"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#unilateral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#uninterrupted"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#uniparental_disomy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#unipotent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#unknown_sex"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#unlocalised"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#unresponsive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#unstructured"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#up"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#vacuolated"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#variability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#variability_of_temperature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#variant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#variant_temperature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ventral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ventralized"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#vermilion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#vestigial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#viability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#viable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#violet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#viscid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#viscosity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#viscous"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#vivid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#volume"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#warty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#wavelength"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#weight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#white"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#whole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#wholeness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#wide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#width"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#work"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#yeast_mating_type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#yellow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#young"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#zygomorphic"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_magnitude"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_measurement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_quality"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_unit"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_magnitude_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_measurement_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_quality_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_unit_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#nullpart_of"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#F"/>
+        <Class IRI="#bacterial_mating_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#F_minus"/>
+        <Class IRI="#bacterial_mating_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Saccharomyces_cerevisiae_mating_type"/>
+        <Class IRI="#yeast_mating_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Schizosaccharomyces_pombe_mating_type"/>
+        <Class IRI="#yeast_mating_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#T_shaped"/>
+        <Class IRI="#shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Y_shaped"/>
+        <Class IRI="#shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#a_mating_type__yeast_"/>
+        <Class IRI="#Saccharomyces_cerevisiae_mating_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#abnormal"/>
+        <Class IRI="#deviation_from_normal_"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#abolished"/>
+        <Class IRI="#monadic_quality_of_occurrent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#absent"/>
+        <Class IRI="#presence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#absorption_quality"/>
+        <Class IRI="#full_spectrum_EM_radiation_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#acceleration"/>
+        <Class IRI="#physical_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#acidic"/>
+        <Class IRI="#medium_acidity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#actinomorphic"/>
+        <Class IRI="#radial_symmetry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#action_potential"/>
+        <Class IRI="#electric_potential"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#acute_angle"/>
+        <Class IRI="#angle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#adhesivity"/>
+        <Class IRI="#relational_quality_of_continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#adolescent"/>
+        <Class IRI="#maturity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#advanced"/>
+        <Class IRI="#phase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#aerobic"/>
+        <Class IRI="#sensitivity_to_oxygen"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#aerobic__for_occurrence_"/>
+        <Class IRI="#sensitivity_of_occurrent_to_oxygen"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#age"/>
+        <Class IRI="#time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#albedo"/>
+        <Class IRI="#radiation_reflective_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#alive"/>
+        <Class IRI="#viability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#alkaline"/>
+        <Class IRI="#medium_acidity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#allopolyploidy"/>
+        <Class IRI="#polyploid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#alpha_mating_type__yeast_"/>
+        <Class IRI="#Saccharomyces_cerevisiae_mating_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#alternation"/>
+        <Class IRI="#quantitative"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#amorphous"/>
+        <Class IRI="#morphology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#amplitude"/>
+        <Class IRI="#monadic_quality_of_occurrent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#amylose_composition"/>
+        <Class IRI="#composition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#anaerobic"/>
+        <Class IRI="#sensitivity_to_oxygen"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#anaerobic__for_occurrence_"/>
+        <Class IRI="#sensitivity_of_occurrent_to_oxygen"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#aneuploid"/>
+        <Class IRI="#ploidy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#angle"/>
+        <Class IRI="#spatial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#angular_acceleration"/>
+        <Class IRI="#physical_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#angular_velocity"/>
+        <Class IRI="#physical_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#anterioralized"/>
+        <Class IRI="#placement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#anteverted"/>
+        <Class IRI="#placement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#anucleate"/>
+        <Class IRI="#nucleate_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#aplastic"/>
+        <Class IRI="#hypoplastic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#apoptotic"/>
+        <Class IRI="#structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#area"/>
+        <Class IRI="#physical_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#area_density"/>
+        <Class IRI="#density"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#arrested"/>
+        <Class IRI="#duration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#arrhythmic"/>
+        <Class IRI="#rhythm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#asymmetrical"/>
+        <Class IRI="#symmetry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#asynchronous"/>
+        <Class IRI="#temporal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#attachment"/>
+        <Class IRI="#structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#autopolyploid"/>
+        <Class IRI="#polyploid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#auxotroph"/>
+        <Class IRI="#nutritional"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#aversion"/>
+        <Class IRI="#preference"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bacterial_mating_type"/>
+        <Class IRI="#biological_sex"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#balance"/>
+        <Class IRI="#behavioral_quality_of_occurent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#balanced"/>
+        <Class IRI="#balance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bang_sensitive"/>
+        <Class IRI="#behavioral_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#behavioral_quality"/>
+        <Class IRI="#monadic_quality_of_continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#behavioral_quality_of_occurent"/>
+        <Class IRI="#monadic_quality_of_occurrent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bent"/>
+        <Class IRI="#placement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bilateral"/>
+        <Class IRI="#placement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bilateral_symmetry"/>
+        <Class IRI="#symmetry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#binucleate"/>
+        <Class IRI="#nucleate_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#biological_sex"/>
+        <Class IRI="#monadic_quality_of_continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#biomaterial_purity"/>
+        <Class IRI="#composition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#black"/>
+        <Class IRI="#color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#blue"/>
+        <Class IRI="#color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#blurry"/>
+        <Class IRI="#focus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bouts"/>
+        <Class IRI="#time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#branched"/>
+        <Class IRI="#shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bright_blue"/>
+        <Class IRI="#blue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bright_brown"/>
+        <Class IRI="#brown"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bright_cyan"/>
+        <Class IRI="#cyan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bright_green"/>
+        <Class IRI="#green"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bright_grey"/>
+        <Class IRI="#grey"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bright_magenta"/>
+        <Class IRI="#magenta"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bright_orange"/>
+        <Class IRI="#orange"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bright_pink"/>
+        <Class IRI="#pink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bright_purple"/>
+        <Class IRI="#purple"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bright_red"/>
+        <Class IRI="#red"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bright_yellow"/>
+        <Class IRI="#yellow"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#broken"/>
+        <Class IRI="#wholeness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#brood_quality"/>
+        <Class IRI="#reproductive_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#brood_size"/>
+        <Class IRI="#brood_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#brood_viability"/>
+        <Class IRI="#brood_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#brown"/>
+        <Class IRI="#color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#buoyancy"/>
+        <Class IRI="#physical_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#calcified"/>
+        <Class IRI="#structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cartilaginous"/>
+        <Class IRI="#structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#catalytic_activity"/>
+        <Class IRI="#physical_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cellular_adhesivity"/>
+        <Class IRI="#adhesivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cellular_motility"/>
+        <Class IRI="#cellular_spatiotemporal_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cellular_potency"/>
+        <Class IRI="#cellular_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cellular_quality"/>
+        <Class IRI="#monadic_quality_of_continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cellular_spatiotemporal_quality"/>
+        <Class IRI="#monadic_quality_of_occurrent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chromatic_property"/>
+        <Class IRI="#optical_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chronological_age"/>
+        <Class IRI="#age"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ciliatedness"/>
+        <Class IRI="#cellular_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cleft"/>
+        <Class IRI="#shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#closed"/>
+        <Class IRI="#closure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#closure"/>
+        <Class IRI="#spatial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#closure_incomplete"/>
+        <Class IRI="#closure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cloudy"/>
+        <Class IRI="#relative_color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#coiled"/>
+        <Class IRI="#shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cold"/>
+        <Class IRI="#temperature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#collapsed"/>
+        <Class IRI="#structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#color"/>
+        <Class IRI="#chromatic_property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#color_brightness"/>
+        <Class IRI="#optical_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#color_hue"/>
+        <Class IRI="#chromatic_property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#color_pattern"/>
+        <Class IRI="#chromatic_property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#color_saturation"/>
+        <Class IRI="#chromatic_property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#colored"/>
+        <Class IRI="#relative_color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#colorless"/>
+        <Class IRI="#relative_color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#compatibility"/>
+        <Class IRI="#monadic_quality_of_continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#compatible"/>
+        <Class IRI="#compatibility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#complex"/>
+        <Class IRI="#complexity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#complexity"/>
+        <Class IRI="#monadic_quality_of_continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#composition"/>
+        <Class IRI="#monadic_quality_of_continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#compound_acidity"/>
+        <Class IRI="#concentration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#concentrated"/>
+        <Class IRI="#concentration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#concentration"/>
+        <Class IRI="#physical_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#condensed"/>
+        <Class IRI="#structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#consistency"/>
+        <Class IRI="#physical_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#conspicuous"/>
+        <Class IRI="#presence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#consumption"/>
+        <Class IRI="#relational_quality_of_occurrent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#continuous"/>
+        <Class IRI="#temporal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#convex"/>
+        <Class IRI="#shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#convex_angle"/>
+        <Class IRI="#angle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#coordinated"/>
+        <Class IRI="#coordination"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#coordination"/>
+        <Class IRI="#behavioral_quality_of_occurent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#count"/>
+        <Class IRI="#quantitative"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#crowded"/>
+        <Class IRI="#placement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#curled"/>
+        <Class IRI="#shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#curved"/>
+        <Class IRI="#shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#curved_caudal"/>
+        <Class IRI="#curved"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#curved_dorsal"/>
+        <Class IRI="#curved"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#curved_rostral"/>
+        <Class IRI="#curved"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#curved_ventral"/>
+        <Class IRI="#curved"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cyan"/>
+        <Class IRI="#color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#damage"/>
+        <Class IRI="#monadic_quality_of_continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#damaged"/>
+        <Class IRI="#damage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dappled"/>
+        <Class IRI="#color_pattern"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dark"/>
+        <Class IRI="#color_brightness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dark_blue"/>
+        <Class IRI="#blue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dark_brown"/>
+        <Class IRI="#brown"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dark_cyan"/>
+        <Class IRI="#cyan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dark_green"/>
+        <Class IRI="#green"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dark_grey"/>
+        <Class IRI="#grey"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dark_magenta"/>
+        <Class IRI="#magenta"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dark_orange"/>
+        <Class IRI="#orange"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dark_phase"/>
+        <Class IRI="#phase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dark_pink"/>
+        <Class IRI="#pink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dark_purple"/>
+        <Class IRI="#purple"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dark_red"/>
+        <Class IRI="#red"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dark_red_brown"/>
+        <Class IRI="#red_brown"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dark_yellow"/>
+        <Class IRI="#yellow"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dead"/>
+        <Class IRI="#viability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#decayed"/>
+        <Class IRI="#viability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#decreased"/>
+        <Class IRI="#relative_quantity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#decreased_consumption"/>
+        <Class IRI="#consumption"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#decreased_duration_of_temperature"/>
+        <Class IRI="#duration_of_temperature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#decreased_number"/>
+        <Class IRI="#count"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#decreased_rate"/>
+        <Class IRI="#rate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#decreased_temperature"/>
+        <Class IRI="#temperature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#decreased_threshold"/>
+        <Class IRI="#threshold"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#decreased_variation_of_temperature"/>
+        <Class IRI="#variability_of_temperature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#deep"/>
+        <Class IRI="#position"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#degenerate"/>
+        <Class IRI="#structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#delaminated"/>
+        <Class IRI="#structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#delayed"/>
+        <Class IRI="#duration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#delayed_phase"/>
+        <Class IRI="#phase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dense"/>
+        <Class IRI="#density"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#density"/>
+        <Class IRI="#physical_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dentate"/>
+        <Class IRI="#shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#detached"/>
+        <Class IRI="#relational_structural_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#deviation_from_normal_"/>
+        <Class IRI="#qualitative"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#diameter"/>
+        <Class IRI="#length"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#diastatic"/>
+        <Class IRI="#separated"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#diffuse"/>
+        <Class IRI="#pattern"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#diluted"/>
+        <Class IRI="#concentration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#diploid"/>
+        <Class IRI="#ploidy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#direction"/>
+        <Class IRI="#physical_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#disassembled"/>
+        <Class IRI="#wholeness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#discolored"/>
+        <Class IRI="#relative_color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#discontinuous"/>
+        <Class IRI="#temporal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#discriminate"/>
+        <Class IRI="#discrimination"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#discrimination"/>
+        <Class IRI="#monadic_quality_of_continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#disomy"/>
+        <Class IRI="#aneuploid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#disorganized"/>
+        <Class IRI="#structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#disoriented"/>
+        <Class IRI="#orientation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#displaced"/>
+        <Class IRI="#placement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#disrupted"/>
+        <Class IRI="#monadic_quality_of_occurrent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#distal"/>
+        <Class IRI="#position"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#distance"/>
+        <Class IRI="#physical_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dorsal"/>
+        <Class IRI="#position"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dorsalized"/>
+        <Class IRI="#placement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#down"/>
+        <Class IRI="#direction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#duplicated"/>
+        <Class IRI="#increased_number"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#duration"/>
+        <Class IRI="#monadic_quality_of_occurrent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#duration_of_temperature"/>
+        <Class IRI="#duration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dwarf"/>
+        <Class IRI="#size"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dysplastic"/>
+        <Class IRI="#structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ectopic"/>
+        <Class IRI="#placement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#edematous"/>
+        <Class IRI="#structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#efficiency"/>
+        <Class IRI="#physical_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#elastic"/>
+        <Class IRI="#elasticity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#elasticity"/>
+        <Class IRI="#physical_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#electric_potential"/>
+        <Class IRI="#physical_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#electromagnetic__EM__radiation_quality"/>
+        <Class IRI="#physical_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#elliptic"/>
+        <Class IRI="#shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#elongated"/>
+        <Class IRI="#length"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#endopolyploid"/>
+        <Class IRI="#polyploid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#energy"/>
+        <Class IRI="#physical_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#enlarged"/>
+        <Class IRI="#shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#epinastic"/>
+        <Class IRI="#shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#erect"/>
+        <Class IRI="#placement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#erose"/>
+        <Class IRI="#shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#euploid"/>
+        <Class IRI="#ploidy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#exserted"/>
+        <Class IRI="#placement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fasciated"/>
+        <Class IRI="#shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fast"/>
+        <Class IRI="#time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fast_speed"/>
+        <Class IRI="#speed_velocity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fecundity"/>
+        <Class IRI="#reproductive_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#female"/>
+        <Class IRI="#biological_sex"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#female_fertile"/>
+        <Class IRI="#female_fertility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#female_fertility"/>
+        <Class IRI="#fertility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#female_sterile"/>
+        <Class IRI="#female_fertility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fertile"/>
+        <Class IRI="#fertility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fertility"/>
+        <Class IRI="#reproductive_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#filamentous"/>
+        <Class IRI="#shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#flat"/>
+        <Class IRI="#shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#flavor"/>
+        <Class IRI="#relational_quality_of_continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#flavourful"/>
+        <Class IRI="#flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#flavourless"/>
+        <Class IRI="#flavor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#flexibility"/>
+        <Class IRI="#physical_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#flexible"/>
+        <Class IRI="#flexibility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fluorescence"/>
+        <Class IRI="#luminosity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#flux"/>
+        <Class IRI="#temporal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#focus"/>
+        <Class IRI="#optical_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#focused"/>
+        <Class IRI="#focus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#force"/>
+        <Class IRI="#physical_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fractured"/>
+        <Class IRI="#wholeness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fragile"/>
+        <Class IRI="#structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#frequency"/>
+        <Class IRI="#physical_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#frequent"/>
+        <Class IRI="#frequency"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#full_spectrum_EM_radiation_quality"/>
+        <Class IRI="#electromagnetic__EM__radiation_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#functional"/>
+        <Class IRI="#functionality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#functionality"/>
+        <Class IRI="#monadic_quality_of_continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fused"/>
+        <Class IRI="#structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#glabrous"/>
+        <Class IRI="#pilosity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#glistening"/>
+        <Class IRI="#reflectivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#globular"/>
+        <Class IRI="#shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#glutinous"/>
+        <Class IRI="#amylose_composition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#green"/>
+        <Class IRI="#color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#grey"/>
+        <Class IRI="#color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#growth_quality_of_occurrent"/>
+        <Class IRI="#monadic_quality_of_occurrent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#growth_rate"/>
+        <Class IRI="#growth_quality_of_occurrent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#growth_timing_quality"/>
+        <Class IRI="#growth_quality_of_occurrent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#h_minus"/>
+        <Class IRI="#Schizosaccharomyces_pombe_mating_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#h_plus"/>
+        <Class IRI="#Schizosaccharomyces_pombe_mating_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hairy"/>
+        <Class IRI="#pilosity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#haplodiploid"/>
+        <Class IRI="#diploid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#haploid"/>
+        <Class IRI="#ploidy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hard"/>
+        <Class IRI="#hardness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hardness"/>
+        <Class IRI="#physical_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#heart_shaped"/>
+        <Class IRI="#shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#heavy"/>
+        <Class IRI="#weight"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#height"/>
+        <Class IRI="#physical_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hermaphrodite"/>
+        <Class IRI="#biological_sex"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#herniated"/>
+        <Class IRI="#structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#heterochronic"/>
+        <Class IRI="#temporal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#heterochronic_growth"/>
+        <Class IRI="#growth_timing_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#heterophilic"/>
+        <Class IRI="#cellular_adhesivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hexaploid"/>
+        <Class IRI="#polyploid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#high_frequency_recombinant"/>
+        <Class IRI="#biological_sex"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#high_position"/>
+        <Class IRI="#position"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#high_threshold"/>
+        <Class IRI="#threshold"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#homophilic"/>
+        <Class IRI="#cellular_adhesivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hot"/>
+        <Class IRI="#temperature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hyperactive"/>
+        <Class IRI="#behavioral_quality_of_occurent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hyperplastic"/>
+        <Class IRI="#structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hyperresponsive"/>
+        <Class IRI="#response"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hypertrophic"/>
+        <Class IRI="#size"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hypertrophic_growth"/>
+        <Class IRI="#growth_rate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hypoactive"/>
+        <Class IRI="#behavioral_quality_of_occurent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hypoplastic"/>
+        <Class IRI="#structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hyporesponsive"/>
+        <Class IRI="#response"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hypotrophic"/>
+        <Class IRI="#size"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hypotrophic_growth"/>
+        <Class IRI="#growth_rate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#immature"/>
+        <Class IRI="#maturity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#immobile"/>
+        <Class IRI="#mobility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#impaired"/>
+        <Class IRI="#behavioral_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#impermeable"/>
+        <Class IRI="#permeability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#impulse"/>
+        <Class IRI="#physical_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#incidence"/>
+        <Class IRI="#temporal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#incompatible"/>
+        <Class IRI="#compatibility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#inconspicuous"/>
+        <Class IRI="#presence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#increased"/>
+        <Class IRI="#relative_quantity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#increased_consumption"/>
+        <Class IRI="#consumption"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#increased_duration_of_temperature"/>
+        <Class IRI="#duration_of_temperature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#increased_number"/>
+        <Class IRI="#count"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#increased_rate"/>
+        <Class IRI="#rate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#increased_temperature"/>
+        <Class IRI="#temperature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#increased_threshold"/>
+        <Class IRI="#threshold"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#increased_variation_of_temperature"/>
+        <Class IRI="#variability_of_temperature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#indifference"/>
+        <Class IRI="#preference"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#indiscriminate"/>
+        <Class IRI="#discrimination"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#inelastic"/>
+        <Class IRI="#elasticity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#inflexible"/>
+        <Class IRI="#flexibility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#infrequent"/>
+        <Class IRI="#frequency"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#insensitive"/>
+        <Class IRI="#sensitivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#inserted"/>
+        <Class IRI="#placement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#insoluble"/>
+        <Class IRI="#solubility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#insomnia"/>
+        <Class IRI="#sleep_pattern"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#insusceptible"/>
+        <Class IRI="#susceptibility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#intensity"/>
+        <Class IRI="#monadic_quality_of_continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#internal_angle"/>
+        <Class IRI="#angle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#interrupted"/>
+        <Class IRI="#occurrence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#intrasonic"/>
+        <Class IRI="#sound_frequency"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#invariant"/>
+        <Class IRI="#variability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#invariant_temperature"/>
+        <Class IRI="#variability_of_temperature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#inverted"/>
+        <Class IRI="#placement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#irregular"/>
+        <Class IRI="#pattern"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#irregular_duration"/>
+        <Class IRI="#duration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#juvenile"/>
+        <Class IRI="#maturity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#large_mass"/>
+        <Class IRI="#mass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#large_size"/>
+        <Class IRI="#size"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#large_volume"/>
+        <Class IRI="#volume"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#larval"/>
+        <Class IRI="#maturity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#latency"/>
+        <Class IRI="#time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lateral"/>
+        <Class IRI="#position"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lateralized"/>
+        <Class IRI="#placement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#left"/>
+        <Class IRI="#direction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#length"/>
+        <Class IRI="#physical_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lethal__sensu_genetics_"/>
+        <Class IRI="#viability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lethargic"/>
+        <Class IRI="#behavioral_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#life_span"/>
+        <Class IRI="#time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#light"/>
+        <Class IRI="#color_brightness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#light_blue"/>
+        <Class IRI="#blue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#light_brown"/>
+        <Class IRI="#brown"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#light_cyan"/>
+        <Class IRI="#cyan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#light_green"/>
+        <Class IRI="#green"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#light_grey"/>
+        <Class IRI="#grey"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#light_magenta"/>
+        <Class IRI="#magenta"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#light_orange"/>
+        <Class IRI="#orange"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#light_phase"/>
+        <Class IRI="#phase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#light_pink"/>
+        <Class IRI="#pink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#light_purple"/>
+        <Class IRI="#purple"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#light_red"/>
+        <Class IRI="#red"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#light_red_brown"/>
+        <Class IRI="#red_brown"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#light_weight"/>
+        <Class IRI="#weight"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#light_yellow"/>
+        <Class IRI="#yellow"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#linear"/>
+        <Class IRI="#position"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#linear_density"/>
+        <Class IRI="#density"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lobate"/>
+        <Class IRI="#shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#localised"/>
+        <Class IRI="#placement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#long_distance"/>
+        <Class IRI="#distance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#long_length"/>
+        <Class IRI="#length"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#loud"/>
+        <Class IRI="#sound_amplitude"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#low_position"/>
+        <Class IRI="#position"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#low_threshold"/>
+        <Class IRI="#threshold"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#luminosity"/>
+        <Class IRI="#optical_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#magenta"/>
+        <Class IRI="#red"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#male"/>
+        <Class IRI="#biological_sex"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#male_fertile"/>
+        <Class IRI="#male_fertility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#male_fertility"/>
+        <Class IRI="#fertility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#male_sterile"/>
+        <Class IRI="#male_fertility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#malformed"/>
+        <Class IRI="#structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#maroon"/>
+        <Class IRI="#red"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mass"/>
+        <Class IRI="#physical_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mass_density"/>
+        <Class IRI="#density"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#maternal"/>
+        <Class IRI="#parental_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#maturity"/>
+        <Class IRI="#monadic_quality_of_continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#medial"/>
+        <Class IRI="#position"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#medium_acidity"/>
+        <Class IRI="#concentration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#membrane_potential"/>
+        <Class IRI="#electric_potential"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mild"/>
+        <Class IRI="#intensity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mild_increased_temperature"/>
+        <Class IRI="#increased_temperature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mislocalised"/>
+        <Class IRI="#placement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#misrouted"/>
+        <Class IRI="#placement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mixed_sex"/>
+        <Class IRI="#biological_sex"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mobile"/>
+        <Class IRI="#mobility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mobility"/>
+        <Class IRI="#monadic_quality_of_continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#moderate"/>
+        <Class IRI="#intensity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#moderate_increased_temperature"/>
+        <Class IRI="#increased_temperature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#momentum"/>
+        <Class IRI="#physical_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#monadic_quality_of_continuant"/>
+        <Class IRI="#quality_of_continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#monadic_quality_of_occurrent"/>
+        <Class IRI="#quality_of_occurrent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mono_colored"/>
+        <Class IRI="#color_pattern"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mononuclear"/>
+        <Class IRI="#nucleate_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#monoploid"/>
+        <Class IRI="#ploidy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#monosomy"/>
+        <Class IRI="#aneuploid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#monstrous"/>
+        <Class IRI="#morphology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#morbidity"/>
+        <Class IRI="#monadic_quality_of_continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#morphology"/>
+        <Class IRI="#monadic_quality_of_continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mosaic_trisomy"/>
+        <Class IRI="#trisomy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#motley"/>
+        <Class IRI="#color_pattern"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mucoid"/>
+        <Class IRI="#shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#multi_colored"/>
+        <Class IRI="#color_pattern"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#multipotent"/>
+        <Class IRI="#cellular_potency"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#narcolepsy"/>
+        <Class IRI="#sleep_pattern"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#narrow"/>
+        <Class IRI="#width"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#necrotic"/>
+        <Class IRI="#viability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#neotonic_growth"/>
+        <Class IRI="#heterochronic_growth"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#non_functional"/>
+        <Class IRI="#functionality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#non_glutinous"/>
+        <Class IRI="#amylose_composition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nonporous"/>
+        <Class IRI="#porosity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#normal"/>
+        <Class IRI="#deviation_from_normal_"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#notched"/>
+        <Class IRI="#shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nucleate_quality"/>
+        <Class IRI="#cellular_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#numerical"/>
+        <Class IRI="#quantitative"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nutritional"/>
+        <Class IRI="#monadic_quality_of_continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#oblate"/>
+        <Class IRI="#shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#oblong"/>
+        <Class IRI="#shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#obstructed"/>
+        <Class IRI="#structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#obtuse_angle"/>
+        <Class IRI="#angle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#occurrence"/>
+        <Class IRI="#quantitative"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#odor"/>
+        <Class IRI="#relational_quality_of_continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#odorless"/>
+        <Class IRI="#odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#odorous"/>
+        <Class IRI="#odor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#old"/>
+        <Class IRI="#age"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#oligopotent"/>
+        <Class IRI="#cellular_potency"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#opacity"/>
+        <Class IRI="#optical_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#opaque"/>
+        <Class IRI="#opacity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#open"/>
+        <Class IRI="#closure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#optical_quality"/>
+        <Class IRI="#electromagnetic__EM__radiation_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#orange"/>
+        <Class IRI="#color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#organized"/>
+        <Class IRI="#structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#orientation"/>
+        <Class IRI="#spatial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#oriented"/>
+        <Class IRI="#orientation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ossified"/>
+        <Class IRI="#structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#overdeveloped"/>
+        <Class IRI="#structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pale"/>
+        <Class IRI="#color_saturation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pale_blue"/>
+        <Class IRI="#blue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pale_brown"/>
+        <Class IRI="#brown"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pale_cyan"/>
+        <Class IRI="#cyan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pale_green"/>
+        <Class IRI="#green"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pale_grey"/>
+        <Class IRI="#grey"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pale_magenta"/>
+        <Class IRI="#magenta"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pale_orange"/>
+        <Class IRI="#orange"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pale_pink"/>
+        <Class IRI="#pink"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pale_purple"/>
+        <Class IRI="#purple"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pale_red"/>
+        <Class IRI="#red"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pale_yellow"/>
+        <Class IRI="#yellow"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#paleopolyploid"/>
+        <Class IRI="#polyploid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#paralysed"/>
+        <Class IRI="#behavioral_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#parental_type"/>
+        <Class IRI="#biological_sex"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#partial_trisomy"/>
+        <Class IRI="#trisomy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#passive"/>
+        <Class IRI="#behavioral_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#paternal"/>
+        <Class IRI="#parental_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pattern"/>
+        <Class IRI="#monadic_quality_of_continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pedicellate"/>
+        <Class IRI="#attachment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pentaploid"/>
+        <Class IRI="#polyploid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perforated"/>
+        <Class IRI="#structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#period"/>
+        <Class IRI="#time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#permeability"/>
+        <Class IRI="#structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#permeable"/>
+        <Class IRI="#permeability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#persistence"/>
+        <Class IRI="#rhythm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#phase"/>
+        <Class IRI="#rhythm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#phosphorescence"/>
+        <Class IRI="#fluorescence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#physical_quality"/>
+        <Class IRI="#monadic_quality_of_continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pilosity"/>
+        <Class IRI="#monadic_quality_of_continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pink"/>
+        <Class IRI="#color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pinnate"/>
+        <Class IRI="#shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#placement"/>
+        <Class IRI="#spatial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pleomorphic"/>
+        <Class IRI="#shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ploidy"/>
+        <Class IRI="#cellular_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pluripotent"/>
+        <Class IRI="#cellular_potency"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pointed"/>
+        <Class IRI="#shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#polyploid"/>
+        <Class IRI="#ploidy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#porosity"/>
+        <Class IRI="#permeability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#porous"/>
+        <Class IRI="#porosity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#position"/>
+        <Class IRI="#spatial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#posterioralized"/>
+        <Class IRI="#placement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#power"/>
+        <Class IRI="#physical_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#preference"/>
+        <Class IRI="#discrimination"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#premature"/>
+        <Class IRI="#duration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#prepubescent"/>
+        <Class IRI="#maturity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#prepupal"/>
+        <Class IRI="#maturity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#presence"/>
+        <Class IRI="#qualitative"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#present"/>
+        <Class IRI="#presence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pressure"/>
+        <Class IRI="#physical_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#prolonged_period"/>
+        <Class IRI="#period"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#prominent"/>
+        <Class IRI="#shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#proportionality"/>
+        <Class IRI="#relational_quality_of_continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#prostrate"/>
+        <Class IRI="#placement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#prototroph"/>
+        <Class IRI="#nutritional"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#proximal"/>
+        <Class IRI="#position"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pubescent"/>
+        <Class IRI="#maturity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pubescent_hair"/>
+        <Class IRI="#pilosity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pulvinate"/>
+        <Class IRI="#shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#punctate"/>
+        <Class IRI="#pattern"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#punctiform"/>
+        <Class IRI="#shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pupal"/>
+        <Class IRI="#maturity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#purple"/>
+        <Class IRI="#color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#qualitative"/>
+        <Class IRI="#monadic_quality_of_continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#quality_of_a_gas"/>
+        <Class IRI="#physical_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#quality_of_a_liquid"/>
+        <Class IRI="#physical_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#quality_of_a_solid"/>
+        <Class IRI="#physical_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#quality_of_continuant"/>
+        <Class IRI="#quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#quality_of_occurrent"/>
+        <Class IRI="#quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#quantitative"/>
+        <Class IRI="#monadic_quality_of_continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#quiet"/>
+        <Class IRI="#sound_amplitude"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#radial_symmetry"/>
+        <Class IRI="#symmetry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#radiation_emitting_quality"/>
+        <Class IRI="#full_spectrum_EM_radiation_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#radiation_reflective_quality"/>
+        <Class IRI="#full_spectrum_EM_radiation_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#raised"/>
+        <Class IRI="#shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rate"/>
+        <Class IRI="#temporal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#recent"/>
+        <Class IRI="#duration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#recurrent"/>
+        <Class IRI="#occurrence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#red"/>
+        <Class IRI="#color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#red_brown"/>
+        <Class IRI="#brown"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#reflectivity"/>
+        <Class IRI="#radiation_reflective_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#reflex_angle"/>
+        <Class IRI="#angle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#refractile"/>
+        <Class IRI="#refractivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#refractivity"/>
+        <Class IRI="#radiation_reflective_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#regular"/>
+        <Class IRI="#pattern"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#regular_duration"/>
+        <Class IRI="#duration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#relational_quality_of_continuant"/>
+        <Class IRI="#quality_of_continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#relational_quality_of_occurrent"/>
+        <Class IRI="#quality_of_occurrent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#relational_structural_quality"/>
+        <Class IRI="#relational_quality_of_continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#relative_color"/>
+        <Class IRI="#optical_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#relative_quantity"/>
+        <Class IRI="#quantitative"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#repetitive"/>
+        <Class IRI="#occurrence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#reproductive_quality"/>
+        <Class IRI="#monadic_quality_of_continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#resistance"/>
+        <Class IRI="#monadic_quality_of_continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#resistant"/>
+        <Class IRI="#resistance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#response"/>
+        <Class IRI="#monadic_quality_of_continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#responsive"/>
+        <Class IRI="#response"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#retracted"/>
+        <Class IRI="#position"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rhizoidal"/>
+        <Class IRI="#shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rhythm"/>
+        <Class IRI="#monadic_quality_of_occurrent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rhythmic"/>
+        <Class IRI="#rhythm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#right"/>
+        <Class IRI="#direction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#right_angle"/>
+        <Class IRI="#angle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rod_shaped"/>
+        <Class IRI="#shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rosy"/>
+        <Class IRI="#red"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rough"/>
+        <Class IRI="#texture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#round"/>
+        <Class IRI="#shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rugose"/>
+        <Class IRI="#shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#self_renewal"/>
+        <Class IRI="#cellular_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#senescent"/>
+        <Class IRI="#age"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sensitive"/>
+        <Class IRI="#sensitivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sensitivity"/>
+        <Class IRI="#relational_quality_of_continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sensitivity_of_occurrent"/>
+        <Class IRI="#relational_quality_of_occurrent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sensitivity_of_occurrent_to_oxygen"/>
+        <Class IRI="#sensitivity_of_occurrent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sensitivity_to_oxygen"/>
+        <Class IRI="#sensitivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#separated"/>
+        <Class IRI="#relational_structural_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#serrate"/>
+        <Class IRI="#shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sessile__sensus_botany_"/>
+        <Class IRI="#attachment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sessile__sensus_zoology_"/>
+        <Class IRI="#attachment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#severe"/>
+        <Class IRI="#intensity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#severe_increased_temperature"/>
+        <Class IRI="#increased_temperature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#shape"/>
+        <Class IRI="#morphology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sharp"/>
+        <Class IRI="#shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#short_distance"/>
+        <Class IRI="#distance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#short_height"/>
+        <Class IRI="#height"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#short_length"/>
+        <Class IRI="#length"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#shortened_period"/>
+        <Class IRI="#period"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#shrunken"/>
+        <Class IRI="#shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#simple"/>
+        <Class IRI="#complexity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#size"/>
+        <Class IRI="#morphology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sleep_pattern"/>
+        <Class IRI="#behavioral_quality_of_occurent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sloped"/>
+        <Class IRI="#shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#slow"/>
+        <Class IRI="#time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#slow_speed"/>
+        <Class IRI="#speed_velocity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#small_mass"/>
+        <Class IRI="#mass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#small_size"/>
+        <Class IRI="#size"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#small_volume"/>
+        <Class IRI="#volume"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#smooth"/>
+        <Class IRI="#texture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#soft"/>
+        <Class IRI="#hardness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#solubility"/>
+        <Class IRI="#relational_quality_of_continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#soluble"/>
+        <Class IRI="#solubility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sonic"/>
+        <Class IRI="#sound_frequency"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sound"/>
+        <Class IRI="#physical_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sound_amplitude"/>
+        <Class IRI="#sound"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sound_frequency"/>
+        <Class IRI="#sound"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sound_speed"/>
+        <Class IRI="#sound"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sound_wavelength"/>
+        <Class IRI="#sound"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#spatial"/>
+        <Class IRI="#monadic_quality_of_continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#speed_velocity"/>
+        <Class IRI="#physical_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#spherical"/>
+        <Class IRI="#shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#spindle_shaped"/>
+        <Class IRI="#shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#spiny"/>
+        <Class IRI="#shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#spiral"/>
+        <Class IRI="#shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#spongy"/>
+        <Class IRI="#structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sporadic"/>
+        <Class IRI="#occurrence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#square"/>
+        <Class IRI="#shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sterile"/>
+        <Class IRI="#fertility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#straight_angle"/>
+        <Class IRI="#angle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#strain"/>
+        <Class IRI="#physical_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#strength"/>
+        <Class IRI="#monadic_quality_of_continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#striated"/>
+        <Class IRI="#shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#structure"/>
+        <Class IRI="#morphology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#structured"/>
+        <Class IRI="#structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#superficial"/>
+        <Class IRI="#position"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#supernumerary"/>
+        <Class IRI="#count"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#surface_tension"/>
+        <Class IRI="#physical_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#susceptibility"/>
+        <Class IRI="#sensitivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#susceptible"/>
+        <Class IRI="#susceptibility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#symmetrical"/>
+        <Class IRI="#symmetry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#symmetry"/>
+        <Class IRI="#pattern"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#synchronous"/>
+        <Class IRI="#temporal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tall_height"/>
+        <Class IRI="#height"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tapered"/>
+        <Class IRI="#shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#temperature"/>
+        <Class IRI="#physical_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#temporal"/>
+        <Class IRI="#monadic_quality_of_occurrent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#temporally_extended"/>
+        <Class IRI="#duration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tetraploid"/>
+        <Class IRI="#polyploid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#texture"/>
+        <Class IRI="#morphology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#thick"/>
+        <Class IRI="#thickness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#thickness"/>
+        <Class IRI="#physical_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#thin"/>
+        <Class IRI="#thickness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#threshold"/>
+        <Class IRI="#monadic_quality_of_continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#time"/>
+        <Class IRI="#physical_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tolerant"/>
+        <Class IRI="#resistance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tone"/>
+        <Class IRI="#physical_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tonicity"/>
+        <Class IRI="#structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#totipotent"/>
+        <Class IRI="#cellular_potency"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#translucent"/>
+        <Class IRI="#opacity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#transparent"/>
+        <Class IRI="#opacity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#triploid"/>
+        <Class IRI="#polyploid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#trisomy"/>
+        <Class IRI="#aneuploid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#truncated"/>
+        <Class IRI="#structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ultrasonic"/>
+        <Class IRI="#sound_frequency"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#umbonate"/>
+        <Class IRI="#shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#unbalanced"/>
+        <Class IRI="#balance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#unbranched"/>
+        <Class IRI="#shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#uncoiled"/>
+        <Class IRI="#shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#uncoordinated"/>
+        <Class IRI="#coordination"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#uncrowded"/>
+        <Class IRI="#placement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#undamaged"/>
+        <Class IRI="#damage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#underdeveloped"/>
+        <Class IRI="#structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#undulate"/>
+        <Class IRI="#shape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#unfused"/>
+        <Class IRI="#structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#unilateral"/>
+        <Class IRI="#placement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#uninterrupted"/>
+        <Class IRI="#occurrence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#uniparental_disomy"/>
+        <Class IRI="#disomy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#unipotent"/>
+        <Class IRI="#cellular_potency"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#unknown_sex"/>
+        <Class IRI="#biological_sex"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#unlocalised"/>
+        <Class IRI="#placement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#unresponsive"/>
+        <Class IRI="#response"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#unstructured"/>
+        <Class IRI="#structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#up"/>
+        <Class IRI="#direction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vacuolated"/>
+        <Class IRI="#structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#variability"/>
+        <Class IRI="#monadic_quality_of_occurrent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#variability_of_temperature"/>
+        <Class IRI="#variability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#variant"/>
+        <Class IRI="#variability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#variant_temperature"/>
+        <Class IRI="#variability_of_temperature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ventral"/>
+        <Class IRI="#position"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ventralized"/>
+        <Class IRI="#placement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vermilion"/>
+        <Class IRI="#red"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vestigial"/>
+        <Class IRI="#size"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#viability"/>
+        <Class IRI="#monadic_quality_of_continuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#viable"/>
+        <Class IRI="#viability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#violet"/>
+        <Class IRI="#color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#viscid"/>
+        <Class IRI="#texture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#viscosity"/>
+        <Class IRI="#physical_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#viscous"/>
+        <Class IRI="#viscosity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vivid"/>
+        <Class IRI="#color_saturation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#volume"/>
+        <Class IRI="#physical_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#warty"/>
+        <Class IRI="#texture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#wavelength"/>
+        <Class IRI="#physical_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#weight"/>
+        <Class IRI="#force"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#white"/>
+        <Class IRI="#color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#whole"/>
+        <Class IRI="#wholeness"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#wholeness"/>
+        <Class IRI="#structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#wide"/>
+        <Class IRI="#width"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#width"/>
+        <Class IRI="#physical_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#work"/>
+        <Class IRI="#physical_quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#yeast_mating_type"/>
+        <Class IRI="#biological_sex"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#yellow"/>
+        <Class IRI="#color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#young"/>
+        <Class IRI="#age"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#zygomorphic"/>
+        <Class IRI="#bilateral_symmetry"/>
+    </SubClassOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#is_magnitude_of"/>
+        <ObjectProperty IRI="#has_magnitude"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#has_measurement"/>
+        <ObjectProperty IRI="#is_measurement_of"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#has_quality"/>
+        <ObjectProperty IRI="#is_quality_of"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#has_unit"/>
+        <ObjectProperty IRI="#is_unit_of"/>
+    </InverseObjectProperties>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#nullpart_of"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_quality_of"/>
+        <Class IRI="#quality"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_quality"/>
+        <Class IRI="#quality"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.8) http://owlapi.sourceforge.net -->
+

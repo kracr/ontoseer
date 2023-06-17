@@ -1,0 +1,749 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.owl-ontologies.com/Ontology1324330201.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.owl-ontologies.com/Ontology1324330201.owl">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Declaration>
+        <Class IRI="#Artifact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CommonCoreObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CommonCoreRelationship"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Constraint"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CoreEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CoreProductModel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CoreProperty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Description"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Documentation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EntityAssociation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Feature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Flow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Form"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Function"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Geometry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Information"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Material"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Port"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Properties"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rationale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Requirement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trace"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TransferFunction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Usage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#subArtifacts"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Input_Flow"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ObjectProperty_38"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Output_Flow"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Satisfies"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Specifies"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_Artifact_of_Behavior"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_Artifact_of_Form"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_Artifact_of_Function"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_Behavior"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_CC_relationship"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_Destination_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_Feature"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_Feature_of_Form"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_Feature_of_Function"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_Form_of_Artifact"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_Form_of_Feature"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_Function_of_Artifact"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_Function_of_Feature"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_Geometry"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_Input_Flow"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_Material"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_Output_Flow"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_Rationale"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_Requirement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_Source_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_associated_CCO"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_associated_entity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_constrained_property"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_entity_association"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_property"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_requiredProperty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_subArtifacts"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSubArtifactOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_Destination_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_Source_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_contianed_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_decomposed_into"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_decomposed_into_"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_featureOfArtifact"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_geometry_Of_Form"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_material_Of_Form"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_Product_Development_Process_Parameters"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_information"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#is_Description_of"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#is_Documentation_of"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#is_Value_Pair_Representation_of"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Artifact"/>
+        <Class IRI="#CoreEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Behavior"/>
+        <Class IRI="#CommonCoreObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CommonCoreObject"/>
+        <Class IRI="#CoreProductModel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CommonCoreRelationship"/>
+        <Class IRI="#CoreProductModel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Constraint"/>
+        <Class IRI="#CommonCoreRelationship"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CoreEntity"/>
+        <Class IRI="#CommonCoreObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CoreProperty"/>
+        <Class IRI="#CommonCoreObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Description"/>
+        <Class IRI="#Information"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Documentation"/>
+        <Class IRI="#Information"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EntityAssociation"/>
+        <Class IRI="#CommonCoreRelationship"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Feature"/>
+        <Class IRI="#CoreEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flow"/>
+        <Class IRI="#CoreProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Form"/>
+        <Class IRI="#CoreProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Function"/>
+        <Class IRI="#CoreProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Geometry"/>
+        <Class IRI="#CoreProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Information"/>
+        <Class IRI="#CoreProductModel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Material"/>
+        <Class IRI="#CoreProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Port"/>
+        <Class IRI="#Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Properties"/>
+        <Class IRI="#Information"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rationale"/>
+        <Class IRI="#CoreProperty"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Requirement"/>
+        <Class IRI="#CommonCoreObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Specification"/>
+        <Class IRI="#CommonCoreObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trace"/>
+        <Class IRI="#CommonCoreRelationship"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TransferFunction"/>
+        <Class IRI="#Function"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Usage"/>
+        <Class IRI="#CommonCoreRelationship"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#subArtifacts"/>
+        <Class IRI="#Artifact"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Artifact"/>
+        <NamedIndividual IRI="#Artifact_Process_Information"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Description"/>
+        <NamedIndividual IRI="#Information_Description"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Documentation"/>
+        <NamedIndividual IRI="#Information_Documentation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Properties"/>
+        <NamedIndividual IRI="#Information_Properties"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#subArtifacts"/>
+        <NamedIndividual IRI="#subArtifacts_Process_Information"/>
+    </ClassAssertion>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#ObjectProperty_38"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#Satisfies"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#has_Artifact_of_Behavior"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#has_Destination_of"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#has_Source_of"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#has_associated_CCO"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#has_constrained_property"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#isSubArtifactOf"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#is_Destination_of"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#is_Source_of"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#is_contianed_in"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#is_decomposed_into"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#is_featureOfArtifact"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#is_geometry_Of_Form"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#is_material_Of_Form"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Input_Flow"/>
+        <Class IRI="#TransferFunction"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Output_Flow"/>
+        <Class IRI="#TransferFunction"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Satisfies"/>
+        <Class IRI="#Artifact"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Specifies"/>
+        <Class IRI="#Specification"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_Artifact_of_Behavior"/>
+        <Class IRI="#Behavior"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_Artifact_of_Form"/>
+        <Class IRI="#Form"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_Artifact_of_Function"/>
+        <Class IRI="#Function"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_Behavior"/>
+        <Class IRI="#Artifact"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_CC_relationship"/>
+        <Class IRI="#CommonCoreObject"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_Destination_of"/>
+        <Class IRI="#Flow"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_Feature"/>
+        <Class IRI="#Artifact"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_Feature_of_Form"/>
+        <Class IRI="#Form"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_Feature_of_Function"/>
+        <Class IRI="#Function"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_Form_of_Artifact"/>
+        <Class IRI="#Artifact"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_Form_of_Feature"/>
+        <Class IRI="#Feature"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_Function_of_Artifact"/>
+        <Class IRI="#Artifact"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_Function_of_Feature"/>
+        <Class IRI="#Feature"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_Geometry"/>
+        <Class IRI="#Form"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_Input_Flow"/>
+        <Class IRI="#Artifact"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_Material"/>
+        <Class IRI="#Form"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_Output_Flow"/>
+        <Class IRI="#Artifact"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_Rationale"/>
+        <Class IRI="#Rationale"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_Requirement"/>
+        <Class IRI="#CoreProperty"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_Source_of"/>
+        <Class IRI="#Flow"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_associated_CCO"/>
+        <Class IRI="#CommonCoreRelationship"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_associated_entity"/>
+        <Class IRI="#EntityAssociation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_constrained_property"/>
+        <Class IRI="#CoreProperty"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_entity_association"/>
+        <Class IRI="#CoreEntity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_property"/>
+        <Class IRI="#Constraint"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_requiredProperty"/>
+        <Class IRI="#Requirement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_subArtifacts"/>
+        <Class IRI="#Artifact"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isSubArtifactOf"/>
+        <Class IRI="#subArtifacts"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_Destination_of"/>
+        <Class IRI="#Flow"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_Source_of"/>
+        <Class IRI="#Flow"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_contianed_in"/>
+        <Class IRI="#Requirement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_decomposed_into_"/>
+        <Class IRI="#Specification"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_featureOfArtifact"/>
+        <Class IRI="#Feature"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_geometry_Of_Form"/>
+        <Class IRI="#Geometry"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_material_Of_Form"/>
+        <Class IRI="#Material"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Input_Flow"/>
+        <Class IRI="#Flow"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ObjectProperty_38"/>
+        <Class IRI="#CommonCoreObject"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Output_Flow"/>
+        <Class IRI="#Flow"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Satisfies"/>
+        <Class IRI="#Specification"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Specifies"/>
+        <Class IRI="#Artifact"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_Artifact_of_Behavior"/>
+        <Class IRI="#Artifact"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_Artifact_of_Form"/>
+        <Class IRI="#Artifact"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_Artifact_of_Function"/>
+        <Class IRI="#Artifact"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_Behavior"/>
+        <Class IRI="#Behavior"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_CC_relationship"/>
+        <Class IRI="#CommonCoreRelationship"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_Destination_of"/>
+        <Class IRI="#TransferFunction"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_Feature"/>
+        <Class IRI="#Feature"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_Feature_of_Form"/>
+        <Class IRI="#Feature"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_Feature_of_Function"/>
+        <Class IRI="#Feature"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_Form_of_Artifact"/>
+        <Class IRI="#Form"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_Form_of_Feature"/>
+        <Class IRI="#Form"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_Function_of_Artifact"/>
+        <Class IRI="#Function"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_Function_of_Feature"/>
+        <Class IRI="#Function"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_Geometry"/>
+        <Class IRI="#Geometry"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_Input_Flow"/>
+        <Class IRI="#Flow"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_Material"/>
+        <Class IRI="#Material"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_Output_Flow"/>
+        <Class IRI="#Flow"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_Rationale"/>
+        <Class IRI="#CoreProperty"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_Requirement"/>
+        <Class IRI="#Requirement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_Source_of"/>
+        <Class IRI="#TransferFunction"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_associated_entity"/>
+        <Class IRI="#CoreEntity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_constrained_property"/>
+        <Class IRI="#Constraint"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_entity_association"/>
+        <Class IRI="#EntityAssociation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_property"/>
+        <Class IRI="#CoreProperty"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_requiredProperty"/>
+        <Class IRI="#CoreProperty"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_subArtifacts"/>
+        <Class IRI="#subArtifacts"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isSubArtifactOf"/>
+        <Class IRI="#Artifact"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_Destination_of"/>
+        <Class IRI="#Artifact"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_Source_of"/>
+        <Class IRI="#Artifact"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_contianed_in"/>
+        <Class IRI="#Specification"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_decomposed_into"/>
+        <Class IRI="#Specification"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_decomposed_into_"/>
+        <Class IRI="#Requirement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_featureOfArtifact"/>
+        <Class IRI="#Artifact"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_geometry_Of_Form"/>
+        <Class IRI="#Form"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_material_Of_Form"/>
+        <Class IRI="#Form"/>
+    </ObjectPropertyRange>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_information"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_Product_Development_Process_Parameters"/>
+        <Class IRI="#Artifact"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_information"/>
+        <Class IRI="#Artifact"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#is_Description_of"/>
+        <Class IRI="#Description"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#is_Documentation_of"/>
+        <Class IRI="#Documentation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#is_Value_Pair_Representation_of"/>
+        <Class IRI="#Properties"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_information"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.8) http://owlapi.sourceforge.net -->
+

@@ -1,0 +1,147 @@
+ActingFor
+Action
+ActivitySpecification
+BasicPlan
+AffectedBy
+AgentRole
+Airline
+Algorithm
+AquaticResources
+Bag
+Biological Entities
+CatchRecord
+Chess
+Classification
+ClimaticZone
+Collection
+Computer System
+Course
+Criterion
+Persons
+Price
+PrivacyPolicyPersonalData
+Professor
+Provenance
+RelativeRelationship
+Reporting
+Set
+SmartHome
+SpeciesConservation
+TaskExecution
+TimeIndexedClassification
+Time indexed person role
+TimeInterval
+TimePeriod
+Topic
+Trajectory
+VesselSpecies
+Transition
+Transport
+RecurrentEventSeries
+Reaction
+RTMSMapping
+Pollution
+Policy
+PlanConditions
+Place
+PharmaInova
+PeriodicInterval
+Participation
+ParticipantRole
+Partof
+Parameter
+Observation
+ObjectRole
+Object_with_States
+OOPMetrics
+NotePattern
+NewsReportingEvent
+NaryParticipation
+Musicalobject
+Move
+MicroBlogEntry
+MaterialProperty
+MaterialTransformation
+MapLegendOntology
+Literal Reification pattern
+List
+LinnaeanTaxonomy
+LCA Pattern
+Invoice
+IntensionExtension
+InformationObjectsAndRepresentationLanguages
+Information realization
+HistoricalMap
+HazardousSituation
+Gesture Interaction
+GearWaterArea
+CriterionSetter
+GearVessel
+GearSpecies
+Go Top
+Experience & Observation
+ExplanationODP
+WinstonPartWhole
+Tagging
+Types of entities
+VerticalDistribution
+VesselWaterArea
+TimeIndexedSituation
+TimeIndexedPartOf
+Time indexed participation
+Standard Enforcer Pattern
+SpeciesNames
+SpeciesHabitat
+SpeciesEat
+SpeciesBathymetry
+SpeciesConditions
+SpatioTemporalExtent
+Spatial Graph Adapter (SGA)
+Social Reality
+SmartHome TimeInterval
+SmartHome Situation
+SmartHome Sensing
+SmartHome Property
+SmartHome Place
+SmartHome Object
+SmartHome Network
+SmartHome Geometry
+SmartHome FeatureOfInterest
+SmartHome Event
+SimpleTopic
+Situation
+SimpleOrAggregated 
+Sequence
+NewsReportingEvent
+RelativeRelationship
+Region
+RecurrentSituationSeries
+ResourceAbundanceObservation
+ResourceExploitationObservation
+RoleTask
+ScorePart
+Actuation-Actuator-Effect
+Affordance
+Activity
+Born Digital Archives
+City Resident Pattern
+Co-participation
+CollectionEntity
+CommunicationEvent
+Complaint Ontology Pattern
+Componency
+ComputationalEnvironment
+ConceptGroup
+ConceptTerms
+Constituency
+Controlflow
+DataTransformationPattern
+Description
+Description in Range
+DescriptionAndSituation
+DetectorFinalState
+DigitalVideo
+Disposition
+EthnicGroup
+EventCore
+EventProcessing

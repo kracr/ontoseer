@@ -1,0 +1,29 @@
+vann
+foaf
+dublincore
+comicbookontology
+geometrie
+owl-schema
+json-schema
+rdf-schema
+Persoon
+AIISO
+Sport Ontology
+An Agent Certification Ontology
+The Data Knowledge Vocabulary
+50k Gazetteer
+CTO: Construction Tasks Ontology
+SAREF4AGRI
+Vehicle Emissions Ontology
+The ESCO ontology
+AutomationML Ontology
+Vehicle Sales Ontology
+DBpedia
+BIBFRAME
+Linked Earth landing
+Cedric-cnam
+Occupancy Profile ontology
+AGRELON, AN AGENT RELATIONSHIP ONTOLOGY
+BEVON: Beverage Ontology
+Whisky
+		

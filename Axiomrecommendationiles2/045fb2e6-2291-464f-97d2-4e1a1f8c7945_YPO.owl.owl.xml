@@ -1,0 +1,3789 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://purl.org/obo/owl/yeast_phenotype"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://purl.org/obo/owl/yeast_phenotype">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000001"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000002"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000003"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000004"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000005"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000006"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000007"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000008"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000009"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000010"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000011"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000012"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000013"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000014"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000015"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000016"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000017"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000018"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000019"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000020"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000021"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000022"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000023"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000024"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000025"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000026"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000027"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000028"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000029"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000030"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000031"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000032"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000033"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000034"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000035"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000036"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000037"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000038"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000039"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000040"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000041"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000042"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000043"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000044"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000045"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000046"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000047"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000048"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000049"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000050"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000051"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000052"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000053"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000054"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000055"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000056"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000057"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000058"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000059"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000060"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000061"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000062"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000063"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000064"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000065"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000066"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000067"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000068"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000069"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000070"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000071"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000072"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000073"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000074"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000075"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000076"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000077"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000078"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000079"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000080"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000081"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000082"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000083"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000084"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000085"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000086"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000087"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000088"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000089"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000090"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000091"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000092"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000093"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000094"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000095"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000096"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000097"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000098"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000099"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000100"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000101"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000102"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000103"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000104"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000105"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000106"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000107"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000108"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000109"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000110"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000111"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000112"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000113"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000114"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000115"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000116"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000117"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000118"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000119"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000120"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000121"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000122"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000123"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000124"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000125"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000126"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000127"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000128"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000129"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000130"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000131"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000132"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000133"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000134"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000135"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000136"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000137"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000138"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000139"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000140"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000141"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000142"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000143"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000144"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000145"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000146"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000147"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000148"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000149"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000150"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000151"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000152"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000153"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000154"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000155"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000156"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000157"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000158"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000159"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000161"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000162"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000163"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000164"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000165"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000166"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000167"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000168"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000169"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000170"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000171"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000172"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000173"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000174"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000175"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000176"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000177"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000178"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000179"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000180"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000181"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000182"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000183"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000184"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000185"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000186"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000187"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000188"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000189"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000190"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000191"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000192"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000193"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000194"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000195"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000196"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000197"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000198"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000199"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000200"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000201"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000202"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000203"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000204"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000205"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000206"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000207"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000208"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000209"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000210"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000211"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000212"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000213"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000214"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000215"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000216"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000217"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000218"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000219"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000220"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000221"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000222"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000223"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000224"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000225"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000226"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000227"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000228"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000229"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000230"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000231"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000232"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000233"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000234"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000235"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000236"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000237"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000238"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000239"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000240"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000241"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000242"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000243"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000244"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000245"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000246"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000247"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000248"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000249"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000250"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000251"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000252"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000253"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000254"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000255"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000256"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000257"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000258"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000259"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000260"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000261"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000262"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000263"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000264"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000265"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000266"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000267"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000268"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000269"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000270"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000271"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000272"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000273"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000274"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000275"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000276"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000277"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000278"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000287"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000296"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000297"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000298"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000299"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000300"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000301"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000302"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000303"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000307"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000308"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000309"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000310"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000311"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000312"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000315"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000316"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000317"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000318"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000322"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000323"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000326"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000327"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Subset"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Synonym"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000002"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000003"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000004"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000005"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000007"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000006"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000008"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000006"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000009"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000006"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000010"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000006"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000011"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000006"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000012"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000006"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000013"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000006"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000014"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000006"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000015"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000006"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000016"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000019"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000020"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000192"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000021"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000114"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000022"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000094"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000023"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000017"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000024"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000023"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000025"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000200"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000026"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000200"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000027"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000023"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000028"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000027"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000029"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000027"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000030"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000023"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000031"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000023"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000032"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000031"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000033"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000032"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000034"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000032"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000035"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000032"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000036"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000032"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000037"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000032"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000038"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000032"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000039"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000031"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000040"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000039"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000041"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000031"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000042"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000041"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000043"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000041"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000044"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000041"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000045"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000031"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000046"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000143"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000047"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000143"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000048"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000287"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000049"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000017"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000050"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000049"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000051"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000052"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000053"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000226"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000054"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000226"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000055"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000226"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000056"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000057"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000303"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000058"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000303"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000059"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000303"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000060"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000158"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000061"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000060"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000062"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000060"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000063"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000060"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000064"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000158"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000065"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000064"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000066"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000017"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000067"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000068"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000069"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000070"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000071"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000072"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000072"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000073"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000074"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000073"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000075"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000073"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000076"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000129"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000077"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000129"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000078"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000129"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000079"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000129"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000080"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000081"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000215"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000082"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000087"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000083"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000087"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000084"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000080"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000085"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000084"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000086"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000194"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000087"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000080"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000088"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000089"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000024"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000090"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000087"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000091"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000080"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000092"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000080"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000093"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000080"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000094"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000017"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000095"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000094"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000096"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000094"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000097"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000096"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000098"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000096"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000099"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000096"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000100"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000096"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000101"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000098"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000102"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000098"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000103"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000104"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000105"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000105"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000102"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000106"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000094"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000107"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000108"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000109"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000106"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000110"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000216"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000111"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000216"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000112"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000217"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000113"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000217"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000114"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000192"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000115"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000116"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000117"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000118"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000296"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000119"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000057"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000120"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000054"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000121"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000024"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000122"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000123"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000037"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000124"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000037"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000125"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000096"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000126"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000077"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000127"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000077"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000128"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000129"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000129"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000073"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000130"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000073"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000131"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000094"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000132"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000073"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000133"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000134"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000135"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000136"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000137"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000138"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000139"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000140"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000141"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000052"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000142"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000052"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000143"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000144"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000143"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000145"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000102"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000146"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000147"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000092"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000148"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000092"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000149"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000094"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000150"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000151"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000152"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000216"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000153"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000102"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000154"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000102"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000155"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000312"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000156"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000157"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000096"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000158"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000049"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000159"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000158"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000161"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000162"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000187"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000163"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000187"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000164"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000018"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000165"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000187"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000166"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000187"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000167"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000187"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000168"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000187"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000169"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000187"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000170"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000187"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000171"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000186"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000172"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000186"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000173"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000186"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000174"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000186"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000175"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000187"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000176"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000187"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000177"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000186"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000178"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000186"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000179"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000187"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000180"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000187"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000181"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000187"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000182"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000186"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000183"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000186"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000184"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000186"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000185"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000187"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000186"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000164"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000187"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000164"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000188"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000187"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000189"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000187"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000190"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000187"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000191"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000187"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000192"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000018"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000193"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000080"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000194"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000084"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000195"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000194"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000196"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000031"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000197"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000060"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000198"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000143"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000199"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000053"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000200"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000024"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000201"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000087"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000202"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000087"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000203"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000082"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000204"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000082"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000205"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000087"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000206"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000207"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000208"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000143"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000209"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000094"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000210"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000094"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000211"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000212"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000213"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000054"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000214"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000213"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000215"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000080"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000216"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000017"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000217"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000017"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000218"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000094"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000219"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000096"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000220"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000312"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000221"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000053"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000222"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000094"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000223"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000224"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000094"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000225"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000072"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000225"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000143"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000226"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000227"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000228"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000006"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000229"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000020"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000230"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000020"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000231"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000114"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000232"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000114"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000233"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000021"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000234"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000021"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000235"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000114"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000236"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000235"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000237"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000235"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000238"/>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000239"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000074"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000240"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000074"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000241"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000080"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000242"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000226"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000243"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000303"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000244"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000187"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000245"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000246"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000247"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000248"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000249"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000250"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000251"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000252"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000117"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000253"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000072"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000254"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000253"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000255"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000253"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000256"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000255"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000257"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000253"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000258"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000253"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000259"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000258"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000260"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000258"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000261"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000260"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000262"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000260"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000263"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000260"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000264"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000258"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000265"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000258"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000266"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000253"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000267"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000072"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000268"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000072"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000269"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000253"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000270"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000303"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000271"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000094"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000272"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000186"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000273"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000057"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000274"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000275"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000274"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000276"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000274"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000277"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000274"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000278"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000117"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000287"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000017"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000296"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000073"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000297"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000296"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000298"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000296"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000299"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000296"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000300"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000296"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000301"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000296"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000302"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000296"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000303"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000226"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000307"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000210"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000308"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000101"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000309"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000102"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000310"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000106"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000311"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000106"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000312"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000315"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000226"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000316"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000317"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000318"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000187"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000322"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000186"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000323"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000186"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000326"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000080"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000327"/>
+        <Class IRI="http://purl.org/obo/owl/APO#APO_0000080"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Subset"/>
+        <NamedIndividual IRI="http://purl.org/obo/owl/obo#AspGD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Subset"/>
+        <NamedIndividual IRI="http://purl.org/obo/owl/obo#CGD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Subset"/>
+        <NamedIndividual IRI="http://purl.org/obo/owl/obo#SGD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid100"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid101"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid102"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid103"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid104"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid105"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid106"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid107"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid108"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Synonym"/>
+        <AnonymousIndividual nodeID="_:genid109"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid11"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid110"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid111"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid112"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Synonym"/>
+        <AnonymousIndividual nodeID="_:genid113"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid114"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid115"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid116"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid117"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid118"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid119"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid12"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid120"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid121"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid122"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid123"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid124"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid125"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid126"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid127"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid128"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid129"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid13"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid130"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid131"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid132"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid133"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid134"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid135"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid136"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid137"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid138"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Synonym"/>
+        <AnonymousIndividual nodeID="_:genid139"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid14"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid140"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid141"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid142"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid143"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid144"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid145"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid146"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid147"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid148"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Synonym"/>
+        <AnonymousIndividual nodeID="_:genid149"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid15"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid150"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Synonym"/>
+        <AnonymousIndividual nodeID="_:genid151"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid152"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid153"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid154"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid155"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid156"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid157"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid158"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid159"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid16"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid160"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid161"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid162"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid163"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid164"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid165"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid166"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid167"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid168"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid169"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid17"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid170"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid171"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid172"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid173"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid174"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Synonym"/>
+        <AnonymousIndividual nodeID="_:genid175"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid176"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid177"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid178"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Synonym"/>
+        <AnonymousIndividual nodeID="_:genid179"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid18"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid180"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid181"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid182"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Synonym"/>
+        <AnonymousIndividual nodeID="_:genid183"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid184"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid185"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid186"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid187"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid188"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid189"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid19"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid190"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid191"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid192"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid193"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid194"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid195"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid196"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid197"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid198"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid199"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid20"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid200"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid201"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid202"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid203"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid204"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid205"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid206"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid207"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid208"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid209"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid21"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid210"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid211"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid212"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid213"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid214"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid215"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid216"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid217"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid218"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid219"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid22"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid220"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid221"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid222"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid223"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid224"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid225"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid226"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid227"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid228"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid229"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Synonym"/>
+        <AnonymousIndividual nodeID="_:genid23"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid230"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid231"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid232"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid233"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid234"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid235"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid236"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid237"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid238"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid239"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid24"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid240"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid241"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid242"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid243"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid244"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid245"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid246"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid247"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid248"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid249"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid25"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid250"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid251"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid252"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid253"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid254"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid255"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid256"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid257"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid258"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid259"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid26"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid260"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid261"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid262"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid263"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid264"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid265"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid266"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid267"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid268"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid269"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Synonym"/>
+        <AnonymousIndividual nodeID="_:genid27"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid270"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid271"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid272"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid273"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid274"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid275"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid276"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Synonym"/>
+        <AnonymousIndividual nodeID="_:genid277"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid278"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Synonym"/>
+        <AnonymousIndividual nodeID="_:genid279"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid28"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid280"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid281"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid282"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid283"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid284"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid285"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Synonym"/>
+        <AnonymousIndividual nodeID="_:genid286"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid287"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid288"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid289"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid29"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Synonym"/>
+        <AnonymousIndividual nodeID="_:genid290"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid291"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Synonym"/>
+        <AnonymousIndividual nodeID="_:genid292"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid293"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid294"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid295"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Synonym"/>
+        <AnonymousIndividual nodeID="_:genid296"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid297"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid298"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid299"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid30"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Synonym"/>
+        <AnonymousIndividual nodeID="_:genid300"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid301"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid302"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid303"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Synonym"/>
+        <AnonymousIndividual nodeID="_:genid304"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid305"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid306"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid307"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid308"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid309"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid31"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid310"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid311"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid312"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid313"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid314"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid315"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid316"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid317"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid318"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid319"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid32"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Synonym"/>
+        <AnonymousIndividual nodeID="_:genid320"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid321"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid322"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid323"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid324"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid325"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid326"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid327"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid328"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid329"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid33"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid330"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid331"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid332"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid333"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid334"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid335"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid336"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid337"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid338"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid339"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid34"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid340"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid341"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid342"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid343"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid344"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid345"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid346"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid347"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid348"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid349"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid35"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid350"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid351"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid352"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid353"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid354"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid355"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid356"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid357"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid358"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid359"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid36"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid360"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Synonym"/>
+        <AnonymousIndividual nodeID="_:genid361"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid362"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid363"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Synonym"/>
+        <AnonymousIndividual nodeID="_:genid364"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid365"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid366"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid367"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid368"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid369"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid37"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid370"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid371"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid372"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid373"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid374"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid375"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid376"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid377"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid378"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid379"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid38"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid380"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid381"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid382"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid383"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid384"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid385"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid386"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid387"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid388"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid389"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid39"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid390"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid391"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid392"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid393"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid394"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid395"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid396"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid397"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid398"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid399"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid40"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid400"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid401"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid402"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid403"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid404"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid405"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid406"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid407"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid408"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid409"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid41"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid410"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid411"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid412"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid413"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid414"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid42"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid43"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid44"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid45"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid46"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid47"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid48"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid49"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid50"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid51"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid52"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid53"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid54"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Synonym"/>
+        <AnonymousIndividual nodeID="_:genid55"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid56"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid57"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid58"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Synonym"/>
+        <AnonymousIndividual nodeID="_:genid59"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid60"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid61"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid62"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid63"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid64"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid65"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid66"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid67"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid68"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid69"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid70"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid71"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid72"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid73"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid74"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid75"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid76"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid77"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid78"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid79"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid80"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid81"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid82"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid83"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid84"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid85"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid86"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid87"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid88"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid89"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid90"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid91"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid92"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid93"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid94"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid95"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid96"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid97"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#DbXref"/>
+        <AnonymousIndividual nodeID="_:genid98"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.geneontology.org/formats/oboInOwl#Definition"/>
+        <AnonymousIndividual nodeID="_:genid99"/>
+    </ClassAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.8) http://owlapi.sourceforge.net -->
+

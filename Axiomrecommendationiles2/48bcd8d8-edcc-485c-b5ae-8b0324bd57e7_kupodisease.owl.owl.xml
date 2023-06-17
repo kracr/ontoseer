@@ -1,0 +1,2218 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.kupkb.org/public/kupo/kupo-disease.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.kupkb.org/public/kupo/kupo-disease.owl">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_0050200"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_0050201"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_0050400"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_0050405"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_0050445"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_0050450"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_0050477"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_0050522"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_10177"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1061"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1062"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1063"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1064"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1073"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1074"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1075"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1076"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_10952"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_10966"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_10976"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_10998"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11020"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11027"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11036"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11054"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11096"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11111"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11171"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11266"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11353"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11354"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11355"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11400"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11401"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11520"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11593"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11664"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11705"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11809"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11810"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11811"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11812"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11813"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11814"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11815"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11817"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11818"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11819"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11820"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11821"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11823"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1183"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1184"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11885"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11978"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_12132"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_12143"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_12144"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_12145"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_12343"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_12355"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_12369"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_12387"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_12465"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_12554"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_12556"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_12577"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_12679"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_13068"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1311"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1312"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_13138"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_13139"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_13148"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_13306"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_13361"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_13380"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1343"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_13461"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_13498"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_13507"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_13558"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_13658"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_13689"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_13690"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_13693"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_13694"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_13695"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_13696"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1375"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1384"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1394"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_13948"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_13949"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_14059"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_14063"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_14064"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_14066"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_14092"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1412"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_14146"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_14219"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1425"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1426"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1439"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_14489"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_14490"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_14492"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1591"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1668"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1678"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1679"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1680"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_18"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1829"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2139"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2370"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2388"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2392"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2527"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2584"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2585"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2586"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2587"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2588"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2589"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2590"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2591"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2592"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_262"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_263"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2673"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2697"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2743"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2744"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2920"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2921"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2972"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2973"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2975"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2976"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2977"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2980"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2981"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2982"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2983"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2985"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2986"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_3021"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_3052"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_3100"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_3508"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_364"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_365"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_3674"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_3675"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_3676"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_3764"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_3945"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4022"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4242"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4332"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_445"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4454"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_447"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4479"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4675"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4676"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4772"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4773"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4776"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4777"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4778"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4779"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4780"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4781"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4782"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4783"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4784"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4880"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4918"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4919"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_5088"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_5180"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_5199"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_5200"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_5287"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_5335"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_5427"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_5428"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_5429"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_5432"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_5534"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_557"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_558"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_559"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_5643"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_5699"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_576"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_578"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_579"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_580"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_581"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_582"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_585"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_5973"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_5974"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_5975"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_5977"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_5982"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_5983"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_6118"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_6119"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_6166"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_6167"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_6238"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_6239"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_6257"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_6258"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_6259"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_630"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_6404"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_6721"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_6722"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_6844"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_6932"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_6933"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_6975"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_6976"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_6995"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_7127"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_7138"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_724"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_7284"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_730"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_732"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_7333"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_7334"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_734"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_735"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_736"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_738"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_739"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_7488"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_754"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_7571"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_7632"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_7745"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_7762"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_782"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_783"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_784"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_8082"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_8083"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_8108"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_8109"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_8223"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_8259"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_827"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_8272"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_8410"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_905"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_9266"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_9339"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_9341"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_9409"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_9432"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_9589"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_9590"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_9617"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_9620"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_9621"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_9622"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_9733"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_9808"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_9812"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_9877"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.kupkb.org/data/kupo/KUPO_0000007"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.kupkb.org/data/kupo/KUPO_0100001"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.kupkb.org/data/kupo/KUPO_0100002"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.kupkb.org/data/kupo/KUPO_0100003"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.kupkb.org/data/kupo/KUPO_0100004"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.kupkb.org/data/kupo/KUPO_0100005"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.kupkb.org/data/kupo/KUPO_0100006"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.kupkb.org/data/kupo/KUPO_0100007"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.kupkb.org/data/kupo/KUPO_0100008"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.kupkb.org/data/kupo/KUPO_0100009"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.kupkb.org/data/kupo/KUPO_0100010"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.kupkb.org/data/kupo/KUPO_0100011"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.kupkb.org/data/kupo/KUPO_0100012"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.kupkb.org/data/kupo/KUPO_0100013"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.kupkb.org/data/kupo/KUPO_0100014"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.kupkb.org/data/kupo/KUPO_0100015"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.kupkb.org/data/kupo/KUPO_0100016"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.kupkb.org/data/kupo/KUPO_0100017"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.kupkb.org/data/kupo/KUPO_0100018"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_0050200"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11266"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_0050201"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11266"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_0050400"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_579"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_0050405"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1343"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_0050445"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4332"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_0050450"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_447"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_0050477"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_447"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_0050522"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11266"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_10177"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1073"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1061"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_447"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1062"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1063"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1062"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1064"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1063"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_10952"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1064"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_447"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1073"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_557"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1074"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_557"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1075"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1076"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1076"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11400"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_10952"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_557"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_10966"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1184"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_10966"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2921"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_10976"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2921"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_10998"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2921"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11020"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2921"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11027"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2921"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11036"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2921"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11054"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_5428"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11096"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_782"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11111"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_5200"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11171"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_732"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11266"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_782"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11353"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_365"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11354"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11353"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11354"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11355"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11355"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_365"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11355"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_9590"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11400"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1063"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11400"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2744"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11400"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_782"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11401"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1076"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11520"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1073"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11593"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11054"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11664"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1073"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11664"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2388"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11705"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_557"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11809"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11054"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11810"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11054"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11811"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11054"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11812"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11054"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11813"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11054"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11814"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11054"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11815"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11054"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11817"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11054"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11818"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11054"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11818"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11819"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11819"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11885"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11820"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11054"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11821"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11054"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11823"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_3021"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1183"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1184"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1184"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2527"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1184"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_557"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11885"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1426"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11978"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1076"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_12132"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_557"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_12143"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_365"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_12144"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_365"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_12145"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_365"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_12343"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_3676"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_12343"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_5977"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_12355"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1679"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_12369"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_732"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_12387"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1074"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_12387"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11705"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_12387"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_447"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_12465"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11705"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_12554"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_3021"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_12554"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4676"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_12556"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_3021"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_12577"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_732"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_12679"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_557"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_13068"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11705"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1311"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_782"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1312"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2921"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_13138"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2921"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_13139"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_13138"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_13148"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1679"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_13306"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1679"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_13361"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1184"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_13380"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_559"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1343"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_732"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_13461"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_732"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_13498"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_732"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_13507"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1679"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_13558"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1343"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_13658"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1829"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_13689"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_9590"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_13690"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_13148"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_13693"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1426"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_13694"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_9620"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_13695"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_9620"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_13696"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_9620"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1375"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_579"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1384"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1343"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1394"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_579"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_13948"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_12577"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_13948"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_365"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_13949"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1679"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_14059"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2139"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_14059"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_734"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_14063"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2921"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_14064"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2921"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_14066"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4781"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_14092"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2388"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1412"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_579"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_14146"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1426"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_14219"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_447"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1425"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1426"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1426"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_18"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1439"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_579"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_14489"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11819"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_14490"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11819"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_14492"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11819"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1591"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1073"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1668"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_557"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1678"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1680"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1679"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_365"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1679"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_557"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1680"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1679"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_18"/>
+        <Class IRI="http://www.kupkb.org/data/kupo/KUPO_0000007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1829"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_12577"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2139"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_730"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2370"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_557"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2388"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_557"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2392"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1680"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2527"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_557"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2584"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1184"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2585"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1184"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2586"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1184"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2587"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1184"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2588"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1184"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2589"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1184"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2590"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1184"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2591"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1184"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2592"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1184"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_262"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_263"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_263"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_557"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2673"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_263"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2697"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_263"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2743"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2744"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2743"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_782"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2744"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_557"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2920"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2921"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2921"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_10952"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2921"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_557"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2972"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_557"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2973"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_557"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2975"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_557"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2976"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_557"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2977"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_557"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2980"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_557"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2981"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_557"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2982"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_557"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2983"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_557"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2985"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_557"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2985"/>
+        <Class IRI="http://www.kupkb.org/data/kupo/KUPO_0100007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2986"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2921"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_3021"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1074"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_3052"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1063"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_3100"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1343"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_3508"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_557"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_364"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_365"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_365"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_18"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_3674"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_3675"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_3674"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_3676"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_3675"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_263"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_3676"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_263"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_3764"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_630"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_3945"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2921"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4022"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1426"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4242"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_3676"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4332"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_447"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_445"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_447"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4454"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_3675"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_447"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_557"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4479"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_447"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4675"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4676"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4676"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1074"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4772"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_263"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4773"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_3675"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4773"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4772"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4776"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2921"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4777"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2921"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4778"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2921"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4779"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2921"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4780"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2921"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4781"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2921"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4782"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2921"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4783"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2921"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4784"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2921"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4880"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4242"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4918"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4919"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4919"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_12343"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_5088"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_3676"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_5180"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_3675"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_5199"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1426"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_5199"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_18"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_5199"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_5200"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_5200"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_557"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_5287"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4242"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_5335"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_263"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_5427"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_5428"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_5428"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_365"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_5429"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_5428"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_5432"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_5428"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_5534"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4919"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_557"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_18"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_558"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_559"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_559"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_11400"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_5643"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_730"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_5699"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4242"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_576"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_557"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_578"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_579"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_579"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_18"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_580"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_581"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_581"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_557"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_582"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_576"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_585"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_557"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_5973"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_5974"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_5973"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_5975"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_5974"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4919"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_5975"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_5977"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_5977"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_263"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_5982"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4242"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_5983"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4242"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_6118"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_6119"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_6119"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_5975"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_6166"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_6167"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_6167"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_736"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_6238"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_6239"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_6239"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_5432"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_6257"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2697"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_6258"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_6257"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_6259"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_6257"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_630"/>
+        <Class IRI="http://www.kupkb.org/data/kupo/KUPO_0000007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_6404"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2697"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_6721"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_6722"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_6721"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_736"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_6722"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_14059"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_6844"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_5974"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_6932"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_6933"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_6933"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_6239"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_6975"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_5432"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_6976"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_6975"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_6995"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_3676"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_7127"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1679"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_7138"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1679"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_724"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_365"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_7284"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_6722"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_7284"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_738"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_730"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_732"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_732"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_18"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_7333"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_365"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_7333"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_7334"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_7334"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_579"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_734"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_730"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_735"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_734"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_736"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_734"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_738"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_734"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_739"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_734"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_7488"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_738"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_754"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_365"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_7571"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2673"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_7571"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_3676"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_7632"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_6722"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_7632"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_736"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_7745"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_3675"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_7745"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4880"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_7762"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_5180"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_782"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_557"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_783"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_784"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_784"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1074"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_8082"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4773"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_8083"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_4773"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_8108"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_732"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_8109"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_732"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_8109"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_7334"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_8223"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_736"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_8259"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_736"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_827"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1426"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_8272"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_738"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_8410"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_3675"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_905"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_557"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_9266"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1061"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_9339"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_732"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_9341"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_732"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_9409"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_557"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_9432"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_447"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_9589"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_9590"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_9590"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_579"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_9617"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_557"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_9620"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_1426"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_9620"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_365"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_9620"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_557"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_9621"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2975"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_9622"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_557"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_9733"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_782"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_9808"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2921"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_9812"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_9808"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_9877"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_732"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.kupkb.org/data/kupo/KUPO_0100001"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2370"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.kupkb.org/data/kupo/KUPO_0100002"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2370"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.kupkb.org/data/kupo/KUPO_0100003"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_557"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.kupkb.org/data/kupo/KUPO_0100004"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2921"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.kupkb.org/data/kupo/KUPO_0100005"/>
+        <Class IRI="http://www.kupkb.org/data/kupo/KUPO_0100007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.kupkb.org/data/kupo/KUPO_0100006"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2985"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.kupkb.org/data/kupo/KUPO_0100007"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_557"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.kupkb.org/data/kupo/KUPO_0100008"/>
+        <Class IRI="http://www.kupkb.org/data/kupo/KUPO_0000007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.kupkb.org/data/kupo/KUPO_0100009"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2975"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.kupkb.org/data/kupo/KUPO_0100010"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2975"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.kupkb.org/data/kupo/KUPO_0100011"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2975"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.kupkb.org/data/kupo/KUPO_0100012"/>
+        <Class IRI="http://purl.org/obo/owlapi/disease_ontology#DOID_2975"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.kupkb.org/data/kupo/KUPO_0100013"/>
+        <Class IRI="http://www.kupkb.org/data/kupo/KUPO_0100012"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.kupkb.org/data/kupo/KUPO_0100014"/>
+        <Class IRI="http://www.kupkb.org/data/kupo/KUPO_0100013"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.kupkb.org/data/kupo/KUPO_0100015"/>
+        <Class IRI="http://www.kupkb.org/data/kupo/KUPO_0100013"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.kupkb.org/data/kupo/KUPO_0100016"/>
+        <Class IRI="http://www.kupkb.org/data/kupo/KUPO_0100012"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.kupkb.org/data/kupo/KUPO_0100017"/>
+        <Class IRI="http://www.kupkb.org/data/kupo/KUPO_0100016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.kupkb.org/data/kupo/KUPO_0100018"/>
+        <Class IRI="http://www.kupkb.org/data/kupo/KUPO_0000007"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.8) http://owlapi.sourceforge.net -->
+

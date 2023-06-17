@@ -1,0 +1,2076 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Chemical.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Chemical.owl">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#birnlex_1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#birnlex_10"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#birnlex_11"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#birnlex_12"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#birnlex_13"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#birnlex_14"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#birnlex_15"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#birnlex_16"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#birnlex_18"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#birnlex_19"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#birnlex_20"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#birnlex_21"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#birnlex_22"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#birnlex_23"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#birnlex_24"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#birnlex_25"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#birnlex_3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#birnlex_4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#birnlex_5"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#birnlex_6"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#birnlex_7"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#birnlex_8"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#birnlex_9"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#nlx_ubo_20090201"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#nlx_ubo_20090202"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#nlx_ubo_20090203"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#nlx_ubo_20090204"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#nlx_ubo_20090205"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#nlx_ubo_20090206"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#nlx_ubo_20090207"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#nlx_ubo_20090208"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#nlx_ubo_20090209"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex_annotation_properties.owl#_birnlex_retired_class"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DB00813"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DB01221"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DB01544"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#birnlex_3070_2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#birnlex_3072_2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#birnlex_3073_2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#birnlex_3074_2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#birnlex_3075_2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#birnlex_3076_2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nifext_5007_2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nifext_5031"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nlx_chem_090801"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nlx_chem_100301"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nlx_chem_100302"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nlx_chem_100304"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nlx_chem_100305"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nlx_chem_100306"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nlx_chem_100307"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nlx_chem_100308"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nlx_chem_100309"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nlx_chem_100310"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nlx_chem_100311"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nlx_chem_100313"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nlx_chem_20090202"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nlx_chem_20090203"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nlx_chem_20090204"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nlx_chem_20090205"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nlx_chem_20090601"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nlx_chem_20090602"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nlx_chem_20090603"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nlx_chem_20090604"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Molecule.owl#nifext_5000"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Molecule.owl#nifext_5004"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Molecule.owl#nifext_5005"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Molecule.owl#nifext_5008"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Molecule.owl#nifext_5009"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Molecule.owl#nifext_5011"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Molecule.owl#nifext_5030"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Molecule.owl#nifext_5157"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Molecule.owl#nifext_8"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Molecule.owl#nlx_mol_20090303"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Molecule.owl#sao1430127373"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Molecule.owl#sao1511566913"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Molecule.owl#sao185580330"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Molecule.owl#sao607978678"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_1391"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_15354"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_15422"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_15843"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_16356"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_16412"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_16714"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_16724"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_16827"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_17045"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_17234"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_17303"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_17326"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_17347"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_17489"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_17650"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_18059"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_18248"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_18375"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_18723"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_19217"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_19834"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_22313"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_22314"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_22586"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_22693"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_22719"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_22720"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_22984"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_23367"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_23447"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_23888"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_24431"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_24432"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_24532"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_24621"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_24913"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_24921"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_24922"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_25213"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_25348"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_25607"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_25608"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_25703"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_26020"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_26079"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_2611"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_26385"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_26393"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_26395"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_26398"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_26401"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_26658"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_2673"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_26764"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_26873"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_2691"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_2700"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_27134"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_27171"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_27363"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_27732"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_27808"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_27844"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_27958"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_27958_1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_28181"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_28346"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_28812"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_29105"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_29108"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_31618"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_31782"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_32952"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_33232"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_33241"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_33243"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_33250"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_33280"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_33285"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_33294"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_33513"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_33521"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_33579"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_33582"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_33675"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_34584"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35337"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35338"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35340"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35341"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35469"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35470"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35471"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35473"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35474"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35476"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35488"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35497"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35500"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35623"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35701"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35789"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35875"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_3611"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_3611_1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_36357"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_36359"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_36809"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_36915"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_36916"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_36976"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_36982"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_37045"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_37332"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_3766"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_37808"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_37930"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_38295"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_38431"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_39123"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_4470"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_47788"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_48330"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_48418"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_48538"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_48706"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_49020"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_49023"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_49159"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_49575"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_49575_1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_50113"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_50433"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_50671"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_50786"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_50827"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_50837"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_50843"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_50844"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_50860"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_50906"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_50940"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_5103"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_51064"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_52081"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_52993"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_5613"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_6495"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_6605"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_6809"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_6887"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_7466"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_7624"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_7735"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_7820"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_7823"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_7859"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_7983"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_8069"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_8247"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_8614"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_9073"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_9463"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_9674"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#Occurrent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1272057115.owl#CHEBI_46643"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#birnlex_17"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/pato#inheres_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteProperty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#adjacent_to"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#agent_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#contained_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#contains"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#derived_into"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#derives_from"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_agent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_improper_part"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_integral_part"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#improper_part_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#integral_part_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#located_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#location_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#part_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#preceded_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#precedes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#proper_part_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#relationship"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#transformation_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#transformed_into"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#birnlex_1"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex_annotation_properties.owl#_birnlex_retired_class"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#birnlex_10"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex_annotation_properties.owl#_birnlex_retired_class"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#birnlex_11"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex_annotation_properties.owl#_birnlex_retired_class"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#birnlex_12"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex_annotation_properties.owl#_birnlex_retired_class"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#birnlex_13"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex_annotation_properties.owl#_birnlex_retired_class"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#birnlex_14"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex_annotation_properties.owl#_birnlex_retired_class"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#birnlex_15"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex_annotation_properties.owl#_birnlex_retired_class"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#birnlex_16"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex_annotation_properties.owl#_birnlex_retired_class"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#birnlex_18"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex_annotation_properties.owl#_birnlex_retired_class"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#birnlex_19"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex_annotation_properties.owl#_birnlex_retired_class"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#birnlex_20"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex_annotation_properties.owl#_birnlex_retired_class"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#birnlex_21"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex_annotation_properties.owl#_birnlex_retired_class"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#birnlex_22"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex_annotation_properties.owl#_birnlex_retired_class"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#birnlex_23"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex_annotation_properties.owl#_birnlex_retired_class"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#birnlex_24"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex_annotation_properties.owl#_birnlex_retired_class"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#birnlex_25"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex_annotation_properties.owl#_birnlex_retired_class"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#birnlex_3"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex_annotation_properties.owl#_birnlex_retired_class"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#birnlex_4"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex_annotation_properties.owl#_birnlex_retired_class"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#birnlex_5"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex_annotation_properties.owl#_birnlex_retired_class"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#birnlex_6"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex_annotation_properties.owl#_birnlex_retired_class"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#birnlex_7"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex_annotation_properties.owl#_birnlex_retired_class"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#birnlex_8"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex_annotation_properties.owl#_birnlex_retired_class"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#birnlex_9"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex_annotation_properties.owl#_birnlex_retired_class"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#nlx_ubo_20090201"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex_annotation_properties.owl#_birnlex_retired_class"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#nlx_ubo_20090202"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex_annotation_properties.owl#_birnlex_retired_class"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#nlx_ubo_20090203"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex_annotation_properties.owl#_birnlex_retired_class"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#nlx_ubo_20090204"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex_annotation_properties.owl#_birnlex_retired_class"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#nlx_ubo_20090205"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex_annotation_properties.owl#_birnlex_retired_class"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#nlx_ubo_20090206"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex_annotation_properties.owl#_birnlex_retired_class"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#nlx_ubo_20090207"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex_annotation_properties.owl#_birnlex_retired_class"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#nlx_ubo_20090208"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex_annotation_properties.owl#_birnlex_retired_class"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#nlx_ubo_20090209"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex_annotation_properties.owl#_birnlex_retired_class"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DB00813"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_23367"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DB01221"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_23367"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DB01544"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_23367"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#birnlex_3070_2"/>
+        <Class IRI="#birnlex_3073_2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#birnlex_3072_2"/>
+        <Class IRI="#birnlex_3073_2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#birnlex_3073_2"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_33285"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#birnlex_3074_2"/>
+        <Class IRI="#birnlex_3076_2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#birnlex_3075_2"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_36357"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#birnlex_3076_2"/>
+        <Class IRI="#birnlex_3075_2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nifext_5007_2"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex_annotation_properties.owl#_birnlex_retired_class"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nifext_5031"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Molecule.owl#nifext_5030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nlx_chem_090801"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_23888"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nlx_chem_100301"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_23367"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nlx_chem_100302"/>
+        <Class IRI="#nlx_chem_100301"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nlx_chem_100304"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35338"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nlx_chem_100305"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35338"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nlx_chem_100306"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_23367"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nlx_chem_100307"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_23367"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nlx_chem_100308"/>
+        <Class IRI="#nlx_chem_100307"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nlx_chem_100309"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_23367"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nlx_chem_100310"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_50786"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nlx_chem_100311"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_23367"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nlx_chem_100313"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_23367"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nlx_chem_20090202"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex_annotation_properties.owl#_birnlex_retired_class"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nlx_chem_20090203"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex_annotation_properties.owl#_birnlex_retired_class"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nlx_chem_20090204"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_23367"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nlx_chem_20090205"/>
+        <Class IRI="#birnlex_3075_2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nlx_chem_20090601"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex_annotation_properties.owl#_birnlex_retired_class"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nlx_chem_20090602"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_36357"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nlx_chem_20090603"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex_annotation_properties.owl#_birnlex_retired_class"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nlx_chem_20090604"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_23367"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Molecule.owl#nifext_5000"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_33243"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Molecule.owl#nifext_5004"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_23367"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Molecule.owl#nifext_5005"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_33675"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Molecule.owl#nifext_5008"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Molecule.owl#sao607978678"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Molecule.owl#nifext_5009"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_33675"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Molecule.owl#nifext_5011"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_18059"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Molecule.owl#nifext_5157"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_18059"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Molecule.owl#nifext_8"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Molecule.owl#sao607978678"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Molecule.owl#sao1430127373"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_32952"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Molecule.owl#sao1511566913"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_33675"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Molecule.owl#sao185580330"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35701"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Molecule.owl#sao607978678"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_33675"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_1391"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35338"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_15354"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_23367"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_15422"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_37045"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_15843"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Molecule.owl#nifext_5157"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_16356"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_19834"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_16412"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Molecule.owl#sao607978678"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_16714"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_23367"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_16724"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_23367"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_16827"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex_annotation_properties.owl#_birnlex_retired_class"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_17045"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_23367"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_17234"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Molecule.owl#sao607978678"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_17303"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_23367"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_17326"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_25608"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_17347"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_23367"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_17489"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_19834"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_17650"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex_annotation_properties.owl#_birnlex_retired_class"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_18059"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_33243"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_18248"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_25213"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_18375"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_23447"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_18723"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_23367"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_19217"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_26401"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_19217"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_36982"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_19834"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_18375"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_19834"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_26401"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_19834"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_36982"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_22313"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex_annotation_properties.owl#_birnlex_retired_class"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_22314"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex_annotation_properties.owl#_birnlex_retired_class"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_22586"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_24432"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_22693"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_23367"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_22719"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_22720"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_22720"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_27171"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_22984"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex_annotation_properties.owl#_birnlex_retired_class"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_23447"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_25607"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_23888"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Molecule.owl#nlx_mol_20090303"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_24431"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex_annotation_properties.owl#_birnlex_retired_class"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_24432"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_50906"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_24532"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_33285"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_24621"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Molecule.owl#nlx_mol_20090303"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_24913"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_18059"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_24921"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_24922"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_24921"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_33243"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_24922"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_27171"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_25213"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_36915"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_25348"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_26385"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_25607"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_25608"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_25608"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_25703"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_25703"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_26020"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_25703"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_26079"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_25703"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_33285"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_26020"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_26079"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_26079"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_36359"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_2611"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_23367"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_26385"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_26401"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_26393"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_17326"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_26395"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_26401"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_26395"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_36976"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_26398"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_26393"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_26401"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35875"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_26658"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_26873"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_2673"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_23367"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_26764"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_24621"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_26873"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_24913"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_2691"/>
+        <Class IRI="#nlx_chem_100301"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_2700"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_33675"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_27134"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_25348"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_27171"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_24532"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_27363"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex_annotation_properties.owl#_birnlex_retired_class"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_27732"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_27134"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_27808"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_23367"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_27844"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_19217"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_27958"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_23367"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_27958_1"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex_annotation_properties.owl#_birnlex_retired_class"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_28181"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_19217"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_28346"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_23367"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_28812"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_33675"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_29105"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_25213"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_29108"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_39123"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_31618"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35500"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_31782"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35500"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_32952"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_33675"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_33232"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_50906"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_33241"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex_annotation_properties.owl#_birnlex_retired_class"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_33243"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_50860"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_33250"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex_annotation_properties.owl#_birnlex_retired_class"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_33280"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_24432"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_33285"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_50860"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_33294"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_33232"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_33513"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_25213"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_33521"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex_annotation_properties.owl#_birnlex_retired_class"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_33582"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_33675"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_33675"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_33579"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_34584"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_50786"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35337"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_23888"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35338"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_32952"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35340"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_23367"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35341"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex_annotation_properties.owl#_birnlex_retired_class"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35469"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35471"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35470"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_23888"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35471"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35470"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35473"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35471"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35473"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35488"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35474"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35473"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35476"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35473"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35488"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35470"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35497"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_49020"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35500"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_22720"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35623"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35488"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35701"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_50860"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35789"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex_annotation_properties.owl#_birnlex_retired_class"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35875"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_27171"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_3611"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_23367"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_3611_1"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex_annotation_properties.owl#_birnlex_retired_class"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_36359"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_33675"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_36809"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35469"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_36915"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_36916"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_36976"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_25608"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_36982"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_23447"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_36982"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_26395"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_37045"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_26398"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_37045"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_26401"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_37332"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_33243"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_37332"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_38295"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_3766"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_22720"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_37808"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_23367"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_37930"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35476"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_38295"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_27171"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_38431"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_22720"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_39123"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_33513"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_4470"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_23367"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_47788"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex_annotation_properties.owl#_birnlex_retired_class"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_48330"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_48418"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_48418"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_26658"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_48538"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_24921"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_48706"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_33232"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_49020"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_48706"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_49023"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_49020"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_49159"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_49020"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_49575"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_23367"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_49575_1"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex_annotation_properties.owl#_birnlex_retired_class"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_50113"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_26764"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_50433"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_48706"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_50671"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_49020"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_50786"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_23367"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_50827"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_49020"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_50837"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_49020"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_50843"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_49020"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_50844"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_50843"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_50860"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_33582"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_50906"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_50940"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35469"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_5103"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_38431"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_51064"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35338"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_52081"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_36357"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_52993"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_23367"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_5613"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_33675"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_6495"/>
+        <Class IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex_annotation_properties.owl#_birnlex_retired_class"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_6605"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_23367"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_6809"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35338"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_6887"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_23367"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_7466"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_23367"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_7624"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35500"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_7735"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_22720"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_7820"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_23367"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_7823"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_35500"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_7859"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_23367"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_7983"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_23367"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_8069"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_23367"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_8247"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_22720"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_8614"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_23367"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_9073"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_23367"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_9463"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_50786"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_9674"/>
+        <Class IRI="http://purl.obolibrary.org/obo/chebi.owl#CHEBI_23367"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/Ontology1272057115.owl#CHEBI_46643"/>
+        <Class IRI="#nlx_chem_100301"/>
+    </SubClassOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#agent_in"/>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_agent"/>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_improper_part"/>
+        <ObjectProperty IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_improper_part"/>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_integral_part"/>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#improper_part_of"/>
+        <ObjectProperty IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#improper_part_of"/>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#part_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#integral_part_of"/>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#part_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#proper_part_of"/>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#part_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#relationship"/>
+        <ObjectProperty IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#transformed_into"/>
+        <ObjectProperty IRI="http://www.geneontology.org/formats/oboInOwl#ObsoleteProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#birnlex_17"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/pato#inheres_in"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_agent"/>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#agent_in"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#contained_in"/>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#contains"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#derives_from"/>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#derived_into"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_improper_part"/>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#improper_part_of"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#integral_part_of"/>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_integral_part"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#part_of"/>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#proper_part_of"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#location_of"/>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#located_in"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#precedes"/>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#preceded_by"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/pato#inheres_in"/>
+    </FunctionalObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#derived_into"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#derives_from"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_improper_part"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_integral_part"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#improper_part_of"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#integral_part_of"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#located_in"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#location_of"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#part_of"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#preceded_by"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#precedes"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#proper_part_of"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#transformation_of"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#adjacent_to"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_integral_part"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#integral_part_of"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#part_of"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#proper_part_of"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#adjacent_to"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#agent_in"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#Occurrent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#derived_into"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#derives_from"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_agent"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_integral_part"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#integral_part_of"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#located_in"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#location_of"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#part_of"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#Occurrent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#preceded_by"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#Occurrent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#precedes"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#Occurrent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#proper_part_of"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#transformation_of"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.obofoundry.org/ro/ro.owl#transformed_into"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.8) http://owlapi.sourceforge.net -->
+

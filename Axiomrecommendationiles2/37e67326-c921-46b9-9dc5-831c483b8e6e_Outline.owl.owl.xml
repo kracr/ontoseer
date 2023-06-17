@@ -1,0 +1,1343 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.owl-ontologies.com/unnamed.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.owl-ontologies.com/unnamed.owl">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Declaration>
+        <Class IRI="#ALT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AccessRights"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AcclimationProtocol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AlaninAminotransferase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Annotation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AntibodyAssay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ArraySpotCharacteristic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AssayData"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AssayDataAccessionNumber"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AssayDataCharacteristic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AssayDataDomain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AssayProtocol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AssayProtocolCharacteristic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BUN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Behavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Biomaterial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BloodCollection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BoneMarrowFractionation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CareEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CareProtocol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CareProtocolCharacteristic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cell_Count"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CellularAssay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Characteristic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chemical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChemicalMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChemicalStressorCharacteristic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chemical_stressor_protocol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChemistryTest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChromosomeCoordinates"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ClinObs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ClinicalChemistryAssay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clinical_Observations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clinical_care_protocol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ComparatorGroup"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CreatineKinase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Creatinine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Culture_protocol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Datum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DigitizedRawIntensity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DisciplineType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DiseaseStressor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DiseaseStressorCharacteristic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Disease_stressor_proptocol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DispositionEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DispositionProtocol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Documentation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ELISA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ElectronMicroscopy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EnvironmentalStressor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EnvironmentalStressorCharacteristic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Environmental_stressor_protocol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EnzymeMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Euthenasia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EventCharacteristic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EventType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Exit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExternalEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FluorescentStain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FoodConsumption"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fred"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FreezeAt_-70"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GenBankID"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gene"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GeneCharacteristic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GeneList"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GeneticStressor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GeneticStressorCharacteristic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Genetic_stressor_proptocol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Genus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Glucose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GlucoseAssay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GrossObs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Harvest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hematocrit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hematology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Histopathology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HistopathologyDiagnosis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HumanCharacteristic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Husbandry_Protocol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HybridizationProtocol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Image"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InSituHybridization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InVitroSubjectCharacteristic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LabAnimalCharacteristic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LabeledRNA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LocusLinkID"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MeasurementName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MechanicalOrSurgical_stressor_protocol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Metabonomics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Metric"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Microarray"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MicrosatelliteAssay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MicroscopicAssay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Microscopic_Exam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ModifiedStd_protocol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MolecularAssay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nanoparticle_Stressor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nanoparticle_stressor_protocol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NormalizedIntensity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ObservationCharacteristic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ObservationData"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ObservationMeasurementCharacteristic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Organ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganCollection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganWeight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganismCommonName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PatientCharacteristic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PersonRole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Personnel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Phase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pool"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PoolCharacteristic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PoolMember"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PoolMemberType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Potassium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PrincipalInvestigator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Proteomics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Publication"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QCdata"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RNA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RNA_Aliquot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RNA_AliquotMember"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RNAisolationProtocol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RNAlabellingProtocol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ReferenceEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Report"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SNPassay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ScanProtocol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ScheduledEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sodium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SorbitolDehydrogenase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpecialStaining"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Species"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Specimen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpecimenCharacteristic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpecimenIdentifier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpecimenObservationProtocol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpecimenPrepEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpecimenPrepProtocol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpecimenPresProtocol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StandardProtocolCharacteristic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Standard_protocol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Store_in_formalin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Strain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stressor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StressorCharacteristic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StressorProtocol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StressorProtocolCharacteristic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StressorType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Study"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StudyAccessionNumber"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StudyCharacteristic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StudyClassifier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StudyDesignType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StudyObjective"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StudyStartDate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StudyTitle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sub-topography"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SubGroup"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SubSpecimen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Subject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SubjectCharacteristic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SubjectGroup"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SubjectGroupCharacteristic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SubjectIdentifier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SubjectNatureType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SubjectObsEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SubjectObservationProtocol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SubjectType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SurgicalStressor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Taxonomy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TechnologyData"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TimeLine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TimeType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TissueName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Transcriptomics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TreatmentEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnitOfMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnscheduledEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Unscheduled_protocol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserDefinedProtocolCharacteristic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#User_protocol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VitalDye"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VitalSigns"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VolunteerCharacteristic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Weight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WhiteCellCount"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#subSpecimenCharacteristic"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#ALT"/>
+        <Class IRI="#ChemistryTest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AccessRights"/>
+        <Class IRI="#PersonRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AcclimationProtocol"/>
+        <Class IRI="#Standard_protocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AlaninAminotransferase"/>
+        <Class IRI="#ClinicalChemistryAssay"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Annotation"/>
+        <Class IRI="#GeneCharacteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AntibodyAssay"/>
+        <Class IRI="#MolecularAssay"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArraySpotCharacteristic"/>
+        <Class IRI="#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AssayData"/>
+        <Class IRI="#Datum"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AssayDataAccessionNumber"/>
+        <Class IRI="#AssayDataCharacteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AssayDataCharacteristic"/>
+        <Class IRI="#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AssayDataDomain"/>
+        <Class IRI="#AssayDataCharacteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AssayProtocol"/>
+        <Class IRI="#Standard_protocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AssayProtocolCharacteristic"/>
+        <Class IRI="#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BUN"/>
+        <Class IRI="#ChemicalMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Behavior"/>
+        <Class IRI="#ObservationData"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Biomaterial"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BloodCollection"/>
+        <Class IRI="#SpecimenPrepProtocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BoneMarrowFractionation"/>
+        <Class IRI="#CellularAssay"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CareEvent"/>
+        <Class IRI="#ScheduledEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CareProtocol"/>
+        <Class IRI="#Standard_protocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CareProtocolCharacteristic"/>
+        <Class IRI="#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cell_Count"/>
+        <Class IRI="#AssayProtocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CellularAssay"/>
+        <Class IRI="#AssayData"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chemical"/>
+        <Class IRI="#Stressor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChemicalMeasure"/>
+        <Class IRI="#MolecularAssay"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChemicalStressorCharacteristic"/>
+        <Class IRI="#StressorCharacteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chemical_stressor_protocol"/>
+        <Class IRI="#StressorProtocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChemistryTest"/>
+        <Class IRI="#AssayProtocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChromosomeCoordinates"/>
+        <Class IRI="#GeneCharacteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClinObs"/>
+        <Class IRI="#ObservationData"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClinicalChemistryAssay"/>
+        <Class IRI="#EnzymeMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clinical_Observations"/>
+        <Class IRI="#SubjectObservationProtocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clinical_care_protocol"/>
+        <Class IRI="#CareProtocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ComparatorGroup"/>
+        <Class IRI="#SubjectGroup"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CreatineKinase"/>
+        <Class IRI="#ClinicalChemistryAssay"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Creatinine"/>
+        <Class IRI="#ChemicalMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Culture_protocol"/>
+        <Class IRI="#CareProtocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Datum"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DigitizedRawIntensity"/>
+        <Class IRI="#Transcriptomics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DisciplineType"/>
+        <Class IRI="#StudyClassifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DiseaseStressor"/>
+        <Class IRI="#Stressor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DiseaseStressorCharacteristic"/>
+        <Class IRI="#StressorCharacteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disease_stressor_proptocol"/>
+        <Class IRI="#StressorProtocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DispositionEvent"/>
+        <Class IRI="#ScheduledEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DispositionProtocol"/>
+        <Class IRI="#Standard_protocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Documentation"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ELISA"/>
+        <Class IRI="#MolecularAssay"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ElectronMicroscopy"/>
+        <Class IRI="#MicroscopicAssay"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EnvironmentalStressor"/>
+        <Class IRI="#Stressor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EnvironmentalStressorCharacteristic"/>
+        <Class IRI="#StressorCharacteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Environmental_stressor_protocol"/>
+        <Class IRI="#StressorProtocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EnzymeMeasure"/>
+        <Class IRI="#MolecularAssay"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Euthenasia"/>
+        <Class IRI="#DispositionProtocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EventCharacteristic"/>
+        <Class IRI="#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EventType"/>
+        <Class IRI="#EventCharacteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Exit"/>
+        <Class IRI="#DispositionProtocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExternalEvent"/>
+        <Class IRI="#TimeLine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FluorescentStain"/>
+        <Class IRI="#SpecialStaining"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FoodConsumption"/>
+        <Class IRI="#ObservationData"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fred"/>
+        <Class IRI="#Personnel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FreezeAt_-70"/>
+        <Class IRI="#SpecimenPresProtocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GenBankID"/>
+        <Class IRI="#GeneCharacteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gene"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GeneCharacteristic"/>
+        <Class IRI="#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GeneList"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GeneticStressor"/>
+        <Class IRI="#Stressor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GeneticStressorCharacteristic"/>
+        <Class IRI="#StressorCharacteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Genetic_stressor_proptocol"/>
+        <Class IRI="#StressorProtocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Genus"/>
+        <Class IRI="#Taxonomy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Glucose"/>
+        <Class IRI="#ChemistryTest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GlucoseAssay"/>
+        <Class IRI="#ChemicalMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GrossObs"/>
+        <Class IRI="#MeasurementName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Harvest"/>
+        <Class IRI="#DispositionProtocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hematocrit"/>
+        <Class IRI="#Cell_Count"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hematology"/>
+        <Class IRI="#CellularAssay"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Histopathology"/>
+        <Class IRI="#MicroscopicAssay"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HistopathologyDiagnosis"/>
+        <Class IRI="#Microscopic_Exam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HumanCharacteristic"/>
+        <Class IRI="#SubjectCharacteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Husbandry_Protocol"/>
+        <Class IRI="#CareProtocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HybridizationProtocol"/>
+        <Class IRI="#Standard_protocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Image"/>
+        <Class IRI="#Transcriptomics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InSituHybridization"/>
+        <Class IRI="#MicroscopicAssay"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InVitroSubjectCharacteristic"/>
+        <Class IRI="#SubjectCharacteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LabAnimalCharacteristic"/>
+        <Class IRI="#SubjectCharacteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LabeledRNA"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LocusLinkID"/>
+        <Class IRI="#GeneCharacteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MeasurementName"/>
+        <Class IRI="#SpecimenObservationProtocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MechanicalOrSurgical_stressor_protocol"/>
+        <Class IRI="#StressorProtocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Metabonomics"/>
+        <Class IRI="#TechnologyData"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Metric"/>
+        <Class IRI="#SubjectObservationProtocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Microarray"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MicrosatelliteAssay"/>
+        <Class IRI="#TechnologyData"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MicroscopicAssay"/>
+        <Class IRI="#AssayData"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Microscopic_Exam"/>
+        <Class IRI="#AssayProtocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ModifiedStd_protocol"/>
+        <Class IRI="#User_protocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MolecularAssay"/>
+        <Class IRI="#AssayData"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nanoparticle_Stressor"/>
+        <Class IRI="#Stressor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nanoparticle_stressor_protocol"/>
+        <Class IRI="#StressorProtocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NormalizedIntensity"/>
+        <Class IRI="#Transcriptomics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ObservationCharacteristic"/>
+        <Class IRI="#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ObservationData"/>
+        <Class IRI="#Datum"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ObservationMeasurementCharacteristic"/>
+        <Class IRI="#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Organ"/>
+        <Class IRI="#SpecimenCharacteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganCollection"/>
+        <Class IRI="#SpecimenPrepProtocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganWeight"/>
+        <Class IRI="#MeasurementName"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganismCommonName"/>
+        <Class IRI="#Taxonomy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PatientCharacteristic"/>
+        <Class IRI="#HumanCharacteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PersonRole"/>
+        <Class IRI="#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Personnel"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Phase"/>
+        <Class IRI="#TimeLine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pool"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PoolCharacteristic"/>
+        <Class IRI="#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PoolMember"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PoolMemberType"/>
+        <Class IRI="#PoolCharacteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Potassium"/>
+        <Class IRI="#ChemicalMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrincipalInvestigator"/>
+        <Class IRI="#PersonRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Proteomics"/>
+        <Class IRI="#TechnologyData"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Publication"/>
+        <Class IRI="#Documentation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QCdata"/>
+        <Class IRI="#Transcriptomics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RNA"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RNA_Aliquot"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RNA_AliquotMember"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RNAisolationProtocol"/>
+        <Class IRI="#Standard_protocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RNAlabellingProtocol"/>
+        <Class IRI="#Standard_protocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ReferenceEvent"/>
+        <Class IRI="#TimeLine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Report"/>
+        <Class IRI="#Documentation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SNPassay"/>
+        <Class IRI="#TechnologyData"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ScanProtocol"/>
+        <Class IRI="#Standard_protocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ScheduledEvent"/>
+        <Class IRI="#TimeLine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sodium"/>
+        <Class IRI="#ChemicalMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SorbitolDehydrogenase"/>
+        <Class IRI="#ClinicalChemistryAssay"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecialStaining"/>
+        <Class IRI="#MicroscopicAssay"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Species"/>
+        <Class IRI="#Taxonomy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Specimen"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecimenCharacteristic"/>
+        <Class IRI="#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecimenIdentifier"/>
+        <Class IRI="#SpecimenCharacteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecimenObservationProtocol"/>
+        <Class IRI="#Standard_protocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecimenPrepEvent"/>
+        <Class IRI="#ScheduledEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecimenPrepProtocol"/>
+        <Class IRI="#Standard_protocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecimenPresProtocol"/>
+        <Class IRI="#Standard_protocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StandardProtocolCharacteristic"/>
+        <Class IRI="#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standard_protocol"/>
+        <Class IRI="#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Store_in_formalin"/>
+        <Class IRI="#SpecimenPresProtocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Strain"/>
+        <Class IRI="#Taxonomy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stressor"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StressorCharacteristic"/>
+        <Class IRI="#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StressorProtocol"/>
+        <Class IRI="#User_protocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StressorProtocolCharacteristic"/>
+        <Class IRI="#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StressorType"/>
+        <Class IRI="#StudyClassifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Study"/>
+        <Class IRI="#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StudyAccessionNumber"/>
+        <Class IRI="#StudyCharacteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StudyCharacteristic"/>
+        <Class IRI="#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StudyClassifier"/>
+        <Class IRI="#StudyCharacteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StudyDesignType"/>
+        <Class IRI="#StudyClassifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StudyObjective"/>
+        <Class IRI="#StudyCharacteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StudyStartDate"/>
+        <Class IRI="#StudyCharacteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StudyTitle"/>
+        <Class IRI="#StudyCharacteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sub-topography"/>
+        <Class IRI="#SpecimenCharacteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SubGroup"/>
+        <Class IRI="#SubjectGroup"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SubSpecimen"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Subject"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SubjectCharacteristic"/>
+        <Class IRI="#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SubjectGroup"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SubjectGroupCharacteristic"/>
+        <Class IRI="#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SubjectIdentifier"/>
+        <Class IRI="#SubjectCharacteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SubjectNatureType"/>
+        <Class IRI="#StudyClassifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SubjectObsEvent"/>
+        <Class IRI="#ScheduledEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SubjectObservationProtocol"/>
+        <Class IRI="#Standard_protocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SubjectType"/>
+        <Class IRI="#StudyClassifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SurgicalStressor"/>
+        <Class IRI="#Stressor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Taxonomy"/>
+        <Class IRI="#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TechnologyData"/>
+        <Class IRI="#Datum"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TimeLine"/>
+        <Class IRI="#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TimeType"/>
+        <Class IRI="#StudyClassifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TissueName"/>
+        <Class IRI="#PoolCharacteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Transcriptomics"/>
+        <Class IRI="#TechnologyData"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TreatmentEvent"/>
+        <Class IRI="#ScheduledEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnitOfMeasure"/>
+        <Class IRI="#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnscheduledEvent"/>
+        <Class IRI="#TimeLine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Unscheduled_protocol"/>
+        <Class IRI="#User_protocol"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserDefinedProtocolCharacteristic"/>
+        <Class IRI="#Characteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#User_protocol"/>
+        <Class IRI="#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VitalDye"/>
+        <Class IRI="#SpecialStaining"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VitalSigns"/>
+        <Class IRI="#ObservationData"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VolunteerCharacteristic"/>
+        <Class IRI="#HumanCharacteristic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Weight"/>
+        <Class IRI="#ObservationData"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WhiteCellCount"/>
+        <Class IRI="#Cell_Count"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#subSpecimenCharacteristic"/>
+        <Class IRI="#Characteristic"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.8) http://owlapi.sourceforge.net -->
+
