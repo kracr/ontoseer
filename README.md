@@ -28,7 +28,7 @@ This document provides documentation for the first version of OntoSeer.OntoSeer 
 5. [ Future Work. ](#future)
 6. [Sustainibility](#sustain)
 7. [Google Form for User Study ](#google)
-8. [Index Creation](#index)
+
 
 
 
@@ -259,28 +259,6 @@ In the process of building OntoSeer, we have been able to collect only a few owl
 Please find the link of Google form for user study here. Please give inputs so that we can make the tool better.
 https://docs.google.com/forms/d/1TlYaGaQYB2ewwAJbcIZDxXz2APyngvsvSbMRmizbf94/edit?usp=sharing
 
-<a name="index"></a>
-## 8.Index Creation
-For creating a new index for OntoSeer please follow the following steps.
-1. Clone the entire OntoSeer project from "https://github.com/kracr/ontoseer.git"
-2. Import the project as a Maven project in eclipse.
-3. Go to [indices.java](https://github.com/kracr/ontoseer/blob/master/OntoSeer/src/main/java/edu/stanford/bmir/protege/examples/view/indices.java) file under "OntoSeer/src/main/java/edu/stanford/bmir/protege/examples/view/indices.java" folder.
-4. Run the file as a java application.
-5. The system will ask for the name of the folder which you want to index. Please provide it with it.
-6. It will take some time based on number and size of files. On completion it will print a message "Done indexing".
-7. After this click on Maven install for the entire project.
-8. Now use OntoSeer.jar following the procedure mentioned in above steps.
-
-Alternatively,
-	1.Clone the entire OntoSeer project from "https://github.com/kracr/ontoseer.git"
-	2.Go to the folder where OntoSeer is dowloaded through command prompt.
-	![OntoSeer Folder](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/ImageCommandLine1.png)
-	3. Go to the OntoSeer/src/main/java/edu/stanford/bmir/protege/examples/view/ folder.
-	![View Folder](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/Image%20commadprompt2.png)
-	4. Run the index.sh file.
-	![index.sh](https://github.com/kracr/ontoseer/blob/master/ImagesOntoSeer/Commandprompt3.png)
-	5. On completion "Done Indexing" will be shown.
-Use the generated OntoSeer.jar for recommendation.
 
 
 
