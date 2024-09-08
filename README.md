@@ -48,10 +48,7 @@ While building an ontology, there are several things to consider such as reusing
 	
 
 2. JRE should be installed in user machine and version should be  >1.8.
-   To check for java version one can type java -version in terminal.The following will be the output. 
-   
-   ![java-versioncheck](https://github.com/kracr/ontoseer/blob/master/Images/Onto1.png)
-
+ 
 <a name="InstallationGuide"></a>
 
 ## 3.Installation Guide
