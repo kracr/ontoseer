@@ -27,9 +27,8 @@ This document provides documentation for the first version of OntoSeer.OntoSeer 
    
 5. [ Future Work. ](#future)
 6. [Sustainibility](#sustain)
-7. [Brief Demo ](#Demo)
-8. [Google Form for User Study ](#google)
-9. [Index Creation](#index)
+7. [Google Form for User Study ](#google)
+8. [Index Creation](#index)
 
 
 
@@ -253,12 +252,6 @@ As part of future work, we plan to engage in a dialogue with the ontology develo
 ## 6.Sustainability Plan
 
 In the process of building OntoSeer, we have been able to collect only a few owl corpora and index them. The end-user can add other corpora according to their suitability by downloading them; OntoSeer will index them.
-
-<a name="Demo"></a>
-## 7.Demo Video of OntoSeer
-1. A brief demo of OntoSeer can be found in the link: https://youtu.be/iNQOJGZkZKQ
-
-2. A brief presentation of OntoSeer is available at: https://www.youtube.com/watch?v=8WrgaHixkww&t=0s
 
 <a name="google"></a>
 ## 8.Google Form for User Study 
