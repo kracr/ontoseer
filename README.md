@@ -254,13 +254,13 @@ As part of future work, we plan to engage in a dialogue with the ontology develo
 In the process of building OntoSeer, we have been able to collect only a few owl corpora and index them. The end-user can add other corpora according to their suitability by downloading them; OntoSeer will index them.
 
 <a name="google"></a>
-## 8.Google Form for User Study 
+## 7.Google Form for User Study 
 
 Please find the link of Google form for user study here. Please give inputs so that we can make the tool better.
 https://docs.google.com/forms/d/1TlYaGaQYB2ewwAJbcIZDxXz2APyngvsvSbMRmizbf94/edit?usp=sharing
 
 <a name="index"></a>
-## 9.Index Creation
+## 8.Index Creation
 For creating a new index for OntoSeer please follow the following steps.
 1. Clone the entire OntoSeer project from "https://github.com/kracr/ontoseer.git"
 2. Import the project as a Maven project in eclipse.
