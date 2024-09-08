@@ -30,7 +30,7 @@ This document provides documentation for the first version of OntoSeer.OntoSeer 
 7. [Brief Demo ](#Demo)
 8. [Google Form for User Study ](#google)
 9. [Index Creation](#index)
-10. [Citation](#paper)
+
 
 
 <a name="intro"></a>
@@ -289,57 +289,6 @@ Alternatively,
 	5. On completion "Done Indexing" will be shown.
 Use the generated OntoSeer.jar for recommendation.
 
-<a name="paper"></a>
-## 11.Paper Link and Citation
-A detailed information of OntoSeer and its architecture is available at
-https://arxiv.org/abs/2202.02125
-
-
-If you are using OntoSeer for your project then please cite one of the following. 
-
-
-
-@misc{bhattacharyya2022ontoseer,
-      title={OntoSeer -- A Recommendation System to Improve the Quality of Ontologies}, 
-      author={Pramit Bhattacharyya and Raghava Mutharaju},
-      year={2022},
-      eprint={2202.02125},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI}
-}
-
-@inproceedings{DBLP:conf/comad/BhattacharyyaM21,
-  author    = {Pramit Bhattacharyya and
-               Raghava Mutharaju},
-  editor    = {Jayant R. Haritsa and
-               Shourya Roy and
-               Manish Gupta and
-               Sharad Mehrotra and
-               Balaji Vasan Srinivasan and
-               Yogesh Simmhan},
-  title     = {OntoSeer: {A} Tool to Ease the Ontology Development Process},
-  booktitle = {{CODS-COMAD} 2021: 8th {ACM} {IKDD} {CODS} and 26th COMAD, Virtual
-               Event, Bangalore, India, January 2-4, 2021},
-  pages     = {428},
-  publisher = {{ACM}},
-  year      = {2021},
-  url       = {https://doi.org/10.1145/3430984.3431067},
-  doi       = {10.1145/3430984.3431067},
-  timestamp = {Mon, 18 Jan 2021 16:23:27 +0100},
-  biburl    = {https://dblp.org/rec/conf/comad/BhattacharyyaM21.bib},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
-}
-
-or
-
-@mastersthesis{M.TechThesis,
-  author       = {Pramit Bhattacharyya and
-               Raghava Mutharaju}, 
-  title        = {A recommendation system involving human-in-the-loop to improve the quality of ontologies},
-  booktitle={M.Tech Thesis},
-  school      = {Indraprastha Institute of Information Technology, Delhi},
-  year         = 2020,
-}
 
 
 
